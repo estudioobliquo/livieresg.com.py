@@ -1,0 +1,87 @@
+{
+    "locale": "en",
+    "menu": {
+      "home": "Zuhause",
+      "aboutUs": "Über uns",
+      "staff": "Personal",
+      "areas": "Praxisbereiche",
+      "blog": "Veröffentlichung und Nachrichten(ES)",
+      "art": "LG Kunstgalerie",
+      "contact": "Kontact"
+    },
+    "index":{
+        "ourStudy":"Über uns",
+        "aboutUs":{
+            "Derecho Comercial y Societario": "Handels- und Gesellschaftsrecht",
+            "Inversiones - Derecho Tributario": "Investitionen - Steuerrecht",
+            "Sucesiones" : "Erbschaften",
+            "Asuntos Administrativos": "Verwaltungsangelegenheiten, Öffentliche Ausschreibungen",
+            "Propiedad Intelectual": "Geistiges Eigentum"
+            },
+        "ourStudyText":"Seit 1990 hat das Team von Livieres Guggiari zahlreiche nationale und internationale Unternehmen, Körperschaften und Privatpersonen sowohl im Bereich der Rechtsberatung als auch im Bereich der Rechtsstreitigkeiten unterstützt und verfügt bis heute über ein professionelles Verhalten und eine Erfahrung von mehr als 25 Jahren im Dienste unserer Kunden",
+        "ourAreas": "Unsere Tätigkeitsbereiche",
+        "members": "Wir sind Mitglied bei",
+        "workWith": "Wir arbeiten mit"
+    },    
+    "atom":{
+        "Conocer mas":"Mehr erfahren",
+        "Ver todos": "Alle sehen",
+        "changeLanguage":  "Sprache ändern",
+        "information": "+ INFORMATIONEN",
+        "buttonBack": "Zurück zur HomePage",
+        "goBack": "Zurückgehen"
+    },
+    "staff":{
+        "atto": "Anwälte",
+        "paralegals": "Rechtsanwaltsfachangestellte",
+        "administration":"Verwaltung",
+        "slug":{
+            "areas": "Praxisbereiche",
+            "education":"Berufliche Bildung",
+            "languages": "Sprachen",
+            "members": "Mitgliedschaften",
+            "experiencia": "Experiencie",
+            "adp": ".ENadp"
+        }
+    },
+    "footer":{
+        "email": "Email",
+        "phone":"Telefon",
+        "offices": "Offices",
+        "direction1": "Pitiantuta N° 640 zwischen Siria und Juan de Salazar",
+        "direction2":"Calle B. H. Unruh N° 276 zwischen O. Miller und Pte. Gondra",
+        "times": "Montag bis Freitag von 8:00 bis 18:30",
+        "contact": "Kontakt",
+        "directions": "Wegbeschreibung",
+        "disclaimer": "Alle Rechte vorbehalten. Ein Werk von"
+    },
+    "pages":{
+        "us":{
+        "usTitle": "Our History",    
+        "us1": "Seit 1990 hat das Team von Livieres Guggiari zahlreiche Unternehmen, Organisationen und Einzelpersonen, sowohl auf nationaler als auch auf internationaler Ebene, sowohl im Bereich der Rechtsberatung als auch im Bereich der Rechtsstreitigkeiten unterstützt und verfügt bis heute über einen Weg der Berufsethik und eine Erfahrung von mehr als 25 Jahren im Dienste unserer Kunden",
+        "us2": "Die Kanzlei zeichnet sich durch die konstante und persönliche Betreuung ihrer Mandanten und durch eine umsichtige und professionelle Vorgehensweise bei der Verwaltung ihrer Rechte und Interessen aus. Bei Livieres Guggiari nutzen wir ein internes System des Informations- und Wissensaustauschs, um die beste Strategie für die Verteidigung der Geschäfte unserer Mandanten zu finden.",
+        "us3": "Unsere Kultur der Teamarbeit garantiert eine ständige Koordination, die eine kontinuierliche Unterstützung unserer Kunden bei gleichzeitiger Maximierung des menschlichen Potenzials ermöglicht.",
+        "us4": "Unser professionelles Management handelt mit absoluter Integrität, Loyalität, Sorgfalt, Vertraulichkeit und Verantwortung bei der Erfüllung der erhaltenen Mandate, Faktoren, auf die wir besonderen Wert legen und die uns in der ständigen Entwicklung der Rechtswelt auf dem Laufenden halten, um ein festes und vollständiges Engagement für unsere Kunden zu gewährleisten."
+        },
+        "adp":{
+            "Derecho Comercial y Societario": "Handels- und Gesellschaftsrecht",
+            "Inversiones - Derecho Tributario":  "Investitionen - Steuerrecht",
+            "Sucesiones" :"Erbschaften",
+            "Asuntos Administrativos":"Verwaltungsangelegenheiten, Öffentliche Ausschreibungen",
+            "Propiedad Intelectual": "Geistiges Eigentum",
+            "Derecho Cooperativo y Mutual": "Genossenschafts- und Gegenseitigkeitsrecht",
+            "Derecho Ambiental": "Umweltrecht",
+            "Derecho Medico": "Medizinisches Recht",
+            "Asuntos Laborales": "Arbeitsrecht",
+            "Litigios y procesos": "Rechtsstreitigkeiten und Prozesse",
+            "Agua, Energia y Mineria": "Wasser, Energie und Bergbau"
+        }
+    },
+    "gallery":{
+        "galleryTitle" : "Kunstgalerie Livieres Guggiari",
+        "subtitle": "Eine Sammlung ausgewählter Kunstwerke, die in unseren Büros ausgestellt sind und die wir mit Ihnen teilen möchten.",
+        "paint": "gemälde",
+        "sculp": "scultures"
+    }
+}
+  

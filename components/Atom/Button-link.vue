@@ -1,0 +1,33 @@
+<template>
+  <div class="buttonLink">
+    <a @click="handleClick">{{$t(`atom.${text}`)}}</a>
+  </div>
+</template>
+
+<script>
+export default {
+  props: {
+    text: String,
+  }, 
+  methods: {
+    handleClick () {
+      this.$emit('click')
+    },
+  },
+}
+</script>
+
+<style>
+    .buttonLink {
+    text-decoration: none;
+    color: white;
+    background-color: var(--main-color);
+    padding: 10px 20px;
+    transition: background-color 0.25s;
+    }
+
+    .buttonLink:hover {
+    background-color: var(--main-color-light);
+    transition: background-color 0.25s;
+    }
+</style>

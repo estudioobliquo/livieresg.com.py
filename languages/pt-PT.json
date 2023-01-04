@@ -1,0 +1,90 @@
+{
+    "locale": "en",
+    "menu": {
+      "home": "Home",
+      "aboutUs": "About Us",
+      "staff": "Staff",
+      "areas": "Practice Areas",
+      "blog": "Publication and News(ES)",
+      "art": "LG Art Gallery",
+      "contact": "Contact"
+    },
+    "index":{
+        "ourStudy":"About Us",
+        "aboutUs":{
+            "Derecho Comercial y Societario": "Commercial and Corporate Law",
+            "Inversiones - Derecho Tributario": "Investments - Tax Law",
+            "Sucesiones" : "Successions",
+            "Asuntos Administrativos": "Administrative Issues, Public Tenders",
+            "Propiedad Intelectual": "Intellectual Property"
+            },
+        "ourStudyText":"Since 1990, Livieres Guggiari's team has provided assistance to numerous companies, entities and individuals, national and international, both in the area of legal advice and in the area of litigation, having to date A path of full professional conduct and an experience of more than 25 years at the service of our Clients.",
+        "ourAreas": "Our practice areas",
+        "members": "We are members of",
+        "workWith": "We work with"
+    },    
+    "atom":{
+        "Conocer mas": "Learn more",
+        "Ver todos": "See all",
+        "changeLanguage": "Change language",
+        "information": "+ INFORMATION",
+        "buttonBack": "Back to the HomePage",
+        "goBack": "Go Back"
+    },
+    "staff":{
+        "atto": "Attorneys",
+        "paralegals": "Paralegals",
+        "administration": "Administration",
+        "slug":{
+            "areas": "Practice Areas",
+            "education":"Professional Education",
+            "languages": "Languages",
+            "members": "Memberships",
+            "experiencia": "Experiencie",
+            "adp": ".ENadp"
+        }
+    },
+    "footer":{
+        "email": "Email",
+        "phone": "Telephone",
+        "offices": "Offices",
+        "direction1": "Pitiantuta N° 640 between Siria and Juan de Salazar",
+        "direction2": "Calle B. H. Unruh N° 276 between O. Miller and Pte. Gondra",
+        "times": "Monday to Friday from 8:00 to 18:30",
+        "contact": "Contact",
+        "directions": "Directions",
+        "disclaimer": "All rights reserved. A work by"
+    },
+    "pages":{
+        "us":{
+        "usTitle": "Our History",    
+        "us1": "Since 1990, Livieres Guggiari's team has provided assistance to numerous companies, organizations and individuals, national as well as international, both in the area of legal advice and in the area of litigation, having to date a path of professional ethics and an experience of more than 25 years at the service of our Clients.,",
+        "us2": "The Law Firm has been characterized by the constant and personalized attention it provides to its clients and by a prudent and professional approach in the management of their rights and interests . At Livieres Guggiari, we use an internal system of information exchange and knowledge in order to find the best strategy for the defence of our clients’ business.",
+        "us3": "Our culture of teamwork guarantees a permanent coordination that allows a continuous assistance to our clients while at the same time a maximization of the human potential.",
+        "us4": "Our professional management acts with absolute integrity, loyalty, diligence, confidentiality and responsibility in the fulfillment of the mandates received, factors in which we place special emphasis, keeping us updated in the constant evolution of the legal world in order to assure a firm and complete commitment to our clients."
+        },
+        "adp":{
+            "Derecho Comercial y Societario": "Commercial and Corporate Law",
+            "Inversiones - Derecho Tributario": "Investments - Tax Law",
+            "Sucesiones" : "Successions",
+            "Asuntos Administrativos": "Administrative Issues, Public Tenders",
+            "Propiedad Intelectual": "Intellectual Property",
+            "Derecho Cooperativo y Mutual": "Cooperative and Mutual Law",
+            "Derecho Ambiental": "Environmental law",
+            "Derecho Medico": "Medical Law",
+            "Asuntos Laborales": "Laboral",
+            "Litigios y procesos": "Litigation and Processes",
+            "Agua, Energia y Mineria": "Water, Energy and Mining"
+
+
+
+        }
+    },
+    "gallery":{
+        "galleryTitle" : "Livieres Guggiari Art Gallery",
+        "subtitle": "A collection of selected works of art, exhibited in our offices, that we want to share with you.",
+        "paint": "paintings",
+        "sculp": "scultures"
+    }
+}
+  
