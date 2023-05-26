@@ -12,7 +12,7 @@
           :class="{ full: !isIndex}"
         >
           
-          <img :src="`img/costumers/` + (img.image)">
+          <img :src="`/img/costumers/` + (img.image)">
           
         </div>
       </div>
@@ -102,6 +102,9 @@
   align-items: center;
   opacity: 0.7;
   object-fit: contain;
+  img{
+
+  }
   
   
 }

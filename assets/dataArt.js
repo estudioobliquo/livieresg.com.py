@@ -1,6 +1,6 @@
 export const dataArt = [
   {
-    img: '/obra-1.jpg',
+    img: '/imgArt/obra-1.jpg',
     author: 'Pablo Alborno',
     description: 'Estibadores del Puerto.',
     technic: 'Óleo sobre madera',
@@ -8,7 +8,7 @@ export const dataArt = [
     type: 0,
   },
   {
-    img: '/obra-2.jpg',
+    img: '/imgArt/obra-2.jpg',
     author: 'Ignacio Núñez Soler',
     description: 'Ferretería Alemana',
     technic: 'Óleo sobre madera',

@@ -1,12 +1,8 @@
-<!-- eslint-disable vue/attribute-hyphenation -->
 
 <template>
-    <!-- NO SE que pasa aca -->
     <div>
       <div class="mobileHeader">
-        <!-- <transition name="fade"> -->
         <LayoutMenu v-show="showMobileMenu" @closeMobileMenu="showMobileMenu = false" />
-        <!-- </transition> -->
         <LayoutHeader v-show="!showMobileMenu" @click="showMobileMenu = true" /> 
       </div>
       <div class="mainCont">
@@ -74,10 +70,10 @@ const showMobileMenu =  ref(false)
 
   
   
-// @media only screen and (min-width: 1000px) {
-//     .mobileHeader {
-//       display: none;
-//     }}
+@media only screen and (min-width: 1000px) {
+    .mobileHeader {
+      display: none;
+    }}
 .mainCont {
   width: 92%;
   max-width: 1500px;
