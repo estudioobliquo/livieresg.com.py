@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="container-menu">
       <div class="overlay">
         <div class="closeBtn absolute" @click="closeMobileMenu">
           <svg
@@ -68,16 +68,9 @@
   }
   </script>
   
-  <style>
-  /* .page-enter-active,
-  .page-leave-active {
-    transition: opacity 0.5s;
-  }
-  .page-enter,
-  .page-leave-to {
-    opacity: 0;
-  } */
-  
+  <style lang="scss">
+ 
+  .container-menu{
   .svg {
     display: block;
     cursor: pointer;
@@ -233,5 +226,6 @@
     font-weight: bold;
     color: #ffffff;
   }
+}
   </style>
   

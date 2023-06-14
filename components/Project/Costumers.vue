@@ -12,7 +12,7 @@
           :class="{ full: !isIndex}"
         >
           
-          <img :src="`/img/costumers/` + (img.image)">
+          <img :src="`/images/costumers/` + (img.image)">
           
         </div>
       </div>

@@ -1,5 +1,6 @@
 <template>
-    <div class="mainContainer">
+    <div class="mainContainer"
+           >
       <h2>{{$t(`index.members`)}}</h2>
       <div class="asocCont">
         <div class="asoc">
@@ -36,7 +37,7 @@
   
   .mainContainer {
   margin-bottom: 100px;
-  }
+  
   
   .asocCont {
     display: flex;
@@ -105,7 +106,7 @@
       max-width: 230px;
     }
   
-  }
+  }}
   
   </style>
   

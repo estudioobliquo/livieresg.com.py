@@ -5,7 +5,7 @@
         <div v-for="adp in adps" :key="adp.title" class="adpContainer">
           <div class="iconContainer">
             
-            <img :src="`img/`+(adp.icono)">
+            <img :src="(adp.icono)">
           </div>
           <h3 class="titleContainer">
             {{$t(`index.aboutUs.${adp.title}`)}}
