@@ -1,5 +1,6 @@
 <template>
-    <div id="menu" class="navigation">
+  <div class="navigation">
+    <div id="menu" class="navigation-links">
       <NuxtLink to="/" >
         {{$t(`menu.home`)}}
       </NuxtLink>
@@ -20,6 +21,10 @@
       </NuxtLink>
       <a to="#footer">{{$t(`menu.contact`)}}</a>
     </div>
+   <div v-if="$route.path.includes('miembros')">
+    <LayoutBuscador />
+  </div>
+      </div>
   </template>
   <script>
   export default {
@@ -28,39 +33,25 @@
   </script>
   
   <style lang="scss">
-  /* .NuxtLink-active {
-      font-weight: 900;
-      font-family: cursive;
-  } */
-  /* .navigation a.NuxtLink-exact-active {
-      font-weight: bold;
-  } */
-  
-  /* .navigation a.router-link-exact-active {
-      font-weight: bold;
-  } */
 
-//   .navigation a.nuxt-link-exact {
-//   color: #00c58e;
-// }
-
+.navigation{
   .imgContainer {
     width: 135px;
     margin-bottom: 30px;
   }
-  
-.navigation {
-    width: 76%;
-    height: 375px;
-    max-width: 300px;
-    margin: 0 auto 15px;
-    background-color: var(--gray-dark);
-    padding-left: 30px;
-    padding-top: 30px;
+
+  .navigation-links {
     padding: 30px 0 30px 30px;
+    margin: 0 auto 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    width: 76%;
+    height: 375px;
+    max-width: 300px;
+    background-color: var(--gray-dark);
+    padding-left: 30px;
+    padding-top: 30px;
     
     a {
     padding: 0;
@@ -69,14 +60,32 @@
     font-size: 1.1rem;
     color: #d6d6d6;
     transition: color 0.2s;
-  }
-  a:hover {
-    color:#ffffff;
-    transition: color 0.2s;
-  }
+    }
+    a:hover {
+      color:#ffffff;
+      transition: color 0.2s;
+    }
 //   a.router-link-exact-active {
 //     font-weight: bold;
 // }
+  
+}
+.buscadorMenuCont {
+  padding: 30px 0 30px 30px;
+    margin: 0 auto 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 76%;
+    height: max-content;
+    max-width: 300px;
+    background-color: var(--gray-dark);
+    padding-left: 30px;
+    padding-top: 30px;
   }
+  
+
+}
+
   </style>
   
