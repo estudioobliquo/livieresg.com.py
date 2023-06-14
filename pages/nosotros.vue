@@ -1,11 +1,13 @@
 <!-- eslint-disable vue/attribute-hyphenation -->
 <template>
-    <div>
-      <div class="imgContainer2">
+    <div >
+      <div class="imgContainer2"
+            >
         <img src="../assets/img/nosotros-1.jpg" alt="">
       </div>
-      <h1>{{$t(`pages.us.usTitle`)}}</h1>
-      <section class="section2">
+      <h1 >{{$t(`pages.us.usTitle`)}}</h1>
+      <section class="section2" 
+           >
         <p>
           {{$t(`pages.us.us1`)}}
         </p>
@@ -26,6 +28,7 @@
       <ProjectCostumers
         id="costumers"
         :isIndex="false"
+     
       />
     </div>
   </template>
@@ -33,7 +36,9 @@
 <script setup>
 import { seoData } from '~~/assets/seoData'
 import { dataFullCostumers } from '../assets/dataCostumer.js'
+
 const { locale } = useI18n()
+
 //  *** SEO ***
 useHead(seoData['/nosotros'][locale.value])
 
@@ -42,17 +47,7 @@ const fullCostumers = dataFullCostumers
 </script>
   
   <style scoped>
-  /* .layout-enter-active,
-  .layout-leave-active {
-    transition: opacity 0.5s;
-  }
-  .layout-enter,
-  .layout-leave-active {
-    opacity: 0;
-  } */
-  /* .mainContainer {
-    width: 85%;
-  } */
+
   
   .imgContainer2 {
     margin-bottom: 50px;
