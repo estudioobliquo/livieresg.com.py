@@ -13,10 +13,7 @@
         <div class="buscadorMenuCont">
           <div class="buscadorContainer">
             <!-- <Buscador />  deberia de ser un propio componente pero para testear asi por ahora-->
-            <!-- <div class="searchState">
-                <input type="text" class="input" placeholder="Buscar">
-                <button type="reset" class="quiteSearchButton" />
-              </div> -->
+           
           </div>
           <div class="mobileHeader" @click="showMobileMenu">
             <svg
@@ -80,7 +77,6 @@
     flex-direction: row;
     width: 86%;
     justify-content: space-between;
-    /* max-width: 1550px; */
     margin: 0 auto 50px;
     padding: 25px 0 0;
   }
@@ -95,11 +91,6 @@
     max-width: 1050px;
   }
   
-  /* .logoContainer {
-    width: 55%;
-    max-width: 200px;
-    margin: 50px auto 25px;
-  } */
   .logoContainer2 {
     width: 55%;
     max-width: 180px;
@@ -160,15 +151,14 @@
   .languagesContainer {
     display: none;
   }
-  
   .languagesContainer a {
-    /* color: var(--accent-color); */
     color: #6a7476;
     margin-left: 30px;
     text-decoration: none;
     transition: color 0.2s;
     font-size: 19px;
   }
+  
   
   .languagesContainer a:hover {
     color: #404040;
@@ -193,14 +183,6 @@
     display: block;
     transition: 0.3s;
   }
-  /* .closeBtn {
-    position: absolute;
-    top: 20px;
-    right: 30px;
-    font-size: 60px;
-    cursor: pointer;
-    padding: 10px;
-  } */
   @media screen and (max-height: 450px) {
     .closeBtn {
       font-size: 40px;
