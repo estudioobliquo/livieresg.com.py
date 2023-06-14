@@ -131,7 +131,7 @@ export const abogados = [
     ENasociaciones: '',
     DEasociaciones: '',
     PTasociaciones: '',
-    foto: 'CLAUDIA-ESPINOLA.jpg',
+    foto: '/CLAUDIA-ESPINOLA.jpg',
   },
   {
     slug: 'icardozo',
@@ -157,7 +157,7 @@ export const abogados = [
     ENasociaciones: '',
     DEasociaciones: '',
     PTasociaciones: '',
-    foto: 'INES-CARDOZO.jpg',
+    foto: '/INES-CARDOZO.jpg',
   },
   {
     slug: 'dlovera',
@@ -183,7 +183,7 @@ export const abogados = [
     ENasociaciones: '',
     DEasociaciones: '',
     PTasociaciones: '',
-    foto: 'DANIEL-LOVERA.jpg',
+    foto: '/DANIEL-LOVERA.jpg',
   },
   {
     slug: 'ntiretta',
@@ -209,7 +209,7 @@ export const abogados = [
     ENasociaciones: '',
     DEasociaciones: '',
     PTasociaciones: '',
-    foto: 'NELSON-TIRETTA.jpg',
+    foto: '/NELSON-TIRETTA.jpg',
   },
   {
     slug: 'jramirez',
@@ -235,7 +235,7 @@ export const abogados = [
     ENasociaciones: '',
     DEasociaciones: '',
     PTasociaciones: '',
-    foto: 'JUAN-MANUEL-RAMIREZ.jpg',
+    foto: '/JUAN-MANUEL-RAMIREZ.jpg',
   },
   {
     slug: 'gvelazquez',
@@ -261,7 +261,7 @@ export const abogados = [
     ENasociaciones: 'Paraguayan Bar Association, Association of Labour Lawyers (AAL)',
     DEasociaciones: 'Paraguayan Bar Association, Association of Labour Lawyers (AAL)',
     PTasociaciones: 'Colegio de Abogados del Paraguay (Colegio de Abogados do Paraguai), Asociación de Abogados Laboralistas (AAL)',
-    foto: 'GUILLERMO-VELAZQUEZ.jpg',
+    foto: '/GUILLERMO-VELAZQUEZ.jpg',
   },
   {
     slug: 'mbejaranom',
@@ -287,7 +287,7 @@ export const abogados = [
     ENidiomas: 'Spanish, English and Italian.',
     DEidiomas: 'Spanisch, Englisch und Italienisch.',
     PTidiomas: 'Espanhol, Inglês e Italiano.',
-    foto: 'miembro-placeholder.png',
+    foto: '/miembro-placeholder.png',
   },
   {
     slug: 'tbrown',
@@ -313,7 +313,7 @@ export const abogados = [
     ENasociaciones: '',
     DEasociaciones: '',
     PTasociaciones: '',
-    foto: 'THOMAS-BROWN.jpg',
+    foto: '/THOMAS-BROWN.jpg',
   },
   {
     slug: 'burbieta',
@@ -339,7 +339,7 @@ export const abogados = [
     ENasociaciones: '',
     DEasociaciones: '',
     PTasociaciones: '',
-    foto: 'brigitte.jpg',
+    foto: '/brigitte.jpg',
   },
   {
     slug: 'mschaerer',
@@ -365,7 +365,7 @@ export const abogados = [
     ENasociaciones: '',
     DEasociaciones: '',
     PTasociaciones: '',
-    foto: 'MANUEL-SCHAERER.jpg',
+    foto: '/MANUEL-SCHAERER.jpg',
   },
   {
     slug: 'mbfranco',
@@ -391,7 +391,7 @@ export const abogados = [
     ENasociaciones: '',
     DEasociaciones: '',
     PTasociaciones: '',
-    foto: 'BENIGNA-FRANCO.jpg',
+    foto: '/BENIGNA-FRANCO.jpg',
   },
   {
     slug: 'aens',
@@ -417,7 +417,7 @@ export const abogados = [
     ENasociaciones: '',
     DEasociaciones: '',
     PTasociaciones: '',
-    foto: 'ANDREAS-ENS.jpg',
+    foto: '/ANDREAS-ENS.jpg',
   },
   {
     slug: 'msantiviago',
@@ -443,7 +443,7 @@ export const abogados = [
     ENasociaciones: '',
     DEasociaciones: '',
     PTasociaciones: '',
-    foto: 'MANUEL-SANTIVIAGO.jpg',
+    foto: '/MANUEL-SANTIVIAGO.jpg',
   },
   {
     slug: 'abittar',
@@ -469,7 +469,7 @@ export const abogados = [
     ENasociaciones: '',
     DEasociaciones: '',
     PTasociaciones: '',
-    foto: 'ANTONELLA-BITTAR.jpg',
+    foto: '/ANTONELLA-BITTAR.jpg',
   },
   {
     slug: 'rberino',
@@ -495,7 +495,7 @@ export const abogados = [
     ENasociaciones: '',
     DEasociaciones: '',
     PTasociaciones: '',
-    foto: 'RODRIGO-BERINO.jpg',
+    foto: '/RODRIGO-BERINO.jpg',
   },
   {
     slug: 'lbordon',
@@ -521,7 +521,7 @@ export const abogados = [
     ENasociaciones: '',
     DEasociaciones: '',
     PTasociaciones: '',
-    foto: 'LUIS-BORDON.jpg',
+    foto: '/LUIS-BORDON.jpg',
   },
   {
     slug: 'jsilvero',
@@ -547,7 +547,7 @@ export const abogados = [
     ENasociaciones: '',
     DEasociaciones: '',
     PTasociaciones: '',
-    foto: 'JORGE-SILVERO.jpg',
+    foto: '/JORGE-SILVERO.jpg',
   },
   {
     slug: 'sgomez',
@@ -573,7 +573,7 @@ export const abogados = [
     ENasociaciones: '',
     DEasociaciones: '',
     PTasociaciones: '',
-    foto: 'SUSANA-GOMEZ-DE-LA-FUENTE.jpg',
+    foto: '/SUSANA-GOMEZ-DE-LA-FUENTE.jpg',
   },
   {
     slug: 'pguggiari',
@@ -599,7 +599,7 @@ export const abogados = [
     ENasociaciones: '',
     DEasociaciones: '',
     PTasociaciones: '',
-    foto: 'PEDRO-BRUNO-GUGGIARI.jpg',
+    foto: '/PEDRO-BRUNO-GUGGIARI.jpg',
   },
   {
     slug: 'psantiviago',
@@ -625,7 +625,7 @@ export const abogados = [
     ENasociaciones: '',
     DEasociaciones: '',
     PTasociaciones: '',
-    foto: 'PABLO-SANTIVIAGO.jpg',
+    foto: '/PABLO-SANTIVIAGO.jpg',
   },
   {
     slug: 'pmoreno',
@@ -651,7 +651,7 @@ export const abogados = [
     ENasociaciones: '',
     DEasociaciones: '',
     PTasociaciones: '',
-    foto: 'PAMELA-MORENO.jpg',
+    foto: '/PAMELA-MORENO.jpg',
   },
   {
     slug: 'amorel',
@@ -677,7 +677,7 @@ export const abogados = [
     ENasociaciones: '',
     DEasociaciones: '',
     PTasociaciones: '',
-    foto: 'ALBERTO-MOREL.jpg',
+    foto: '/ALBERTO-MOREL.jpg',
   },
   {
     slug: 'larce',
@@ -703,7 +703,7 @@ export const abogados = [
     ENasociaciones: '',
     DEasociaciones: '',
     PTasociaciones: '',
-    foto: 'LUIS-ALBERTO-ARCE.jpg',
+    foto: '/LUIS-ALBERTO-ARCE.jpg',
   },
   {
     slug: 'misasi',
@@ -729,7 +729,7 @@ export const abogados = [
     ENasociaciones: '',
     DEasociaciones: '',
     PTasociaciones: '',
-    foto: 'MARCELO-ISACI.jpg',
+    foto: '/MARCELO-ISACI.jpg',
   },
   {
     slug: 'bspinzi',
@@ -755,7 +755,7 @@ export const abogados = [
     ENasociaciones: '',
     DEasociaciones: '',
     PTasociaciones: '',
-    foto: 'BETHARRAM-SPINZI.jpg',
+    foto: '/BETHARRAM-SPINZI.jpg',
   },
   {
     slug: 'mlivieres',
@@ -781,7 +781,7 @@ export const abogados = [
     ENasociaciones: '',
     DEasociaciones: '',
     PTasociaciones: '',
-    foto: 'MARIA-DE-LA-PAZ-LIVIERES.jpg',
+    foto: '/MARIA-DE-LA-PAZ-LIVIERES.jpg',
   },
   {
     slug: 'mpaats',
@@ -807,7 +807,7 @@ export const abogados = [
     ENasociaciones: 'Association of Labour Lawyers (AAL)',
     DEasociaciones: 'Association of Labour Lawyers (AAL)',
     PTasociaciones: 'Asociación de Abogados Laboralistas (AAL)',
-    foto: 'GABRIELA-PAATS.jpg',
+    foto: '/GABRIELA-PAATS.jpg',
   },
   {
     slug: 'bsosa',
@@ -833,7 +833,7 @@ export const abogados = [
     ENasociaciones: '',
     DEasociaciones: '',
     PTasociaciones: '',
-    foto: 'BRUNO-SOSA.jpg',
+    foto: '/BRUNO-SOSA.jpg',
   },
   {
     slug: 'apesole',
@@ -859,7 +859,7 @@ export const abogados = [
     ENasociaciones: '',
     DEasociaciones: '',
     PTasociaciones: '',
-    foto: 'ALVARO-PESOLE.jpg',
+    foto: '/ALVARO-PESOLE.jpg',
   },
   {
     slug: 'ndossantos',
@@ -885,7 +885,7 @@ export const abogados = [
     ENasociaciones: '',
     DEasociaciones: '',
     PTasociaciones: '',
-    foto: 'NICOLAS-DOS-SANTOS.jpg',
+    foto: '/NICOLAS-DOS-SANTOS.jpg',
   },
   {
     slug: 'pmainzhausen',
@@ -911,7 +911,7 @@ export const abogados = [
     ENasociaciones: '',
     DEasociaciones: '',
     PTasociaciones: '',
-    foto: 'PAUL-MAINZHAUSEN.jpg',
+    foto: '/PAUL-MAINZHAUSEN.jpg',
   },
   {
     slug: 'pdoria',
@@ -937,7 +937,7 @@ export const abogados = [
     ENasociaciones: '',
     DEasociaciones: '',
     PTasociaciones: '',
-    foto: 'PAOLO-DORIA.jpg',
+    foto: '/PAOLO-DORIA.jpg',
   },
   {
     slug: 'aguggiari',
@@ -963,7 +963,7 @@ export const abogados = [
     ENasociaciones: '',
     DEasociaciones: '',
     PTasociaciones: '',
-    foto: 'AUGUSTO-GUGGIARI.jpg',
+    foto: '/AUGUSTO-GUGGIARI.jpg',
   },
   {
     slug: 'jmendieta',
@@ -989,7 +989,7 @@ export const abogados = [
     ENasociaciones: '',
     DEasociaciones: '',
     PTasociaciones: '',
-    foto: 'JUAN-ANDRES-MENDIETA.jpg',
+    foto: '/JUAN-ANDRES-MENDIETA.jpg',
   },
   {
     slug: 'ccoronel',
@@ -1015,7 +1015,7 @@ export const abogados = [
     ENasociaciones: '',
     DEasociaciones: '',
     PTasociaciones: '',
-    foto: 'CARLOS-CORONEL.jpg',
+    foto: '/CARLOS-CORONEL.jpg',
   },
   {
     slug: 'bdoria',
@@ -1041,7 +1041,7 @@ export const abogados = [
     ENasociaciones: '',
     DEasociaciones: '',
     PTasociaciones: '',
-    foto: 'BRUNO-DORIA.jpg',
+    foto: '/BRUNO-DORIA.jpg',
   },
   {
     slug: 'hlaguardia',
@@ -1067,7 +1067,7 @@ export const abogados = [
     ENasociaciones: '',
     DEasociaciones: '',
     PTasociaciones: '',
-    foto: 'miembro-placeholder.png',
+    foto: '/miembro-placeholder.png',
   },
 ]
 
@@ -1096,7 +1096,7 @@ export const paralegales = [
     ENasociaciones: '',
     DEasociaciones: '',
     PTasociaciones: '',
-    foto: 'SOL-LIVIERES.jpg',
+    foto: '/SOL-LIVIERES.jpg',
   },
   {
     slug: 'glivieres',
@@ -1122,7 +1122,7 @@ export const paralegales = [
     ENasociaciones: '',
     DEasociaciones: '',
     PTasociaciones: '',
-    foto: 'GONZALO-LIVIERES.jpg',
+    foto: '/GONZALO-LIVIERES.jpg',
   },
   {
     slug: 'mvera',
@@ -1148,7 +1148,7 @@ export const paralegales = [
     ENasociaciones: '',
     DEasociaciones: '',
     PTasociaciones: '',
-    foto: 'MAURICIO-VERA.jpg',
+    foto: '/MAURICIO-VERA.jpg',
   },
   {
     slug: 'mcantero',
@@ -1174,7 +1174,7 @@ export const paralegales = [
     ENasociaciones: '',
     DEasociaciones: '',
     PTasociaciones: '',
-    foto: 'MARIANO-CANTERO.jpg',
+    foto: '/MARIANO-CANTERO.jpg',
   },
   {
     slug: 'agarrido',
@@ -1200,7 +1200,7 @@ export const paralegales = [
     ENasociaciones: '',
     DEasociaciones: '',
     PTasociaciones: '',
-    foto: 'miembro-placeholder.png',
+    foto: '/miembro-placeholder.png',
   },
   {
     slug: 'jvelazquez',
@@ -1226,7 +1226,7 @@ export const paralegales = [
     ENasociaciones: '',
     DEasociaciones: '',
     PTasociaciones: '',
-    foto: 'JIMENA-VELAZQUEZ.jpg',
+    foto: '/JIMENA-VELAZQUEZ.jpg',
   },
   {
     slug: 'agomezdelafuente',
@@ -1252,7 +1252,7 @@ export const paralegales = [
     ENasociaciones: '',
     DEasociaciones: '',
     PTasociaciones: '',
-    foto: 'ALANNA-GOMEZ-DE-LA-FUENTE.jpg',
+    foto: '/ALANNA-GOMEZ-DE-LA-FUENTE.jpg',
   },
   {
     slug: 'velazquezs',
@@ -1278,7 +1278,7 @@ export const paralegales = [
     ENasociaciones: '',
     DEasociaciones: '',
     PTasociaciones: '',
-    foto: 'miembro-placeholder.png',
+    foto: '/miembro-placeholder.png',
   },
   {
     slug: 'hdelgado',
@@ -1304,7 +1304,7 @@ export const paralegales = [
     ENasociaciones: '',
     DEasociaciones: '',
     PTasociaciones: '',
-    foto: 'miembro-placeholder.png',
+    foto: '/miembro-placeholder.png',
   },
 ]
 
@@ -1333,7 +1333,7 @@ export const administracion = [
     ENasociaciones: '',
     DEasociaciones: '',
     PTasociaciones: '',
-    foto: 'LORENA-ODDONE.jpg',
+    foto: '/LORENA-ODDONE.jpg',
   },
   {
     slug: 'navalos',
@@ -1359,7 +1359,7 @@ export const administracion = [
     ENasociaciones: '',
     DEasociaciones: '',
     PTasociaciones: '',
-    foto: 'NORMA-AVALOS.jpg',
+    foto: '/NORMA-AVALOS.jpg',
   },
   {
     slug: 'tgonzales',
@@ -1385,7 +1385,7 @@ export const administracion = [
     ENasociaciones: '',
     DEasociaciones: '',
     PTasociaciones: '',
-    foto: 'teresa-g.jpg',
+    foto: '/teresa-g.jpg',
   },
   {
     slug: 'afranco',
@@ -1411,7 +1411,7 @@ export const administracion = [
     ENasociaciones: '',
     DEasociaciones: '',
     PTasociaciones: '',
-    foto: 'ALBINA-FRANCO.jpg',
+    foto: '/ALBINA-FRANCO.jpg',
   },
   {
     slug: 'cbreglia',
@@ -1437,7 +1437,7 @@ export const administracion = [
     ENasociaciones: '',
     DEasociaciones: '',
     PTasociaciones: '',
-    foto: 'CELESTE-BREGLIA.jpg',
+    foto: '/CELESTE-BREGLIA.jpg',
   },
   {
     slug: 'jcolman',
@@ -1463,7 +1463,7 @@ export const administracion = [
     ENasociaciones: '',
     DEasociaciones: '',
     PTasociaciones: '',
-    foto: 'JAZMIN-COLMAN.jpg',
+    foto: '/JAZMIN-COLMAN.jpg',
   },
   {
     slug: 'paolamartinez',
@@ -1489,7 +1489,7 @@ export const administracion = [
     ENasociaciones: '',
     DEasociaciones: '',
     PTasociaciones: '',
-    foto: 'PMARTINEZ.jpg',
+    foto: '/PMARTINEZ.jpg',
   },
   {
     slug: 'amelgarejo',
@@ -1515,7 +1515,7 @@ export const administracion = [
     ENasociaciones: '',
     DEasociaciones: '',
     PTasociaciones: '',
-    foto: 'ALICE-MELGAREJO.jpg',
+    foto: '/ALICE-MELGAREJO.jpg',
   },
   {
     slug: 'pbarrios',
@@ -1541,7 +1541,7 @@ export const administracion = [
     ENasociaciones: '',
     DEasociaciones: '',
     PTasociaciones: '',
-    foto: 'PABLINO-BARRIOS.jpg',
+    foto: '/PABLINO-BARRIOS.jpg',
   },
   {
     slug: 'asosa',
@@ -1567,7 +1567,7 @@ export const administracion = [
     ENasociaciones: '',
     DEasociaciones: '',
     PTasociaciones: '',
-    foto: 'ALVARO-SOSA.jpg',
+    foto: '/ALVARO-SOSA.jpg',
   },
   {
     slug: 'dfranco',
@@ -1593,7 +1593,7 @@ export const administracion = [
     ENasociaciones: '',
     DEasociaciones: '',
     PTasociaciones: '',
-    foto: 'DANIEL-FRANCO.jpg',
+    foto: '/DANIEL-FRANCO.jpg',
   },
   {
     slug: 'blivieres',
@@ -1619,7 +1619,7 @@ export const administracion = [
     ENasociaciones: '',
     DEasociaciones: '',
     PTasociaciones: '',
-    foto: 'BELEN-LIVIERES.jpg',
+    foto: '/BELEN-LIVIERES.jpg',
   },
   {
     slug: 'tgomez',
@@ -1645,7 +1645,7 @@ export const administracion = [
     ENasociaciones: '',
     DEasociaciones: '',
     PTasociaciones: '',
-    foto: 'TATIANA-GOMEZ-DE-LA-FUENTE.jpg',
+    foto: '/TATIANA-GOMEZ-DE-LA-FUENTE.jpg',
   },
 ]
 
