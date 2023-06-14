@@ -1,6 +1,6 @@
 <!-- eslint-disable max-len -->
 <template>
-    <div>
+    <div class="container-go-back">
       <NuxtLink :to="to" class="volverAtras">
         <div>
         
@@ -11,28 +11,32 @@
     </div>
   </template>
   
-  <script >
-  import SVGflecha from '@/assets/svg/flecha.svg'
-  
-  export default {
-   
-    props: {
-      text: {type:String, default:"Volver Atras"},
-      to: String,
-      direction: {type:String, default:"180deg"},
-      
-    },
-  
-  }
-  
-  </script>
-  
-  <style lang="scss">
-  .volverAtras{
-    .svg{
-      transform: rotate();
-    }
+<script >
+import SVGflecha from '@/assets/svg/flecha.svg'
 
+export default {
+ 
+  props: {
+    text: {type:String, default:"Volver Atras"},
+    to: String,
+    direction: {type:String, default:"180deg"},
+    
+  },
+
+}
+
+</script>
+
+  <style lang="scss">
+  .container-go-back{
+    .volverAtras{
+      .svg{
+        transform: rotate();
+      }
+
+    
+
+      }
   }
   </style>
   
