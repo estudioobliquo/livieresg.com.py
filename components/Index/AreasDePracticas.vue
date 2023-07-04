@@ -4,7 +4,7 @@
     <div class="adpsContainer">
       <div v-for="adp in adps" :key="adp.title" class="adpContainer">
         <div class="iconContainer">
-          <component :is="adp.icon" />
+          <component :is="adp.icon" class="svg" />
         </div>
         <h3 class="titleContainer">
           {{ $t(`index.aboutUs.${adp.title}`) }}
@@ -12,8 +12,8 @@
       </div>
     </div>
     <div class="buttonContainer">
-      <NuxtLink style="text-decoration: none" to="/areas-de-practica">
-        <AtomButton-Link text="Conocer mas" to="/areas-de-practica" />
+      <NuxtLink style="text-decoration: none" :to="localePath('/areas-de-practica')">
+        <AtomButton-Link text="Conocer mas" />
       </NuxtLink>
     </div>
   </div>
@@ -67,7 +67,8 @@ const adps = [
   margin-top: 30px;
 }
 
-.adpContainer img {
+.adpContainer .svg {
+  transform: scale(1.3);
   margin-bottom: 10px;
 }
 
