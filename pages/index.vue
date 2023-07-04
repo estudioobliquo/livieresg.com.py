@@ -41,7 +41,7 @@
         </div>
       </header>
       <div class="mobileImgCont">
-        <img src="../assets/img/index.jpg" alt="">
+        <img src="@/assets/img/index/portada.png" alt="Livieres Guggiari - Portada">
       </div>
       <IndexIntro />
       <IndexAreasDePracticas />
