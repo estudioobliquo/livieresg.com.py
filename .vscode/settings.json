@@ -1,0 +1,27 @@
+{
+    "javascript.validate.enable": false,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true,
+      "source.fixAll.stylelint": true
+    },
+    "eslint.packageManager": "yarn",
+    "[vue]": {
+      "editor.formatOnSave": false,
+    },
+    "prettier.enable": false,
+    "[json][jsonc]": {
+      "editor.defaultFormatter": "vscode.json-language-features",
+      "editor.formatOnSave": true
+    },
+    "editor.formatOnSave": false,
+    "cSpell.words": [
+      "Nuxt",
+    ],
+    "css.validate": false,
+    "scss.validate": false,
+    "stylelint.validate": [
+      "css",
+      "scss",
+      "vue"
+    ]
+  }
