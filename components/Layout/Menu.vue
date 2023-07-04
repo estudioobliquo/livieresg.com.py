@@ -1,24 +1,14 @@
 <template>
   <div class="container-menu">
-    <div class="overlay">
+    <div class="overlay" :class="{'classBlock': menuActive, 'classNone': !menuActive}">
       <div class="closeBtn absolute" @click="closeMobileMenu">
-        <svg
-          width="22"
-          height="21"
-          viewBox="0 0 22 21"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            d="M1.5 1L20.5 20M20.5 1L11 10.5L1.5 20"
-            stroke="#D6D6D6"
-            strokeWidth="2"
-          />
+        <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M1.5 1L20.5 20M20.5 1L11 10.5L1.5 20" stroke="#D6D6D6" strokeWidth="2" />
         </svg>
       </div>
 
       <div class="overlayContent">
-        <NuxtLink to="/">
+        <NuxtLink :to="localePath('/')">
           {{ $t(`menu.home`) }}
         </NuxtLink>
         <NuxtLink :to="localePath('/nosotros')">
@@ -39,16 +29,16 @@
         <a to="#footer">{{ $t(`menu.contact`) }}</a>
         <span class="cambiarIdioma">{{ $t(`atom.changeLanguage`) }}</span>
         <div class="overlayLanguages">
-          <NuxtLink :to="switchLocalePath('es')" :class="{none: isCurrentLanguage('es')}">
+          <NuxtLink :to="switchLocalePath('es')" :class="{ none: isCurrentLanguage('es') }">
             ES
           </NuxtLink>
-          <NuxtLink :to="switchLocalePath('en')" :class="{none: isCurrentLanguage('en')}">
+          <NuxtLink :to="switchLocalePath('en')" :class="{ none: isCurrentLanguage('en') }">
             EN
           </NuxtLink>
-          <NuxtLink :to="switchLocalePath('de')" :class="{none: isCurrentLanguage('de')}">
+          <NuxtLink :to="switchLocalePath('de')" :class="{ none: isCurrentLanguage('de') }">
             DE
           </NuxtLink>
-          <NuxtLink :to="switchLocalePath('pt')" :class="{none: isCurrentLanguage('pt')}">
+          <NuxtLink :to="switchLocalePath('pt')" :class="{ none: isCurrentLanguage('pt') }">
             PT
           </NuxtLink>
         </div>
@@ -58,6 +48,9 @@
 </template>
 
 <script setup lang="ts">
+defineProps({
+  menuActive: Boolean,
+})
 const { locale } = useI18n()
 const switchLocalePath = useSwitchLocalePath()
 const emit = defineEmits([ 'closeMobileMenu' ])
@@ -73,9 +66,8 @@ const isCurrentLanguage = computed(() => {
 })
 </script>
 
-  <style lang="scss">
-
-  .container-menu{
+<style lang="scss">
+.container-menu {
   .svg {
     display: block;
     cursor: pointer;
@@ -108,6 +100,7 @@ const isCurrentLanguage = computed(() => {
     0% {
       left: -100%;
     }
+
     100% {
       left: 0px;
     }
@@ -123,6 +116,7 @@ const isCurrentLanguage = computed(() => {
     0% {
       left: 0px;
     }
+
     100% {
       left: -110%;
     }
@@ -133,8 +127,7 @@ const isCurrentLanguage = computed(() => {
     height: 100vh;
     width: 100vw;
     position: fixed;
-    /* z-index: 100; */
-    z-index: 1;
+    z-index: 100;
     left: 0;
     top: 0;
     bottom: 0;
@@ -142,15 +135,15 @@ const isCurrentLanguage = computed(() => {
     background-color: var(--gray-dark);
     /* overflow-x: hidden; Disable horizontal scroll */
     float: left;
-    transition: 2s ease;
-    flex-direction: column;
   }
 
   /* Position the content inside the overlay */
   .overlayContent {
     position: relative;
-    top: 15%; /* 25% from the top */
-    width: 75%; /* 100% width */
+    top: 15%;
+    /* 25% from the top */
+    width: 75%;
+    /* 100% width */
     margin: 0 auto;
   }
 
@@ -185,6 +178,9 @@ const isCurrentLanguage = computed(() => {
     display: flex;
     flex-direction: row;
     margin-top: 5px;
+    .none {
+      display: none;
+    }
   }
 
   .cambiarIdioma {
@@ -220,6 +216,7 @@ const isCurrentLanguage = computed(() => {
     .overlay a {
       font-size: 20px;
     }
+
     .overlay .closeBtn {
       font-size: 40px;
       top: 15px;
@@ -232,4 +229,4 @@ const isCurrentLanguage = computed(() => {
     color: #ffffff;
   }
 }
-  </style>
+</style>

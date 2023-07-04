@@ -1,8 +1,8 @@
 <template>
   <div>
     <div class="mobileHeader">
-      <LayoutMenu v-show="showMobileMenu" @closeMobileMenu="showMobileMenu = false" />
-      <LayoutHeader v-show="!showMobileMenu" @click="showMobileMenu = true" />
+      <LayoutMenu :menu-active="showMobileMenu" @closeMobileMenu="showMobileMenu = false" />
+      <LayoutHeader @click="showMobileMenu = true" />
     </div>
     <div class="mainCont">
       <header class="desktopHeader">
