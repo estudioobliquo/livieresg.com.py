@@ -145,6 +145,10 @@ const isCurrentLanguage = computed(() => {
     width: 75%;
     /* 100% width */
     margin: 0 auto;
+    .router-link-exact-active {
+      font-weight: bolder;
+      color: white;
+    }
   }
 
   /* The navigation links inside the overlay */
@@ -157,7 +161,7 @@ const isCurrentLanguage = computed(() => {
     margin-bottom: 25px;
     padding: 5px 0;
     text-decoration: none;
-    font-size: 1.375rem;
+    font-size: 1.4rem;
     color: #d6d6d6;
     display: block;
     transition: 0.3s;
