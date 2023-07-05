@@ -1,72 +1,63 @@
 <template>
-    <div class="main">
-      <h2>
-        {{$t(`index.workWith`)}}
-      </h2>
-  
-      <div class="costumersContainer">
-        <div 
-          v-for="(img, index) in costumers"
-          :key="index"
-          class="costumerImageContainer"
-          :class="{ full: !isIndex}"
-        >
-          
-          <img :src="`/images/costumers/` + (img.image)">
-          
-        </div>
-      </div>
-  
-      <div v-if="isIndex" class="buttonContainer">
-        <NuxtLink style="text-decoration: none" to="/nosotros#costumers">
-          <AtomButton-Link text="Ver todos" />
-        </NuxtLink>
+  <div class="main">
+    <h2 class="workWith">
+      {{ $t(`index.workWith`) }}
+    </h2>
+    <div class="costumersContainer">
+      <div v-for="(img, index) in costumers" :key="index" class="costumerImageContainer" :class="{ full: !isIndex }">
+        <nuxt-img :src="`/img/costumers/` + (img.image)" format="webp" loading="lazy" :alt="img.image.split('.')[0]" />
       </div>
     </div>
-  </template>
-  
-  <script>
-  import { dataFullCostumers } from '@/assets/dataCostumer.js'
-  
-  export default {
-  
-    props: {
-  
-      isIndex: {
-        type: Boolean,
-        default: false,
-      },
+
+    <div v-if="isIndex" class="buttonContainer">
+      <NuxtLink style="text-decoration: none" :to="{ path: localePath('/nosotros'), hash: '#costumers' }">
+        <AtomButton-Link text="Ver todos" />
+      </NuxtLink>
+    </div>
+  </div>
+</template>
+
+<script>
+import { dataFullCostumers } from '@/assets/dataCostumer.js'
+export default {
+  props: {
+    isIndex: {
+      type: Boolean,
+      default: false,
     },
-    data () {
-      return {
-        fullCostumers: dataFullCostumers,
-  
+  },
+  data () {
+    return {
+      fullCostumers: dataFullCostumers,
+    }
+  },
+  computed: {
+    costumers () {
+      if (this.isIndex) {
+        return this.fullCostumers.costumers.slice(0, 6)
+      }
+      else {
+        return this.fullCostumers.costumers
       }
     },
-    computed: {
-      costumers () {
-        if (this.isIndex) {
-          return this.fullCostumers.costumers.slice(0, 6)
-        }
-        else {
-          return this.fullCostumers.costumers
-        }
-      },
-    },
-  
-  }
-  </script>
-  
+  },
+}
+</script>
+
 <style lang="scss" >
- .main {
+.main {
   margin-bottom: 60px;
+  .workWith {
+    padding-bottom: 0;
+    border: none;
+    text-align: center;
+  }
 }
 
 .main h2 {
   text-align: left;
   border-bottom: 1px solid var(--main-color-light);
   padding-bottom: 20px;
-
 
 }
 
@@ -88,50 +79,47 @@
   margin-top: 40px;
   column-gap: 24px;
   row-gap: 32px;
-  img{
+
+  img {
     object-fit: contain;
   }
-  
+
   .costumerImageContainer {
-  width: 100px;
-  height: 70px;
-  filter: saturate(0);
-  transition: filter 0.5s, opacity 0.5s;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  opacity: 0.7;
-  object-fit: contain;
-  img{
+    width: 100px;
+    height: 70px;
+    filter: saturate(0);
+    transition: filter 0.5s, opacity 0.5s;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+    object-fit: contain;
+
+    img {}
 
   }
-  
-  
-}
 
-.costumerImageContainer > div {
-  width: 100%;
-  height: 100%;
-}
+  .costumerImageContainer>div {
+    width: 100%;
+    height: 100%;
+  }
 
-.costumerImageContainer:hover {
-  opacity: 1;
-  filter: saturate(100%);
-  transition: filter 0.5s, opacity 0.5s;
-}
+  .costumerImageContainer:hover {
+    opacity: 1;
+    filter: saturate(100%);
+    transition: filter 0.5s, opacity 0.5s;
+  }
 
 }
-
 
 @media only screen and (min-width: 900px) {
   .main {
     margin-bottom: 120px;
-  }
-  
-  .main h2 {
+    .workWith {
     text-align: left;
     border-bottom: 1px solid var(--main-color-light);
     padding-bottom: 20px;
+    }
   }
 
   .costumersContainer {
@@ -154,10 +142,9 @@
     height: 50px;
   }
 
-  .costumerImageContainer {
+  .main .costumersContainer .costumerImageContainer {
     width: 200px;
     height: 110px;
   }
 }
-  </style>
-  
+</style>

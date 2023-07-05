@@ -1,4 +1,3 @@
-
 export const dataFullCostumers =
   {
     id: 2,
@@ -24,6 +23,10 @@ export const dataFullCostumers =
       {
         id: 2,
         image: 'coop.png',
+      },
+      {
+        id: 2,
+        image: 'cooperativa-neuland.png',
       },
       {
         id: 2,
