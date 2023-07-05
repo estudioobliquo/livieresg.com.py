@@ -82,14 +82,13 @@
   }
 
   @media only screen and (min-width: 700px) {
-    .mainContainer {
+    & {
       margin-bottom: 160px;
-    }
-
-    .mainContainer h2 {
-      text-align: left;
-      border-bottom: 1px solid var(--main-color-light);
-      padding-bottom: 20px;
+      h2:first-child {
+        text-align: left;
+        border-bottom: 1px solid var(--main-color-light);
+        padding-bottom: 20px;
+      }
     }
 
     .asocCont {

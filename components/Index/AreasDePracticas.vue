@@ -84,7 +84,7 @@ const adps = [
     margin-bottom: 120px;
   }
 
-  .mainContainer h2 {
+  .mainContainer h2:first-child {
     text-align: left;
     border-bottom: 1px solid var(--main-color-light);
     padding-bottom: 20px;

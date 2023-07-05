@@ -24,11 +24,11 @@
 <style lang="scss">
 .mainIndex {
   margin-bottom: 60px;
-
   .text {
     text-align: center;
-
     p {
+      max-width: 685px;
+      margin: 0 auto;
       font-style: italic;
     }
   }
@@ -39,7 +39,6 @@
       height: 175px;
       object-fit: cover;
     }
-
   }
 
   .imgContainer>div {

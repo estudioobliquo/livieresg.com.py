@@ -115,12 +115,11 @@ export default {
 @media only screen and (min-width: 900px) {
   .main {
     margin-bottom: 120px;
-  }
-
-  .main h2 {
+    .workWith {
     text-align: left;
     border-bottom: 1px solid var(--main-color-light);
     padding-bottom: 20px;
+    }
   }
 
   .costumersContainer {
@@ -143,7 +142,7 @@ export default {
     height: 50px;
   }
 
-  .costumerImageContainer {
+  .main .costumersContainer .costumerImageContainer {
     width: 200px;
     height: 110px;
   }
