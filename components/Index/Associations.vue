@@ -3,25 +3,60 @@
     <h2>{{ $t(`index.members`) }}</h2>
     <div class="asocCont">
       <div class="asoc">
-        <img src="@/assets/img/logos-asociaciones/ccpf.png" alt="Camara de Comercio Paraguayo - Francesa">
+        <nuxt-img
+          src="/img/logos-asociaciones/ccpf.png"
+          format="webp"
+          loading="lazy"
+          alt="Camara de Comercio Paraguayo - Francesa"
+        />
       </div>
       <div class="asoc custom1">
-        <img src="@/assets/img/logos-asociaciones/cdap.png" alt="Colegio de Abogados del Paraguay">
+        <nuxt-img
+          src="/img/logos-asociaciones/cdap.png"
+          format="webp"
+          loading="lazy"
+          alt="Colegio de Abogados del Paraguay"
+        />
       </div>
       <div class="asoc custom2">
-        <img src="@/assets/img/logos-asociaciones/iaba.png" alt="Inter American Bar Asociation">
+        <nuxt-img
+          src="/img/logos-asociaciones/iaba.png"
+          format="webp"
+          loading="lazy"
+          alt="Inter American Bar Asociation"
+        />
       </div>
       <div class="asoc">
-        <img src="@/assets/img/logos-asociaciones/ahk.png" alt="AHK">
+        <nuxt-img
+          src="/img/logos-asociaciones/ahk.png"
+          format="webp"
+          loading="lazy"
+          alt="AHK"
+        />
       </div>
       <div class="asoc">
-        <img src="@/assets/img/logos-asociaciones/pyam.png" alt="Camara de Comercio Paraguayo Americana">
+        <nuxt-img
+          src="/img/logos-asociaciones/pyam.png"
+          format="webp"
+          loading="lazy"
+          alt="Camara de Comercio Paraguayo Americana"
+        />
       </div>
       <div style="maxWidth:100px , width:60%" class="asoc">
-        <img src="@/assets/img/logos-asociaciones/ccpa.png" alt="Camara de Comercio Paraguayo Argentina">
+        <nuxt-img
+          src="/img/logos-asociaciones/ccpa.png"
+          format="webp"
+          loading="lazy"
+          alt="Camara de Comercio Paraguayo Argentina"
+        />
       </div>
       <div class="asoc">
-        <img src="@/assets/img/logos-asociaciones/eurolatamex.jpg" alt="EUROLATAMLEX">
+        <nuxt-img
+          src="/img/logos-asociaciones/eurolatamex.jpg"
+          format="webp"
+          loading="lazy"
+          alt="EUROLATAMLEX"
+        />
       </div>
     </div>
   </div>

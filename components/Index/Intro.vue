@@ -13,7 +13,12 @@
       </NuxtLink>
     </div>
     <div class="imgContainer">
-      <img src="@/assets/img/index/portadaIntro.png" alt="Livieres Guggiari - Portada">
+      <nuxt-img
+        src="/img/index/portadaIntro.png"
+        format="webp"
+        loading="lazy"
+        alt="Livieres Guggiari - Portada"
+      />
     </div>
   </div>
 </template>
@@ -36,7 +41,7 @@
   .imgContainer {
     img {
       margin-top: 40px;
-      height: 175px;
+      height: 100%;
       object-fit: cover;
     }
   }
