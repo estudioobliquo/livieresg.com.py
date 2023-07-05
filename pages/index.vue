@@ -130,7 +130,7 @@ const isCurrentLanguage = computed(() => {
       margin-bottom: 35px;
       text-decoration: none;
       font-weight: normal;
-      font-size: 1.3rem;
+      font-size: 1.5rem;
       color: #ffffff;
       transition: color 0.2s;
       width: fit-content;
@@ -149,7 +149,7 @@ const isCurrentLanguage = computed(() => {
       a {
         text-decoration: none;
         font-weight: normal;
-        font-size: 1.2rem;
+        font-size: 1.3rem;
         color: #ffffff;
         transition: color 0.2s;
         padding: 5px;
