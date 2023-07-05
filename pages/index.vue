@@ -43,17 +43,22 @@
       <div class="mobileImgCont">
         <img src="@/assets/img/index/portada.png" alt="Livieres Guggiari - Portada">
       </div>
-      <IndexIntro />
-      <IndexAreasDePracticas />
-      <IndexAssociations />
-      <ProjectCostumers is-index />
+      <IndexIntro data-sal="fade" data-sal-delay="200" data-sal-duration="800" />
+      <IndexAreasDePracticas data-sal="fade" data-sal-delay="200" data-sal-duration="800" />
+      <IndexAssociations data-sal="fade" data-sal-delay="200" data-sal-duration="800" />
+      <ProjectCostumers data-sal="fade" data-sal-delay="200" data-sal-duration="800" is-index />
     </div>
     <LayoutFooter />
   </div>
 </template>
 
 <script setup lang="ts" >
+import sal from 'sal.js'
 import { seoData } from '~~/assets/seoData'
+
+onMounted(() => {
+  sal()
+})
 const { locale } = useI18n()
 const switchLocalePath = useSwitchLocalePath()
 
