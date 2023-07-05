@@ -113,6 +113,7 @@ const isCurrentLanguage = computed(() => {
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
+    margin-bottom: 44px;
   }
 
   .subcont1 {
