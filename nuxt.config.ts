@@ -41,6 +41,9 @@ export default defineNuxtConfig({
     '@nuxtjs/i18n',
     '@nuxt/image',
   ],
+  image: {
+    dir: 'assets',
+  },
   i18n: {
     locales: [
       { code: 'es', file: 'es-ES.json' },
