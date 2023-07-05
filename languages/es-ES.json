@@ -1,90 +1,87 @@
 {
-    "locale": "en",
-    "menu": {
-      "home": "Inicio",
-      "aboutUs": "Nosotros",
-      "staff": "Miembros",
+  "locale": "en",
+  "menu": {
+    "home": "Inicio",
+    "aboutUs": "Nosotros",
+    "staff": "Miembros",
+    "areas": "Áreas de Práctica",
+    "blog": "Publicaciones y Noticias",
+    "art": "LG y el Arte",
+    "contact": "Contacto"
+  },
+  "index": {
+    "ourStudy": "Nuestro Estudio",
+    "aboutUs": {
+      "Derecho Comercial y Societario": "Derecho Comercial y Societario",
+      "Inversiones - Derecho Tributario": "Inversiones - Derecho Tributario",
+      "Sucesiones": "Sucesiones",
+      "Asuntos Administrativos": "Asuntos Administrativos",
+      "Propiedad Intelectual": "Propiedad Intelectual"
+    },
+    "ourStudyText": "Desde el año 1990, el equipo de profesionales que conforma el Estudio Jurídico Livieres Guggiari presta asistencia a numerosas empresas, entidades y personas físicas, nacionales e internacionales, tanto en el área de asesoramiento legal como en el área de litigios judiciales, teniendo a la fecha una trayectoria de conducta profesional íntegra y una experiencia de más de 25 años al servicio de nuestros Clientes.",
+    "ourAreas": "Nuestras Áreas de Práctica",
+    "members": "Somos miembros de",
+    "workWith": "Trabajan con nosotros"
+  },
+  "atom": {
+    "Conocer mas": "Conocer mas",
+    "Ver todos": "Ver todos",
+    "changeLanguage": "Cambiar idioma",
+    "information": "+ INFORMACIÓN",
+    "buttonBack": "Volver al Inicio",
+    "goBack": "Volver atrás"
+  },
+  "staff": {
+    "atto": "Abogados",
+    "paralegals": "Paralegales",
+    "administration": "Administración",
+    "slug": {
       "areas": "Áreas de Práctica",
-      "blog": "Publicaciones y Noticias",
-      "art": "LG y el Arte",
-      "contact": "Contacto"
-    },
-    "index":{
-        "ourStudy":"Nuestro Estudio",
-        "aboutUs":{
-            "Derecho Comercial y Societario": "Derecho Comercial y Societario",
-            "Inversiones - Derecho Tributario": "Inversiones - Derecho Tributario",
-            "Sucesiones" : "Sucesiones",
-            "Asuntos Administrativos": "Asuntos Administrativos",
-            "Propiedad Intelectual": "Propiedad Intelectual"
-            },
-        "ourStudyText":"Desde el año 1990, el equipo de profesionales que conforma el Estudio Jurídico Livieres Guggiari presta asistencia a numerosas empresas, entidades y personas físicas, nacionales e internacionales, tanto en el área de asesoramiento legal como en el área de litigios judiciales, teniendo a la fecha una trayectoria de conducta profesional íntegra y una experiencia de más de 25 años al servicio de nuestros Clientes.",
-        "ourAreas": "Nuestras Áreas de Práctica",
-        "members": "Somos miembros de",
-        "workWith": "Trabajan con nosotros"
-    },    
-    "atom":{
-        "Conocer mas": "Conocer mas",
-        "Ver todos": "Ver todos",
-        "changeLanguage": "Cambiar idioma",
-        "information": "+ INFORMACIÓN",
-        "buttonBack": "Volver al Inicio",
-        "goBack": "Volver atrás"
-    },
-    "staff":{
-        "atto": "Abogados",
-        "paralegals": "Paralegales",
-        "administration": "Administración",
-        "slug":{
-            "areas": "Áreas de Práctica",
-            "education":"Formación Profesional",
-            "languages": "Idiomas",
-            "members": "Asociaciones",
-            "experiencia": "Experiencias",
-            "adp": ".ESadp"
-        }
-    },
-    "footer":{
-        "email": "Email",
-        "phone": "Teléfono",
-        "offices": "Oficinas",
-        "direction1": "Pitiantuta N° 640 entre Siria y Juan de Salazar",
-        "direction2": "Calle B. H. Unruh N° 276 entre O. Miller y Pte. Gondra",
-        "times": "Lunes a Viernes de 8:00 a 18:30",
-        "contact": "Contacto",
-        "directions": "Como llegar",
-        "disclaimer": "Todos los derechos reservados. Un trabajo del"
-    },
-    "pages":{
-        "us":{
-        "usTitle": "Nuestra Historia",    
-        "us1": "Desde el año 1990, el equipo de profesionales que conforma el Estudio Jurídico Livieres Guggiari presta asistencia a numerosas empresas, entidades y personas físicas, nacionales e internacionales, tanto en el área de asesoramiento legal como en el área de litigios judiciales, teniendo a la fecha una trayectoria de conducta profesional íntegra y una experiencia de más de 25 años al servicio de nuestros Clientes.",
-        "us2": "El Estudio Jurídico se ha caracterizado tanto por la atención constante y personalizada que brinda a sus Clientes como por una gestión prudente y profesional en el manejo de los derechos e intereses que administra. En Livieres Guggiari utilizamos un sistema interno de intercambio de información y de conocimiento, con el fin de encontrar la mejor estrategia para la defensa de los derechos e intereses de nuestros Clientes.",
-        "us3": "Nuestra cultura de trabajo en equipo asegura una permanente coordinación que permite una asistencia continuada a los Clientes, y al mismo tiempo, un máximo aprovechamiento del potencial humano.",
-        "us4": "Nuestra gestión profesional está sustentada en la absoluta seriedad, lealtad, diligencia, confidencialidad y responsabilidad en el cumplimiento de los mandatos recibidos, factores aquellos en los que ponemos especial énfasis, manteniéndonos actualizados en la constante evolución del mundo legal, actuando siempre con la firme convicción en que estamos haciendo lo correcto y de la mejor manera posible para nuestros clientes."
-        },
-        "adp":{
-            "Derecho Comercial y Societario": "Derecho Comercial y Societario",
-            "Inversiones - Derecho Tributario": "Inversiones - Derecho Tributario",
-            "Sucesiones" : "Sucesiones",
-            "Asuntos Administrativos": "Asuntos Administrativos",
-            "Propiedad Intelectual": "Propiedad Intelectual",
-            "Derecho Cooperativo y Mutual": "Derecho Cooperativo y Mutual",
-            "Derecho Ambiental": "Derecho Ambiental",
-            "Derecho Medico": "Derecho Medico",
-            "Asuntos Laborales": "Asuntos Laborales",
-            "Litigios y procesos": "Litigios y procesos",
-            "Agua, Energia y Mineria": "Agua, Energia y Mineria"
-
-
-
-        }
-    },
-    "gallery":{
-        "galleryTitle" : "Livieres Guggiari y el Arte",
-        "subtitle": "Una colección de obras de arte seleccionadas, expuestas en nuestras oficinas, que queremos compartir contigo.",
-        "paint": "cuadros",
-        "sculp": "esculturas"
+      "education": "Formación Profesional",
+      "languages": "Idiomas",
+      "members": "Asociaciones",
+      "experiencia": "Experiencias",
+      "adp": ".ESadp"
     }
+  },
+  "footer": {
+    "email": "Email",
+    "phone": "Teléfono",
+    "offices": "Oficinas",
+    "direction1": "Pitiantuta N° 640 entre Siria y Juan de Salazar",
+    "direction2": "Calle B. H. Unruh N° 276 entre O. Miller y Pte. Gondra",
+    "times": "Lunes a Viernes de 8:00 a 18:30",
+    "contact": "Contacto",
+    "directions": "Como llegar",
+    "disclaimer": "Todos los derechos reservados. Un trabajo del"
+  },
+  "pages": {
+    "us": {
+      "usTitle": "Nuestra Historia",
+      "us1": "Desde el año 1990, el equipo de profesionales que conforma el Estudio Jurídico Livieres Guggiari presta asistencia a numerosas empresas, entidades y personas físicas, nacionales e internacionales, tanto en el área de asesoramiento legal como en el área de litigios judiciales, teniendo a la fecha una trayectoria de conducta profesional íntegra y una experiencia de más de 25 años al servicio de nuestros Clientes.",
+      "us2": "El Estudio Jurídico se ha caracterizado tanto por la atención constante y personalizada que brinda a sus Clientes como por una gestión prudente y profesional en el manejo de los derechos e intereses que administra. En Livieres Guggiari utilizamos un sistema interno de intercambio de información y de conocimiento, con el fin de encontrar la mejor estrategia para la defensa de los derechos e intereses de nuestros Clientes.",
+      "us3": "Nuestra cultura de trabajo en equipo asegura una permanente coordinación que permite una asistencia continuada a los Clientes, y al mismo tiempo, un máximo aprovechamiento del potencial humano.",
+      "us4": "Nuestra gestión profesional está sustentada en la absoluta seriedad, lealtad, diligencia, confidencialidad y responsabilidad en el cumplimiento de los mandatos recibidos, factores aquellos en los que ponemos especial énfasis, manteniéndonos actualizados en la constante evolución del mundo legal, actuando siempre con la firme convicción en que estamos haciendo lo correcto y de la mejor manera posible para nuestros clientes."
+    },
+    "adp": {
+      "Derecho Comercial y Societario": "Derecho Comercial y Societario",
+      "Inversiones - Derecho Tributario": "Inversiones - Derecho Tributario",
+      "Sucesiones": "Sucesiones",
+      "Asuntos Administrativos": "Asuntos Administrativos",
+      "Derecho Cooperativo y Mutual": "Derecho Cooperativo y Mutual",
+      "Derecho Bancario y Cumplimiento": "Derecho Bancario y Cumplimiento",
+      "Derecho Ambiental": "Derecho Ambiental",
+      "Propiedad Intelectual": "Propiedad Intelectual",
+      "Derecho Medico": "Derecho Medico",
+      "Asuntos Laborales": "Asuntos Laborales",
+      "Litigios y Procesos": "Litigios y procesos",
+      "Agua, Energia y Mineria": "Agua, Energia y Mineria"
+    }
+  },
+  "gallery": {
+    "galleryTitle": "Livieres Guggiari y el Arte",
+    "subtitle": "Una colección de obras de arte seleccionadas, expuestas en nuestras oficinas, que queremos compartir contigo.",
+    "paint": "cuadros",
+    "sculp": "esculturas"
+  }
 }
-  
