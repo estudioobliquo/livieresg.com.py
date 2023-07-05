@@ -195,4 +195,8 @@ const isCurrentLanguage = computed(() => {
   cursor: pointer;
   transform: scale(0.9);
 }
+
+.none {
+  display: none;
+}
 </style>
