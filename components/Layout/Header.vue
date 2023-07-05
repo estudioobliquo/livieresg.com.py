@@ -5,7 +5,7 @@
       <div class="logoContainer2">
         <!-- /* deberia de ser class='logoContainer'pero no aparece la imagen si uso esa clase */ -->
         <NuxtLink :to="localePath('/')">
-          <img src="@/assets/img/logo-nuevo-2.png" alt="Livieres Guggiari - Logo">
+          <nuxt-img src="/img/global/logoTexto.png" loading="lazy" format="webp" alt="Livieres Guggiari - Logo" />
         </NuxtLink>
       </div>
     </div>
