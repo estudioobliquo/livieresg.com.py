@@ -10,7 +10,7 @@
     </div>
 
     <div v-if="isIndex" class="buttonContainer">
-      <NuxtLink style="text-decoration: none" :to="{ path: localePath('/nosotros'), hash: 'costumers' }">
+      <NuxtLink style="text-decoration: none" :to="{ path: localePath('/nosotros'), hash: '#costumers' }">
         <AtomButton-Link text="Ver todos" />
       </NuxtLink>
     </div>
