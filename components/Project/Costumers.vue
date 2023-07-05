@@ -1,10 +1,10 @@
 <template>
   <div class="main">
-    <h2 class="workWith">
+    <h2 class="workWith" :class="{ workWith2: !isIndex }">
       {{ $t(`index.workWith`) }}
     </h2>
-    <div class="costumersContainer">
-      <div v-for="(img, index) in costumers" :key="index" class="costumerImageContainer" :class="{ full: !isIndex }">
+    <div class="costumersContainer" :class="{ full: !isIndex }">
+      <div v-for="(img, index) in costumers" :key="index" class="costumerImageContainer">
         <nuxt-img :src="`/img/costumers/` + (img.image)" format="webp" loading="lazy" :alt="img.image.split('.')[0]" />
       </div>
     </div>
@@ -47,10 +47,17 @@ export default {
 <style lang="scss" >
 .main {
   margin-bottom: 60px;
+
   .workWith {
     padding-bottom: 0;
     border: none;
     text-align: center;
+  }
+
+  .workWith2:first-of-type {
+    text-align: left;
+    font-size: 1.56rem;
+    letter-spacing: .03em;
   }
 }
 
@@ -58,7 +65,6 @@ export default {
   text-align: left;
   border-bottom: 1px solid var(--main-color-light);
   padding-bottom: 20px;
-
 }
 
 .buttonContainer {
@@ -94,9 +100,6 @@ export default {
     align-items: center;
     opacity: 0.7;
     object-fit: contain;
-
-    img {}
-
   }
 
   .costumerImageContainer>div {
@@ -115,10 +118,18 @@ export default {
 @media only screen and (min-width: 900px) {
   .main {
     margin-bottom: 120px;
+
     .workWith {
-    text-align: left;
-    border-bottom: 1px solid var(--main-color-light);
-    padding-bottom: 20px;
+      text-align: left;
+      border-bottom: 1px solid var(--main-color-light);
+      padding-bottom: 20px;
+    }
+
+    .workWith2:first-of-type {
+      font-size: 34px;
+      border: none;
+      margin-bottom: 40px;
+      padding-bottom: 0;
     }
   }
 
@@ -131,13 +142,14 @@ export default {
     column-gap: 120px;
   }
 
-  .main.full .costumersContainer {
+  .main .costumersContainer.full {
     width: 100%;
     justify-content: space-evenly;
     column-gap: 80px;
+    margin: 0;
   }
 
-  .main.full .costumersContainer .costumerImageContainer {
+  .main .costumersContainer.full .costumerImageContainer {
     width: 100px;
     height: 50px;
   }
