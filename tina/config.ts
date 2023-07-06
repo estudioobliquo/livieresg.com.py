@@ -24,6 +24,11 @@ export default defineConfig({
         name: 'post',
         label: 'Publicaciones',
         path: 'content/posts',
+        ui: {
+          filename: {
+            readonly: true,
+          },
+        },
         fields: [
           {
             type: 'string',
