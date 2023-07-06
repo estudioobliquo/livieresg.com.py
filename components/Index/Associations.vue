@@ -1,5 +1,5 @@
 <template>
-  <div class="mainContainer">
+  <div class="index-associations">
     <h2>{{ $t(`index.members`) }}</h2>
     <div class="asocCont">
       <div class="asoc">
@@ -65,7 +65,7 @@
 <script setup lang="ts"></script>
 
 <style lang="scss">
-.mainContainer {
+.index-associations {
   margin-bottom: 100px;
 
   h2:first-child {
