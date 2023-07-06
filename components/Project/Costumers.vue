@@ -47,17 +47,18 @@ export default {
 <style lang="scss" >
 .main {
   margin-bottom: 60px;
+
   .workWith {
     padding-bottom: 0;
-    border: none;
     text-align: center;
+    border: none;
   }
 }
 
 .main h2 {
+  padding-bottom: 20px;
   text-align: left;
   border-bottom: 1px solid var(--main-color-light);
-  padding-bottom: 20px;
 
 }
 
@@ -74,25 +75,25 @@ export default {
 .costumersContainer {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  margin-top: 40px;
-  column-gap: 24px;
   row-gap: 32px;
+  column-gap: 24px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
 
   img {
     object-fit: contain;
   }
 
   .costumerImageContainer {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     width: 100px;
     height: 70px;
     filter: saturate(0);
-    transition: filter 0.5s, opacity 0.5s;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
     opacity: 0.7;
+    transition: filter 0.5s, opacity 0.5s;
     object-fit: contain;
 
     img {}
@@ -105,36 +106,37 @@ export default {
   }
 
   .costumerImageContainer:hover {
-    opacity: 1;
     filter: saturate(100%);
+    opacity: 1;
     transition: filter 0.5s, opacity 0.5s;
   }
 
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (width >= 900px) {
   .main {
     margin-bottom: 120px;
+
     .workWith {
+    padding-bottom: 20px;
     text-align: left;
     border-bottom: 1px solid var(--main-color-light);
-    padding-bottom: 20px;
     }
   }
 
   .costumersContainer {
+    column-gap: 120px;
     align-items: center;
     justify-content: space-evenly;
     width: 78%;
     max-width: 1200px;
     margin: 0 auto;
-    column-gap: 120px;
   }
 
   .main.full .costumersContainer {
-    width: 100%;
-    justify-content: space-evenly;
     column-gap: 80px;
+    justify-content: space-evenly;
+    width: 100%;
   }
 
   .main.full .costumersContainer .costumerImageContainer {

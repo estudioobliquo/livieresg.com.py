@@ -29,8 +29,10 @@
 <style lang="scss">
 .mainIndex {
   margin-bottom: 60px;
+
   .text {
     text-align: center;
+
     p {
       max-width: 685px;
       margin: 0 auto;
@@ -40,8 +42,8 @@
 
   .imgContainer {
     img {
-      margin-top: 40px;
       height: 100%;
+      margin-top: 40px;
       object-fit: cover;
     }
   }
@@ -51,10 +53,10 @@
   }
 
   .line {
-    height: 50px;
     width: 2px;
-    background-color: var(--main-color);
+    height: 50px;
     margin: 24px auto 20px;
+    background-color: var(--main-color);
   }
 
   // .mainIndex h2, .mainIndex p {  text-align: center;}
@@ -72,7 +74,7 @@
 
   }
 
-  @media only screen and (min-width: 800px) {
+  @media only screen and (width >= 800px) {
     .mainIndex {
       margin-bottom: 120px;
     }

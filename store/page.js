@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import { defineStore } from 'pinia';
+import { defineStore } from 'pinia'
 
 export const state = () => ({
   query: null,

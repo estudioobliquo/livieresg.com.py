@@ -1,5 +1,3 @@
-
-
 export const dataAdp = [
   {
     titulo: 'Derecho Comercial y Societario',

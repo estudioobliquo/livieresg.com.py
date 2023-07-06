@@ -1,26 +1,25 @@
 <!-- eslint-disable max-len -->
 <template>
-    <div class="container-go-back">
-      <NuxtLink :to="to" class="volverAtras">
-        <div>
-        
-          <img class="svg" src="@/assets/svg/flecha.svg" alt="" style="transform:rotate(180deg)">
-          <p>{{$t( text )}}</p>
-        </div>
-      </NuxtLink>
-    </div>
-  </template>
-  
+  <div class="container-go-back">
+    <NuxtLink :to="to" class="volverAtras">
+      <div>
+        <img class="svg" src="@/assets/svg/flecha.svg" alt="" style="transform:rotate(180deg)">
+        <p>{{ $t( text ) }}</p>
+      </div>
+    </NuxtLink>
+  </div>
+</template>
+
 <script >
 import SVGflecha from '@/assets/svg/flecha.svg'
 
 export default {
- 
+
   props: {
-    text: {type:String, default:"Volver Atras"},
+    text: { type: String, default: 'Volver Atras' },
     to: String,
-    direction: {type:String, default:"180deg"},
-    
+    direction: { type: String, default: '180deg' },
+
   },
 
 }
@@ -34,9 +33,6 @@ export default {
         transform: rotate();
       }
 
-    
-
       }
   }
   </style>
-  

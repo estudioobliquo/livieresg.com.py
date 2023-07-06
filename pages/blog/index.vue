@@ -2,7 +2,7 @@
   <div class="blog-page">
     <h1>Blog</h1>
     <div v-if="posts" class="posts-container">
-      <NuxtLink v-for="post in posts" :key="post. slug" :to="`/blog/${post.slug}`" class="post">
+      <NuxtLink v-for="post in posts" :key="post.slug" :to="`/blog/${post.slug}`" class="post">
         <h2>{{ post.title }}</h2>
         <p class="date">
           {{ post.date }}
