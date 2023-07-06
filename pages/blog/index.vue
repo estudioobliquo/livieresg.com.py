@@ -4,8 +4,12 @@
     <div v-if="posts" class="posts-container">
       <div v-for="post in posts" :key="post.slug" class="post">
         <h2>{{ post.title }}</h2>
-        <p>{{ post.date }}</p>
-        <div v-html="post.body" />
+        <p class="date">
+          {{ post.date }}
+        </p>
+        <p class="excerpt">
+          {{ post.body }}
+        </p>
       </div>
     </div>
   </div>
@@ -23,6 +27,7 @@ interface Post {
   body: TinaMarkdownContent
 }
 
+// TODO: remove
 definePageMeta({ layout: 'central' })
 
 const posts = ref<Post[]>()
@@ -35,7 +40,7 @@ posts.value = postsResponse.data.postConnection.edges.map((post: any) => {
     title: post.node.title,
     type: post.node.type,
     date: post.node.date,
-    body: `${useParseTinaContent(post.node.body).slice(0, 200)}...`,
+    body: `${useParseTinaContentAsString(post.node.body).slice(0, 200)}...`,
   }
 })
 
