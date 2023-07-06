@@ -1,30 +1,30 @@
-<!-- eslint-disable vue/attribute-hyphenation -->
 <template>
-    <div>
-      <AtomAcordeon
-        v-for="acordeonSection in datosAreas"
-        :key="acordeonSection.id"
-        :cardsSection="acordeonSection"
-      />
-    </div>
-  </template>
-  
-  <script>
-  import { dataAdp } from '../assets/dataAdp.js'
-//   import Acordeon from '../components/Acordeon.vue'
-definePageMeta({  layout: "central",});
+  <div>
+    <h1 class="title-areas-practica">
+      {{ $t(`menu.areas`) }}
+    </h1>
+    <AtomAcordeon
+      v-for="acordeonSection in datosAreas"
+      :key="acordeonSection.titulo"
+      :cards-section="acordeonSection"
+    />
+  </div>
+</template>
 
-  export default {
+<script setup lang="ts">
+import { dataAdp } from '@/assets/dataAdp.js'
+definePageMeta({ layout: 'central' })
+const datosAreas = dataAdp
+</script>
 
-    data () {
-      return {
-        datosAreas: dataAdp,
-      }
-    },
+<style lang="scss">
+.title-areas-practica {
+  display: block;
+  @media only screen and (min-width: 1000px) {
+    &{
+      display: none;
+    }
   }
-  </script>
-  
-  <style>
-  
-  </style>
-  
+}
+
+</style>
