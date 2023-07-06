@@ -64,18 +64,21 @@
       "us4": "Our professional management acts with absolute integrity, loyalty, diligence, confidentiality and responsibility in the fulfillment of the mandates received, factors in which we place special emphasis, keeping us updated in the constant evolution of the legal world in order to assure a firm and complete commitment to our clients."
     },
     "adp": {
-      "Derecho Comercial y Societario": "Direito Empresarial e Corporativo",
-      "Inversiones - Derecho Tributario": "Investimento - Direito Tributário",
-      "Sucesiones": "Sucessões",
-      "Asuntos Administrativos": "Questões administrativas de Ofertas públicas",
-      "Derecho Cooperativo y Mutual": "Lei Cooperativa e Mutual",
-      "Derecho Bancario y Cumplimiento": "Direito Bancário e Financeiro",
-      "Derecho Ambiental": "Direito Ambiental",
-      "Propiedad Intelectual": "Propriedade intelectual",
-      "Derecho Medico": "Direito Médico",
-      "Asuntos Laborales": "Questões laborais",
-      "Litigios y Procesos": "Litígios e processos",
-      "Agua, Energia y Mineria": "Água, Energia e Mineração"
+      "title": {
+        "derechoComercialYSocietario": "Direito Empresarial e Corporativo",
+        "inversionesDerechoTributario": "Investimento - Direito Tributário",
+        "sucesiones": "Sucessões",
+        "asuntosAdministrativos": "Questões administrativas de Ofertas públicas",
+        "derechoCooperativoYMutual": "Lei Cooperativa e Mutual",
+        "derechoBancarioYCumplimiento": "Direito Bancário e Financeiro",
+        "derechoAmbiental": "Direito Ambiental",
+        "propiedadIntelectual": "Propriedade intelectual",
+        "derechoMedico": "Direito Médico",
+        "asuntosLaborales": "Questões laborais",
+        "litigiosYProcesos": "Litígios e processos",
+        "aguaEnergiaYMineria": "Água, Energia e Mineração"
+      },
+      "content": {}
     }
   },
   "gallery": {
