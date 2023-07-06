@@ -92,6 +92,294 @@
         "litigiosYProcesos": "<p> Although in the Law Firm he practices the profession from the conviction that most of the issues, however conflicting or complex, may be resolved within the extrajudicial orbit, in certain cases this is not viable and the judicial route is required or The most suitable. </p> <p> Whether or not the judicial process is appropriate or the resultant, it is important to have timely professional assistance. </p> <p> The services of the Law Firm include counseling at the litigious stage, as well as in the prevention of disputes and support in the negotiation of alternative solutions. </p> <p> The lawyers of our firm have adequate and long experience in civil, commercial, administrative, municipal and environmental litigation. </p>",
         "aguaEnergiaYMineria": "<p> Livieres Guggiari, As a member of the Consortium awarded, through one of its partners, participated actively in the elaboration and development of a new legal and institutional framework for the water and sewerage sector of the Republic of Paraguay, which is in full swing Effective since the enactment and promulgation of Law No. 1.614 / 2000 \"General of the Regulatory and Tariff Framework of the Public Service of Potable Water Supply and Sewerage for the Republic of Paraguay.\" Later, it was also contracted jointly with other national and foreign professionals for the advice and elaboration of the regulation decree and of the regulations applicable to those services. </p> <p> In the restructuring of Paraguay's electricity sector, it participated in the consultancy and legal assistance provided by the SIIME Consortium, which was awarded for this restructuring. </p> <p> At present, the Law Firm provides legal advice in the sector to the Mennonite Cooperatives of the Central Chaco that deal with the service of distribution of electric energy in their respective areas of responsibility. The Law Firm also advised foreign companies that provided exploration and hydrocarbon services. </p> <p> With regard to the mining area, our Firm is providing its services to national and international companies in legal and administrative matters for the obtaining of mining permits and concessions, as well as for the fulfillment of the relevant obligations and procedures in the execution of the stages Mining, exploration and / or exploitation of mineral resources, in particular with respect to administrative, tax, environmental, labor, social security, and other incidents entailed in the implementation of these stages. </p> <p> We have participated actively in the analysis for the modification of the Mining Law, integrating the Paraguayan Chamber of Mining, in training. </p>"
       }
+    },
+    "team": {
+      "elivieres": {
+        "subtitle": "Attorney-at-Law since 1991, LL.M. Partner.",
+        "adp": "Inheritance Law, Banking and Financial Law, Intellectual Property Law, Cooperatives and Mutual Societies Laws, Environmental Law, Integration Law (MERCOSUR) (Common Market of the South), Litigations.",
+        "formacion": "“Nuestra Señora de la Asunción” Catholic University: Attorney-at-Law (Diploma of Honor and Excellence); Ruprecht-Karls-Universität Heidelberg, Germany (1995): Master of Laws (Magister Legum).",
+        "idiomas": "Spanish and German.",
+        "asociaciones": "Paraguayan Bar Association, “Instituto Paraguayo de Derecho Bancario y Societario (IPDBS)” (Paraguayan Institute of Banking and Company Laws), Inter-American Federation of Lawyers (FIA), and International Association of Lawyers (UIA)."
+      },
+      "plivieres": {
+        "subtitle": "Attorney-at-Law since 1989. Doctor of Juridical Science. Partner.",
+        "adp": "Commercial and Corporate Law, Mergers and Acquisitions, Contract Law, Restructuring and Regulation of Drinking Water and Electricity Utilities, Privatizations, Foreign Investments.",
+        "formacion": "Nuestra Señora de la Asunción” Catholic University, Asunción: Attorney-at-Law; National University of Pilar, Paraguay (2005): Doctor of Juridical Science (Summa Cum Laude).",
+        "idiomas": "Spanish and English.",
+        "asociaciones": "Bar Association, Inter-American Federation of Lawyers (FIA), “Instituto Paraguayo de Derecho Bancario y Societario (IPDBS)” (Paraguayan Institute of Banking and Company Laws) and International Association of Lawyers (UIA)."
+      },
+      "cbenitez": {
+        "subtitle": "Attorney-at-Law since 1980. Doctor of Juridical Science.",
+        "adp": "Civil Liability, Banking and Financial Law, Civil Liability Insurance Laws, and Litigations.",
+        "formacion": "National University of Asuncion: Attorney-at-Law. National University of Pilar, Paraguay (2005): Doctor of Juridical Science (Summa Cum Laude). Professor in private Universities.",
+        "idiomas": "Spanish",
+        "asociaciones": "Paraguayan Bar Association."
+      },
+      "ovazquez": {
+        "subtitle": "Attorney-at-Law since 1991.",
+        "adp": "Health Care Law, Immigration Law, Inheritance Law and Corporate Advice.",
+        "formacion": "“Nuestra Señora de la Asunción” Catholic University, Asunción: Attorney-at-Law (Diploma of Honor and Excellence)",
+        "idiomas": "Spanish.",
+        "asociaciones": "Paraguayan Bar Association."
+      },
+      "cespinola": {
+        "subtitle": "Attorney-at-Law since 1997.",
+        "adp": "Municipal Law, Successions Law, Foreclosures and Liens, Corporate Advice.",
+        "formacion": "“Nuestra Señora de la Asunción” Catholic University, and National University of Asuncion: Attorney-at-Law.",
+        "idiomas": "Spanish.",
+        "asociaciones": ""
+      },
+      "icardozo": {
+        "subtitle": "Attorney-at-Law since 1994. ",
+        "adp": "Environmental Law, Real Property Rights, Judgment Enforcement, and Litigations.",
+        "formacion": "“Nuestra Señora de la Asunción” Catholic University, Asunción: Attorney-at-Law.",
+        "idiomas": "Spanish",
+        "asociaciones": ""
+      },
+      "dlovera": {
+        "subtitle": "Attorney-at-Law since 1999. LL.M.",
+        "adp": "Commercial and Corporate Law, Liquidations and Bankruptcies. Foreclosure and Liens.",
+        "formacion": "National University of Asunción: Attorney-at-Law and Notary; National University of Rosario, Argentina (2004): Master of Private Law.",
+        "idiomas": "Spanish",
+        "asociaciones": ""
+      },
+      "ntiretta": {
+        "subtitle": "Attorney-at-Law since 1991. LL.M. ",
+        "adp": "Civil Law, Mutual Societies Law, Litigations and Debt Collections.",
+        "formacion": "“Nuestra Señora de la Asunción” Catholic University, Asunción: Attorney-at-Law; Ruprecht-Karls-Universität Heidelberg, Germany (1995): Master of Law (Magister Legum).",
+        "idiomas": "Spanish and German.",
+        "asociaciones": ""
+      },
+      "jramirez": {
+        "subtitle": "Attorney- at-Law since 2000. Legal Advisory Coordinator",
+        "adp": "Mergers and Acquisitions, Banking, Financial and Cooperative Law, Commercial and Corporate Law and Consultant and Lecturer on Prevention of Money or Property Laundering and Financing of Terrorism.",
+        "formacion": "National University of Asunción: Attorney-at-Law.",
+        "idiomas": "Spanish and English",
+        "asociaciones": ""
+      },
+      "gvelazquez": {
+        "subtitle": "Attorney-at-Law since 2002.",
+        "adp": "Labor Law and Social Security Law, Administrative Law, and Litigations.",
+        "formacion": "“Nuestra Señora de la Asunción” Catholic University, Asunción: Attorney-at-Law.",
+        "idiomas": "Spanish.",
+        "asociaciones": "Paraguayan Bar Association, Association of Labour Lawyers (AAL)"
+      },
+      "mbejaranom": {
+        "subtitle": "Attorney-at-Law since 2003. LL.M.",
+        "adp": "Energy, Hydrocarbons and Mining Law. Advice from National and International Hydrocarbons, Bioenergy and Mining Companies.",
+        "formacion": "National University of Asunción: Lawyer. National University of Rosario: Master’s Degree in Private Law (2007). Complutense University of Madrid: Master in Business and Energy Law (2011). Instituto Tecnologico de Buenos Aires: Specialist in Oil and Gas Economics (2019).",
+        "idiomas": "Spanish, English and Italian."
+      },
+      "tbrown": {
+        "subtitle": "Attorney-at-Law since 2009. LL.M.",
+        "adp": "Commercial and Corporate Law, Maritime Law and Private International Law.",
+        "formacion": "National University of Asunción”: Attorney-at-Law (Diploma of Honor and Excellence). University of Alcalá de Henares (Spain): Master in Business Law; Universidad Complutense de Madrid (Spain): Diploma in Theory and Practice of International Business Law.",
+        "idiomas": "English, Spanish, Portuguese, French.",
+        "asociaciones": ""
+      },
+      "burbieta": {
+        "subtitle": "Attorney-at-Law since 1987",
+        "adp": "Civil, Commercial, Administrative Law, Intellectual Property, Administrative and Judicial Litigation.",
+        "formacion": "Universidad Nacional de Asunción: Lawyer.",
+        "idiomas": "Spanish, English",
+        "asociaciones": ""
+      },
+      "mschaerer": {
+        "subtitle": "Attorney-at-Law since 2000. LL. M.",
+        "adp": "International Trade Law, Customs and Maritime Law and Corporate Law. Former Ambassador of Paraguay to Canada (2009-2015).",
+        "formacion": "National University of Asunción”, Attorney-at-Law (2000). Monterrey Institute of Technology and Higher Education, Master in International Law (2005).",
+        "idiomas": "Spanish, English, Portuguese.",
+        "asociaciones": ""
+      },
+      "mbfranco": {
+        "subtitle": "Attorney-at-Law since 1978.",
+        "adp": "Labor Law",
+        "formacion": "Lawyer graduated from the Universidad Católica Ntra. Sra. De la Asunción in 1978, with an average of 4.94 points. In 1979 she graduated from the Faculty of Notaries and Public Notaries. She is a Chair Assistant and later Chair in Charge at the Labor Law Area institute for 10 years. Postgraduate course at U. C. A. ",
+        "idiomas": "Spanish",
+        "asociaciones": ""
+      },
+      "aens": {
+        "subtitle": "Attorney-at-Law since 1997. LL. M.",
+        "adp": "Civil und Commercial Law, Tax und Cooperative Law.",
+        "formacion": "Universidad Nacional de Asunción: Attorney und Notary Public; Universität Bielefeld, Alemania (2000): Master in Law (Magister Legum).",
+        "idiomas": "Spanish, German",
+        "asociaciones": ""
+      },
+      "msantiviago": {
+        "subtitle": "Attorney-at-Law since 2013. LL.M.  ",
+        "adp": "Civil Law, Civil Procedural Law and Litigations.",
+        "formacion": "Catholic University “Nuestra Señora de la Asuncion” Lawyer (graduated with Distinction); Ruprecht-Karls-Universität Heidelberg, Germany (2017): Master of Law (Magister Legum).",
+        "idiomas": "Spanish, English and German.",
+        "asociaciones": ""
+      },
+      "abittar": {
+        "subtitle": "Attorney-at-Law since 2011 LL.M.",
+        "adp": "Inheritance Law, Sport Law and Litigations.",
+        "formacion": "“Nuestra Señora de la Asuncion” Catholic University Lawyer and Notary (graduated with Distinction) in 2012. LL.M Sports Law and Management - Grant Thornton 2021 ISDE Law Business School Madrid, Spain",
+        "idiomas": "Spanish and English.",
+        "asociaciones": ""
+      },
+      "rberino": {
+        "subtitle": "Attorney-at-Law since 2009.",
+        "adp": "Commercial and Corporate Law.",
+        "formacion": "Universidad Nacional de Asunción: Abogado; Universidad Católica Nuestra Señora de la Asunción: Mediador desde el año 2010.",
+        "idiomas": "Spanish, English",
+        "asociaciones": ""
+      },
+      "lbordon": {
+        "subtitle": "Attorney-at-Law since 2013",
+        "adp": "Derecho Civil, Ejecuciones, Derecho Concursal, Litigios.",
+        "formacion": "Universidad Católica Nuestra Señora de la Asunción, Regional Asunción: Abogado.",
+        "idiomas": "Español y Portugués",
+        "asociaciones": ""
+      },
+      "jsilvero": {
+        "subtitle": "Attorney-at-Law since 2013",
+        "adp": "Labour Law and Social Security, Legal Advice on Labour Law and Legal Litigation",
+        "formacion": "Universidad Nacional de Asunción: Lawyer.",
+        "idiomas": "Spanish, English and Chinese (Mandarin)",
+        "asociaciones": ""
+      },
+      "sgomez": {
+        "subtitle": "Attorney-at-Law since 2003",
+        "adp": "Civil Law, Environmental Law, Litigation.",
+        "formacion": "Universidad Nacional de Asunción: Lawyer (2003) and Notary (2004)",
+        "idiomas": "Spanish",
+        "asociaciones": ""
+      },
+      "pguggiari": {
+        "subtitle": "Attorney-at-Law since 2014.",
+        "adp": "Civil Law, Administrative Law, Tax Law and Litigations.",
+        "formacion": "“Nuestra Señora de la Asuncion” Catholic University, Lawyer.",
+        "idiomas": "Spanish.",
+        "asociaciones": ""
+      },
+      "psantiviago": {
+        "subtitle": "Attorney-at-Law since 2016",
+        "adp": "Civil Law and Litigation.",
+        "formacion": "“Nuestra Señora de la Asuncion” Catholic University, Lawyer.",
+        "idiomas": "Spanish, German and English. ",
+        "asociaciones": ""
+      },
+      "pmoreno": {
+        "subtitle": "Attorney-at-Law since 2016",
+        "adp": "Corporate Advice, Health Care Law, and Inmigration Law.",
+        "formacion": "“Nuestra Señora de la Asunción” Catholic University, Asunción: Attorney-at-Law.",
+        "idiomas": "Spanish and English. ",
+        "asociaciones": ""
+      },
+      "amorel": {
+        "subtitle": "Attorney-at-Law since 2016",
+        "adp": "Labor Law and Social Security Law, and Litigations.",
+        "formacion": "San Lorenzo University – Headquarters: Itagua, Abogado.",
+        "idiomas": "Spanish.",
+        "asociaciones": ""
+      },
+      "larce": {
+        "subtitle": "Attorney-at-Law since 2011",
+        "adp": "Health Care Law and Corporate Advice.",
+        "formacion": "Del Norte University, Headquarters: Luque, Lawyer and Notary.",
+        "idiomas": "Spanish and Portuguese.",
+        "asociaciones": ""
+      },
+      "misasi": {
+        "subtitle": "Attorney-at-Law since 2015",
+        "adp": "Civil Law, Litigation and Debt Collections.",
+        "formacion": "“National University of Asunción”, Lawyer.",
+        "idiomas": "Spanish.",
+        "asociaciones": ""
+      },
+      "bspinzi": {
+        "subtitle": "Attorney-at-Law since 2012 ",
+        "adp": "Civil and Commercial Law, Contract Law, Corporate Law.",
+        "formacion": "“National University of Asunción”, Attorney-at-Law (Graduate with Honors)",
+        "idiomas": "Spanish and English.",
+        "asociaciones": ""
+      },
+      "mlivieres": {
+        "subtitle": "Attorney-at-Law since 2017",
+        "adp": "Corporate Law and Contract Law.",
+        "formacion": "“Nuestra Señora de la Asuncion” Catholic University, Lawyer and Notary.",
+        "idiomas": "Spanish and English.",
+        "asociaciones": ""
+      },
+      "mpaats": {
+        "subtitle": "Attorney-at-Law since 2017 ",
+        "adp": "Labor Law and Social Security Law, Corporate Law and Litigations.",
+        "formacion": "“Nuestra Señora de la Asuncion” Catholic University (“Outstanding” Diploma of Honour), Lawyer.",
+        "idiomas": "Spanish and English.",
+        "asociaciones": "Association of Labour Lawyers (AAL)"
+      },
+      "bsosa": {
+        "subtitle": "Attorney-at-Law since 2017 ",
+        "adp": "Corporate Consultancy, Contractual and Corporate Law.",
+        "formacion": "“Nuestra Señora de la Asuncion” Catholic University, Lawyer (Diploma of Distinction) and Notary.",
+        "idiomas": "Spanish and English.",
+        "asociaciones": ""
+      },
+      "apesole": {
+        "subtitle": "Attorney-at-Law since 2017",
+        "adp": "Corporate Advice, Debt Collections and Litigations.",
+        "formacion": "“Nuestra Señora de la Asuncion” Catholic University, Attorney-at-Law.",
+        "idiomas": "Spanish and English.",
+        "asociaciones": ""
+      },
+      "ndossantos": {
+        "subtitle": "Attorney-at-Law since 2018. LL.M.",
+        "adp": "Competition Law, Corporate and Commercial Law, Financial Law, Litigation",
+        "formacion": "Catholic University Nuestra Señora de la Asunción, Lawyer (Honours Diploma “Outstanding”); MJur (Master of Laws), University of Oxford, UK; Diploma in Tort Law, Complutense University of Madrid, Spain.",
+        "idiomas": "Spanish and English.",
+        "asociaciones": "Paraguayan Institute of Law and Economics (IPDE)"
+      },
+      "pmainzhausen": {
+        "subtitle": "Attorney-at-Law since 2018",
+        "adp": "Civil Liability, Civil Liability Insurance Laws and Litigations",
+        "formacion": "“Nuestra Señora de la Asunción” Catholic University, Asunción: Attorney-at-Law (Graduate with Honors).",
+        "idiomas": "Spanish, German and English. ",
+        "asociaciones": ""
+      },
+      "pdoria": {
+        "subtitle": "Attorney-at-Law since 2013, LL.M.",
+        "adp": "Corporate and Commercial Law, Mergers, Acquisitions, Competition Law and Agribusiness.",
+        "formacion": "National University of Asunción, Attorney-at-Law (Graduate with Honors); Queen Mary University of London (2018): LLM (Magister Legum) (Graduate with Honors).",
+        "idiomas": "Spanish and English.",
+        "asociaciones": ""
+      },
+      "aguggiari": {
+        "subtitle": "Attorney-at-Law since 2012",
+        "adp": "Civil Law, Commercial Law and Labor Law.",
+        "formacion": "Graduated from the Catholic University Our Lady of the Assumption (UCA). Diploma in Labor Law and Practice (Instituto Superior de Formación Tributaria y Empresarial -FOTRIEM-, 2015). Occupational Health and Safety Technician (National Professional Promotion Service - SNPP -, 2018).",
+        "idiomas": "Spanish",
+        "asociaciones": ""
+      },
+      "ccoronel": {
+        "subtitle": "Attorney-at-Law since 2019",
+        "adp": "Corporate advice, collections and litigation.",
+        "formacion": "National University of Asunción: Lawyer and Notary Public. ",
+        "idiomas": "Spanish, Italian.",
+        "asociaciones": ""
+      },
+      "bdoria": {
+        "subtitle": "Attorney-at-Law since 2021",
+        "adp": "Labour Law and Social Security, Legal Advice in Labour Law and Legal Litigation.",
+        "formacion": "Universidad Católica Nuestra Señora de la Asunción, Regional Asunción: Lawyer (Distinguished Diploma)",
+        "idiomas": "Spanish and English.",
+        "asociaciones": ""
+      },
+      "hlaguardia": {
+        "subtitle": "Attorney-at-Law since 2021",
+        "adp": "Constitutional Law, Civil Liability Law for Damages, Property Damage Insurance Law and Litigation.",
+        "formacion": "Catholic University of Our Lady of Asunción.",
+        "idiomas": "Spanish and English.",
+        "asociaciones": ""
+      },
+      "afernandez": {
+        "subtitle": "Attorney-at-Law since 2021",
+        "adp": "State Attorney General's Office (Assistant Attorney General), Juvenile Court, Juvenile Prosecutor's Office, Trademarks and Patents (registrations, address changes, name changes).",
+        "formacion": "“Nuestra Señora de la Asuncion” Catholic University, Lawyer  and Notary (Diploma of Distinction).",
+        "idiomas": "Spanish, German and English. ",
+        "asociaciones": ""
+      }
     }
   },
   "gallery": {
