@@ -89,19 +89,19 @@ export const seoData = {
     de: enrichHead({
       url: '/miembros',
       title: 'Staff',
-      description: "Anwälte, Rechtsanwaltsgehilfen und Verwaltung",
+      description: 'Anwälte, Rechtsanwaltsgehilfen und Verwaltung',
     }),
     pt: enrichHead({
       url: '/miembros',
       title: 'Equipe',
-      description: "Advogados, Paralegais e Administração",
+      description: 'Advogados, Paralegais e Administração',
     }),
   },
   '/areas-de-practica': {
     es: enrichHead({
       url: '/areas-de-practica',
       title: 'Áreas de Práctica',
-      description: "Derecho Mercantil y Societario, Inversiones - Derecho Fiscal, Sucesiones, Ofertas Públicas de Venta Cuestiones Administrativas, Propiedad Intelectual",
+      description: 'Derecho Mercantil y Societario, Inversiones - Derecho Fiscal, Sucesiones, Ofertas Públicas de Venta Cuestiones Administrativas, Propiedad Intelectual',
     }),
     en: enrichHead({
       url: '/areas-de-practica',
@@ -111,7 +111,7 @@ export const seoData = {
     de: enrichHead({
       url: '/areas-de-practica',
       title: 'Schwerpunkte',
-      description: "Geschäfts- und Gesellschaftsrecht, Investitionen - Steuerrecht, Erbrecht, öffentliche Angebote, Verwaltungsangelegenheiten, geistiges Eigentum",
+      description: 'Geschäfts- und Gesellschaftsrecht, Investitionen - Steuerrecht, Erbrecht, öffentliche Angebote, Verwaltungsangelegenheiten, geistiges Eigentum',
     }),
     pt: enrichHead({
       url: '/areas-de-practica',
@@ -139,7 +139,7 @@ export const seoData = {
       url: '/blog',
       title: 'Publicações e Notícias',
       description: 'Die Sociedad Constructora Chaco engagiert sich für die Gemeinschaft. Deshalb führen wir ständig gemeinsame Aktivitäten mit den lokalen Behörden durch, um die Entwicklung der Bürgerschaft zu fördern.',
-    })
+    }),
   },
   '/galeria': {
     es: enrichHead({
@@ -162,5 +162,5 @@ export const seoData = {
       title: 'Galeria de Arte Livieres Guggiari',
       description: 'Uma coleção de obras de arte selecionadas, exibidas em nossos escritórios, que queremos partilhar com vocês.',
     }),
-  }
+  },
 }
