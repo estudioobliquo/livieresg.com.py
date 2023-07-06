@@ -64,18 +64,21 @@
       "us4": "Unser professionelles Management handelt mit absoluter Integrität, Loyalität, Sorgfalt, Vertraulichkeit und Verantwortung bei der Erfüllung der erhaltenen Mandate, Faktoren, auf die wir besonderen Wert legen und die uns in der ständigen Entwicklung der Rechtswelt auf dem Laufenden halten, um ein festes und vollständiges Engagement für unsere Kunden zu gewährleisten."
     },
     "adp": {
-      "Derecho Comercial y Societario": "Handels- und Gesellschaftsrecht",
-      "Inversiones - Derecho Tributario": "Investitionen - Steuerrecht",
-      "Sucesiones": "Erbschaften",
-      "Asuntos Administrativos": "Verwaltungsangelegenheiten, Öffentliche Ausschreibungen",
-      "Derecho Cooperativo y Mutual": "Genossenschafts- und Gegenseitigkeitsrecht",
-      "Derecho Bancario y Cumplimiento": "Bank- und Finanzrecht",
-      "Derecho Ambiental": "Umweltrecht",
-      "Propiedad Intelectual": "Geistiges Eigentum",
-      "Derecho Medico": "Medizinisches Recht",
-      "Asuntos Laborales": "Arbeitsrecht",
-      "Litigios y Procesos": "Rechtsstreitigkeiten und Prozesse",
-      "Agua, Energia y Mineria": "Wasser, Energie und Bergbau"
+      "title": {
+        "derechoComercialYSocietario": "Handels- und Gesellschaftsrecht",
+        "inversionesDerechoTributario": "Investitionen - Steuerrecht",
+        "sucesiones": "Erbschaften",
+        "asuntosAdministrativos": "Verwaltungsangelegenheiten, Öffentliche Ausschreibungen",
+        "derechoCooperativoYMutual": "Genossenschafts- und Gegenseitigkeitsrecht",
+        "derechoBancarioYCumplimiento": "Bank- und Finanzrecht",
+        "derechoAmbiental": "Umweltrecht",
+        "propiedadIntelectual": "Geistiges Eigentum",
+        "derechoMedico": "Medizinisches Recht",
+        "asuntosLaborales": "Arbeitsrecht",
+        "litigiosYProcesos": "Rechtsstreitigkeiten und Prozesse",
+        "aguaEnergiaYMineria": "Wasser, Energie und Bergbau"
+      },
+      "content": {}
     }
   },
   "gallery": {
