@@ -69,17 +69,19 @@ const isCurrentLanguage = computed(() => {
 <style lang="scss">
 .container-menu {
   .svg {
-    display: block;
-    cursor: pointer;
     z-index: 99;
+
     /* Para que la zona clickable sea más grande */
     box-sizing: content-box;
-    padding: 5px 0 5px 5px;
+    display: block;
+
     /* Parent element .header is a flex container */
     align-self: center;
+    padding: 5px 0 5px 5px;
+    cursor: pointer;
   }
 
-  @media screen and (min-width: 1000px) {
+  @media screen and (width >= 1000px) {
     .svg {
       display: none;
     }
@@ -102,7 +104,7 @@ const isCurrentLanguage = computed(() => {
     }
 
     100% {
-      left: 0px;
+      left: 0;
     }
   }
 
@@ -114,7 +116,7 @@ const isCurrentLanguage = computed(() => {
 
   @keyframes closeSideDrawer {
     0% {
-      left: 0px;
+      left: 0;
     }
 
     100% {
@@ -124,27 +126,31 @@ const isCurrentLanguage = computed(() => {
 
   /* The Overlay (background) */
   .overlay {
-    height: 100vh;
-    width: 100vw;
     position: fixed;
-    z-index: 100;
-    left: 0;
     top: 0;
     bottom: 0;
-    padding: 0.5em;
-    background-color: var(--gray-dark);
+    left: 0;
+    z-index: 100;
+
     /* overflow-x: hidden; Disable horizontal scroll */
     float: left;
+    width: 100vw;
+    height: 100vh;
+    padding: 0.5em;
+    background-color: var(--gray-dark);
   }
 
   /* Position the content inside the overlay */
   .overlayContent {
     position: relative;
     top: 15%;
+
     /* 25% from the top */
     width: 75%;
+
     /* 100% width */
     margin: 0 auto;
+
     .router-link-exact-active {
       font-weight: bolder;
       color: white;
@@ -155,15 +161,15 @@ const isCurrentLanguage = computed(() => {
   .overlayContent a,
   .overlayContentSubgr a,
   .closeBtn {
+    display: block;
+    padding: 5px 0;
+    margin-bottom: 25px;
     font-family: "Founders Grotesk";
     font-size: 19px;
-    border: none;
-    margin-bottom: 25px;
-    padding: 5px 0;
-    text-decoration: none;
     font-size: 1.4rem;
     color: #d6d6d6;
-    display: block;
+    text-decoration: none;
+    border: none;
     transition: 0.3s;
   }
 
@@ -173,35 +179,37 @@ const isCurrentLanguage = computed(() => {
   }
 
   .overlayContentSubgr a {
-    font-size: 1.56rem;
     padding-bottom: 25px;
+    font-size: 1.56rem;
   }
 
   .overlayLanguages {
-    text-decoration: none;
     display: flex;
     flex-direction: row;
     margin-top: 5px;
+    text-decoration: none;
+
     .none {
       display: none;
     }
   }
 
   .cambiarIdioma {
-    font-family: "Founders Grotesk", sans-serif;
-    color: rgba(214, 214, 214, 0.65);
-    font-size: 15px;
     display: block;
+
     /* para que el border top no ocupe todo el ancho */
     width: 60%;
     padding-top: 25px;
+    font-family: "Founders Grotesk", sans-serif;
+    font-size: 15px;
+    color: rgb(214 214 214 / 65%);
     border-top: 1px solid #747279;
   }
 
   .overlayContent .overlayLanguages a {
+    padding: 5px 5px 5px 0;
     margin-right: 30px;
     text-decoration: none;
-    padding: 5px 5px 5px 0;
   }
 
   /* Position the close button (top right corner) */
@@ -209,28 +217,28 @@ const isCurrentLanguage = computed(() => {
     position: absolute;
     top: 20px;
     right: 30px;
+    padding: 10px;
     font-size: 60px;
     cursor: pointer;
-    padding: 10px;
   }
 
   /* When the height of the screen is less than 450 pixels, change the font-size
    of the links and position the close button again, so they don't overlap */
-  @media screen and (max-height: 450px) {
+  @media screen and (height <= 450px) {
     .overlay a {
       font-size: 20px;
     }
 
     .overlay .closeBtn {
-      font-size: 40px;
       top: 15px;
       right: 35px;
+      font-size: 40px;
     }
   }
 
   a.active {
     font-weight: bold;
-    color: #ffffff;
+    color: #fff;
   }
 }
 </style>

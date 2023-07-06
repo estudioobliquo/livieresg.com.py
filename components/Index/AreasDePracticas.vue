@@ -54,48 +54,48 @@ const adps = [
 .adpsContainer {
   display: flex;
   flex-wrap: wrap;
+  column-gap: 120px;
   justify-content: center;
   margin-top: 40px;
-  column-gap: 120px;
 }
 
 .adpContainer {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   margin-top: 30px;
 }
 
 .adpContainer .svg {
-  transform: scale(1.3);
   margin-bottom: 10px;
+  transform: scale(1.3);
 }
 
 .adpContainer h3 {
-  font-size: 20px;
   max-width: 180px;
-  text-align: center;
   font-family: "Founders Grotesk";
+  font-size: 20px;
+  text-align: center;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (width >= 900px) {
   .mainContainer {
     margin-bottom: 120px;
   }
 
   .mainContainer h2:first-child {
+    padding-bottom: 20px;
     text-align: left;
     border-bottom: 1px solid var(--main-color-light);
-    padding-bottom: 20px;
   }
 
   .adpsContainer {
+    column-gap: 50px;
     justify-content: space-evenly;
     width: 78%;
     max-width: 1200px;
     margin: 0 auto;
-    column-gap: 50px;
   }
 }
 </style>

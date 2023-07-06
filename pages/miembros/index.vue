@@ -13,15 +13,15 @@
       v-if="filteredDatosAbogados.length
         || filteredDatosPartners.length "
     >
-    {{$t(`staff.atto`)}}    </h1>
-
+      {{ $t(`staff.atto`) }}
+    </h1>
 
     <!-- Partners -->
     <div class="partnersCont">
       <div v-for="partners in filteredDatosPartners" :key="partners.id" class="miembroCont">
         <div class="imgCont">
           <NuxtLink class="masinfo" :to="'/miembros/'+partners.slug ">
-            <img :src="(partners.foto)" >
+            <img :src="(partners.foto)">
           </NuxtLink>
           <!-- {{ partners.foto }} -->
         </div>
@@ -34,14 +34,13 @@
           </a>
         </div>
         <NuxtLink class="masinfo" :to="'/miembros/' + partners.slug ">
-          {{$t(`atom.information`)}}
+          {{ $t(`atom.information`) }}
         </NuxtLink>
       </div>
     </div>
 
     <!-- Abogados!! -->
     <div class="abogadosCont">
-     
       <div v-for="abogados in filteredDatosAbogados" :key="abogados.id" class="miembroCont">
         <div class="imgCont">
           <NuxtLink class="masinfo" to="">
@@ -57,14 +56,14 @@
           </a>
         </div>
         <NuxtLink class="masinfo" :to="'/miembros/' + abogados.slug ">
-          {{$t(`atom.information`)}}
+          {{ $t(`atom.information`) }}
         </NuxtLink>
       </div>
     </div>
 
     <!-- Paralegales -->
     <h1 v-if="filteredDatosParalegales.length">
-      {{$t(`staff.paralegals`)}} 
+      {{ $t(`staff.paralegals`) }}
     </h1>
     <div class="paralegalesCont">
       <div
@@ -90,7 +89,7 @@
 
     <!-- Administracion -->
     <h1 v-if="filteredDatosAdmin.length">
-      {{$t(`staff.administration`)}} 
+      {{ $t(`staff.administration`) }}
     </h1>
     <div class="administracionCont">
       <div v-for="admin in filteredDatosAdmin" :key="admin.slug" class="miembroCont">
@@ -111,6 +110,7 @@
 </template>
 
 <script>
+import { onMounted, reactive } from 'vue'
 import {
   ES,
   abogados,
@@ -118,8 +118,7 @@ import {
   paralegales,
   administracion,
 } from '../../assets/dataMiembros.js'
-import { onMounted, reactive } from "vue";
-definePageMeta({  layout: "central",});
+definePageMeta({ layout: 'central' })
 
 export default {
   layout: 'layoutCentral',
@@ -136,10 +135,12 @@ export default {
   computed: {
     filteredDatosAbogados () {
       return this.datosAbogados
+
       if (this.$store.state.page.query) {
-      return this.datosAbogados.filter((item) => {
-        return item.nombre.toLowerCase().includes(this.$store.state.page.query)
-      })} 
+        return this.datosAbogados.filter((item) => {
+          return item.nombre.toLowerCase().includes(this.$store.state.page.query)
+        })
+      }
       else {
         return this.datosAbogados
       }
@@ -148,9 +149,10 @@ export default {
       return this.datosPartners
 
       if (this.$store.state.page.query) {
-      return this.datosPartners.filter((item) => {
-        return item.nombre.toLowerCase().includes(this.$store.state.page.query)
-      })}
+        return this.datosPartners.filter((item) => {
+          return item.nombre.toLowerCase().includes(this.$store.state.page.query)
+        })
+      }
       else {
         return this.datosPartners
       }
@@ -159,9 +161,10 @@ export default {
       return this.datosParalegales
 
       if (this.$store.state.page.query) {
-      return this.datosParalegales.filter((item) => {
-        return item.nombre.toLowerCase().includes(this.$store.state.page.query)
-      })}
+        return this.datosParalegales.filter((item) => {
+          return item.nombre.toLowerCase().includes(this.$store.state.page.query)
+        })
+      }
       else {
         return this.datosParalegales
       }
@@ -170,9 +173,10 @@ export default {
       return this.datosAdmin
 
       if (this.$store.state.page.query) {
-      return this.datosAdmin.filter((item) => {
-        return item.nombre.toLowerCase().includes(this.$store.state.page.query)
-      })}
+        return this.datosAdmin.filter((item) => {
+          return item.nombre.toLowerCase().includes(this.$store.state.page.query)
+        })
+      }
       else {
         return this.datosAdmin
       }
@@ -186,12 +190,12 @@ export default {
 .miembros-container{
 .miembroCont {
   display: grid;
-  grid-template-columns: 39% calc(61% - 12px);
   grid-template-rows: 86% 14%;
+  grid-template-columns: 39% calc(61% - 12px);
   column-gap: 12px;
-  margin-bottom: 40px;
   padding-bottom: 13px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.23);
+  margin-bottom: 40px;
+  border-bottom: 1px solid rgb(0 0 0 / 23%);
 }
 
 .imgCont{
@@ -200,17 +204,11 @@ export default {
 }
 
 .imgCont img{
-  object-fit: cover;
   max-width: 100%;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  margin-bottom: 1.45rem;
   max-height: 338px;
+  padding: 0;
+  margin: 0 0 1.45rem;
+  object-fit: cover;
 }
 
 .partnersCont .imgCont:hover,
@@ -220,13 +218,13 @@ export default {
 }
 
 .miembroCont h2 {
+  margin-bottom: 5px;
   font-family: "Founders Grotesk", sans-serif;
+  font-size: 1.25rem;
   font-style: normal;
   font-weight: medium;
-  font-size: 1.25rem;
   line-height: 128.2%;
   letter-spacing: 0;
-  margin-bottom: 5px;
 }
 
 .miembroCont a[href^="mailto:"] {
@@ -236,14 +234,14 @@ export default {
 }
 
 .masinfo {
+  align-self: end;
+  justify-self: end;
+  width: fit-content;
   font-size: 13px;
-  text-transform: uppercase;
   color: var(--main-color);
   text-decoration: none;
+  text-transform: uppercase;
   letter-spacing: 0.03em;
-  width: fit-content;
-  justify-self: end;
-  align-self: end;
   transition: color 0.2s;
 }
 
@@ -252,7 +250,7 @@ export default {
   transition: color 0.2s;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (width >= 768px) {
   .partnersCont,
   .abogadosCont,
   .administracionCont,
@@ -269,11 +267,11 @@ export default {
   }
 
   .miembroCont {
-    grid-template-columns: initial;
     grid-template-rows: initial;
+    grid-template-columns: initial;
+    max-width: 238px;
     padding: 0;
     margin: 0 0 60px;
-    max-width: 238px;
   }
 
   .imgCont {
@@ -297,8 +295,8 @@ export default {
   }
 
   .miembroCont h2 {
-    font-size: 1.2rem;
     margin: 0;
+    font-size: 1.2rem;
   }
 }}
 </style>

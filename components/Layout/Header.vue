@@ -62,21 +62,21 @@ const isCurrentLanguage = computed(() => {
 </script>
 
 <style>
-@media only screen and (min-width: 1000px) {
+@media only screen and (width >= 1000px) {
   .mobileHeader {
     display: none;
   }
 }
 
 .header {
-  margin-bottom: 50px;
   display: flex;
   flex-direction: row;
-  width: 86%;
-  justify-content: space-between;
   align-items: center;
-  margin: 0 auto 50px;
+  justify-content: space-between;
+  width: 86%;
   padding: 25px 0 0;
+  margin: 0 auto 50px;
+  margin-bottom: 50px;
 }
 
 .subcont1 {
@@ -85,8 +85,8 @@ const isCurrentLanguage = computed(() => {
 }
 
 .subcont2 {
-  padding-top: 10px;
   max-width: 1050px;
+  padding-top: 10px;
 }
 
 .logoContainer2 {
@@ -99,21 +99,21 @@ const isCurrentLanguage = computed(() => {
 }
 
 .buscadorContainer {
+  display: flex;
+  align-items: center;
   width: 100%;
   max-width: 30px;
   margin-right: 25px;
-  display: flex;
-  align-items: center;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (width >= 1000px) {
   .header {
+    justify-content: center;
     width: 100%;
     padding: 30px 0 0;
-    margin-left: auto;
     margin-right: auto;
-    justify-content: center;
     margin-bottom: 44px;
+    margin-left: auto;
   }
 
   .subcont1 {
@@ -121,16 +121,16 @@ const isCurrentLanguage = computed(() => {
   }
 
   .subcont2 {
-    width: 70%;
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    width: 70%;
     padding-right: 8%;
   }
 
   .logoContainer2 {
-    max-width: 200px;
     width: 100%;
+    max-width: 200px;
     margin: 0 auto;
   }
 
@@ -139,7 +139,7 @@ const isCurrentLanguage = computed(() => {
   }
 }
 
-@media only screen and (min-width: 1500px) {
+@media only screen and (width >= 1500px) {
   .subcont2 {
     padding: 0 50px 0 0;
   }
@@ -152,11 +152,11 @@ const isCurrentLanguage = computed(() => {
 }
 
 .languagesContainer a {
-  color: #6a7476;
   margin-left: 30px;
+  font-size: 19px;
+  color: #6a7476;
   text-decoration: none;
   transition: color 0.2s;
-  font-size: 19px;
 }
 
 .languagesContainer a:hover {
@@ -164,7 +164,7 @@ const isCurrentLanguage = computed(() => {
   transition: color 0.2s;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (width >= 1000px) {
   .languagesContainer {
     display: block;
     align-self: center;
@@ -172,23 +172,23 @@ const isCurrentLanguage = computed(() => {
 }
 
 .closeBtn {
+  display: block;
+  padding: 5px 0;
+  margin-bottom: 25px;
   font-family: "Founders Grotesk";
   font-size: 19px;
-  border: none;
-  margin-bottom: 25px;
-  padding: 5px 0;
-  text-decoration: none;
   font-size: 1.375rem;
   color: #d6d6d6;
-  display: block;
+  text-decoration: none;
+  border: none;
   transition: 0.3s;
 }
 
-@media screen and (max-height: 450px) {
+@media screen and (height <= 450px) {
   .closeBtn {
-    font-size: 40px;
     top: 15px;
     right: 35px;
+    font-size: 40px;
   }
 }
 
