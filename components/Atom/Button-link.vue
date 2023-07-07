@@ -19,12 +19,13 @@ export default {
 
 <style lang="scss">
   .buttonLink {
-  text-decoration: none;
-  color: white;
-  background-color: var(--main-color);
   padding: 10px 20px 12px;
+  color: white;
+  text-decoration: none;
+  background-color: var(--main-color);
   transition: background-color 0.25s;
-    @media screen and (min-width: 1000px) {
+
+    @media screen and (width >= 1000px) {
       font-size: 20px;
     }
   }

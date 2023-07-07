@@ -84,6 +84,8 @@ export default {
   max-width: 450px;
   position: initial;
   top: 40px;
+  width: 30%;
+  max-width: 450px;
   height: fit-content;
 }
 
@@ -94,21 +96,21 @@ export default {
 }
 
 /* Mobile Styles */
-@media screen and (max-width: 1000px) {
+@media screen and (width <= 1000px) {
   .navContainer {
-    display: none;
     position: absolute;
+    display: none;
   }
 
   .mainContainer {
     width: 86%;
-    margin: 0 auto;
     padding: 0;
+    margin: 0 auto;
   }
 }
 
 /* Large Screen Styles */
-@media screen and (min-width: 1500px) {
+@media screen and (width >= 1500px) {
   .layoutWrapper {
     justify-content: center;
   }
@@ -120,11 +122,12 @@ export default {
 }
 
 /* Gallery */
+
 /* TODO: mover a layout para galeria */
 .galleryLayoutWrapper {
   width: 86%;
-  margin: 0 auto;
-  padding: 0;
   max-width: 1340px;
+  padding: 0;
+  margin: 0 auto;
 }
 </style>

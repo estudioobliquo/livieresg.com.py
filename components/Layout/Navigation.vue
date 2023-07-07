@@ -37,16 +37,13 @@
   }
 
   .navigation-links {
-    padding: 30px 0 30px 30px;
-    margin: 0 auto 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     width: 76%;
-    height: 375px;
     max-width: 300px;
-    background-color: var(--gray-dark);
-    padding-left: 30px;
+    height: 375px;
+    padding: 30px 0 30px 30px;
     padding-top: 30px;
 
     a {
@@ -76,11 +73,13 @@
     flex-direction: column;
     justify-content: space-around;
     width: 76%;
-    height: max-content;
     max-width: 300px;
-    background-color: var(--gray-dark);
-    padding-left: 30px;
+    height: max-content;
+  padding: 30px 0 30px 30px;
     padding-top: 30px;
+    padding-left: 30px;
+    margin: 0 auto 15px;
+    background-color: var(--gray-dark);
   }
 }
 </style>
