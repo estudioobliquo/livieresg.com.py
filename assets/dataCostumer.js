@@ -42,15 +42,11 @@ export const dataFullCostumers =
       },
       {
         id: 2,
-        image: 'grupo-rahal.png',
-      },
-      {
-        id: 2,
         image: 'grupo-san-roque.png',
       },
       {
         id: 2,
-        image: 'grupo-solid.png',
+        image: 'grupo-rahal.png',
       },
       {
         id: 2,
@@ -79,10 +75,6 @@ export const dataFullCostumers =
       {
         id: 2,
         image: 'montania.png',
-      },
-      {
-        id: 2,
-        image: 'msg.png',
       },
       {
         id: 2,
@@ -130,6 +122,10 @@ export const dataFullCostumers =
       },
       {
         id: 2,
+        image: 'grupo-solid.png',
+      },
+      {
+        id: 2,
         image: 'telenet.png',
       },
       {
@@ -148,6 +144,5 @@ export const dataFullCostumers =
         id: 2,
         image: 'yaguarete.png',
       },
-
     ],
   }

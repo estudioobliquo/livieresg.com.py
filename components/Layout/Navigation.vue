@@ -1,7 +1,7 @@
 <template>
   <div class="navigation">
     <div id="menu" class="navigation-links">
-      <NuxtLink to="/">
+      <NuxtLink :to="localePath('/')">
         {{ $t(`menu.home`) }}
       </NuxtLink>
       <NuxtLink :to="localePath('/nosotros')">
@@ -26,15 +26,11 @@
     </div>
   </div>
 </template>
-<script>
-export default {
-
-}
+<script setup lang="ts">
 </script>
 
-  <style lang="scss">
-
-.navigation{
+<style lang="scss">
+.navigation {
   .imgContainer {
     width: 135px;
     margin-bottom: 30px;
@@ -49,31 +45,28 @@ export default {
     height: 375px;
     padding: 30px 0 30px 30px;
     padding-top: 30px;
-    padding-left: 30px;
-    margin: 0 auto 15px;
-    background-color: var(--gray-dark);
 
     a {
-    padding: 0;
-    font-size: 1.1rem;
-    font-weight: normal;
-    color: #d6d6d6;
-    text-decoration: none;
-    transition: color 0.2s;
-    }
-
-    a:hover {
-      color:#fff;
+      padding: 0;
+      font-size: 1.1rem;
+      font-weight: normal;
+      color: #d6d6d6;
+      text-decoration: none;
       transition: color 0.2s;
     }
 
-//   a.router-link-exact-active {
-//     font-weight: bold;
-// }
+    a:hover {
+      color: #fff;
+      transition: color 0.2s;
+    }
 
-}
+    a.router-link-exact-active {
+      font-weight: bold;
+      color: white;
+    }
+  }
 
-.buscadorMenuCont {
+  .buscadorMenuCont {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -86,7 +79,5 @@ export default {
     margin: 0 auto 15px;
     background-color: var(--gray-dark);
   }
-
 }
-
-  </style>
+</style>

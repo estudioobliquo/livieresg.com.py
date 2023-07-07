@@ -2,11 +2,11 @@
   <div>
     <!-- <transition name="fade"> -->
     <div class="mobileHeader">
-      <LayoutMenu v-show="showMobileMenu" @closeMobileMenu="showMobileMenu = false" />
+      <LayoutMenu :menu-active="showMobileMenu" @closeMobileMenu="showMobileMenu = false" />
     </div>
 
     <!-- </transition> -->
-    <LayoutHeader v-show="!showMobileMenu" @showMobileMenu="showMobileMenu = true" />
+    <LayoutHeader @click="showMobileMenu = true" />
     <div class="layoutWrapper">
       <div class="navContainer">
         <LayoutNavigation />
@@ -50,27 +50,29 @@ export default {
 </script>
 
 <style scoped>
+.fade-enter-from {
+  opacity: 0;
+}
 
-    .fade-enter-from{
-      opacity: 0;
-    }
+.fade- -to {
+  opacity: 1;
+}
 
-    .fade- -to{
-      opacity: 1;
-    }
+.fade-enter-active {
+  transition: all 2s ease;
+}
 
-    .fade-enter-active{
-      transition: all 2s ease;
-    }
+.fade-leave-from {}
 
-    .fade-leave-from{}
-    .fade-leave-to{}
-    .fade-leave-active{}
+.fade-leave-to {}
+
+.fade-leave-active {}
 
 @media only screen and (width >= 1000px) {
-    .mobileHeader {
-      display: none;
-    }}
+  .mobileHeader {
+    display: none;
+  }
+}
 
 .layoutWrapper {
   display: flex;
@@ -78,7 +80,7 @@ export default {
 }
 
 .navContainer {
-  position: sticky;
+  position: initial;
   top: 40px;
   width: 30%;
   max-width: 450px;
@@ -113,6 +115,7 @@ export default {
 
   .mainContainer {
     padding: 0 50px 0 0;
+    margin-bottom: 0;
   }
 }
 
@@ -125,5 +128,4 @@ export default {
   padding: 0;
   margin: 0 auto;
 }
-
-  </style>
+</style>

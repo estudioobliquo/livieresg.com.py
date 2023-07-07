@@ -1,10 +1,10 @@
 <template>
   <div class="main">
-    <h2 class="workWith">
+    <h2 class="workWith" :class="{ workWith2: !isIndex }">
       {{ $t(`index.workWith`) }}
     </h2>
-    <div class="costumersContainer">
-      <div v-for="(img, index) in costumers" :key="index" class="costumerImageContainer" :class="{ full: !isIndex }">
+    <div class="costumersContainer" :class="{ full: !isIndex }">
+      <div v-for="(img, index) in costumers" :key="index" class="costumerImageContainer">
         <nuxt-img :src="`/img/costumers/` + (img.image)" format="webp" loading="lazy" :alt="img.image.split('.')[0]" />
       </div>
     </div>
@@ -53,13 +53,18 @@ export default {
     text-align: center;
     border: none;
   }
+
+  .workWith2:first-of-type {
+    font-size: 1.56rem;
+    text-align: left;
+    letter-spacing: .03em;
+  }
 }
 
 .main h2 {
   padding-bottom: 20px;
   text-align: left;
   border-bottom: 1px solid var(--main-color-light);
-
 }
 
 .buttonContainer {
@@ -95,9 +100,6 @@ export default {
     opacity: 0.7;
     transition: filter 0.5s, opacity 0.5s;
     object-fit: contain;
-
-    img {}
-
   }
 
   .costumerImageContainer>div {
@@ -118,9 +120,16 @@ export default {
     margin-bottom: 120px;
 
     .workWith {
-    padding-bottom: 20px;
-    text-align: left;
-    border-bottom: 1px solid var(--main-color-light);
+      padding-bottom: 20px;
+      text-align: left;
+      border-bottom: 1px solid var(--main-color-light);
+    }
+
+    .workWith2:first-of-type {
+      padding-bottom: 0;
+      margin-bottom: 40px;
+      font-size: 34px;
+      border: none;
     }
   }
 
@@ -133,13 +142,14 @@ export default {
     margin: 0 auto;
   }
 
-  .main.full .costumersContainer {
+  .main .costumersContainer.full {
     column-gap: 80px;
     justify-content: space-evenly;
     width: 100%;
+    margin: 0;
   }
 
-  .main.full .costumersContainer .costumerImageContainer {
+  .main .costumersContainer.full .costumerImageContainer {
     width: 100px;
     height: 50px;
   }
