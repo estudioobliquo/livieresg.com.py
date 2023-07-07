@@ -12,6 +12,7 @@
     <h1
       v-if="filteredDatosAbogados.length
         || filteredDatosPartners.length "
+      class="title-occupation"
     >
       {{ $t(`staff.atto`) }}
     </h1>
@@ -21,7 +22,7 @@
       <div v-for="partners in filteredDatosPartners" :key="partners.id" class="miembroCont">
         <div class="imgCont">
           <NuxtLink class="masinfo" :to="'/miembros/'+partners.slug ">
-            <img :src="(partners.foto)">
+            <nuxt-img :src="`/img/miembros/${partners.foto}`" loading="lazy" format="webp" />
           </NuxtLink>
           <!-- {{ partners.foto }} -->
         </div>
@@ -44,7 +45,7 @@
       <div v-for="abogados in filteredDatosAbogados" :key="abogados.id" class="miembroCont">
         <div class="imgCont">
           <NuxtLink class="masinfo" to="">
-            <img :src="(abogados.foto)">
+            <nuxt-img :src="`/img/miembros/${abogados.foto}`" loading="lazy" format="webp" />
           </NuxtLink>
         </div>
         <div class="subcont">
@@ -62,7 +63,7 @@
     </div>
 
     <!-- Paralegales -->
-    <h1 v-if="filteredDatosParalegales.length">
+    <h1 v-if="filteredDatosParalegales.length" class="title-occupation">
       {{ $t(`staff.paralegals`) }}
     </h1>
     <div class="paralegalesCont">
@@ -72,7 +73,7 @@
         class="miembroCont"
       >
         <div class="imgCont">
-          <img :src="(paralegales.foto)">
+          <nuxt-img :src="`/img/miembros/${paralegales.foto}`" loading="lazy" format="webp" />
         </div>
         <div class="subcont">
           <h2 class="nombre">
@@ -88,13 +89,13 @@
     </div>
 
     <!-- Administracion -->
-    <h1 v-if="filteredDatosAdmin.length">
+    <h1 v-if="filteredDatosAdmin.length" class="title-occupation">
       {{ $t(`staff.administration`) }}
     </h1>
     <div class="administracionCont">
       <div v-for="admin in filteredDatosAdmin" :key="admin.slug" class="miembroCont">
         <div class="imgCont">
-          <img :src="(admin.foto)">
+          <nuxt-img :src="`/img/miembros/${admin.foto}`" loading="lazy" format="webp" />
         </div>
         <div class="subcont">
           <h2 class="nombre">
@@ -110,14 +111,13 @@
 </template>
 
 <script>
-import { onMounted, reactive } from 'vue'
 import {
   ES,
   abogados,
   partners,
   paralegales,
   administracion,
-} from '../../assets/dataMiembros.js'
+} from '@/assets/dataMiembros.js'
 definePageMeta({ layout: 'central' })
 
 export default {
@@ -186,6 +186,9 @@ export default {
 </script>
 
 <style lang="scss" >
+.title-occupation {
+  font-size: 1.56rem;
+}
 
 .miembros-container{
 .miembroCont {
@@ -207,7 +210,6 @@ export default {
   max-width: 100%;
   max-height: 338px;
   padding: 0;
-  margin: 0 0 1.45rem;
   object-fit: cover;
 }
 
@@ -217,7 +219,7 @@ export default {
   transition: filter 0.2s;
 }
 
-.miembroCont h2 {
+.miembroCont .nombre {
   margin-bottom: 5px;
   font-family: "Founders Grotesk", sans-serif;
   font-size: 1.25rem;
