@@ -62,9 +62,6 @@ const isOpen = ref(false)
   border: none;
   outline: none;
   transition: background-color 0.2s linear;
-  transition: background-color 0.2s linear;
-  transition: background-color 0.2s linear;
-  transition: background-color 0.2s linear;
 }
 
 .titulo p {
@@ -73,7 +70,7 @@ const isOpen = ref(false)
 
 /* max-width de 23 caracteres. Para que el titulo no toque a la flecha */
 @media only screen and (width <= 475px) {
-  .adp span {
+  .adp p {
     display: block;
     max-width: 23ch;
   }
