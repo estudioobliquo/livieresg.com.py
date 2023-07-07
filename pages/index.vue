@@ -26,16 +26,16 @@
           <a href="#footer">{{ $t(`menu.contact`) }}</a>
         </nav>
         <div class="languagesCont">
-          <NuxtLink :to="switchLocalePath('es')" :class="{none: isCurrentLanguage('es')}">
+          <NuxtLink :to="switchLocalePath('es')" :class="{ none: isCurrentLanguage('es') }">
             Español
           </NuxtLink>
-          <NuxtLink :to="switchLocalePath('en')" :class="{none: isCurrentLanguage('en')}">
+          <NuxtLink :to="switchLocalePath('en')" :class="{ none: isCurrentLanguage('en') }">
             English
           </NuxtLink>
-          <NuxtLink :to="switchLocalePath('de')" :class="{none: isCurrentLanguage('de')}">
+          <NuxtLink :to="switchLocalePath('de')" :class="{ none: isCurrentLanguage('de') }">
             Deutsch
           </NuxtLink>
-          <NuxtLink :to="switchLocalePath('pt')" :class="{none: isCurrentLanguage('pt')}">
+          <NuxtLink :to="switchLocalePath('pt')" :class="{ none: isCurrentLanguage('pt') }">
             Português
           </NuxtLink>
         </div>
@@ -75,8 +75,7 @@ const isCurrentLanguage = computed(() => {
 </script>
 
 <style lang="scss">
-
-@media only screen and (min-width: 1000px) {
+@media only screen and (width >=1000px) {
   .mobileHeader {
     display: none;
   }
@@ -97,19 +96,18 @@ const isCurrentLanguage = computed(() => {
   }
 
   .languagesCont .active {
-    color: chartreuse;
     font-weight: bolder;
+    color: chartreuse;
   }
 
-  @media only screen and (min-width: 1000px) {
-
+  @media only screen and (width >=1000px) {
     .mobileImgCont {
       display: none;
     }
 
     .desktopHeader {
-      display: block;
       position: relative;
+      display: block;
       margin-top: 4vw;
       margin-bottom: 100px;
     }
@@ -123,26 +121,26 @@ const isCurrentLanguage = computed(() => {
     }
 
     nav::before {
-      content: "";
       display: block;
       width: 80%;
-      border-bottom: 2px solid #ffffff;
       margin-bottom: 30px;
+      content: "";
+      border-bottom: 2px solid #fff;
     }
 
     nav a {
+      width: fit-content;
       padding: 5px;
       margin-bottom: 35px;
-      text-decoration: none;
-      font-weight: normal;
       font-size: 1.290rem;
-      color: #ffffff;
+      font-weight: normal;
+      color: #fff;
+      text-decoration: none;
       transition: color 0.2s;
-      width: fit-content;
     }
 
     nav a:hover {
-      color: hsl(0, 1%, 69%);
+      color: hsl(0deg 1% 69%);
       transition: color 0.2s;
     }
 
@@ -152,17 +150,17 @@ const isCurrentLanguage = computed(() => {
       right: 40px;
 
       a {
-        text-decoration: none;
-        font-weight: normal;
-        font-size: 1.25rem;
-        color: #ffffff;
-        transition: color 0.2s;
         padding: 5px;
         margin-left: 30px;
+        font-size: 1.25rem;
+        font-weight: normal;
+        color: #fff;
+        text-decoration: none;
+        transition: color 0.2s;
       }
 
       a:hover {
-        color: hsl(0, 1%, 69%);
+        color: hsl(0deg 1% 69%);
         transition: color 0.2s;
       }
 
