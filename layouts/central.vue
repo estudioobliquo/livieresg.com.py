@@ -68,7 +68,7 @@ export default {
 
 .fade-leave-active {}
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (width >= 1000px) {
   .mobileHeader {
     display: none;
   }
@@ -80,8 +80,6 @@ export default {
 }
 
 .navContainer {
-  width: 30%;
-  max-width: 450px;
   position: initial;
   top: 40px;
   width: 30%;
@@ -116,8 +114,8 @@ export default {
   }
 
   .mainContainer {
-    margin-bottom: 0;
     padding: 0 50px 0 0;
+    margin-bottom: 0;
   }
 }
 

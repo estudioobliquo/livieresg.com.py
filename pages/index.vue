@@ -26,16 +26,16 @@
           <a href="#footer">{{ $t(`menu.contact`) }}</a>
         </nav>
         <div class="languagesCont">
-          <NuxtLink :to="switchLocalePath('es')" :class="{none: isCurrentLanguage('es')}">
+          <NuxtLink :to="switchLocalePath('es')" :class="{ none: isCurrentLanguage('es') }">
             Español
           </NuxtLink>
-          <NuxtLink :to="switchLocalePath('en')" :class="{none: isCurrentLanguage('en')}">
+          <NuxtLink :to="switchLocalePath('en')" :class="{ none: isCurrentLanguage('en') }">
             English
           </NuxtLink>
-          <NuxtLink :to="switchLocalePath('de')" :class="{none: isCurrentLanguage('de')}">
+          <NuxtLink :to="switchLocalePath('de')" :class="{ none: isCurrentLanguage('de') }">
             Deutsch
           </NuxtLink>
-          <NuxtLink :to="switchLocalePath('pt')" :class="{none: isCurrentLanguage('pt')}">
+          <NuxtLink :to="switchLocalePath('pt')" :class="{ none: isCurrentLanguage('pt') }">
             Português
           </NuxtLink>
         </div>
@@ -75,8 +75,7 @@ const isCurrentLanguage = computed(() => {
 </script>
 
 <style lang="scss">
-
-@media only screen and (width >= 1000px) {
+@media only screen and (width >=1000px) {
   .mobileHeader {
     display: none;
   }
@@ -101,7 +100,7 @@ const isCurrentLanguage = computed(() => {
     color: chartreuse;
   }
 
-  @media only screen and (width >= 1000px) {
+  @media only screen and (width >=1000px) {
     .mobileImgCont {
       display: none;
     }
