@@ -1,92 +1,96 @@
 <template>
   <div class="slug-container">
     <AtomVolver-Atras text="atom.goBack" to="/miembros" />
-      <div v-for="partners in datosPartners" :key="partners.id" >
-        <div v-if="partners.slug === $route.params.slug">
+    <div v-for="partners in datosPartners" :key="partners.id">
+      <div v-if="partners.slug === $route.params.slug">
         <div class="container">
-            <div class="flexcont">
-                <div class="imgCont">
-                    <img :src="(partners.foto)">
-
-                </div>
-                <div class="subcont">
-                    <h1>{{ partners.nombre }}</h1>
-                    <h2>{{ partners.subtitle }}</h2>
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer">
-                        {{partners.mail }}
-                    </a>
-                    <h3>{{$t(`staff.slug.areas`)}}</h3>
-                    <div>
-                        <p v-if="$route.path.includes('pt')">{{partners.PTadp}}</p>
-                        <p v-else>{{partners.adp}}</p>
-
-                    </div> 
-                    
-                    <h3>{{$t(`staff.slug.education`)}}  </h3>
-                    <p>{{partners.formacion}}</p>
-                    <div v-if="partners.experiencia">
-                        <h3>{{$t(`staff.slug.experiencia`)}} </h3>
-                        <p>{{partners.experiencia}}</p>
-                    </div>
-                    <h3>{{$t(`staff.slug.languages`)}} </h3>
-                    <p>{{partners.idiomas}}</p>    
-                    <div v-if="partners.asociaciones">
-                        <h3>{{$t(`staff.slug.members`)}} </h3>
-                        <p>{{partners.asociaciones}}</p>
-                    </div> 
-                </div>
+          <div class="flexcont">
+            <div class="imgCont">
+              <img :src="(partners.foto)">
             </div>
+            <div class="subcont">
+              <h1>{{ partners.nombre }}</h1>
+              <h2>{{ partners.subtitle }}</h2>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {{ partners.mail }}
+              </a>
+              <h3>{{ $t(`staff.slug.areas`) }}</h3>
+              <div>
+                <p v-if="$route.path.includes('pt')">
+                  {{ partners.PTadp }}
+                </p>
+                <p v-else>
+                  {{ partners.adp }}
+                </p>
+              </div>
+
+              <h3>{{ $t(`staff.slug.education`) }}  </h3>
+              <p>{{ partners.formacion }}</p>
+              <div v-if="partners.experiencia">
+                <h3>{{ $t(`staff.slug.experiencia`) }} </h3>
+                <p>{{ partners.experiencia }}</p>
+              </div>
+              <h3>{{ $t(`staff.slug.languages`) }} </h3>
+              <p>{{ partners.idiomas }}</p>
+              <div v-if="partners.asociaciones">
+                <h3>{{ $t(`staff.slug.members`) }} </h3>
+                <p>{{ partners.asociaciones }}</p>
+              </div>
+            </div>
+          </div>
         </div>
-        </div>
+      </div>
     </div>
-    <div v-for="abogados in datosAbogados" :key="abogados.id" >
-        <div v-if="abogados.slug === $route.params.slug">
+    <div v-for="abogados in datosAbogados" :key="abogados.id">
+      <div v-if="abogados.slug === $route.params.slug">
         <div class="container">
-            <div class="flexcont">
-                <div class="imgCont">
-                    <img :src="(abogados.foto)">
-                </div>
-                <div class="subcont">
-                    <h1>{{ abogados.nombre }}</h1>
-                    <h2>{{ abogados.subtitle }}</h2>
-                    <a
-                        target="_blank"
-                        rel="noopener noreferrer">
-                        {{abogados.mail}}
-                    </a>
-                    <h3>{{$t(`staff.slug.areas`)}}</h3>
-                    <p>{{abogados.adp}}</p>
-                    <h3>{{$t(`staff.slug.education`)}}  </h3>
-                    <p>{{abogados.formacion}}</p>
-                    <div v-if="abogados.experiencia">
-                        <h3>{{$t(`staff.slug.experiencia`)}} </h3>
-                        <p>{{abogados.experiencia}}</p>
-                    </div>
-                    <h3>{{$t(`staff.slug.languages`)}} </h3>
-                    <p>{{abogados.idiomas}}</p>    
-                    <div v-if="abogados.asociaciones">
-                        <h3>{{$t(`staff.slug.members`)}} </h3>
-                        <p>{{abogados.asociaciones}}</p>
-                    </div> 
-                </div>
+          <div class="flexcont">
+            <div class="imgCont">
+              <img :src="(abogados.foto)">
             </div>
+            <div class="subcont">
+              <h1>{{ abogados.nombre }}</h1>
+              <h2>{{ abogados.subtitle }}</h2>
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {{ abogados.mail }}
+              </a>
+              <h3>{{ $t(`staff.slug.areas`) }}</h3>
+              <p>{{ abogados.adp }}</p>
+              <h3>{{ $t(`staff.slug.education`) }}  </h3>
+              <p>{{ abogados.formacion }}</p>
+              <div v-if="abogados.experiencia">
+                <h3>{{ $t(`staff.slug.experiencia`) }} </h3>
+                <p>{{ abogados.experiencia }}</p>
+              </div>
+              <h3>{{ $t(`staff.slug.languages`) }} </h3>
+              <p>{{ abogados.idiomas }}</p>
+              <div v-if="abogados.asociaciones">
+                <h3>{{ $t(`staff.slug.members`) }} </h3>
+                <p>{{ abogados.asociaciones }}</p>
+              </div>
+            </div>
+          </div>
         </div>
-        </div>
+      </div>
     </div>
-</div>
+  </div>
 </template>
 
 <script>
-import { localeCodes } from '~~/.nuxt/i18n.options.mjs';
 import {
   ES,
   abogados,
   partners,
 } from '../../assets/dataMiembros.js'
+import { localeCodes } from '~~/.nuxt/i18n.options.mjs'
 
-definePageMeta({  layout: "central",});
+definePageMeta({ layout: 'central' })
 
 export default {
   layout: 'layoutCentral',
@@ -96,7 +100,8 @@ export default {
       espanol: ES,
       datosPartners: partners,
     }
-  },}
+  },
+}
 
 </script>
 
@@ -116,13 +121,12 @@ export default {
 
     @media only screen and (width <= 768px) {
       display: grid;
-     
+
     }
 
       .subcont {
-     margin-left: 30px; 
+     margin-left: 30px;
       }
-
 
     .imgCont {
       width: max-content;
@@ -130,15 +134,14 @@ export default {
       margin-bottom: 20px;
 
       @media only screen and (width <= 768px) {
-       width: 100%; 
-    
-   
+       width: 100%;
+
     }
     }
 
     h1 {
     margin-bottom: 10px;
-    }   
+    }
 
     h2 {
       margin-bottom: 25px;

@@ -13,15 +13,15 @@
       v-if="filteredDatosAbogados.length
         || filteredDatosPartners.length "
     >
-    {{$t(`staff.atto`)}}    </h1>
-
+      {{ $t(`staff.atto`) }}
+    </h1>
 
     <!-- Partners -->
     <div class="partnersCont">
       <div v-for="partners in filteredDatosPartners" :key="partners.id" class="miembroCont">
         <div class="imgCont">
           <NuxtLink class="masinfo" :to="'/miembros/'+partners.slug ">
-            <img :src="(partners.foto)" >
+            <img :src="(partners.foto)">
           </NuxtLink>
           <!-- {{ partners.foto }} -->
         </div>
@@ -34,14 +34,13 @@
           </a>
         </div>
         <NuxtLink class="masinfo" :to="'/miembros/' + partners.slug ">
-          {{$t(`atom.information`)}}
+          {{ $t(`atom.information`) }}
         </NuxtLink>
       </div>
     </div>
 
     <!-- Abogados!! -->
     <div class="abogadosCont">
-     
       <div v-for="abogados in filteredDatosAbogados" :key="abogados.id" class="miembroCont">
         <div class="imgCont">
           <NuxtLink class="masinfo" to="">
@@ -57,14 +56,14 @@
           </a>
         </div>
         <NuxtLink class="masinfo" :to="'/miembros/' + abogados.slug ">
-          {{$t(`atom.information`)}}
+          {{ $t(`atom.information`) }}
         </NuxtLink>
       </div>
     </div>
 
     <!-- Paralegales -->
     <h1 v-if="filteredDatosParalegales.length">
-      {{$t(`staff.paralegals`)}} 
+      {{ $t(`staff.paralegals`) }}
     </h1>
     <div class="paralegalesCont">
       <div
@@ -90,7 +89,7 @@
 
     <!-- Administracion -->
     <h1 v-if="filteredDatosAdmin.length">
-      {{$t(`staff.administration`)}} 
+      {{ $t(`staff.administration`) }}
     </h1>
     <div class="administracionCont">
       <div v-for="admin in filteredDatosAdmin" :key="admin.slug" class="miembroCont">
@@ -111,6 +110,7 @@
 </template>
 
 <script>
+import { onMounted, reactive } from 'vue'
 import {
   ES,
   abogados,
@@ -118,8 +118,7 @@ import {
   paralegales,
   administracion,
 } from '../../assets/dataMiembros.js'
-import { onMounted, reactive } from "vue";
-definePageMeta({  layout: "central",});
+definePageMeta({ layout: 'central' })
 
 export default {
   layout: 'layoutCentral',
@@ -136,10 +135,12 @@ export default {
   computed: {
     filteredDatosAbogados () {
       return this.datosAbogados
+
       if (this.$store.state.page.query) {
-      return this.datosAbogados.filter((item) => {
-        return item.nombre.toLowerCase().includes(this.$store.state.page.query)
-      })} 
+        return this.datosAbogados.filter((item) => {
+          return item.nombre.toLowerCase().includes(this.$store.state.page.query)
+        })
+      }
       else {
         return this.datosAbogados
       }
@@ -148,9 +149,10 @@ export default {
       return this.datosPartners
 
       if (this.$store.state.page.query) {
-      return this.datosPartners.filter((item) => {
-        return item.nombre.toLowerCase().includes(this.$store.state.page.query)
-      })}
+        return this.datosPartners.filter((item) => {
+          return item.nombre.toLowerCase().includes(this.$store.state.page.query)
+        })
+      }
       else {
         return this.datosPartners
       }
@@ -159,9 +161,10 @@ export default {
       return this.datosParalegales
 
       if (this.$store.state.page.query) {
-      return this.datosParalegales.filter((item) => {
-        return item.nombre.toLowerCase().includes(this.$store.state.page.query)
-      })}
+        return this.datosParalegales.filter((item) => {
+          return item.nombre.toLowerCase().includes(this.$store.state.page.query)
+        })
+      }
       else {
         return this.datosParalegales
       }
@@ -170,9 +173,10 @@ export default {
       return this.datosAdmin
 
       if (this.$store.state.page.query) {
-      return this.datosAdmin.filter((item) => {
-        return item.nombre.toLowerCase().includes(this.$store.state.page.query)
-      })}
+        return this.datosAdmin.filter((item) => {
+          return item.nombre.toLowerCase().includes(this.$store.state.page.query)
+        })
+      }
       else {
         return this.datosAdmin
       }

@@ -1,22 +1,22 @@
 <template>
-    <div>
-      <div class="container-search">
-        <form>
-          <input v-model="query" type="text" class="input" placeholder="Buscar" @input="handleQuery">
-          <!-- <button v-if="!$store.state.page.query">
+  <div>
+    <div class="container-search">
+      <form>
+        <input v-model="query" type="text" class="input" placeholder="Buscar" @input="handleQuery">
+        <!-- <button v-if="!$store.state.page.query">
             <SVGlupa />
           </button>
           <button v-else type="reset" @click="reset">
             <SVGcancel />
           </button> -->
-        </form>
-      </div>
+      </form>
     </div>
-  </template>
-  
-  <script>
-  import SVGlupa from '@/assets/svg/lupa.svg'
-  import SVGcancel from '@/assets/svg/cancel.svg'
+  </div>
+</template>
+
+<script>
+import SVGlupa from '@/assets/svg/lupa.svg'
+import SVGcancel from '@/assets/svg/cancel.svg'
 
 //   import { createPinia } from "pinia";
 // import { createApp } from "vue";
@@ -44,8 +44,8 @@
 //       },
 //     },
 //   }
-  </script>
-  
+</script>
+
   <style>
   .container-search {
     display: flex;
@@ -57,7 +57,7 @@
     margin: 0 auto;
     background-color: var(--accent-color);
   }
-  
+
   .container-search form {
     display: flex;
     align-items: center;
@@ -65,7 +65,7 @@
     margin-bottom: 0;
     overflow: hidden;
   }
-  
+
   .input {
     width: 100%;
     overflow: hidden;
@@ -76,27 +76,26 @@
     background-color: var(--accent-color);
     border: none;
   }
-  
+
   .input:focus {
     outline: none;
   }
-  
+
   .container-search button {
     cursor: pointer;
   }
-  
+
   .container-search svg {
     min-width: 20px;
     margin-top: 7px;
   }
-  
+
   button {
     background-color: transparent;
     border: none;
   }
-  
+
   button:focus {
     outline: none;
   }
   </style>
-  

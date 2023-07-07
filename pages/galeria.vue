@@ -1,54 +1,55 @@
 <template>
-    <div>
-      <div class="gallery">
-        <AtomVolver-Atras text="atom.buttonBack" to="/" />
-        <h1>{{$t(`gallery.galleryTitle`)}}</h1>
-        <p>
-          {{$t(`gallery.subtitle`)}}
-        </p>
-        <div class="galleryNav">
-          <div class="activeSection">
-            <a @click="typeSelected = 0">
-              {{$t(`gallery.paint`)}} 
-            </a>
-          </div>
-          <div class="activeSection">
-            <a @click="typeSelected = 1">
-              {{$t(`gallery.sculp`)}}
-            </a>
-          </div>
+  <div>
+    <div class="gallery">
+      <AtomVolver-Atras text="atom.buttonBack" to="/" />
+      <h1>{{ $t(`gallery.galleryTitle`) }}</h1>
+      <p>
+        {{ $t(`gallery.subtitle`) }}
+      </p>
+      <div class="galleryNav">
+        <div class="activeSection">
+          <a @click="typeSelected = 0">
+            {{ $t(`gallery.paint`) }}
+          </a>
         </div>
-        <div class="galleryContainer " 
-             >
-          <div
-            v-for="art in arte"
-            :key="art.img"
-            data-sal="fade"
-             data-sal-delay="300"
-             data-sal-duration="800"
-            class="galleryItem">
-            <div v-if="art.type === typeSelected">
-              <img :src="(art.img)">
-              <div class="textContainer">
-                <p>{{ art.description }}</p>
-                <p>{{ art.author }}</p>
-                <p>{{ art.technic }}</p>
-              </div>
+        <div class="activeSection">
+          <a @click="typeSelected = 1">
+            {{ $t(`gallery.sculp`) }}
+          </a>
+        </div>
+      </div>
+      <div class="galleryContainer ">
+        <div
+          v-for="art in arte"
+          :key="art.img"
+          data-sal="fade"
+          data-sal-delay="300"
+          data-sal-duration="800"
+          class="galleryItem"
+        >
+          <div v-if="art.type === typeSelected">
+            <img :src="(art.img)">
+            <div class="textContainer">
+              <p>{{ art.description }}</p>
+              <p>{{ art.author }}</p>
+              <p>{{ art.technic }}</p>
             </div>
           </div>
         </div>
-        <!-- Aqui va galeriaContainer -->
       </div>
+      <!-- Aqui va galeriaContainer -->
     </div>
-  </template>
+  </div>
+</template>
 <script setup >
 import sal from 'sal.js'
-import {dataArt}  from '../assets/dataArt.js'
+import { dataArt } from '../assets/dataArt.js'
 import { seoData } from '~~/assets/seoData'
 const { locale } = useI18n()
+
 //  *** SEO ***
 useHead(seoData['/galeria'][locale.value])
-definePageMeta({  layout: "galeria",});
+definePageMeta({ layout: 'galeria' })
 
 const arte = dataArt
 const typeSelected = ref(0)
@@ -57,7 +58,7 @@ onMounted(() => {
   sal()
 })
 </script>
-  
+
 <style>
 @import "../node_modules/sal.js/dist/sal.css";
 
@@ -218,4 +219,3 @@ onMounted(() => {
 }
 
 </style>
-  
