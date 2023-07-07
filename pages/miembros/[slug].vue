@@ -104,59 +104,63 @@ export default {
 .slug-container{
 .container {
   padding: 40px 30px 20px;
-  background-color: var(--secondary-color);
   margin-bottom: 40px;
+  background-color: var(--secondary-color);
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (width <= 768px) {
       padding: 8%;
     }
+
   .flexcont{
     display: flex;
-    @media only screen and (max-width: 768px) {
+
+    @media only screen and (width <= 768px) {
       display: grid;
      
     }
+
       .subcont {
      margin-left: 30px; 
       }
 
 
     .imgCont {
-      margin-bottom: 20px;
       width: max-content;
       height: max-content;
+      margin-bottom: 20px;
 
-      @media only screen and (max-width: 768px) {
-     
+      @media only screen and (width <= 768px) {
        width: 100%; 
     
    
     }
     }
+
     h1 {
     margin-bottom: 10px;
     }   
 
     h2 {
+      margin-bottom: 25px;
       font-family: "Founders Grotesk", sans-serif;
+      font-size: 1.2rem;
       font-style: normal;
       font-weight: 300;
-      font-size: 1.2rem;
       letter-spacing: 0;
-      margin-bottom: 25px;
     }
+
     a {
       display: block;
-      margin-bottom: 35px;
       width: fit-content;
+      margin-bottom: 35px;
       color: var(--main-color);
     }
 
     a::after {
-      padding-top: 10px;
-      content: "";
       display: block;
       width: 150%;
+      padding-top: 10px;
+      content: "";
       border-bottom: 2px solid var(--main-color-light);
     }
 

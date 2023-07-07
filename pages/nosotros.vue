@@ -62,11 +62,11 @@ definePageMeta({ layout: 'central' })
   display: none;
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (width >= 1000px) {
   .section2 {
-    border-left: 1px solid #919191;
     padding-left: 33px;
     margin-bottom: 1.45rem;
+    border-left: 1px solid #919191;
   }
 
   .section2 p {
@@ -90,10 +90,10 @@ definePageMeta({ layout: 'central' })
 }
 
 .navContainer {
-  width: 30%;
-  max-width: 450px;
   position: sticky;
   top: 40px;
+  width: 30%;
+  max-width: 450px;
   height: fit-content;
 }
 
@@ -104,21 +104,21 @@ definePageMeta({ layout: 'central' })
 }
 
 /* Mobile Styles */
-@media screen and (max-width: 1000px) {
+@media screen and (width <= 1000px) {
   .navContainer {
-    display: none;
     position: absolute;
+    display: none;
   }
 
   .mainContainer {
     width: 86%;
-    margin: 0 auto;
     padding: 0;
+    margin: 0 auto;
   }
 }
 
 /* Large Screen Styles */
-@media screen and (min-width: 1500px) {
+@media screen and (width >= 1500px) {
   .layoutWrapper {
     justify-content: center;
   }
@@ -131,8 +131,8 @@ definePageMeta({ layout: 'central' })
 /* Gallery */
 .galleryLayoutWrapper {
   width: 86%;
-  margin: 0 auto;
-  padding: 0;
   max-width: 1340px;
+  padding: 0;
+  margin: 0 auto;
 }
 </style>

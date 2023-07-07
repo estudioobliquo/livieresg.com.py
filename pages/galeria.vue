@@ -66,8 +66,8 @@ onMounted(() => {
 }
 
 .gallery h1 {
-  margin-bottom: 16px;
   max-width: 450px;
+  margin-bottom: 16px;
 }
 
 .gallery > p {
@@ -79,15 +79,15 @@ onMounted(() => {
   grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-items: center;
-  margin-bottom: 64px;
   max-width: 550px;
+  margin-bottom: 64px;
 }
 
 .galleryNav div {
-  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
   padding: 16px 0;
   cursor: pointer;
 }
@@ -106,10 +106,10 @@ onMounted(() => {
 
 /* items */
 .galleryItem {
-  margin-left: auto;
   width: 75%;
-  margin-bottom: 24px;
   max-width: 450px;
+  margin-bottom: 24px;
+  margin-left: auto;
 }
 
 .galleryContainer > div:nth-child(2n + 1) {
@@ -130,11 +130,11 @@ onMounted(() => {
 
 .galleryItem .textContainer p {
   margin-bottom: 0;
-  line-height: normal;
   font-size: 12px;
+  line-height: normal;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (width >= 800px) {
   .galleryItem{
     margin-bottom: 80px;
   }
@@ -146,7 +146,7 @@ onMounted(() => {
   }
 }
 
-@media only screen and (min-width: 1260px) {
+@media only screen and (width >= 1260px) {
   .gallery {
     padding-bottom: 400px;
   }
@@ -173,9 +173,9 @@ onMounted(() => {
   }
 
   .galleryItem{
-    margin-bottom: -150px;
     max-width: 500px;
     margin-right: auto;
+    margin-bottom: -150px;
     margin-left: 0;
   }
 
@@ -198,19 +198,19 @@ onMounted(() => {
 /* scroll to top */
 .scrollToTop {
   position: fixed;
-  bottom: 40px;
   right: 40px;
+  bottom: 40px;
   z-index: 9999;
-  cursor: pointer;
-  border-radius: 50%;
-  background-color: white;
-  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
-  width: 40px;
-  height: 40px;
-  font-family: "Founders Grotesk", sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 40px;
+  height: 40px;
+  font-family: "Founders Grotesk", sans-serif;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 50%);
 }
 
 .scrollToTop svg {

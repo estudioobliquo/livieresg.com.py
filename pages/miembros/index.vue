@@ -186,12 +186,12 @@ export default {
 .miembros-container{
 .miembroCont {
   display: grid;
-  grid-template-columns: 39% calc(61% - 12px);
   grid-template-rows: 86% 14%;
+  grid-template-columns: 39% calc(61% - 12px);
   column-gap: 12px;
-  margin-bottom: 40px;
   padding-bottom: 13px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.23);
+  margin-bottom: 40px;
+  border-bottom: 1px solid rgb(0 0 0 / 23%);
 }
 
 .imgCont{
@@ -200,17 +200,11 @@ export default {
 }
 
 .imgCont img{
-  object-fit: cover;
   max-width: 100%;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-top: 0;
-  margin-bottom: 1.45rem;
   max-height: 338px;
+  padding: 0;
+  margin: 0 0 1.45rem;
+  object-fit: cover;
 }
 
 .partnersCont .imgCont:hover,
@@ -220,13 +214,13 @@ export default {
 }
 
 .miembroCont h2 {
+  margin-bottom: 5px;
   font-family: "Founders Grotesk", sans-serif;
+  font-size: 1.25rem;
   font-style: normal;
   font-weight: medium;
-  font-size: 1.25rem;
   line-height: 128.2%;
   letter-spacing: 0;
-  margin-bottom: 5px;
 }
 
 .miembroCont a[href^="mailto:"] {
@@ -236,14 +230,14 @@ export default {
 }
 
 .masinfo {
+  align-self: end;
+  justify-self: end;
+  width: fit-content;
   font-size: 13px;
-  text-transform: uppercase;
   color: var(--main-color);
   text-decoration: none;
+  text-transform: uppercase;
   letter-spacing: 0.03em;
-  width: fit-content;
-  justify-self: end;
-  align-self: end;
   transition: color 0.2s;
 }
 
@@ -252,7 +246,7 @@ export default {
   transition: color 0.2s;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (width >= 768px) {
   .partnersCont,
   .abogadosCont,
   .administracionCont,
@@ -269,11 +263,11 @@ export default {
   }
 
   .miembroCont {
-    grid-template-columns: initial;
     grid-template-rows: initial;
+    grid-template-columns: initial;
+    max-width: 238px;
     padding: 0;
     margin: 0 0 60px;
-    max-width: 238px;
   }
 
   .imgCont {
@@ -297,8 +291,8 @@ export default {
   }
 
   .miembroCont h2 {
-    font-size: 1.2rem;
     margin: 0;
+    font-size: 1.2rem;
   }
 }}
 </style>

@@ -23,14 +23,14 @@
   <style >
   
   .costumerImageContainer {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     width: 100px;
     height: 70px;
     filter: saturate(0);
-    transition: filter 0.5s, opacity 0.5s;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
     opacity: 0.7;
+    transition: filter 0.5s, opacity 0.5s;
   
   }
   
@@ -44,13 +44,12 @@
   }
   
   .costumerImageContainer:hover {
-    opacity: 1;
     filter: saturate(100%);
+    opacity: 1;
     transition: filter 0.5s, opacity 0.5s;
   }
   
-  @media only screen and (min-width: 900px) {
-  
+  @media only screen and (width >= 900px) {
     .full .costumerImageContainer {
       width: 100px;
       height: 50px;

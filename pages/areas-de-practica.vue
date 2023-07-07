@@ -20,7 +20,8 @@ const datosAreas = dataAdp
 <style lang="scss">
 .title-areas-practica {
   display: block;
-  @media only screen and (min-width: 1000px) {
+
+  @media only screen and (width >= 1000px) {
     &{
       display: none;
     }

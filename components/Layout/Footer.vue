@@ -85,8 +85,8 @@
   
   <style lang="scss">
   footer {
-    background-color: var(--gray-dark);
     width: 100%;
+    background-color: var(--gray-dark);
 
     .contact{
       display: flex;
@@ -97,8 +97,8 @@
   .mainWrapper {
     display: grid;
     width: 83%;
-    margin: 0 auto;
     padding: 32px 0 8px;
+    margin: 0 auto;
   }
   
   .wrapper1 {
@@ -107,8 +107,8 @@
   
   .wrapper1,
   .wrapper2 {
-    border-left: 0.5px solid #919191;
     padding-left: 15px;
+    border-left: 0.5px solid #919191;
   }
   
   /* Para que el border left no sea mas largo que el contenido */
@@ -121,38 +121,38 @@
   }
   
   footer h4 {
+    margin-bottom: 1.87em;
     font-family: "Canela Deck", serif;
     font-size: 18px;
-    letter-spacing: 0.25em;
-    text-transform: uppercase;
-    color: white;
     font-weight: normal;
-    margin-bottom: 1.87em;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
   }
   
   footer h5 {
+    margin-bottom: 0.55em;
     font-family: "Canela Deck", serif;
+    font-size: 17px;
     font-style: normal;
     font-weight: bold;
-    font-size: 17px;
-    color: #ffffff;
-    margin-bottom: 0.55em;
+    color: #fff;
   }
   
   footer p {
-    font-weight: 300;
     font-size: 17px;
+    font-weight: 300;
     color: #d6d6d6;
   }
   
   address {
+    display: block;
+    margin-bottom: 11px;
     font-family: "Founders Grotesk", sans-serif;
+    font-size: 17px;
     font-style: normal;
     font-weight: 300;
-    font-size: 17px;
-    display: block;
     color: #d6d6d6;
-    margin-bottom: 11px;
   }
   
   .wrapper1 a {
@@ -170,18 +170,18 @@
   }
   
   .mapslink p {
-    font-size: 15px;
-    text-transform: uppercase;
-    color: rgba(235, 235, 235, 0.56);
-    text-decoration: none;
-    letter-spacing: 0.02em;
-    transition: color 0.2s;
     display: block;
     margin-bottom: 0;
+    font-size: 15px;
+    color: rgb(235 235 235 / 56%);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    transition: color 0.2s;
   }
   
   .mapslink:hover p {
-    color: rgba(255, 255, 255, 0.76);
+    color: rgb(255 255 255 / 76%);
     transition: color 0.2s;
   }
   
@@ -191,7 +191,7 @@
   }
   
   .mapslink:hover path {
-    fill: rgba(255, 255, 255, 0.76);
+    fill: rgb(255 255 255 / 76%);
     transition: color 0.2s;
   }
   
@@ -200,7 +200,7 @@
   }
   
   .linkedin:hover svg path {
-    fill: rgba(255, 255, 255, 0.76);
+    fill: rgb(255 255 255 / 76%);
     transition: fill 0.2s;
   }
   
@@ -212,18 +212,18 @@
   
   .disclaimer {
     p{
-    color: rgba(255, 255, 255, 0.6);
-    font-size: 12px;
-    text-align: center;
     display: block;
-    margin: 0 auto;
     width: 81%;
     max-width: 612px;
+    margin: 0 auto;
+    font-size: 12px;
+    color: rgb(255 255 255 / 60%);
+    text-align: center;
   }
   }
   
   .disclaimerlink {
-    color: #ffffff;
+    color: #fff;
     text-decoration: none;
     transition: color 0.2s;
   }
@@ -233,25 +233,28 @@
     transition: color 0.2s;
   }
   
-  @media only screen and (min-width: 1000px) {
+  @media only screen and (width >= 1000px) {
     .mainWrapper {
+      /* grid-template-rows: 69% 31%; */
+
+      /* Safari/Chrome changes */
+      grid-template-rows: minmax(270px, 69%) minmax(70px, 31%);
+      grid-template-columns: 30% 35% 35%;
+      grid-row-gap: 8px;
       width: 85%;
       max-width: 1200px;
       margin: 0 auto;
-      grid-template-columns: 30% 35% 35%;
-      /* grid-template-rows: 69% 31%; */
-      /* Safari/Chrome changes */
-      grid-template-rows: minmax(270px, 69%) minmax(70px, 31%);
-      grid-row-gap: 8px;
     }
   
     .wrapper1,
     .wrapper2 {
-      border-left: 1.5px solid #919191;
       padding-left: 35px;
+
       /* margin-bottom: 60px; */
+
       /* Safari/Chrome changes */
       margin-bottom: 0;
+      border-left: 1.5px solid #919191;
     }
   
     .mapslink p {
@@ -266,9 +269,9 @@
     }
   
     footer h4 {
-      font-size: 1.38rem;
       align-self: center;
       margin-bottom: 0;
+      font-size: 1.38rem;
     }
   
     footer h5 {
@@ -280,14 +283,15 @@
     }
   
     .disclaimer {
-      font-size: 13px;
       grid-column: 1/4;
       align-self: center;
       margin-bottom: 0;
+      font-size: 13px;
     }
   
     .logoContainer {
       display: none;
+
       /* margin-bottom: 30px;
       grid-column: 2/3;
       align-self: start;

@@ -48,33 +48,33 @@
   
   <style>
   .container-search {
-    width: 76%;
-    height: 70px;
-    max-width: 300px;
-    background-color: var(--accent-color);
-    margin: 0 auto;
-    padding: 0 25px 0 30px;
     display: flex;
     align-items: center;
+    width: 76%;
+    max-width: 300px;
+    height: 70px;
+    padding: 0 25px 0 30px;
+    margin: 0 auto;
+    background-color: var(--accent-color);
   }
   
   .container-search form {
-    overflow: hidden;
-    margin-bottom: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 0;
+    overflow: hidden;
   }
   
   .input {
+    width: 100%;
+    overflow: hidden;
+    font-family: "Founders Grotesk", sans-serif;
+    font-size: 19px;
+    font-weight: normal;
+    color: #d6d6d6;
     background-color: var(--accent-color);
     border: none;
-    color: #d6d6d6;
-    font-family: "Founders Grotesk", sans-serif;
-    font-weight: normal;
-    overflow: hidden;
-    width: 100%;
-    font-size: 19px;
   }
   
   .input:focus {
