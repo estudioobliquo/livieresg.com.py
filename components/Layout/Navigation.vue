@@ -37,50 +37,50 @@
   }
 
   .navigation-links {
-    padding: 30px 0 30px 30px;
-    margin: 0 auto 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     width: 76%;
-    height: 375px;
     max-width: 300px;
-    background-color: var(--gray-dark);
-    padding-left: 30px;
+    height: 375px;
+    padding: 30px 0 30px 30px;
     padding-top: 30px;
+    padding-left: 30px;
+    margin: 0 auto 15px;
+    background-color: var(--gray-dark);
 
     a {
       padding: 0;
-      text-decoration: none;
-      font-weight: normal;
       font-size: 1.1rem;
+      font-weight: normal;
       color: #d6d6d6;
+      text-decoration: none;
       transition: color 0.2s;
     }
 
     a:hover {
-      color: #ffffff;
+      color: #fff;
       transition: color 0.2s;
     }
 
     a.router-link-exact-active {
-      color: white;
       font-weight: bold;
+      color: white;
     }
   }
 
   .buscadorMenuCont {
-    padding: 30px 0 30px 30px;
-    margin: 0 auto 15px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     width: 76%;
-    height: max-content;
     max-width: 300px;
-    background-color: var(--gray-dark);
-    padding-left: 30px;
+    height: max-content;
+    padding: 30px 0 30px 30px;
     padding-top: 30px;
+    padding-left: 30px;
+    margin: 0 auto 15px;
+    background-color: var(--gray-dark);
   }
 }
 </style>

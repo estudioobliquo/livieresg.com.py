@@ -55,8 +55,8 @@ export default {
   }
 
   .workWith2:first-of-type {
-    text-align: left;
     font-size: 1.56rem;
+    text-align: left;
     letter-spacing: .03em;
   }
 }
@@ -65,7 +65,6 @@ export default {
   padding-bottom: 20px;
   text-align: left;
   border-bottom: 1px solid var(--main-color-light);
-  padding-bottom: 20px;
 }
 
 .buttonContainer {
@@ -123,14 +122,13 @@ export default {
     .workWith {
       text-align: left;
       border-bottom: 1px solid var(--main-color-light);
-      padding-bottom: 20px;
     }
 
     .workWith2:first-of-type {
+      padding-bottom: 0;
+      margin-bottom: 40px;
       font-size: 34px;
       border: none;
-      margin-bottom: 40px;
-      padding-bottom: 0;
     }
   }
 
@@ -144,9 +142,9 @@ export default {
   }
 
   .main .costumersContainer.full {
-    width: 100%;
-    justify-content: space-evenly;
     column-gap: 80px;
+    justify-content: space-evenly;
+    width: 100%;
     margin: 0;
   }
 

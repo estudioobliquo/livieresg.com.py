@@ -31,7 +31,6 @@ export default {
     filter: saturate(0);
     opacity: 0.7;
     transition: filter 0.5s, opacity 0.5s;
-
   }
 
   .costumerImageContainer img{
