@@ -7,7 +7,7 @@
         && !filteredDatosAdmin.length
         && !filteredDatosParalegales.length"
     >
-      No se han encontrado resultados con el término "{{ $store.state.page.query }}"
+      No se han encontrado resultados con el término "{{ text }}"
     </h2>
     <h1
       v-if="filteredDatosAbogados.length
@@ -43,7 +43,7 @@
     <div class="abogadosCont">
       <div v-for="abogados in filteredDatosAbogados" :key="abogados.id" class="miembroCont">
         <div class="imgCont">
-          <NuxtLink class="masinfo" to="">
+          <NuxtLink class="masinfo" :to="'/miembros/' + abogados.slug">
             <nuxt-img :src="`/img/miembros/${abogados.foto}`" loading="lazy" format="webp" />
           </NuxtLink>
         </div>
@@ -101,79 +101,14 @@
   </div>
 </template>
 
-<script>
-import {
-  ES,
-  abogados,
-  partners,
-  paralegales,
-  administracion,
-} from '@/assets/dataMiembros.js'
+<script setup lang="ts">
+import { ES } from '@/assets/dataMiembros.js'
+import { useSearch } from '~/composables/useSearch'
+const { text, filteredDatosAbogados, filteredDatosAdmin, filteredDatosParalegales, filteredDatosPartners } = useSearch()
+const espanol = ES
+
 definePageMeta({ layout: 'central' })
 
-export default {
-  layout: 'layoutCentral',
-  data () {
-    return {
-      datosAbogados: abogados,
-      espanol: ES,
-      datosPartners: partners,
-      datosParalegales: paralegales,
-      datosAdmin: administracion,
-    }
-  },
-
-  computed: {
-    filteredDatosAbogados () {
-      return this.datosAbogados
-
-      if (this.$store.state.page.query) {
-        return this.datosAbogados.filter((item) => {
-          return item.nombre.toLowerCase().includes(this.$store.state.page.query)
-        })
-      }
-      else {
-        return this.datosAbogados
-      }
-    },
-    filteredDatosPartners () {
-      return this.datosPartners
-
-      if (this.$store.state.page.query) {
-        return this.datosPartners.filter((item) => {
-          return item.nombre.toLowerCase().includes(this.$store.state.page.query)
-        })
-      }
-      else {
-        return this.datosPartners
-      }
-    },
-    filteredDatosParalegales () {
-      return this.datosParalegales
-
-      if (this.$store.state.page.query) {
-        return this.datosParalegales.filter((item) => {
-          return item.nombre.toLowerCase().includes(this.$store.state.page.query)
-        })
-      }
-      else {
-        return this.datosParalegales
-      }
-    },
-    filteredDatosAdmin () {
-      return this.datosAdmin
-
-      if (this.$store.state.page.query) {
-        return this.datosAdmin.filter((item) => {
-          return item.nombre.toLowerCase().includes(this.$store.state.page.query)
-        })
-      }
-      else {
-        return this.datosAdmin
-      }
-    },
-  },
-}
 </script>
 
 <style lang="scss" >
@@ -278,7 +213,6 @@ export default {
 
     .imgCont {
       grid-row: initial;
-      margin-bottom: 10px;
     }
 
     .imgCont .masinfo {
