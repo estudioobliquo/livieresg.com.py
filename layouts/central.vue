@@ -2,11 +2,11 @@
   <div>
     <!-- <transition name="fade"> -->
     <div class="mobileHeader">
-      <LayoutMenu :menu-active="showMobileMenu" @closeMobileMenu="showMobileMenu = false" />
+      <LayoutMenu :menu-active="showMenu" @closeMobileMenu="showMenu = false" />
     </div>
 
     <!-- </transition> -->
-    <LayoutHeader @click="showMobileMenu = true" />
+    <LayoutHeader @openMobileMenu="showMenu = true" />
     <div class="layoutWrapper">
       <div class="navContainer">
         <LayoutNavigation />
@@ -22,30 +22,8 @@
   </div>
 </template>
 
-<script>
-
-export default {
-  // name: 'DefaultInicio',
-  // transition: {
-  //   name: 'page',
-  //   mode: 'out-in',
-  // },
-  data () {
-    return {
-      showMobileMenu: false,
-    }
-  },
-  computed: {
-    isMiembros () {
-      return this.$route.name === 'Miembros'
-    },
-  },
-  watch: {
-    '$route' () {
-      this.showMobileMenu = false
-    },
-  },
-}
+<script setup lang="ts">
+const showMenu = ref(false)
 
 </script>
 
