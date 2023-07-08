@@ -2,48 +2,24 @@
   <div>
     <div class="container-search">
       <form>
-        <input v-model="query" type="text" class="input" placeholder="Buscar" @input="handleQuery">
-        <!-- <button v-if="!$store.state.page.query">
-            <SVGlupa />
-          </button>
-          <button v-else type="reset" @click="reset">
-            <SVGcancel />
-          </button> -->
+        <input v-model="text" type="text" class="input" placeholder="Buscar" @input="handleInput">
+        <button v-if="text === ''" @keydown.enter.prevent @click.prevent>
+          <SVGLupa />
+        </button>
+        <button v-else type="reset" @click="resetInput">
+          <SVGCancel />
+        </button>
       </form>
     </div>
   </div>
 </template>
 
-<script>
-import SVGlupa from '@/assets/svg/lupa.svg'
-import SVGcancel from '@/assets/svg/cancel.svg'
+<script setup lang="ts">
+import { useSearch } from '~/composables/useSearch'
+import SVGLupa from '@/assets/svg/global/lupa.svg'
+import SVGCancel from '@/assets/svg/global/cancel.svg'
 
-//   import { createPinia } from "pinia";
-// import { createApp } from "vue";
-// import App from '../App.vue';
-// createApp(App)
-//   .use(createPinia())
-//   .mount("#app");
-//   export default {
-//     components: {
-//       SVGlupa,
-//       SVGcancel,
-//     },
-//     data () {
-//       return {
-//         query: '',
-//       }
-//     },
-//     methods: {
-//       handleQuery () {
-//         this.$store.dispatch('page/setQuery', this.query)
-//       },
-//       reset () {
-//         this.query = ''
-//         this.$store.dispatch('page/reset', this.query)
-//       },
-//     },
-//   }
+const { text, handleInput, resetInput } = useSearch()
 </script>
 
   <style>
@@ -62,6 +38,7 @@ import SVGcancel from '@/assets/svg/cancel.svg'
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
     margin-bottom: 0;
     overflow: hidden;
   }
