@@ -22,7 +22,7 @@
           <h3>{{ $t(`staff.slug.education`) }} </h3>
           <p>{{ $t(`${T}.formacion`) }}</p>
           <!-- Experience -->
-          <div v-if="$t(`${T}.experiencia`) != `${T}.experiencia`">
+          <div v-if="$t(`${T}.experiencia`) != `${T}.experiencia` && $t(`${T}.experiencia`) != ''">
             <h3>{{ $t(`staff.slug.experiencia`) }} </h3>
             <p>{{ $t(`${T}.experiencia`) }}</p>
           </div>
@@ -30,7 +30,7 @@
           <h3>{{ $t(`staff.slug.languages`) }} </h3>
           <p>{{ $t(`${T}.idiomas`) }}</p>
           <!-- Asociaciones -->
-          <div v-if="$t(`${T}.asociaciones`) != `${T}.asociaciones`">
+          <div v-if="$t(`${T}.asociaciones`) != `${T}.asociaciones` && $t(`${T}.asociaciones`) != ''">
             <h3>{{ $t(`staff.slug.members`) }} </h3>
             <p>{{ $t(`${T}.asociaciones`) }}</p>
           </div>
