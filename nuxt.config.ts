@@ -40,6 +40,7 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/i18n',
     '@nuxt/image',
+    '@pinia/nuxt',
   ],
   image: {
     dir: 'assets',

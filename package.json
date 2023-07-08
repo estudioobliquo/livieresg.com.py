@@ -34,8 +34,8 @@
     "vite-svg-loader": "^4.0.0"
   },
   "dependencies": {
+    "@pinia/nuxt": "^0.4.11",
     "@tinacms/cli": "^1.5.22",
-    "pinia": "^2.1.3",
     "sal.js": "^0.8.5",
     "tinacms": "^1.5.13"
   }
