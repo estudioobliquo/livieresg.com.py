@@ -6,8 +6,9 @@
         && !filteredDatosPartners.length
         && !filteredDatosAdmin.length
         && !filteredDatosParalegales.length"
+      class="result-text"
     >
-      No se han encontrado resultados con el término "{{ text }}"
+      No se han encontrado resultados con el término <span>"{{ text }}"</span>
     </h2>
     <h1
       v-if="filteredDatosAbogados.length
@@ -121,6 +122,24 @@ definePageMeta({ layout: 'central' })
 }
 
 .miembros-container {
+  .result-text {
+    max-width: 560px;
+    margin: 0 0 1.45rem;
+    font-family: "Founders Grotesk", sans-serif;
+    font-size: 1.3rem;
+    font-weight: 300;
+    line-height: 1.3;
+    color: rgb(47 47 47);
+    letter-spacing: .05em;
+
+    span {
+      font-family: "Founders Grotesk", sans-serif;
+      font-size: 1.3rem;
+      font-weight: normal;
+      color: rgb(47 47 47);
+    }
+  }
+
   .miembroCont {
     display: grid;
     grid-template-rows: 86% 14%;
