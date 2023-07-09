@@ -7,26 +7,26 @@
         {{ $t(`gallery.subtitle`) }}
       </p>
       <div class="galleryNav">
-        <div class="activeSection" @click="typeSelected = 0">
-          <span>
+        <div :class="{ activeSection: typeSelected === 0 }" @click="typeSelected = 0">
+          <p>
             {{ $t(`gallery.paint`) }}
-          </span>
+          </p>
         </div>
-        <div class="activeSection" @click="typeSelected = 1">
-          <span>
+        <div :class="{ activeSection: typeSelected === 1 }" @click="typeSelected = 1">
+          <p>
             {{ $t(`gallery.sculp`) }}
-          </span>
+          </p>
         </div>
       </div>
       <div class="galleryContainer ">
         <div
-          v-for="art in arte"
+          v-for="art in artSelection"
           :key="art.img"
-          data-sal="fade"
-          data-sal-delay="300"
-          data-sal-duration="800"
           class="galleryItem"
         >
+          <!-- data-sal="fade"
+          data-sal-delay="100"
+          data-sal-duration="100" -->
           <div v-if="art.type === typeSelected">
             <nuxt-img :src="(art.img)" loading="lazy" format="webp" />
             <div class="textContainer">
@@ -48,7 +48,7 @@
   </div>
 </template>
 
-<script setup >
+<script setup lang="ts">
 import sal from 'sal.js'
 import { dataArt } from '@/assets/dataArt.js'
 import { seoData } from '@/assets/seoData'
@@ -59,7 +59,6 @@ const { locale } = useI18n()
 useHead(seoData['/galeria'][locale.value])
 definePageMeta({ layout: 'galeria' })
 
-const arte = dataArt
 const typeSelected = ref(0)
 
 onMounted(() => {
@@ -74,6 +73,10 @@ const scrollTop = () => {
     })
   }
 }
+
+const artSelection = computed(() => {
+  return dataArt.filter(item => item.type === typeSelected.value)
+})
 </script>
 
 <style lang="scss">
@@ -162,6 +165,7 @@ const scrollTop = () => {
       font-family: "Founders Grotesk", sans-serif;
       cursor: pointer;
       background-color: white;
+      border: none;
       border-radius: 50%;
       box-shadow: 0 0 10px 0 rgb(0 0 0 / 50%);
 
