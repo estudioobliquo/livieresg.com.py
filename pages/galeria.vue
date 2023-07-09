@@ -7,15 +7,15 @@
         {{ $t(`gallery.subtitle`) }}
       </p>
       <div class="galleryNav">
-        <div class="activeSection">
-          <a @click="typeSelected = 0">
+        <div class="activeSection" @click="typeSelected = 0">
+          <span>
             {{ $t(`gallery.paint`) }}
-          </a>
+          </span>
         </div>
-        <div class="activeSection">
-          <a @click="typeSelected = 1">
+        <div class="activeSection" @click="typeSelected = 1">
+          <span>
             {{ $t(`gallery.sculp`) }}
-          </a>
+          </span>
         </div>
       </div>
       <div class="galleryContainer ">
@@ -28,23 +28,31 @@
           class="galleryItem"
         >
           <div v-if="art.type === typeSelected">
-            <img :src="(art.img)">
+            <nuxt-img :src="(art.img)" loading="lazy" format="webp" />
             <div class="textContainer">
+              <p> {{ art.name }} - {{ art.year }}</p>
               <p>{{ art.description }}</p>
               <p>{{ art.author }}</p>
               <p>{{ art.technic }}</p>
+              <p>{{ art.size }}</p>
+              <p>{{ art.location }}</p>
             </div>
           </div>
         </div>
+        <button class="scroll-to-top" @click="scrollTop">
+          <SVGArrow />
+        </button>
       </div>
       <!-- Aqui va galeriaContainer -->
     </div>
   </div>
 </template>
+
 <script setup >
 import sal from 'sal.js'
-import { dataArt } from '../assets/dataArt.js'
-import { seoData } from '~~/assets/seoData'
+import { dataArt } from '@/assets/dataArt.js'
+import { seoData } from '@/assets/seoData'
+import SVGArrow from '@/assets/svg/global/arrow.svg'
 const { locale } = useI18n()
 
 //  *** SEO ***
@@ -57,11 +65,18 @@ const typeSelected = ref(0)
 onMounted(() => {
   sal()
 })
+
+const scrollTop = () => {
+  if (process.client) {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    })
+  }
+}
 </script>
 
 <style>
-@import "../node_modules/sal.js/dist/sal.css";
-
 .gallery {
   padding-bottom: 40px;
 }
@@ -71,7 +86,7 @@ onMounted(() => {
   margin-bottom: 16px;
 }
 
-.gallery > p {
+.gallery>p {
   max-width: 450px;
 }
 
@@ -94,10 +109,10 @@ onMounted(() => {
 }
 
 .galleryNav div:first-of-type {
-  border-right:1px solid var(--main-color-light) ;
+  border-right: 1px solid var(--main-color-light);
 }
 
-.galleryNav div:not(.activeSection){
+.galleryNav div:not(.activeSection) {
   opacity: 0.6;
 }
 
@@ -113,12 +128,12 @@ onMounted(() => {
   margin-left: auto;
 }
 
-.galleryContainer > div:nth-child(2n + 1) {
+.galleryContainer>div:nth-child(2n + 1) {
   margin-right: auto;
   margin-left: 0;
 }
 
-.galleryContainer > div:nth-child(4n + 3) {
+.galleryContainer>div:nth-child(4n + 3) {
   width: 50%;
 }
 
@@ -135,19 +150,19 @@ onMounted(() => {
   line-height: normal;
 }
 
-@media only screen and (width >= 800px) {
-  .galleryItem{
+@media only screen and (width >=800px) {
+  .galleryItem {
     margin-bottom: 80px;
   }
 
-  .galleryContainer > div:nth-child(4n + 4) {
+  .galleryContainer>div:nth-child(4n + 4) {
     width: 60%;
     margin-right: auto;
     margin-left: auto;
   }
 }
 
-@media only screen and (width >= 1260px) {
+@media only screen and (width >=1260px) {
   .gallery {
     padding-bottom: 400px;
   }
@@ -173,19 +188,19 @@ onMounted(() => {
     margin-top: -220px;
   }
 
-  .galleryItem{
+  .galleryItem {
     max-width: 500px;
     margin-right: auto;
     margin-bottom: -150px;
     margin-left: 0;
   }
 
-  .galleryContainer > div:nth-child(2n + 1) {
+  .galleryContainer>div:nth-child(2n + 1) {
     margin-right: 0;
     margin-left: auto;
   }
 
-  .galleryContainer > div:nth-child(4n + 4) {
+  .galleryContainer>div:nth-child(4n + 4) {
     width: 60%;
     margin-top: 300px;
     margin-bottom: 150px;
@@ -197,7 +212,7 @@ onMounted(() => {
 }
 
 /* scroll to top */
-.scrollToTop {
+.scroll-to-top {
   position: fixed;
   right: 40px;
   bottom: 40px;
@@ -214,8 +229,11 @@ onMounted(() => {
   box-shadow: 0 0 10px 0 rgb(0 0 0 / 50%);
 }
 
-.scrollToTop svg {
+.scroll-to-top svg {
   transform: rotate(270deg);
 }
 
+.scroll-to-top svg path {
+  fill: rgb(95 94 100);
+}
 </style>
