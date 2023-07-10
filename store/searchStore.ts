@@ -1,12 +1,14 @@
 import { defineStore } from 'pinia'
 
 interface SearchState {
-    text: string
+  text: string,
+  checkedFilter: string[];
 }
 
 export const useSearchStore = defineStore('search', {
   state: (): SearchState => ({
     text: '',
+    checkedFilter: [],
   }),
   actions: {
     setSearchText (text: string) {
@@ -14,6 +16,9 @@ export const useSearchStore = defineStore('search', {
     },
     resetState () {
       this.text = ''
+    },
+    setCheckedFilter (checkedItems: string[]) {
+      this.checkedFilter = checkedItems
     },
   },
 })
