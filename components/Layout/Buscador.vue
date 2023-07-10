@@ -11,6 +11,27 @@
         </button>
       </form>
     </div>
+    <div v-if="$route.path.endsWith('/blog')" class="filter-container">
+      <h4>Filtrar por tipo de publicación:</h4>
+      <div class="inputs-container">
+        <div class="option">
+          <input id="articulo" type="checkbox" name="articulo">
+          <label for="articulo">Articulos</label>
+        </div>
+        <div class="option">
+          <input id="novedades_juridicas" type="checkbox" name="novedades_juridicas">
+          <label for="novedades_juridicas">Novedades Jurídicas</label>
+        </div>
+        <div class="option">
+          <input id="deal" type="checkbox" name="deal">
+          <label for="deal">Deals</label>
+        </div>
+        <div class="option">
+          <input id="evento" type="checkbox" name="evento">
+          <label for="evento">Eventos</label>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -22,57 +43,57 @@ import SVGCancel from '@/assets/svg/global/cancel.svg'
 const { text, handleInput, resetInput } = useSearch()
 </script>
 
-  <style>
-  .container-search {
-    display: flex;
-    align-items: center;
-    width: 76%;
-    max-width: 300px;
-    height: 70px;
-    padding: 0 25px 0 30px;
-    margin: 0 auto;
-    background-color: var(--accent-color);
-  }
+<style>
+.container-search {
+  display: flex;
+  align-items: center;
+  width: 76%;
+  max-width: 300px;
+  height: 70px;
+  padding: 0 25px 0 30px;
+  margin: 0 auto;
+  background-color: var(--accent-color);
+}
 
-  .container-search form {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    margin-bottom: 0;
-    overflow: hidden;
-  }
+.container-search form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 0;
+  overflow: hidden;
+}
 
-  .input {
-    width: 100%;
-    overflow: hidden;
-    font-family: "Founders Grotesk", sans-serif;
-    font-size: 19px;
-    font-weight: normal;
-    color: #d6d6d6;
-    background-color: var(--accent-color);
-    border: none;
-  }
+.input {
+  width: 100%;
+  overflow: hidden;
+  font-family: "Founders Grotesk", sans-serif;
+  font-size: 19px;
+  font-weight: normal;
+  color: #d6d6d6;
+  background-color: var(--accent-color);
+  border: none;
+}
 
-  .input:focus {
-    outline: none;
-  }
+.input:focus {
+  outline: none;
+}
 
-  .container-search button {
-    cursor: pointer;
-  }
+.container-search button {
+  cursor: pointer;
+}
 
-  .container-search svg {
-    min-width: 20px;
-    margin-top: 7px;
-  }
+.container-search svg {
+  min-width: 20px;
+  margin-top: 7px;
+}
 
-  button {
-    background-color: transparent;
-    border: none;
-  }
+button {
+  background-color: transparent;
+  border: none;
+}
 
-  button:focus {
-    outline: none;
-  }
-  </style>
+button:focus {
+  outline: none;
+}
+</style>
