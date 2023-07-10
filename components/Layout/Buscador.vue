@@ -91,7 +91,42 @@ const { text, handleInput, resetInput } = useSearch()
         margin-top: 7px;
       }
     }
+  }
+}
 
+.filter-container {
+  display: flex;
+  flex-direction: column;
+  width: 76%;
+  max-width: 300px;
+  margin: 24px auto 0;
+
+  h4 {
+    margin-bottom: 10px;
+    font-family: 'Founders Grotesk',sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    opacity: .8;
+  }
+
+  .inputs-container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    font-family: 'Founders Grotesk',sans-serif;
+    color: var(--text-color);
+
+    .option {
+      display: flex;
+      column-gap: 10px;
+      align-items: center;
+
+      input, label {
+        cursor: pointer;
+      }
+    }
   }
 }
 </style>
