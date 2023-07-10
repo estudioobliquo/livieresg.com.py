@@ -2,7 +2,7 @@
   <div>
     <div class="mobileHeader">
       <LayoutMenu :menu-active="showMobileMenu" @closeMobileMenu="showMobileMenu = false" />
-      <LayoutHeader @click="showMobileMenu = true" />
+      <LayoutHeader @openMobileMenu="showMobileMenu = true" />
     </div>
     <div class="mainCont">
       <header class="desktopHeader">

@@ -11,10 +11,10 @@
     </div>
     <div class="subcont2">
       <div class="buscadorMenuCont">
-        <div class="buscadorContainer">
-          <!-- <Buscador />  deberia de ser un propio componente pero para testear asi por ahora-->
+        <div v-if="$route.path === '/miembros'">
+          <LayoutBuscadorMobile />
         </div>
-        <div class="mobileHeader" @click="showMobileMenu">
+        <div class="mobileHeader" @click="openMobileMenu">
           <svg width="33" height="23" viewBox="0 0 33 23" fill="none" xmlns="http://www.w3.org/2000/svg" class="svg">
             <path
               fillRule="evenodd"
@@ -48,10 +48,11 @@
 <script setup lang="ts">
 const { locale } = useI18n()
 const switchLocalePath = useSwitchLocalePath()
-const emit = defineEmits([ 'showMobileMenu' ])
 
-const showMobileMenu = () => {
-  emit('showMobileMenu')
+const emit = defineEmits([ 'openMobileMenu' ])
+
+const openMobileMenu = () => {
+  emit('openMobileMenu')
 }
 
 const isCurrentLanguage = computed(() => {
@@ -98,14 +99,6 @@ const isCurrentLanguage = computed(() => {
   display: flex;
 }
 
-.buscadorContainer {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  max-width: 30px;
-  margin-right: 25px;
-}
-
 @media screen and (width >= 1000px) {
   .header {
     justify-content: center;
@@ -132,10 +125,6 @@ const isCurrentLanguage = computed(() => {
     width: 100%;
     max-width: 200px;
     margin: 0 auto;
-  }
-
-  .buscadorContainer {
-    display: none;
   }
 }
 

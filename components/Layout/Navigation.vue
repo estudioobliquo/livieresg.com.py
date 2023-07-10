@@ -21,7 +21,7 @@
       </NuxtLink>
       <a to="#footer">{{ $t(`menu.contact`) }}</a>
     </div>
-    <div v-if="$route.path.includes('miembros')">
+    <div v-if="$route.path === '/miembros'">
       <LayoutBuscador />
     </div>
   </div>

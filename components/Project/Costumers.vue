@@ -120,7 +120,6 @@ export default {
     margin-bottom: 120px;
 
     .workWith {
-      padding-bottom: 20px;
       text-align: left;
       border-bottom: 1px solid var(--main-color-light);
     }
