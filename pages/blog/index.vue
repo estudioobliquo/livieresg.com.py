@@ -108,6 +108,10 @@ const filteredPosts = computed(() => {
         background-color: var(--secondary-color);
         transition: background-color .2s;
 
+        &:hover {
+          background-color: var(--secondary-color-hover);
+        }
+
         .post-type {
           margin-bottom: 8px;
           font-size: 12px;
@@ -161,6 +165,51 @@ const filteredPosts = computed(() => {
             path {
               fill: var(--main-color);
             }
+          }
+        }
+      }
+    }
+  }
+
+  @media only screen and (width >=1000px) {
+    .blog-title {
+      display: none;
+    }
+
+    .posts-container {
+      @media only screen and (width >=1000px) {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 40px 16px;
+      }
+
+      .post {
+        .blog-post {
+          display: flex;
+          flex-direction: column;
+          height: 100%;
+          padding: 28px 40px 20px;
+
+          .post-type {
+            font-size: 15px;
+          }
+
+          h2 {
+            font-size: 1.222rem;
+          }
+
+          .post-date {
+            font-size: 18px;
+          }
+
+          .post-excerpt {
+            font-size: 19px;
+          }
+
+          .read-post {
+            align-self: flex-end;
+            margin-top: auto;
+            font-size: 15px;
           }
         }
       }
