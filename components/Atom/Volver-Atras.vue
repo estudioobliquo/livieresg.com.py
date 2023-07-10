@@ -1,6 +1,6 @@
 <template>
   <div class="container-go-back">
-    <NuxtLink :to="to" class="volverAtras">
+    <NuxtLink :to="localePath(`${to}`)" class="volverAtras">
       <div>
         <SVGflecha style="transform:rotate(180deg)" />
         <p>{{ $t(text) }}</p>
@@ -28,11 +28,4 @@ defineProps({
 </script>
 
 <style lang="scss">
-.container-go-back {
-  .volverAtras {
-    .svg {
-      transform: rotate();
-    }
-  }
-}
 </style>
