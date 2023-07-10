@@ -43,7 +43,7 @@ import SVGCancel from '@/assets/svg/global/cancel.svg'
 const { text, handleInput, resetInput } = useSearch()
 </script>
 
-<style>
+<style lang="scss">
 .container-search {
   display: flex;
   align-items: center;
@@ -53,47 +53,45 @@ const { text, handleInput, resetInput } = useSearch()
   padding: 0 25px 0 30px;
   margin: 0 auto;
   background-color: var(--accent-color);
-}
 
-.container-search form {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 100%;
-  margin-bottom: 0;
-  overflow: hidden;
-}
+  form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 0;
+    overflow: hidden;
 
-.input {
-  width: 100%;
-  overflow: hidden;
-  font-family: "Founders Grotesk", sans-serif;
-  font-size: 19px;
-  font-weight: normal;
-  color: #d6d6d6;
-  background-color: var(--accent-color);
-  border: none;
-}
+    .input {
+      width: 100%;
+      overflow: hidden;
+      font-family: "Founders Grotesk", sans-serif;
+      font-size: 19px;
+      font-weight: normal;
+      color: #d6d6d6;
+      background-color: var(--accent-color);
+      border: none;
 
-.input:focus {
-  outline: none;
-}
+      &:focus {
+        outline: none;
+      }
+    }
 
-.container-search button {
-  cursor: pointer;
-}
+    button {
+      cursor: pointer;
+      background-color: transparent;
+      border: none;
 
-.container-search svg {
-  min-width: 20px;
-  margin-top: 7px;
-}
+      &:focus {
+        outline: none;
+      }
 
-button {
-  background-color: transparent;
-  border: none;
-}
+      svg {
+        min-width: 20px;
+        margin-top: 7px;
+      }
+    }
 
-button:focus {
-  outline: none;
+  }
 }
 </style>
