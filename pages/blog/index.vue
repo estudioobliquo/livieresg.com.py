@@ -1,6 +1,9 @@
 <template>
   <div class="blog-page">
-    <h1 class="blog-title">
+    <h2 v-if="!filteredPosts.length" class="result-text">
+      No se han encontrado resultados con el término <span>"{{ text }}"</span>
+    </h2>
+    <h1 v-if="filteredPosts.length" class="blog-title">
       {{ $t(`${T}.title`) }}
     </h1>
     <div v-if="posts" class="posts-container">
@@ -90,6 +93,18 @@ const filteredPosts = computed(() => {
     }
 
   @media only screen and (width >=1000px) {
+    .result-text {
+      max-width: 560px;
+      font-family: "Founders Grotesk", sans-serif;
+      font-size: 1.3rem;
+      font-weight: 300;
+      color: rgb(47 47 47);
+
+      span {
+        font-weight: normal;
+      }
+    }
+
     .blog-title {
       display: none;
     }
