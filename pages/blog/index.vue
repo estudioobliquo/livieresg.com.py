@@ -31,32 +31,8 @@ import { toDate } from 'date-fns'
 import { client } from '@/tina/__generated__/client'
 import { Post } from '~/tina/__generated__/types'
 import SVGArrow from '@/assets/svg/global/arrow.svg'
+import useFormatSpanishDate from '~/composables/useFormatSpanishDate'
 const T = 'pages.blog'
-
-function formatSpanishDate (date: Date): string {
-  const daysOfWeek = [ 'domingo', 'lunes', 'martes', 'miércoles', 'jueves', 'viernes', 'sábado' ]
-  const months = [
-    'enero',
-    'febrero',
-    'marzo',
-    'abril',
-    'mayo',
-    'junio',
-    'julio',
-    'agosto',
-    'septiembre',
-    'octubre',
-    'noviembre',
-    'diciembre',
-  ]
-
-  const dayOfWeek = daysOfWeek[date.getDay()]
-  const day = date.getDate()
-  const month = months[date.getMonth()]
-  const year = date.getFullYear()
-
-  return `${dayOfWeek} ${day} de ${month} - ${year}`
-}
 
 // TODO: remove
 definePageMeta({ layout: 'central' })
@@ -67,7 +43,7 @@ const postsResponse: any = await client.queries.postConnection()
 
 posts.value = postsResponse.data.postConnection.edges.map((post: any) => {
   const dateObj = toDate(new Date(post.node.date))
-  const formattedDate = formatSpanishDate(dateObj)
+  const formattedDate = useFormatSpanishDate(dateObj, 1)
 
   return {
     slug: post.node._sys.filename,
