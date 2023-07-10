@@ -10,7 +10,9 @@
     <div class="layoutWrapper">
       <div class="navContainer">
         <LayoutNavigation />
-        <!-- <Buscador v-show="$route.name.includes('miembros')" /> -->
+        <div v-if="$route.path.endsWith('/miembros')">
+          <LayoutBuscador />
+        </div>
       </div>
       <div class="mainContainer">
         <!-- <main><Nuxt /></main> -->
