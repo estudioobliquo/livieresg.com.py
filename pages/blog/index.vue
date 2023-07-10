@@ -15,8 +15,10 @@
 import { toDate } from 'date-fns'
 import { client } from '@/tina/__generated__/client'
 import { Post } from '~/tina/__generated__/types'
-
+import { useSearch } from '~/composables/useSearch'
 import useFormatSpanishDate from '~/composables/useFormatSpanishDate'
+const { text, checkedFilter } = useSearch()
+
 const T = 'pages.blog'
 
 // TODO: remove
@@ -41,9 +43,31 @@ posts.value = postsResponse.data.postConnection.edges.map((post: any) => {
 })
 
 const filteredPosts = computed(() => {
-  return posts.value.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
-})
+  let filteredItems: Post[] = []
 
+  if (text.value) {
+    const filteredByText = posts.value.filter((item) => {
+      return item.title.toLowerCase().includes(text.value.toLowerCase())
+    })
+
+    filteredItems.push(...filteredByText)
+  }
+  else {
+    filteredItems.push(...posts.value)
+  }
+
+  if (checkedFilter.value.length > 0) {
+    const filteredByCategory = filteredItems.filter((item) => {
+      const itemType = item.type.toLowerCase()
+
+      return checkedFilter.value.map(value => value.toLowerCase()).includes(itemType)
+    })
+
+    filteredItems = filteredByCategory
+  }
+
+  return filteredItems.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+})
 </script>
 
 <style lang="scss">
