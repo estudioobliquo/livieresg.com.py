@@ -45,9 +45,6 @@
     height: 375px;
     padding: 30px 0 30px 30px;
     padding-top: 30px;
-    padding-left: 30px;
-    margin: 0 auto 15px;
-    background-color: var(--gray-dark);
 
     a {
       padding: 0;
