@@ -1,87 +1,103 @@
 {
-    "locale": "en",
-    "menu": {
-      "home": "Zuhause",
-      "aboutUs": "Über uns",
-      "staff": "Personal",
+  "locale": "en",
+  "menu": {
+    "home": "Zuhause",
+    "aboutUs": "Über uns",
+    "staff": "Personal",
+    "areas": "Praxisbereiche",
+    "blog": "Veröffentlichung und Nachrichten(ES)",
+    "art": "LG Kunstgalerie",
+    "contact": "Kontact"
+  },
+  "index": {
+    "ourStudy": "Über uns",
+    "aboutUs": {
+      "Derecho Comercial y Societario": "Handels- und Gesellschaftsrecht",
+      "Inversiones - Derecho Tributario": "Investitionen - Steuerrecht",
+      "Sucesiones": "Erbschaften",
+      "Asuntos Administrativos": "Verwaltungsangelegenheiten, Öffentliche Ausschreibungen",
+      "Propiedad Intelectual": "Geistiges Eigentum"
+    },
+    "ourStudyText": "Seit 1990 hat das Team von Livieres Guggiari zahlreiche nationale und internationale Unternehmen, Körperschaften und Privatpersonen sowohl im Bereich der Rechtsberatung als auch im Bereich der Rechtsstreitigkeiten unterstützt und verfügt bis heute über ein professionelles Verhalten und eine Erfahrung von mehr als 25 Jahren im Dienste unserer Kunden",
+    "ourAreas": "Unsere Tätigkeitsbereiche",
+    "members": "Wir sind Mitglied bei",
+    "workWith": "Wir arbeiten mit"
+  },
+  "atom": {
+    "Conocer mas": "Mehr erfahren",
+    "Ver todos": "Alle sehen",
+    "changeLanguage": "Sprache ändern",
+    "information": "+ INFORMATIONEN",
+    "buttonBack": "Zurück zur HomePage",
+    "goBack": "Zurückgehen"
+  },
+  "staff": {
+    "atto": "Anwälte",
+    "paralegals": "Rechtsanwaltsfachangestellte",
+    "administration": "Verwaltung",
+    "slug": {
       "areas": "Praxisbereiche",
-      "blog": "Veröffentlichung und Nachrichten(ES)",
-      "art": "LG Kunstgalerie",
-      "contact": "Kontact"
-    },
-    "index":{
-        "ourStudy":"Über uns",
-        "aboutUs":{
-            "Derecho Comercial y Societario": "Handels- und Gesellschaftsrecht",
-            "Inversiones - Derecho Tributario": "Investitionen - Steuerrecht",
-            "Sucesiones" : "Erbschaften",
-            "Asuntos Administrativos": "Verwaltungsangelegenheiten, Öffentliche Ausschreibungen",
-            "Propiedad Intelectual": "Geistiges Eigentum"
-            },
-        "ourStudyText":"Seit 1990 hat das Team von Livieres Guggiari zahlreiche nationale und internationale Unternehmen, Körperschaften und Privatpersonen sowohl im Bereich der Rechtsberatung als auch im Bereich der Rechtsstreitigkeiten unterstützt und verfügt bis heute über ein professionelles Verhalten und eine Erfahrung von mehr als 25 Jahren im Dienste unserer Kunden",
-        "ourAreas": "Unsere Tätigkeitsbereiche",
-        "members": "Wir sind Mitglied bei",
-        "workWith": "Wir arbeiten mit"
-    },    
-    "atom":{
-        "Conocer mas":"Mehr erfahren",
-        "Ver todos": "Alle sehen",
-        "changeLanguage":  "Sprache ändern",
-        "information": "+ INFORMATIONEN",
-        "buttonBack": "Zurück zur HomePage",
-        "goBack": "Zurückgehen"
-    },
-    "staff":{
-        "atto": "Anwälte",
-        "paralegals": "Rechtsanwaltsfachangestellte",
-        "administration":"Verwaltung",
-        "slug":{
-            "areas": "Praxisbereiche",
-            "education":"Berufliche Bildung",
-            "languages": "Sprachen",
-            "members": "Mitgliedschaften",
-            "experiencia": "Experiencie",
-            "adp": ".ENadp"
-        }
-    },
-    "footer":{
-        "email": "Email",
-        "phone":"Telefon",
-        "offices": "Offices",
-        "direction1": "Pitiantuta N° 640 zwischen Siria und Juan de Salazar",
-        "direction2":"Calle B. H. Unruh N° 276 zwischen O. Miller und Pte. Gondra",
-        "times": "Montag bis Freitag von 8:00 bis 18:30",
-        "contact": "Kontakt",
-        "directions": "Wegbeschreibung",
-        "disclaimer": "Alle Rechte vorbehalten. Ein Werk von"
-    },
-    "pages":{
-        "us":{
-        "usTitle": "Our History",    
-        "us1": "Seit 1990 hat das Team von Livieres Guggiari zahlreiche Unternehmen, Organisationen und Einzelpersonen, sowohl auf nationaler als auch auf internationaler Ebene, sowohl im Bereich der Rechtsberatung als auch im Bereich der Rechtsstreitigkeiten unterstützt und verfügt bis heute über einen Weg der Berufsethik und eine Erfahrung von mehr als 25 Jahren im Dienste unserer Kunden",
-        "us2": "Die Kanzlei zeichnet sich durch die konstante und persönliche Betreuung ihrer Mandanten und durch eine umsichtige und professionelle Vorgehensweise bei der Verwaltung ihrer Rechte und Interessen aus. Bei Livieres Guggiari nutzen wir ein internes System des Informations- und Wissensaustauschs, um die beste Strategie für die Verteidigung der Geschäfte unserer Mandanten zu finden.",
-        "us3": "Unsere Kultur der Teamarbeit garantiert eine ständige Koordination, die eine kontinuierliche Unterstützung unserer Kunden bei gleichzeitiger Maximierung des menschlichen Potenzials ermöglicht.",
-        "us4": "Unser professionelles Management handelt mit absoluter Integrität, Loyalität, Sorgfalt, Vertraulichkeit und Verantwortung bei der Erfüllung der erhaltenen Mandate, Faktoren, auf die wir besonderen Wert legen und die uns in der ständigen Entwicklung der Rechtswelt auf dem Laufenden halten, um ein festes und vollständiges Engagement für unsere Kunden zu gewährleisten."
-        },
-        "adp":{
-            "Derecho Comercial y Societario": "Handels- und Gesellschaftsrecht",
-            "Inversiones - Derecho Tributario":  "Investitionen - Steuerrecht",
-            "Sucesiones" :"Erbschaften",
-            "Asuntos Administrativos":"Verwaltungsangelegenheiten, Öffentliche Ausschreibungen",
-            "Propiedad Intelectual": "Geistiges Eigentum",
-            "Derecho Cooperativo y Mutual": "Genossenschafts- und Gegenseitigkeitsrecht",
-            "Derecho Ambiental": "Umweltrecht",
-            "Derecho Medico": "Medizinisches Recht",
-            "Asuntos Laborales": "Arbeitsrecht",
-            "Litigios y procesos": "Rechtsstreitigkeiten und Prozesse",
-            "Agua, Energia y Mineria": "Wasser, Energie und Bergbau"
-        }
-    },
-    "gallery":{
-        "galleryTitle" : "Kunstgalerie Livieres Guggiari",
-        "subtitle": "Eine Sammlung ausgewählter Kunstwerke, die in unseren Büros ausgestellt sind und die wir mit Ihnen teilen möchten.",
-        "paint": "gemälde",
-        "sculp": "scultures"
+      "education": "Berufliche Bildung",
+      "languages": "Sprachen",
+      "members": "Mitgliedschaften",
+      "experiencia": "Experiencie",
+      "adp": ".ENadp"
     }
+  },
+  "footer": {
+    "email": "Email",
+    "phone": "Telefon",
+    "offices": "Offices",
+    "direction1": "Pitiantuta N° 640 zwischen Siria und Juan de Salazar",
+    "direction2": "Calle B. H. Unruh N° 276 zwischen O. Miller und Pte. Gondra",
+    "times": "Montag bis Freitag von 8:00 bis 18:30",
+    "contact": "Kontakt",
+    "directions": "Wegbeschreibung",
+    "disclaimer": "Alle Rechte vorbehalten. Ein Werk von"
+  },
+  "pages": {
+    "us": {
+      "usTitle": "Our History",
+      "us1": "Seit 1990 hat das Team von Livieres Guggiari zahlreiche Unternehmen, Organisationen und Einzelpersonen, sowohl auf nationaler als auch auf internationaler Ebene, sowohl im Bereich der Rechtsberatung als auch im Bereich der Rechtsstreitigkeiten unterstützt und verfügt bis heute über einen Weg der Berufsethik und eine Erfahrung von mehr als 25 Jahren im Dienste unserer Kunden",
+      "us2": "Die Kanzlei zeichnet sich durch die konstante und persönliche Betreuung ihrer Mandanten und durch eine umsichtige und professionelle Vorgehensweise bei der Verwaltung ihrer Rechte und Interessen aus. Bei Livieres Guggiari nutzen wir ein internes System des Informations- und Wissensaustauschs, um die beste Strategie für die Verteidigung der Geschäfte unserer Mandanten zu finden.",
+      "us3": "Unsere Kultur der Teamarbeit garantiert eine ständige Koordination, die eine kontinuierliche Unterstützung unserer Kunden bei gleichzeitiger Maximierung des menschlichen Potenzials ermöglicht.",
+      "us4": "Unser professionelles Management handelt mit absoluter Integrität, Loyalität, Sorgfalt, Vertraulichkeit und Verantwortung bei der Erfüllung der erhaltenen Mandate, Faktoren, auf die wir besonderen Wert legen und die uns in der ständigen Entwicklung der Rechtswelt auf dem Laufenden halten, um ein festes und vollständiges Engagement für unsere Kunden zu gewährleisten."
+    },
+    "adp": {
+      "title": {
+        "derechoComercialYSocietario": "Handels- und Gesellschaftsrecht",
+        "inversionesDerechoTributario": "Investitionen - Steuerrecht",
+        "sucesiones": "Erbschaften",
+        "asuntosAdministrativos": "Verwaltungsangelegenheiten, Öffentliche Ausschreibungen",
+        "derechoCooperativoYMutual": "Genossenschafts- und Gegenseitigkeitsrecht",
+        "derechoBancarioYCumplimiento": "Bank- und Finanzrecht",
+        "derechoAmbiental": "Umweltrecht",
+        "propiedadIntelectual": "Urheberrecht",
+        "derechoMedico": "Medizinrecht",
+        "asuntosLaborales": "Arbeitsrecht",
+        "litigiosYProcesos": "Rechtsstreitigkeiten und Prozesse",
+        "aguaEnergiaYMineria": "Wasser, Energie und Bergbau"
+      },
+      "content": {
+        "derechoComercialYSocietario": "<p> In diesem Rechtsgebiet berät die Kanzlei wichtige inländische und ausländische Privatunternehmen in einer Vielzahl von handelsrechtlichen und institutionellen Angelegenheiten, und befasst sich mit allen Aspekten der gewöhnlichen Unternehmesnabläufe, sowie der Gründung von Handelsgesellschaften, Ausfertigung von Gesellschaftssatzungen und deren änderungen, Aufstockung und Herabsetzung des Stammkapitals, Restrukturierungsverträge, Gläubigeraufgebot und Konkurs, Aktienübertragungsverträge, Übertragung von Aktiva und Passiva, Liquidation von Unternehmen, Fusionen, Transformationen, strategische Allianzen, Zweigniederlassungen, Tochtergesellschaften und Joint Ventures. </p> <p> Mehrere Angelegenheiten, die mit der aktiven Mitwirkung der Mitglieder der Kanzlei verhandelt und beschlossen wurden, haben es ermöglicht, die besten Lösungen hinsichtlich der rechtlichen und administrativen Bedingungen in Bezug auf Vertretungen, Zweigniderlasungen oder Vertrieb von ausländischen Firmen in unserem Land, zu finden. </p>",
+        "inversionesDerechoTributario": "<p> Die Kanzlei verfügt über eine umfassende und weitgehende Erfahrung bei der Unterstützung von in- und ausländischen Einzelpersonen und Unternehmen, die daran interessiert sind, in Paraguay zu investieren. Sie leistet nicht nur Rechtsberatung, sondern auch zusammen mit anderen sehr kompetenten Fachleuten einen umfassende und interdisziplinäre Beistand, indem wirtschaftliche, finazielle und steuerrechtliche Aspekte in Betracht gezogen werden. </p> <p> Ziel ist, die Qualität der Investitionen zu optimieren, sodass die Kosten minimiert und die Steuervergünstigungen auf eine gesunde und gesetzmäßige Art maximiert werden. </p> <p> Mit spezialisierten und erfahrenen Fachleuten bietet unsere Kanzlei umfassenden Beistand bei der Einwanderung und Einbürgerung von Ausländern in der Republik Paraguay an. </p>",
+        "sucesiones": "<p> Die Kanzlei zählt mit Rechtsanwälten, die sich auf einfache oder komplexe Erbschaftsverfahren von Staatsbürgern und ausländischen Bürgern spezialisiert haben; wir beraten u.a. über die notwendigen Unterlagen; Anerkennung ausländischer Erbenfestestellungsurteile; Einigung von Güterteilung; Surrogationen; Zusprechung von Erbgütern an die Erben und Legatare, sowie bei der Eintragung der Zusprechungszertifikate in die entsprechenden öffentlichen Register. </p>",
+        "asuntosAdministrativos": "<p> Die Kanzlei hat fundierte Kenntnisse bei Verwaltungsangelegenheiten und Verwaltungsstreitigkeiten. </p> <p> Einer ihrer Partner wurde vom Nationalen Sekretariat für Staatliche Reform vertraglich mit der Beratung, Erarbeitung und Abfassung eines Gesetzentwurfes beauftragt, der anschließend als Gesetz Nr. 1.615 / 2000 \"General de Reorganización y Transformación de Entidades Públicas Descentralizadas y de Reforma y Modernización de organismos de la Administración Central (Gesetz für die allgemeine Reorganisation und Umwandlung der dezentralen Staaatseinrichtungen und die Reformierung und Modernisierung von Organisationen der Zentralverwaltung) \"der Republik Paraguay, erlassen und bekanntgegeben wurde. </p> <p> Einer ihrer Mitglieder hat ebenso /das Amt des Rechtsanwalts des Schatzamtes für mehrere Jahre bekleidet und ist im Verwaltungsbereich sehr bewandert. </p> <p> Die Anwaltskanzlei betreut juristisch ihre Mandanten bei Erwerbs- und öffentlichen oder privaten Vertragsabschlussverfahren, und beteiligt sich dabei an der Erstellung von Ausschreibungsunterlagen und Angebotsbedingungen, Angebotsaufstellung, Anfragen, Proteste oder Anfechtungen. </p>",
+        "derechoCooperativoYMutual": "<p> Die Kanzlei verrichtet intensive, effektive und effiziente Arbeit im Bereich des Genossenschaftsrechts und des Rechts der Sozialversicherung auf Gegenseitigkeit, indem sie Körperschaften des Solidaritätssektors beraten, die unter der Kontrolle und Überprüfung der zuständigen ämter dieses Bereiches in der Republik Paraguay agieren. </p> <p> Die weitgehende schon geleistete Betreung und Beratung ermöglichte und ermöglicht uns weiter einheitlichen Beistand darzubringen und bei der Gründung, dem Management, der änderung und Weiterentwiclung von u.a. einigen der wichtisgsten Produktions-, Konsums-, Kredits- und Wohnungsgenossenschaften des Landes sowie einer der führenden Sozialversicherung auf Gegenseitigkeit. </p>",
+        "derechoBancarioYCumplimiento": "<p> Die Kanzlei hat während der Finanzkrise, die das Land in den 1990er Jahren überschritten hat, eine aktive Rechtsberatung geleistet, die es ermöglichte, umfangreiche Erfahrungen in der Branche zu sammeln. </p> <p> Mitglieder der Kanzlei haben verschiedene interne Funktionen in Bereichen der Rechts- und Verwaltungsabteilungen mehrerer Bankinstitute in unserem Land ausgeübt, was die qualitativ hochwertige Rechtshilfe ermöglicht, die wir den Finanzinstituten zur Verfügung stellen, sowie in alle anderen Aktivitäten dieses Sektors. </p>",
+        "derechoAmbiental": "<p> In diesem Fachgebiet bietet die Kanzlei umfassende Beratung zu Fragen des Umweltschutzes, Verfahren und Erwerb von Genehmigungen und Lizenzen sowie die Vertretung in administrativen und gerichtlichen Prozessen im Zusammenhang mit der Umwelt an. </p> <p> Die Beratung umfasst, u.a., auch die wichtige Unterstützung für die Erlangung von Genehmigungen und Lizenzen, die Prüfung der anwendbaren Normen bei bestimmten Projekten und die Analyse der Umweltmanagementpläne aus der gesetzlichen Perspektive. </p>",
+        "propiedadIntelectual": "<p> Durch spezialisierte Fachleute bieten wir umfassende Beratung, um die Bedürfnisse unserer Mandanten und Kollegen mit höchster Geschwindigkeit und Effizienz nachzukommen und leisten qualitativ hochwertige Dienste beim Antrag und dem Erhalt von Marken, Patenten, Nutzmodellen, und von Industriellen Zeichnungen und Modellen; Eintragung von ausländischen Marken und Patente; Stellungnahmen zur Durchführbarkeit von Eintragungen; Klassifizierung von Produkten und Dienstleistungen; Präsentation und Verarbeitung von Markenanmeldungen und Erneuerungen; Strategien für die Einreichung, Bearbeitung und Beantwortung von Einwänden, Anhörungen, Beschwerden, Lizenzvereinbarungen und Verhandlungen über Vereinbarungen. </p> <p> Im Bereich des Urheberrechts und der verbundenen Rechte beraten wir in- und ausländische Mandanten über den Schutz und die Registrierung von Werken, Software, Nutzungslizenzen, Durchsetzungsrechten und allen Verfahren bei der zuständigen Verwaltungsstelle. </p> <p> Beim Rechtsverfahren besitzen wir weitgehende Erfahrung u.a. im Bereich der Streitigkeiten vor Verwaltungsgerichten und der Handels und Zivilprozesse bezüglich des Urheberrechts, der Nichtigkeit von Marken- und Patenten, unlauteren Wettbewerb und Beendigung von unrechtmäßigen Nutzen. </p>",
+        "derechoMedico": "<p> Die Kanzlei berät juristisch die wichtigsten Heilanstalten und privaten Krankenhäuser, sowie die größte private Krankenkasse des Landes. </p> <p> Sie verfügt über hoch qualifizierte Fachanwälte und mit weitgehender Erfahrung für die umfassende Beratung von Verträgen über die Erbringung von medizinischen Leistungen, Rechten und Pflichten der Parteien, Verpflichtungen des Mittels und Verpflichtung des Ergebnisses bei der Ausübung des medizinischen Berufes; Haftpflicht des Arztes, Haftpflicht des Teams; Versicherung; Beziehungen des Arztes mit der ärztekammer; Betriebsärzte; forensische ärzte; unter anderem. </p>",
+        "asuntosLaborales": "<p> Wir beraten die Unternehmen umfassend bezüglich der verschiedenen Angelegenheiten, die bei Arbeitsverhältnissen aufkommen, und aktualisieren unsere Mandanten ständig hinsichtlich der anzuwendenden gesetzlichen Bestimmungen und Vorschriften des Arbeitsrechts, in der Absicht die Konflikte mit den festen und den zeitlich befristeten Mitarbeitern zu minimieren und die Auferlegung von Verwaltungssanktionen wegen </p> <p>Verletzung dieser Rechtsvorschriften zu vermeiden.</p> <p> Unter anderem wirken wir mit bei der Ausfertigung von Arbeitsverträgen, die die Modalitäten und die Klauseln berücksichtigen, die für die Bedürfnisse, den Ablauf und die Struktur eines jeden Unternehmens am besten geeignet sind, sowie beim Abschluss von Schlichtungsvereinbarungen, der Erstellung von verbindlichen Telegrammen, Entlassungssvereinbarungen, bei der Durchführung von internen Ermittlungsverfahren zur Verhängung von Sanktionen an das Personal aufgrund von Verstöà ¥n, bei der Ausfertigung von Lohnabrechnungen und Entschädigungen; wir beteiligen uns an der Ausarbeitung, Diskussion und am Abschluss von Tarifverträgen, internen Arbeitsvorschriften; wir beraten und nehmen Teil an jeglicher Art von Anhörungen bei den verschiedenen Verwaltungsorganen vom Arbeits- und Justizministerium, der Sozialversicherung oder anderen öffentlichen Å­tern, die im Zusammenhang mit dem Arbeitsrechtsgebiet stehen. </p>",
+        "litigiosYProcesos": "<p> Auch wenn wir in der Anwaltskanzlei den Beruf in der Überzeugung ausüben, dass die meisten Angelegenheiten trotz ihrer Komplexität oder Konfliktgrades im außergerichtlichen Bereich gelöst werden können, ist dies in manchen Fällen jedoch nicht machbar und der Gerichtsweg erweist sich als der notwendige oder als der besser geignete. </p> <p> Unabhängig davon, ob der Gerichtsweg der beste oder der sich ergebende Weg ist, ist es wichtig, rechtzeitig professionelle Unterstützung zu haben. </p> <p> Die Dienstleistungen der Kanzlei umfassen die Beratung bei der Durchführung des Streitprozesses sowie bei der Vorbeugung von Kontroversen und der Unterstützung bei der Verhandlung zur alternativen Lösungen. </p> <p> Die Anwälte unserer Firma verfügen über eine umfassende und langjährige Erfahrung bei Streitfällen im Zivilen-, Handels-, Verwaltungs-, Kommunal und Umweltschutzechtsbereich. </p>",
+        "aguaEnergiaYMineria": "<p> Die Kanzlei als Mitglied des mit dem Zuschlag erteilten Konsortiums war über einen ihrer Partner, aktiv mitbeteiligt an der Erarbeitung und Entwicklung eines neuen rechtlichen und institutionellen Rahmens im Bereich Wasser- und Abwasserentsorgung der Republik Paraguay, der seit der Verabschiedung und Bekanntmachung des Gesetzes Nr. 1.614 / 2000 General del Marco Regulatorio y Tarifario del Servicio Público de Provisión de Agua Potable y Alcantarillado Sanitario para la República del Paraguayo (Allgemeines Gesetz des Regulierungs- und Tarifrahmens der öffentlichen Trinkwasserversorgung und der Kanalisation für die Republik Paraguay) in Kraft getreten ist. Dieser wurde später auch gemeinsam mit anderen in- und ausländischen Fachleuten für die Beratung und Ausarbeitung des Dekrets zur Reglamentierung und der für diese Dienste geltenden Vorschriften beauftragt. </p> <p> Bei der Umstrukturierung des Elektrizitätssektors von Paraguay war sie an der Consulting und Rechtsberatung des SIIME-Konsortiums, das für diese Umstrukturierung den Zuschlag erhalten hatte, mitbeteiligt. </p> <p> Gegenwärtig berät die Kanzlei in diesem Bereich rechtlich die Mennoniten-Genossenschaften des Zentralchaco, die sich mit dem Stromversorgungsdienst in ihren jeweiligen Verantwortungsgebieten befassen. Die Kanzlei hat auch ausländische Unternehmen beraten, die die Untersuchung- und Erkundung von Gas und Erdöl durchgeführt haben. </p> <p> In Bezug auf den Bergbaubereich berät unsere Kanzlei nationale und internationale Unternehmen in rechtlichen- und verwaltungsrechtlichen Angelegenheiten für die Erlangung von Bergbaugenehmigungen und -konzessionen sowie für die Erfüllung der Verpflichtungen und der dazugehörigen Schritte bei der Ausführung der Etappen von Erkundung, Durchsuchung und Abbau von Bodenschätzen, insbesondere hinsichtlich der Verwaltungs-, Steuer-, Umwelt-, Arbeits-, Sozialversicherungsauswirkungen, u.a., die die Ausführung dieser Etappen mit sich bringt. </p> <p> Wir haben aktiv an der Analyse zur änderung des Bergbaugesetzes teilgenommen und integrieren den angehenden Verein Cámara Paraguaya de Minería. </p>"
+      }
+    }
+  },
+  "gallery": {
+    "galleryTitle": "Kunstgalerie Livieres Guggiari",
+    "subtitle": "Eine Sammlung ausgewählter Kunstwerke, die in unseren Büros ausgestellt sind und die wir mit Ihnen teilen möchten.",
+    "paint": "gemälde",
+    "sculp": "scultures"
+  }
 }
-  
