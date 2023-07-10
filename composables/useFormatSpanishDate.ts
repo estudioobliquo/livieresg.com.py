@@ -16,7 +16,7 @@ export default function useFormatSpanishDate (date: Date, option: number = 1): s
   ]
 
   const dayOfWeek: string = daysOfWeek[date.getDay()]
-  const day: number = date.getDate()
+  const day: string = date.getDate().toString().padStart(2, '0')
   const month: string = months[date.getMonth()]
   const year: number = date.getFullYear()
 
