@@ -11,7 +11,7 @@ interface Item {
 
 export const useSearch = () => {
   const searchStore = useSearchStore()
-  const { text } = storeToRefs(searchStore)
+  const { text, checkedFilter } = storeToRefs(searchStore)
 
   const handleInput = () => {
     searchStore.setSearchText(text.value)
@@ -19,6 +19,10 @@ export const useSearch = () => {
 
   const resetInput = () => {
     searchStore.resetState()
+  }
+
+  const checkOption = () => {
+    searchStore.setCheckedFilter(checkedFilter.value)
   }
 
   const filterBySearchTerm = (items: Item[]) => {
@@ -40,6 +44,7 @@ export const useSearch = () => {
   return {
     // Properties
     text,
+    checkedFilter,
 
     // Computed
     filteredDatosAdmin,
@@ -50,5 +55,6 @@ export const useSearch = () => {
     // Methods
     handleInput,
     resetInput,
+    checkOption,
   }
 }
