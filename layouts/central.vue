@@ -10,7 +10,7 @@
     <div class="layoutWrapper">
       <div class="navContainer">
         <LayoutNavigation />
-        <div v-if="$route.path.endsWith('/miembros')">
+        <div v-if="$route.path.endsWith('/miembros') || $route.path.endsWith('/blog')">
           <LayoutBuscador />
         </div>
       </div>
