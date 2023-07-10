@@ -15,20 +15,28 @@
       <h4>Filtrar por tipo de publicación:</h4>
       <div class="inputs-container">
         <div class="option">
-          <input id="articulo" type="checkbox" name="articulo">
-          <label for="articulo">Articulos</label>
+          <label>
+            <input v-model="checkedFilter" value="Artículo" type="checkbox" @change="checkOption">
+            Articulos
+          </label>
         </div>
         <div class="option">
-          <input id="novedades_juridicas" type="checkbox" name="novedades_juridicas">
-          <label for="novedades_juridicas">Novedades Jurídicas</label>
+          <label>
+            <input v-model="checkedFilter" value="news" type="checkbox" @change="checkOption">
+            Novedades Jurídicas
+          </label>
         </div>
         <div class="option">
-          <input id="deal" type="checkbox" name="deal">
-          <label for="deal">Deals</label>
+          <label>
+            <input v-model="checkedFilter" value="Deal" type="checkbox" @change="checkOption">
+            Deals
+          </label>
         </div>
         <div class="option">
-          <input id="evento" type="checkbox" name="evento">
-          <label for="evento">Eventos</label>
+          <label>
+            <input v-model="checkedFilter" value="Evento" type="checkbox" @change="checkOption">
+            Eventos
+          </label>
         </div>
       </div>
     </div>
@@ -40,7 +48,7 @@ import { useSearch } from '~/composables/useSearch'
 import SVGLupa from '@/assets/svg/global/lupa.svg'
 import SVGCancel from '@/assets/svg/global/cancel.svg'
 
-const { text, handleInput, resetInput } = useSearch()
+const { text, handleInput, resetInput, checkOption, checkedFilter } = useSearch()
 </script>
 
 <style lang="scss">
@@ -125,6 +133,10 @@ const { text, handleInput, resetInput } = useSearch()
 
       input, label {
         cursor: pointer;
+      }
+
+      input {
+        margin-right: 10px;
       }
     }
   }
