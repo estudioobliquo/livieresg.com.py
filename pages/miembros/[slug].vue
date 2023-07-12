@@ -88,8 +88,6 @@ posts.value = postsResponse.data.postConnection.edges
     }
   })
   .filter((post: any) => post.author === miembro.nombre)
-
-definePageMeta({ layout: 'central' })
 </script>
 
 <style lang="scss">

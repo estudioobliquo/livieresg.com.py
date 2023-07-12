@@ -24,9 +24,6 @@ const { text, checkedFilter } = useSearch()
 
 const T = 'pages.blog'
 
-// TODO: remove
-definePageMeta({ layout: 'central' })
-
 const posts = ref<Post[]>()
 
 const postsResponse: any = await client.queries.postConnection()

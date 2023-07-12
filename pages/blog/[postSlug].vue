@@ -33,9 +33,6 @@ import useFormatSpanishDate from '~/composables/useFormatSpanishDate'
 import { Post } from '~/tina/__generated__/types'
 import { abogados, administracion, paralegales, partners } from '@/assets/dataMiembros'
 
-// TODO: remove
-definePageMeta({ layout: 'central' })
-
 const postSlug = useRoute().params.postSlug as string
 
 const post = ref<Post>()
