@@ -1,16 +1,18 @@
 <template>
-  <div class="blog-post">
-    <p class="post-type">
+  <div class="blog-post" :class="{'slice-blog': slice, 'slice-d-blog': sliceDesktop}">
+    <p class="post-type" :class="{'slice-type': slice}">
       {{ post.type }}
     </p>
-    <h2>{{ post.title }}</h2>
-    <p class="post-date">
+    <h2 :class="{'slice-title': slice, 'slice-d-title': sliceDesktop}">
+      {{ post.title }}
+    </h2>
+    <p class="post-date" :class="{'slice-date': slice }">
       {{ post.dateFormat }}
     </p>
-    <p class="post-excerpt">
+    <p v-if="!slice" class="post-excerpt" :class="{'slice-d-excerpt': sliceDesktop}">
       {{ post.body }}
     </p>
-    <div class="read-post">
+    <div class="read-post" :class="{'slice-read-post': slice, 'slice-d-read-post': sliceDesktop}">
       <p>Continuar leyendo</p>
       <SVGArrow />
     </div>
@@ -20,6 +22,14 @@
 <script setup lang="ts">
 import SVGArrow from '@/assets/svg/global/arrow.svg'
 defineProps({
+  slice: {
+    type: Boolean,
+    default: false,
+  },
+  sliceDesktop: {
+    type: Boolean,
+    default: false,
+  },
   post: {
     type: Object,
     default: () => ({}),
@@ -36,6 +46,12 @@ defineProps({
 
   &:hover {
     background-color: var(--secondary-color-hover);
+  }
+
+  &.slice-blog {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 24px;
   }
 
   .post-type {
@@ -56,6 +72,20 @@ defineProps({
     color: var(--text-color);
     text-decoration: none;
     letter-spacing: .05em;
+
+    &.slice-title {
+      display: -webkit-box;
+      height: 105px;
+      margin-bottom: 8px;
+      overflow: hidden;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      text-align: left;
+    }
+
+    &.slice-d-title {
+      text-transform: initial;
+    }
   }
 
   .post-date {
@@ -80,7 +110,6 @@ defineProps({
       font-size: 12px;
       color: var(--main-color);
       text-decoration: none;
-      text-transform: uppercase;
       letter-spacing: .03em;
     }
 
@@ -92,6 +121,10 @@ defineProps({
         fill: var(--main-color);
       }
     }
+
+    &.slice-read-post {
+      margin-top: 33px;
+    }
   }
 
   @media only screen and (width >=1000px) {
@@ -100,12 +133,26 @@ defineProps({
     height: 100%;
     padding: 28px 40px 20px;
 
+    &.slice-d-blog {
+      margin-bottom: 0;
+    }
+
     .post-type {
       font-size: 15px;
     }
 
     h2 {
       font-size: 1.222rem;
+
+      &.slice-d-title {
+        display: -webkit-box;
+        max-height: 87px;
+        margin-bottom: 8px;
+        overflow: hidden;
+        font-size: 1.222rem;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+      }
     }
 
     .post-date {
@@ -114,12 +161,20 @@ defineProps({
 
     .post-excerpt {
       font-size: 19px;
+
+      &.slice-d-excerpt {
+        text-transform: initial;
+      }
     }
 
     .read-post {
       align-self: flex-end;
       margin-top: auto;
       font-size: 15px;
+
+      .slice-d-read-post {
+        margin-top: auto;
+      }
     }
   }
 }
