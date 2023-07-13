@@ -45,6 +45,17 @@ const dateObj = toDate(new Date(post.value.date))
 const date = useFormatSpanishDate(dateObj, 2)
 const miembros = [ ...abogados, ...administracion, ...paralegales, ...partners ]
 const foto = miembros.find(miembro => miembro.nombre === post.value?.author)?.foto
+
+useHead({
+  title: `${post.value?.title} | Livieres Guggiari`,
+  meta: [
+    {
+      hid: 'description',
+      name: 'description',
+      content: useParseTinaContentAsString(post.value?.body).slice(0, 200),
+    },
+  ],
+})
 </script>
 
 <style lang="scss">

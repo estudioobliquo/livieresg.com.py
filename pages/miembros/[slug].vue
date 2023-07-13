@@ -49,7 +49,6 @@
 </template>
 
 <script setup lang="ts">
-import { useRouter } from 'vue-router'
 import { toDate } from 'date-fns'
 import { client } from '@/tina/__generated__/client'
 import { Post } from '~/tina/__generated__/types'
@@ -57,10 +56,12 @@ import { abogados, partners } from '@/assets/dataMiembros.js'
 
 const router = useRouter()
 const slug = router.currentRoute.value.params.slug
+const T = `pages.team.${slug}`
+const { t } = useI18n()
+
 const datosAbogados = abogados
 const datosPartners = partners
 const miembros = [ ...datosAbogados, ...datosPartners ]
-const T = `pages.team.${slug}`
 
 const getMiembro = (slug) => {
   return miembros.find(miembro => miembro.slug === slug) || null
@@ -88,6 +89,17 @@ posts.value = postsResponse.data.postConnection.edges
     }
   })
   .filter((post: any) => post.author === miembro.nombre)
+
+useHead({
+  title: `${miembro?.nombre} | Livieres Guggiari`,
+  meta: [
+    {
+      hid: 'description',
+      name: 'description',
+      content: t(`pages.team.${slug}.adp`),
+    },
+  ],
+})
 </script>
 
 <style lang="scss">
