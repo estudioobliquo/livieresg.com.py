@@ -27,7 +27,6 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
-      PROVIDER_IMG: process.env.PROVIDER_IMG,
     },
   },
   css: [
@@ -43,7 +42,7 @@ export default defineNuxtConfig({
     '@pinia/nuxt',
   ],
   image: {
-    provider: process.env.PROVIDER_IMG ? process.env.PROVIDER_IMG : 'ipx',
+    domains: [ 'localhost:3000', 'livieresg.com.py', 'dynamic-sopapillas-48b9e7.netlify.app' ],
   },
   i18n: {
     locales: [
