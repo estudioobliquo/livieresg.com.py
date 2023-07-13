@@ -24,7 +24,6 @@
           <NuxtLink class="masinfo" :to="'/miembros/' + partners.slug">
             <nuxt-img :src="`/img/miembros/${partners.foto}`" loading="lazy" format="webp" />
           </NuxtLink>
-          <!-- {{ partners.foto }} -->
         </div>
         <div class="subcont">
           <h2 class="nombre">

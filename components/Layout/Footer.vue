@@ -1,6 +1,6 @@
 <template>
   <div>
-    <footer class="footer">
+    <footer id="footer" class="footer">
       <div class="footer mainWrapper">
         <div class="contact">
           <h4>
@@ -72,12 +72,12 @@
         </div>
         <div class="logo-container">
           <NuxtLink :to="localePath('/')">
-            <nuxt-img src="/img/global/logoTexto.png" loading="lazy" format="webp" alt="Livieres Guggiari - Logo" />
+            <nuxt-img src="/img/global/logoGray.png" loading="lazy" format="webp" alt="Livieres Guggiari - Logo" />
           </NuxtLink>
         </div>
         <div class="disclaimer">
           <p>
-            Livieres Guggiari | Estudio Juridico - © Copyright 2023 {{ $t(`footer.disclaimer`) }}
+            Livieres Guggiari | Estudio Juridico - © Copyright {{ date }} {{ $t(`footer.disclaimer`) }}
             <a class="disclaimerlink" href="https://estudioobliquo.com" target="_blank" rel="noopener">
               Estudio Obliquo
             </a>
@@ -91,6 +91,7 @@
 <script setup lang="ts">
 import SVGArrow from '@/assets/svg/global/arrow.svg'
 import SVGLinkedin from '@/assets/svg/global/linkedin.svg'
+const date = new Date().getFullYear()
 </script>
 
 <style lang="scss">

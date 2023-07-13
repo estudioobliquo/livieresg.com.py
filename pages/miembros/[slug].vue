@@ -51,7 +51,7 @@
 <script setup lang="ts">
 import { toDate } from 'date-fns'
 import { client } from '@/tina/__generated__/client'
-import { Post } from '~/tina/__generated__/types'
+import { Post } from '@/tina/__generated__/types'
 import { abogados, partners } from '@/assets/dataMiembros.js'
 
 const router = useRouter()
