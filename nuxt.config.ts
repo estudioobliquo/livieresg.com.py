@@ -27,7 +27,7 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
-      // .env variables go here
+      PROVIDER_IMG: process.env.PROVIDER_IMG,
     },
   },
   css: [
@@ -42,6 +42,9 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@pinia/nuxt',
   ],
+  image: {
+    provider: process.env.PROVIDER_IMG ? process.env.PROVIDER_IMG : 'ipx',
+  },
   i18n: {
     locales: [
       { code: 'es', file: 'es-ES.json' },
