@@ -72,7 +72,7 @@
         </div>
         <div class="logo-container">
           <NuxtLink :to="localePath('/')">
-            <nuxt-img src="/img/global/logoTexto.png" loading="lazy" format="webp" alt="Livieres Guggiari - Logo" />
+            <nuxt-img src="/img/global/logoGray.png" loading="lazy" format="webp" alt="Livieres Guggiari - Logo" />
           </NuxtLink>
         </div>
         <div class="disclaimer">
