@@ -36,9 +36,6 @@
   "dependencies": {
     "@pinia/nuxt": "^0.4.11",
     "@tinacms/cli": "^1.5.22",
-    "cookie": "^0.5.0",
-    "js-cookie": "^3.0.5",
-    "pinia-plugin-persistedstate-2": "^2.0.14",
     "sal.js": "^0.8.5",
     "tinacms": "^1.5.13"
   }
