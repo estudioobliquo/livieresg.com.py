@@ -9,7 +9,7 @@
             <div class="author-img-container">
               <nuxt-img
                 :src="`/img/miembros/${foto? foto : 'miembro-placeholder.png'}`"
-                :alt="post.author"
+                :alt="post.author || 'autor img'"
                 format="webp"
                 loading="lazy"
               />
@@ -24,7 +24,7 @@
           </div>
         </div>
         <div class="post-content">
-          <div v-html=" useParseTinaContent(post.body) " />
+          <div v-html="post.body " />
         </div>
       </template>
     </div>
@@ -33,22 +33,24 @@
 
 <script setup lang="ts">
 import { toDate } from 'date-fns'
-import { client } from '@/tina/__generated__/client'
-import { Post } from '@/tina/__generated__/types'
 import { abogados, administracion, paralegales, partners } from '@/assets/dataMiembros'
+import { usePostsStore, ExtendedPost } from '@/store/posts'
 
 const postSlug = useRoute().params.postSlug as string
 
-const post = ref<Post>()
+const post = computed<ExtendedPost | undefined>(() => usePostsStore().posts.find(post => post.slug === postSlug))
+const date = ref<string>()
+const foto = ref<string>()
 
-const postAnswer: any = await client.queries.post({ relativePath: `${postSlug}.md` })
+if (post.value) {
+  const dateObj = toDate(new Date(post.value.date))
 
-post.value = postAnswer.data.post
+  date.value = useFormatSpanishDate(dateObj, 2)
 
-const dateObj = toDate(new Date(post.value.date))
-const date = useFormatSpanishDate(dateObj, 2)
-const miembros = [ ...abogados, ...administracion, ...paralegales, ...partners ]
-const foto = miembros.find(miembro => miembro.nombre === post.value?.author)?.foto
+  const miembros = [ ...abogados, ...administracion, ...paralegales, ...partners ]
+
+  foto.value = miembros.find(miembro => miembro.nombre === post.value?.author)?.foto
+}
 
 useHead({
   title: `${post.value?.title} | Livieres Guggiari`,
@@ -56,7 +58,7 @@ useHead({
     {
       hid: 'description',
       name: 'description',
-      content: useParseTinaContentAsString(post.value?.body).slice(0, 200),
+      content: post.value?.excerpt,
     },
   ],
 })

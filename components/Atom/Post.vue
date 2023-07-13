@@ -10,7 +10,7 @@
       {{ post.dateFormat }}
     </p>
     <p v-if="!slice" class="post-excerpt" :class="{'slice-d-excerpt': sliceDesktop}">
-      {{ post.body }}
+      {{ post.excerpt }}
     </p>
     <div class="read-post" :class="{'slice-read-post': slice, 'slice-d-read-post': sliceDesktop}">
       <p>Continuar leyendo</p>
@@ -21,20 +21,13 @@
 
 <script setup lang="ts">
 import SVGArrow from '@/assets/svg/global/arrow.svg'
-defineProps({
-  slice: {
-    type: Boolean,
-    default: false,
-  },
-  sliceDesktop: {
-    type: Boolean,
-    default: false,
-  },
-  post: {
-    type: Object,
-    default: () => ({}),
-  },
-})
+import { ExtendedPost } from '@/store/posts'
+
+defineProps<{
+  slice?: boolean,
+  sliceDesktop?: boolean,
+  post: ExtendedPost,
+}>()
 </script>
 
 <style lang="scss">
