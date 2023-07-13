@@ -1,6 +1,6 @@
 <template>
   <div class="container-menu">
-    <div class="overlay" :class="{'classBlock': menuActive, 'classNone': !menuActive}">
+    <div class="overlay" :class="handleOverlayClass">
       <div class="closeBtn absolute" @click="closeMobileMenu">
         <svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M1.5 1L20.5 20M20.5 1L11 10.5L1.5 20" stroke="#D6D6D6" strokeWidth="2" />
@@ -8,37 +8,37 @@
       </div>
 
       <div class="overlayContent">
-        <NuxtLink :to="localePath('/')">
+        <NuxtLink :to="localePath('/')" @click="closeMobileMenu">
           {{ $t(`menu.home`) }}
         </NuxtLink>
-        <NuxtLink :to="localePath('/nosotros')">
+        <NuxtLink :to="localePath('/nosotros')" @click="closeMobileMenu">
           {{ $t(`menu.aboutUs`) }}
         </NuxtLink>
-        <NuxtLink :to="localePath('/miembros')">
+        <NuxtLink :to="localePath('/miembros')" @click="closeMobileMenu">
           {{ $t(`menu.staff`) }}
         </NuxtLink>
-        <NuxtLink :to="localePath('/areas-de-practica')">
+        <NuxtLink :to="localePath('/areas-de-practica')" @click="closeMobileMenu">
           {{ $t(`menu.areas`) }}
         </NuxtLink>
-        <NuxtLink :to="localePath('/blog')">
+        <NuxtLink :to="localePath('/blog')" @click="closeMobileMenu">
           {{ $t(`menu.blog`) }}
         </NuxtLink>
-        <NuxtLink :to="localePath('/galeria')">
+        <NuxtLink :to="localePath('/galeria')" @click="closeMobileMenu">
           {{ $t(`menu.art`) }}
         </NuxtLink>
-        <a href="#footer">{{ $t(`menu.contact`) }}</a>
+        <a href="#footer" @click="closeMobileMenu">{{ $t(`menu.contact`) }}</a>
         <span class="cambiarIdioma">{{ $t(`atom.changeLanguage`) }}</span>
         <div class="overlayLanguages">
-          <NuxtLink :to="switchLocalePath('es')" :class="{ none: isCurrentLanguage('es') }">
+          <NuxtLink :to="switchLocalePath('es')" :class="{ none: isCurrentLanguage('es') }" @click="closeMobileMenu">
             ES
           </NuxtLink>
-          <NuxtLink :to="switchLocalePath('en')" :class="{ none: isCurrentLanguage('en') }">
+          <NuxtLink :to="switchLocalePath('en')" :class="{ none: isCurrentLanguage('en') }" @click="closeMobileMenu">
             EN
           </NuxtLink>
-          <NuxtLink :to="switchLocalePath('de')" :class="{ none: isCurrentLanguage('de') }">
+          <NuxtLink :to="switchLocalePath('de')" :class="{ none: isCurrentLanguage('de') }" @click="closeMobileMenu">
             DE
           </NuxtLink>
-          <NuxtLink :to="switchLocalePath('pt')" :class="{ none: isCurrentLanguage('pt') }">
+          <NuxtLink :to="switchLocalePath('pt')" :class="{ none: isCurrentLanguage('pt') }" @click="closeMobileMenu">
             PT
           </NuxtLink>
         </div>
@@ -48,12 +48,16 @@
 </template>
 
 <script setup lang="ts">
-defineProps({
-  menuActive: Boolean,
+const props = defineProps({
+  menuActive: {
+    type: Boolean,
+    default: false,
+  },
 })
 const { locale } = useI18n()
 const switchLocalePath = useSwitchLocalePath()
 const emit = defineEmits([ 'closeMobileMenu' ])
+const chargeFirstTime = ref(true)
 
 const closeMobileMenu = () => {
   emit('closeMobileMenu')
@@ -64,6 +68,21 @@ const isCurrentLanguage = computed(() => {
     return lang === locale.value
   }
 })
+
+const handleOverlayClass = computed(() => {
+  if (props.menuActive && !chargeFirstTime.value) {
+    return 'classBlock'
+  }
+  else if (!props.menuActive && !chargeFirstTime.value) {
+    return 'classNone'
+  }
+  else {
+    chargeFirstTime.value = false
+
+    return 'none'
+  }
+})
+
 </script>
 
 <style lang="scss">
@@ -138,6 +157,10 @@ const isCurrentLanguage = computed(() => {
     height: 100vh;
     padding: 0.5em;
     background-color: var(--gray-dark);
+  }
+
+  .none {
+    left: -110%;
   }
 
   /* Position the content inside the overlay */
