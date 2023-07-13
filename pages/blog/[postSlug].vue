@@ -7,7 +7,12 @@
           <h1>{{ post.title }}</h1>
           <div class="post-data">
             <div class="author-img-container">
-              <nuxt-img :src="`/img/miembros/${foto}`" :alt="post.author" format="webp" loading="lazy" />
+              <nuxt-img
+                :src="`/img/miembros/${foto? foto : 'miembro-placeholder.png'}`"
+                :alt="post.author"
+                format="webp"
+                loading="lazy"
+              />
             </div>
             <div class="author-data">
               <p class="date">
