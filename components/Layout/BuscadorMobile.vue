@@ -71,6 +71,7 @@ const resetAll = () => {
         color: #d6d6d6;
         background-color: transparent;
         border: none;
+        outline: none;
       }
 
       button {

@@ -15,10 +15,9 @@
 </template>
 
 <script setup lang="ts">
-import { toDate } from 'date-fns'
 import { seoData } from 'assets/seoData'
-import { client } from '@/tina/__generated__/client'
 import { Post } from '@/tina/__generated__/types'
+import { ExtendedPost, usePostsStore } from '@/store/posts'
 const { text, checkedFilter } = useSearch()
 
 const T = 'pages.blog'
@@ -26,25 +25,13 @@ const { locale } = useI18n()
 
 useHead(seoData['/blog'][locale.value])
 
-const posts = ref<Post[]>()
-
-const postsResponse: any = await client.queries.postConnection()
-
-posts.value = postsResponse.data.postConnection.edges.map((post: any) => {
-  const dateObj = toDate(new Date(post.node.date))
-  const formattedDate = useFormatSpanishDate(dateObj, 1)
-
-  return {
-    slug: post.node._sys.filename,
-    title: post.node.title,
-    type: post.node.type,
-    date: post.node.date,
-    dateFormat: formattedDate,
-    body: `${useParseTinaContentAsString(post.node.body).slice(0, 200)}...`,
-  }
-})
+const posts = computed<ExtendedPost[]>(() => usePostsStore().posts)
 
 const filteredPosts = computed(() => {
+  if (!posts.value) {
+    return []
+  }
+
   let filteredItems: Post[] = []
 
   if (text.value) {

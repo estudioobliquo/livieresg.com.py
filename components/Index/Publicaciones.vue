@@ -4,7 +4,7 @@
     <NuxtLink :to="localePath('/blog')">
       VER TODAS LAS PUBLICACIONES
     </NuxtLink>
-    <div class="slider-container">
+    <div v-if="posts.length" class="slider-container">
       <SVGArrowSlider @click="previousPost" />
       <div class="blog-post-container-desktop">
         <template v-for="(post, index) in postsDesktop" :key="post.slug">
@@ -53,42 +53,26 @@
 </template>
 
 <script setup lang="ts">
-import { toDate } from 'date-fns'
-import { client } from '@/tina/__generated__/client'
-import { Post } from '@/tina/__generated__/types'
 import SVGArrowSlider from '@/assets/svg/global/arrowSlider.svg'
+import { ExtendedPost, usePostsStore } from '@/store/posts'
 
-const posts = ref<Post[]>()
+const rawPosts = computed<ExtendedPost[]>(() => usePostsStore().posts)
 const currentPostMobile = ref(0)
 const currentPostDesktop = ref(0)
 const cantPostMobile = 6
 const cantPostDesktop = 3
 let intervalId: any
 
-const postsResponse: any = await client.queries.postConnection()
+const posts = rawPosts.value
+  .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
+  .slice(0, cantPostMobile)
 
-posts.value = postsResponse.data.postConnection.edges.map((post: any) => {
-  const dateObj = toDate(new Date(post.node.date))
-  const formattedDate = useFormatSpanishDate(dateObj, 1)
-
-  return {
-    slug: post.node._sys.filename,
-    title: post.node.title,
-    type: post.node.type,
-    date: post.node.date,
-    dateFormat: formattedDate,
-    body: `${useParseTinaContentAsString(post.node.body).slice(0, 200)}...`,
-  }
-})
-
-posts.value = posts.value.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()).slice(0, cantPostMobile)
-
-const postsDesktop = ref([])
+const postsDesktop = ref<ExtendedPost[][]>([])
 
 postsDesktop.value = [
-  [ posts.value[0], posts.value[1] ],
-  [ posts.value[2], posts.value[3] ],
-  [ posts.value[4], posts.value[5] ],
+  [ posts[0], posts[1] ],
+  [ posts[2], posts[3] ],
+  [ posts[4], posts[5] ],
 ]
 
 const changePostMobile = (n: number) => {
