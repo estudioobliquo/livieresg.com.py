@@ -46,6 +46,7 @@
                 <p>
                   {{ $t(`footer.directions`) }}- Google Maps
                 </p>
+                <SVGArrow />
               </div>
             </a>
           </div>
@@ -63,6 +64,7 @@
                 <p>
                   {{ $t(`footer.directions`) }}- Google Maps
                 </p>
+                <SVGArrow />
               </div>
             </a>
           </div>
@@ -75,7 +77,7 @@
         </div>
         <div class="disclaimer">
           <p>
-            Livieres Guggiari | Estudio Juridico - © Copyright {{ $t(`footer.disclaimer`) }}
+            Livieres Guggiari | Estudio Juridico - © Copyright 2023 {{ $t(`footer.disclaimer`) }}
             <a class="disclaimerlink" href="https://estudioobliquo.com" target="_blank" rel="noopener">
               Estudio Obliquo
             </a>
@@ -87,7 +89,7 @@
 </template>
 
 <script setup lang="ts">
-import SVGarrow from '@/assets/svg/global/arrow.svg'
+import SVGArrow from '@/assets/svg/global/arrow.svg'
 import SVGLinkedin from '@/assets/svg/global/linkedin.svg'
 </script>
 
@@ -199,6 +201,7 @@ footer {
     .logo-container {
       width: 55%;
       max-width: 216px;
+      height: fit-content;
       margin: 50px auto 25px;
     }
 
@@ -214,7 +217,6 @@ footer {
       }
 
       .disclaimerlink {
-        display: block;
         color: #fff;
         text-decoration: none;
         transition: color 0.2s;
