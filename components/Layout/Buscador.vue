@@ -44,7 +44,6 @@
 </template>
 
 <script setup lang="ts">
-import { useSearch } from '@/composables/useSearch'
 import SVGLupa from '@/assets/svg/global/lupa.svg'
 import SVGCancel from '@/assets/svg/global/cancel.svg'
 

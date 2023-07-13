@@ -103,7 +103,6 @@
 
 <script setup lang="ts">
 import { ES } from '@/assets/dataMiembros.js'
-import { useSearch } from '@/composables/useSearch'
 const { text, filteredDatosAbogados, filteredDatosAdmin, filteredDatosParalegales, filteredDatosPartners } = useSearch()
 const espanol = ES
 
