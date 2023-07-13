@@ -102,10 +102,13 @@
 </template>
 
 <script setup lang="ts">
-import { ES } from '@/assets/dataMiembros.js'
+import { seoData } from 'assets/seoData'
+import { useSearch } from '~/composables/useSearch'
 const { text, filteredDatosAbogados, filteredDatosAdmin, filteredDatosParalegales, filteredDatosPartners } = useSearch()
-const espanol = ES
 
+const { locale } = useI18n()
+
+useHead(seoData['/miembros'][locale.value])
 </script>
 
 <style lang="scss" >

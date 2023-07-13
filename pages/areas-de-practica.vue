@@ -12,8 +12,13 @@
 </template>
 
 <script setup lang="ts">
+import { seoData } from 'assets/seoData'
 import { dataAdp } from '@/assets/dataAdp.js'
 const datosAreas = dataAdp
+
+const { locale } = useI18n()
+
+useHead(seoData['/areas-de-practica'][locale.value])
 </script>
 
 <style lang="scss">

@@ -16,11 +16,15 @@
 
 <script setup lang="ts">
 import { toDate } from 'date-fns'
+import { seoData } from 'assets/seoData'
 import { client } from '@/tina/__generated__/client'
 import { Post } from '@/tina/__generated__/types'
 const { text, checkedFilter } = useSearch()
 
 const T = 'pages.blog'
+const { locale } = useI18n()
+
+useHead(seoData['/blog'][locale.value])
 
 const posts = ref<Post[]>()
 
