@@ -77,7 +77,7 @@
         </div>
         <div class="disclaimer">
           <p>
-            Livieres Guggiari | Estudio Juridico - © Copyright 2023 {{ $t(`footer.disclaimer`) }}
+            Livieres Guggiari | Estudio Juridico - © Copyright {{ date }} {{ $t(`footer.disclaimer`) }}
             <a class="disclaimerlink" href="https://estudioobliquo.com" target="_blank" rel="noopener">
               Estudio Obliquo
             </a>
@@ -91,6 +91,7 @@
 <script setup lang="ts">
 import SVGArrow from '@/assets/svg/global/arrow.svg'
 import SVGLinkedin from '@/assets/svg/global/linkedin.svg'
+const date = new Date().getFullYear()
 </script>
 
 <style lang="scss">
