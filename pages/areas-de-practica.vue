@@ -1,29 +1,35 @@
-<!-- eslint-disable vue/attribute-hyphenation -->
 <template>
   <div>
+    <h1 class="title-areas-practica">
+      {{ $t(`menu.areas`) }}
+    </h1>
     <AtomAcordeon
       v-for="acordeonSection in datosAreas"
-      :key="acordeonSection.id"
-      :cardsSection="acordeonSection"
+      :key="acordeonSection.titulo"
+      :cards-section="acordeonSection"
     />
   </div>
 </template>
 
-<script>
-import { dataAdp } from '../assets/dataAdp.js'
-//   import Acordeon from '../components/Acordeon.vue'
-definePageMeta({ layout: 'central' })
+<script setup lang="ts">
+import { seoData } from 'assets/seoData'
+import { dataAdp } from '@/assets/dataAdp.js'
+const datosAreas = dataAdp
 
-export default {
+const { locale } = useI18n()
 
-  data () {
-    return {
-      datosAreas: dataAdp,
-    }
-  },
-}
+useHead(seoData['/areas-de-practica'][locale.value])
 </script>
 
-  <style>
+<style lang="scss">
+.title-areas-practica {
+  display: block;
 
-  </style>
+  @media only screen and (width >= 1000px) {
+    &{
+      display: none;
+    }
+  }
+}
+
+</style>

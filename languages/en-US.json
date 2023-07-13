@@ -1,90 +1,404 @@
 {
-    "locale": "en",
-    "menu": {
-      "home": "Home",
-      "aboutUs": "About Us",
-      "staff": "Staff",
-      "areas": "Practice Areas",
-      "blog": "Publication and News(ES)",
-      "art": "LG Art Gallery",
-      "contact": "Contact"
+  "locale": "en",
+  "menu": {
+    "home": "Home",
+    "aboutUs": "About Us",
+    "staff": "Staff",
+    "areas": "Practice Areas",
+    "blog": "Publication and News(ES)",
+    "art": "LG Art Gallery",
+    "contact": "Contact"
+  },
+  "index": {
+    "ourStudy": "About Us",
+    "aboutUs": {
+      "Derecho Comercial y Societario": "Commercial and Corporate Law",
+      "Inversiones - Derecho Tributario": "Investments - Tax Law",
+      "Sucesiones": "Successions",
+      "Asuntos Administrativos": "Administrative Issues, Public Tenders",
+      "Propiedad Intelectual": "Intellectual Property"
     },
-    "index":{
-        "ourStudy":"About Us",
-        "aboutUs":{
-            "Derecho Comercial y Societario": "Commercial and Corporate Law",
-            "Inversiones - Derecho Tributario": "Investments - Tax Law",
-            "Sucesiones" : "Successions",
-            "Asuntos Administrativos": "Administrative Issues, Public Tenders",
-            "Propiedad Intelectual": "Intellectual Property"
-            },
-        "ourStudyText":"Since 1990, Livieres Guggiari's team has provided assistance to numerous companies, entities and individuals, national and international, both in the area of legal advice and in the area of litigation, having to date A path of full professional conduct and an experience of more than 25 years at the service of our Clients.",
-        "ourAreas": "Our practice areas",
-        "members": "We are members of",
-        "workWith": "We work with"
-    },    
-    "atom":{
-        "Conocer mas": "Learn more",
-        "Ver todos": "See all",
-        "changeLanguage": "Change language",
-        "information": "+ INFORMATION",
-        "buttonBack": "Back to the HomePage",
-        "goBack": "Go Back"
-    },
-    "staff":{
-        "atto": "Attorneys",
-        "paralegals": "Paralegals",
-        "administration": "Administration",
-        "slug":{
-            "areas": "Practice Areas",
-            "education":"Professional Education",
-            "languages": "Languages",
-            "members": "Memberships",
-            "experiencia": "Experiencie",
-            "adp": ".ENadp"
-        }
-    },
-    "footer":{
-        "email": "Email",
-        "phone": "Telephone",
-        "offices": "Offices",
-        "direction1": "Pitiantuta N° 640 between Siria and Juan de Salazar",
-        "direction2": "Calle B. H. Unruh N° 276 between O. Miller and Pte. Gondra",
-        "times": "Monday to Friday from 8:00 to 18:30",
-        "contact": "Contact",
-        "directions": "Directions",
-        "disclaimer": "All rights reserved. A work by"
-    },
-    "pages":{
-        "us":{
-        "usTitle": "Our History",    
-        "us1": "Since 1990, Livieres Guggiari's team has provided assistance to numerous companies, organizations and individuals, national as well as international, both in the area of legal advice and in the area of litigation, having to date a path of professional ethics and an experience of more than 25 years at the service of our Clients.,",
-        "us2": "The Law Firm has been characterized by the constant and personalized attention it provides to its clients and by a prudent and professional approach in the management of their rights and interests . At Livieres Guggiari, we use an internal system of information exchange and knowledge in order to find the best strategy for the defence of our clients’ business.",
-        "us3": "Our culture of teamwork guarantees a permanent coordination that allows a continuous assistance to our clients while at the same time a maximization of the human potential.",
-        "us4": "Our professional management acts with absolute integrity, loyalty, diligence, confidentiality and responsibility in the fulfillment of the mandates received, factors in which we place special emphasis, keeping us updated in the constant evolution of the legal world in order to assure a firm and complete commitment to our clients."
-        },
-        "adp":{
-            "Derecho Comercial y Societario": "Commercial and Corporate Law",
-            "Inversiones - Derecho Tributario": "Investments - Tax Law",
-            "Sucesiones" : "Successions",
-            "Asuntos Administrativos": "Administrative Issues, Public Tenders",
-            "Propiedad Intelectual": "Intellectual Property",
-            "Derecho Cooperativo y Mutual": "Cooperative and Mutual Law",
-            "Derecho Ambiental": "Environmental law",
-            "Derecho Medico": "Medical Law",
-            "Asuntos Laborales": "Laboral",
-            "Litigios y procesos": "Litigation and Processes",
-            "Agua, Energia y Mineria": "Water, Energy and Mining"
-
-
-
-        }
-    },
-    "gallery":{
-        "galleryTitle" : "Livieres Guggiari Art Gallery",
-        "subtitle": "A collection of selected works of art, exhibited in our offices, that we want to share with you.",
-        "paint": "paintings",
-        "sculp": "scultures"
+    "ourStudyText": "Since 1990, Livieres Guggiari's team has provided assistance to numerous companies, entities and individuals, national and international, both in the area of legal advice and in the area of litigation, having to date A path of full professional conduct and an experience of more than 25 years at the service of our Clients.",
+    "ourAreas": "Our practice areas",
+    "members": "We are members of",
+    "workWith": "We work with"
+  },
+  "atom": {
+    "Conocer mas": "Learn more",
+    "Ver todos": "See all",
+    "changeLanguage": "Change language",
+    "information": "+ INFORMATION",
+    "buttonBack": "Back to the HomePage",
+    "goBack": "Go Back",
+    "search": {
+      "text": "Search",
+      "filters": {
+        "articles": "Articulos",
+        "news": "Novedades Juridicas",
+        "deals": "Deals",
+        "events": "Eventos"
+      }
     }
+  },
+  "staff": {
+    "atto": "Attorneys",
+    "paralegals": "Paralegals",
+    "administration": "Administration",
+    "slug": {
+      "areas": "Practice Areas",
+      "education": "Professional Education",
+      "languages": "Languages",
+      "members": "Memberships",
+      "experiencia": "Experiencie",
+      "adp": ".ENadp"
+    }
+  },
+  "footer": {
+    "email": "Email",
+    "phone": "Telephone",
+    "offices": "Offices",
+    "direction1": "Pitiantuta N° 640 between Siria and Juan de Salazar",
+    "direction2": "Calle B. H. Unruh N° 276 between O. Miller and Pte. Gondra",
+    "times": "Monday to Friday from 8:00 to 18:30",
+    "contact": "Contact",
+    "directions": "Directions",
+    "disclaimer": "All rights reserved. A work by"
+  },
+  "pages": {
+    "us": {
+      "usTitle": "Our History",
+      "us1": "Since 1990, Livieres Guggiari's team has provided assistance to numerous companies, organizations and individuals, national as well as international, both in the area of legal advice and in the area of litigation, having to date a path of professional ethics and an experience of more than 25 years at the service of our Clients.,",
+      "us2": "The Law Firm has been characterized by the constant and personalized attention it provides to its clients and by a prudent and professional approach in the management of their rights and interests . At Livieres Guggiari, we use an internal system of information exchange and knowledge in order to find the best strategy for the defence of our clients’ business.",
+      "us3": "Our culture of teamwork guarantees a permanent coordination that allows a continuous assistance to our clients while at the same time a maximization of the human potential.",
+      "us4": "Our professional management acts with absolute integrity, loyalty, diligence, confidentiality and responsibility in the fulfillment of the mandates received, factors in which we place special emphasis, keeping us updated in the constant evolution of the legal world in order to assure a firm and complete commitment to our clients."
+    },
+    "adp": {
+      "title": {
+        "derechoComercialYSocietario": "Commercial and Corporate Law",
+        "inversionesDerechoTributario": "Investments - Tax Law",
+        "sucesiones": "Successions",
+        "asuntosAdministrativos": "Administrative Issues, Public Tenders",
+        "derechoCooperativoYMutual": "Cooperative and Mutual Law",
+        "derechoBancarioYCumplimiento": "Banking and Finance Law",
+        "derechoAmbiental": "Environmental law",
+        "propiedadIntelectual": "Intellectual Property",
+        "derechoMedico": "Medical Law",
+        "asuntosLaborales": "Laboral",
+        "litigiosYProcesos": "Litigation and Processes",
+        "aguaEnergiaYMineria": "Water, Energy and Mining"
+      },
+      "content": {
+        "derechoComercialYSocietario": "<p>In this area, the Law Firm advises important private companies, both national and foreign, on a wide variety of commercial and institutional matters, dealing with all aspects related to their ordinary social rotation, as well as the constitution of commercial companies, drafting Of corporate by-laws and their amendments, capital increase and reduction, restructuring agreements, concordats and competitions, share transfer contracts, transfer of assets and liabilities, liquidation of companies, mergers, transformations, strategic alliances, branch offices, subsidiaries And joint ventures.</p><p>Several issues, dealt with and resolved with the active intervention of members of the Law Firm, have made it possible to find the best solutions regarding legal and administrative conditions in the field of representations, agencies or distributors of foreign firms based in our country.</p>",
+        "inversionesDerechoTributario": "<p>Livieres Guggiari has a vast experience and trajectory in assisting national and foreign individuals and companies interested in investing in Paraguay, providing not only legal assistance but also, together with other professionals of the first level, a comprehensive and interdisciplinary assistance that Economic and financial aspects, as well as tax, in order to optimize the quality of the investment with the lowest cost, maximizing the tax advantages, in a healthy and legal way.</p><p>With specialized and experienced professionals our Law Firm provides comprehensive assistance in the matter of filing and nationalization of foreigners in the Republic of Paraguay.</p>",
+        "sucesiones": "<p>We have specialized lawyers in processes simples or complexes successions of national and foreign citizens; Advice on the necessary documentation; Recognition of foreign declaratory judgments; Agreement of partition of goods, subrogations; Adjudication of the assets to the heirs and legatees, and registration of the award certificates in the corresponding Public Registries.</p>",
+        "asuntosAdministrativos": "<p>We have the knowledge in administrative issues and litigation administrative litigation.</p><p>One of our partners was hired by the National Secretariat for State Reform for advice, preparation and drafting of a draft law, which was then sanctioned and promulgated as Law No. 1,615 / 2000 \"General Reorganization and Transformation of Entities Public Decentralization and Reform and Modernization of Organisms of the Central Administration of the Republic of Paraguay\".</p><p> Likewise, one of its members, held the position of Attorney of the Treasury for several years, having a knowledge finished within the administrative scope.</p><p>The Law Firm provides legal assistance to its clients in procurement processes and public or private contracting, in the preparation of specifications and bidding conditions, formulation of offers, consultations, protests or challenges.</p>",
+        "derechoCooperativoYMutual": "<p>A hard work, effectively and efficient in the field of cooperative and mutual law, advising entities in the solidarity sector that are operating under the control and control of the competent bodies in that field in the Republic of Paraguay. </p> <p> The vast professional management already developed has allowed and allows to provide integral assistance and to intervene in the constitution, management, modification and development of some of the production, consumer, credit, housing cooperatives, among others, Our country, as well as one of the Mutual Funds leaders of mutualism.</p>",
+        "derechoBancarioYCumplimiento": "<p> We have actively provided legal advice during the financial crisis that crossed the country in the 1990s, allowing it to gain extensive experience in the sector. </p> <p> Members of the Law Firm have exercised various internal functions, in areas of legal and administrative departments, within different banking entities in our country, qualifying the legal assistance that we have been providing to financial entities, as in all kinds of activities in the same Scope. </p>",
+        "derechoAmbiental": "<p> In this area, we offer comprehensive advice on issues related to environmental protection, procedures and obtaining permits and licenses, as well as representation in administrative and judicial processes related to the environment. </p> <p> Also, the consultancy includes the relevant support for the management of permits and licenses, the revision of the application of the norms in specific projects and the analysis, from the legal perspective, of the environmental management plans, among others. </p>",
+        "propiedadIntelectual": "<p> Through specialized professionals, we provides integral advice to satisfy the needs of our clients and colleagues with the highest speed and efficiency, providing the highest quality services in the processing and obtaining of trademarks, patents, utility models, drawings and Industrial models; Registration of foreign marks and patents; Opinions on feasibility of records; Classification of products and services; Presentation and processing of trademark applications and renewals; Strategies for filing, processing and answering objections, hearings, appeals, licensing agreements and negotiating agreements. </p> <p> In the area of Copyright and Related Rights, we offer advice to national and foreign clients on the protection and registration of works, software, licenses for use, enforcement rights and all proceedings before the competent administrative body. </p> <p> In the judicial field, there is extensive experience in contentious-administrative litigation, and civil and commercial proceedings relating to intellectual property, trademark and patent invalidations, unfair competition, cessation of misuse, etc. </p>",
+        "derechoMedico": "<p> We provide legal advice to the main sanatoria and private hospitals, as well as the largest provider of sanatorium medical coverage services in the country. </p> <p> Professionals highly trained and experienced for comprehensive advice on contracts for the provision of medical services, rights and duties of the parties, obligations of means and obligations of result in the exercise of the medical profession; Civil liability of the physician, civil liability in equipment, insurance; Doctor's relations with professional colleges; Company doctors; Forensic doctors; among others. </p>",
+        "asuntosLaborales": "<p> We provide comprehensive advice to companies regarding the various issues they make to labor relations, keeping our clients up to date on legal and regulatory provisions of a labor nature that are applicable, seeking to minimize conflicts with permanent or potential personnel and avoiding imposition Of administrative sanctions for breach of said legislation.</p> <p> Among other issues, we intervene in the formation of work contracts that include the modalities and clauses most appropriate to the needs, operation and structure of each company, as well as in the conclusion of conciliatory agreements, drafting of collated telegrams, Decoupling agreements, internal administrative summaries for the application of penalties and sanctions to employees, as in the settlement of salary and compensation indemnities; We participate in the drafting, discussion and conclusion of collective agreements, internal work regulations; We assist and advise in all type of audiences in administrative before the diverse dependencies of the Ministry of Justice and Labor, Institute of Social Prediction or other public organisms linked to the labor area. </p>",
+        "litigiosYProcesos": "<p> Although in the Law Firm he practices the profession from the conviction that most of the issues, however conflicting or complex, may be resolved within the extrajudicial orbit, in certain cases this is not viable and the judicial route is required or The most suitable. </p> <p> Whether or not the judicial process is appropriate or the resultant, it is important to have timely professional assistance. </p> <p> The services of the Law Firm include counseling at the litigious stage, as well as in the prevention of disputes and support in the negotiation of alternative solutions. </p> <p> The lawyers of our firm have adequate and long experience in civil, commercial, administrative, municipal and environmental litigation. </p>",
+        "aguaEnergiaYMineria": "<p> Livieres Guggiari, As a member of the Consortium awarded, through one of its partners, participated actively in the elaboration and development of a new legal and institutional framework for the water and sewerage sector of the Republic of Paraguay, which is in full swing Effective since the enactment and promulgation of Law No. 1.614 / 2000 \"General of the Regulatory and Tariff Framework of the Public Service of Potable Water Supply and Sewerage for the Republic of Paraguay.\" Later, it was also contracted jointly with other national and foreign professionals for the advice and elaboration of the regulation decree and of the regulations applicable to those services. </p> <p> In the restructuring of Paraguay's electricity sector, it participated in the consultancy and legal assistance provided by the SIIME Consortium, which was awarded for this restructuring. </p> <p> At present, the Law Firm provides legal advice in the sector to the Mennonite Cooperatives of the Central Chaco that deal with the service of distribution of electric energy in their respective areas of responsibility. The Law Firm also advised foreign companies that provided exploration and hydrocarbon services. </p> <p> With regard to the mining area, our Firm is providing its services to national and international companies in legal and administrative matters for the obtaining of mining permits and concessions, as well as for the fulfillment of the relevant obligations and procedures in the execution of the stages Mining, exploration and / or exploitation of mineral resources, in particular with respect to administrative, tax, environmental, labor, social security, and other incidents entailed in the implementation of these stages. </p> <p> We have participated actively in the analysis for the modification of the Mining Law, integrating the Paraguayan Chamber of Mining, in training. </p>"
+      }
+    },
+    "team": {
+      "elivieres": {
+        "subtitle": "Attorney-at-Law since 1991, LL.M. Partner.",
+        "adp": "Inheritance Law, Banking and Financial Law, Intellectual Property Law, Cooperatives and Mutual Societies Laws, Environmental Law, Integration Law (MERCOSUR) (Common Market of the South), Litigations.",
+        "formacion": "“Nuestra Señora de la Asunción” Catholic University: Attorney-at-Law (Diploma of Honor and Excellence); Ruprecht-Karls-Universität Heidelberg, Germany (1995): Master of Laws (Magister Legum).",
+        "idiomas": "Spanish and German.",
+        "asociaciones": "Paraguayan Bar Association, “Instituto Paraguayo de Derecho Bancario y Societario (IPDBS)” (Paraguayan Institute of Banking and Company Laws), Inter-American Federation of Lawyers (FIA), and International Association of Lawyers (UIA)."
+      },
+      "plivieres": {
+        "subtitle": "Attorney-at-Law since 1989. Doctor of Juridical Science. Partner.",
+        "adp": "Commercial and Corporate Law, Mergers and Acquisitions, Contract Law, Restructuring and Regulation of Drinking Water and Electricity Utilities, Privatizations, Foreign Investments.",
+        "formacion": "Nuestra Señora de la Asunción” Catholic University, Asunción: Attorney-at-Law; National University of Pilar, Paraguay (2005): Doctor of Juridical Science (Summa Cum Laude).",
+        "idiomas": "Spanish and English.",
+        "asociaciones": "Bar Association, Inter-American Federation of Lawyers (FIA), “Instituto Paraguayo de Derecho Bancario y Societario (IPDBS)” (Paraguayan Institute of Banking and Company Laws) and International Association of Lawyers (UIA)."
+      },
+      "cbenitez": {
+        "subtitle": "Attorney-at-Law since 1980. Doctor of Juridical Science.",
+        "adp": "Civil Liability, Banking and Financial Law, Civil Liability Insurance Laws, and Litigations.",
+        "formacion": "National University of Asuncion: Attorney-at-Law. National University of Pilar, Paraguay (2005): Doctor of Juridical Science (Summa Cum Laude). Professor in private Universities.",
+        "idiomas": "Spanish",
+        "asociaciones": "Paraguayan Bar Association."
+      },
+      "ovazquez": {
+        "subtitle": "Attorney-at-Law since 1991.",
+        "adp": "Health Care Law, Immigration Law, Inheritance Law and Corporate Advice.",
+        "formacion": "“Nuestra Señora de la Asunción” Catholic University, Asunción: Attorney-at-Law (Diploma of Honor and Excellence)",
+        "idiomas": "Spanish.",
+        "asociaciones": "Paraguayan Bar Association."
+      },
+      "cespinola": {
+        "subtitle": "Attorney-at-Law since 1997.",
+        "adp": "Municipal Law, Successions Law, Foreclosures and Liens, Corporate Advice.",
+        "formacion": "“Nuestra Señora de la Asunción” Catholic University, and National University of Asuncion: Attorney-at-Law.",
+        "idiomas": "Spanish.",
+        "asociaciones": ""
+      },
+      "icardozo": {
+        "subtitle": "Attorney-at-Law since 1994. ",
+        "adp": "Environmental Law, Real Property Rights, Judgment Enforcement, and Litigations.",
+        "formacion": "“Nuestra Señora de la Asunción” Catholic University, Asunción: Attorney-at-Law.",
+        "idiomas": "Spanish",
+        "asociaciones": ""
+      },
+      "dlovera": {
+        "subtitle": "Attorney-at-Law since 1999. LL.M.",
+        "adp": "Commercial and Corporate Law, Liquidations and Bankruptcies. Foreclosure and Liens.",
+        "formacion": "National University of Asunción: Attorney-at-Law and Notary; National University of Rosario, Argentina (2004): Master of Private Law.",
+        "idiomas": "Spanish",
+        "asociaciones": ""
+      },
+      "ntiretta": {
+        "subtitle": "Attorney-at-Law since 1991. LL.M. ",
+        "adp": "Civil Law, Mutual Societies Law, Litigations and Debt Collections.",
+        "formacion": "“Nuestra Señora de la Asunción” Catholic University, Asunción: Attorney-at-Law; Ruprecht-Karls-Universität Heidelberg, Germany (1995): Master of Law (Magister Legum).",
+        "idiomas": "Spanish and German.",
+        "asociaciones": ""
+      },
+      "jramirez": {
+        "subtitle": "Attorney- at-Law since 2000. Legal Advisory Coordinator",
+        "adp": "Mergers and Acquisitions, Banking, Financial and Cooperative Law, Commercial and Corporate Law and Consultant and Lecturer on Prevention of Money or Property Laundering and Financing of Terrorism.",
+        "formacion": "National University of Asunción: Attorney-at-Law.",
+        "idiomas": "Spanish and English",
+        "asociaciones": ""
+      },
+      "gvelazquez": {
+        "subtitle": "Attorney-at-Law since 2002.",
+        "adp": "Labor Law and Social Security Law, Administrative Law, and Litigations.",
+        "formacion": "“Nuestra Señora de la Asunción” Catholic University, Asunción: Attorney-at-Law.",
+        "idiomas": "Spanish.",
+        "asociaciones": "Paraguayan Bar Association, Association of Labour Lawyers (AAL)"
+      },
+      "mbejaranom": {
+        "subtitle": "Attorney-at-Law since 2003. LL.M.",
+        "adp": "Energy, Hydrocarbons and Mining Law. Advice from National and International Hydrocarbons, Bioenergy and Mining Companies.",
+        "formacion": "National University of Asunción: Lawyer. National University of Rosario: Master’s Degree in Private Law (2007). Complutense University of Madrid: Master in Business and Energy Law (2011). Instituto Tecnologico de Buenos Aires: Specialist in Oil and Gas Economics (2019).",
+        "experiencia": "Adviser of the Commission of Energy, Mines and Hydrocarbons of the Honorable Chamber of Deputies (2013-2014). Vice-Minister of Mines and Energy (2014-2018).",
+        "idiomas": "Spanish, English and Italian."
+      },
+      "tbrown": {
+        "subtitle": "Attorney-at-Law since 2009. LL.M.",
+        "adp": "Commercial and Corporate Law, Maritime Law and Private International Law.",
+        "formacion": "National University of Asunción”: Attorney-at-Law (Diploma of Honor and Excellence). University of Alcalá de Henares (Spain): Master in Business Law; Universidad Complutense de Madrid (Spain): Diploma in Theory and Practice of International Business Law.",
+        "idiomas": "English, Spanish, Portuguese, French.",
+        "asociaciones": ""
+      },
+      "burbieta": {
+        "subtitle": "Attorney-at-Law since 1987",
+        "adp": "Civil, Commercial, Administrative Law, Intellectual Property, Administrative and Judicial Litigation.",
+        "formacion": "Universidad Nacional de Asunción: Lawyer.",
+        "idiomas": "Spanish, English",
+        "asociaciones": ""
+      },
+      "mschaerer": {
+        "subtitle": "Attorney-at-Law since 2000. LL. M.",
+        "adp": "International Trade Law, Customs and Maritime Law and Corporate Law. Former Ambassador of Paraguay to Canada (2009-2015).",
+        "formacion": "National University of Asunción”, Attorney-at-Law (2000). Monterrey Institute of Technology and Higher Education, Master in International Law (2005).",
+        "idiomas": "Spanish, English, Portuguese.",
+        "asociaciones": ""
+      },
+      "mbfranco": {
+        "subtitle": "Attorney-at-Law since 1978.",
+        "adp": "Labor Law",
+        "formacion": "Lawyer graduated from the Universidad Católica Ntra. Sra. De la Asunción in 1978, with an average of 4.94 points. In 1979 she graduated from the Faculty of Notaries and Public Notaries. She is a Chair Assistant and later Chair in Charge at the Labor Law Area institute for 10 years. Postgraduate course at U. C. A. ",
+        "idiomas": "Spanish",
+        "asociaciones": ""
+      },
+      "aens": {
+        "subtitle": "Attorney-at-Law since 1997. LL. M.",
+        "adp": "Civil und Commercial Law, Tax und Cooperative Law.",
+        "formacion": "Universidad Nacional de Asunción: Attorney und Notary Public; Universität Bielefeld, Alemania (2000): Master in Law (Magister Legum).",
+        "idiomas": "Spanish, German",
+        "asociaciones": ""
+      },
+      "msantiviago": {
+        "subtitle": "Attorney-at-Law since 2013. LL.M.  ",
+        "adp": "Civil Law, Civil Procedural Law and Litigations.",
+        "formacion": "Catholic University “Nuestra Señora de la Asuncion” Lawyer (graduated with Distinction); Ruprecht-Karls-Universität Heidelberg, Germany (2017): Master of Law (Magister Legum).",
+        "idiomas": "Spanish, English and German.",
+        "asociaciones": ""
+      },
+      "abittar": {
+        "subtitle": "Attorney-at-Law since 2011 LL.M.",
+        "adp": "Inheritance Law, Sport Law and Litigations.",
+        "formacion": "“Nuestra Señora de la Asuncion” Catholic University Lawyer and Notary (graduated with Distinction) in 2012. LL.M Sports Law and Management - Grant Thornton 2021 ISDE Law Business School Madrid, Spain",
+        "idiomas": "Spanish and English.",
+        "asociaciones": ""
+      },
+      "rberino": {
+        "subtitle": "Attorney-at-Law since 2009.",
+        "adp": "Commercial and Corporate Law.",
+        "formacion": "Universidad Nacional de Asunción: Abogado; Universidad Católica Nuestra Señora de la Asunción: Mediador desde el año 2010.",
+        "idiomas": "Spanish, English",
+        "asociaciones": ""
+      },
+      "lbordon": {
+        "subtitle": "Attorney-at-Law since 2013",
+        "adp": "Derecho Civil, Ejecuciones, Derecho Concursal, Litigios.",
+        "formacion": "Universidad Católica Nuestra Señora de la Asunción, Regional Asunción: Abogado.",
+        "idiomas": "Español y Portugués",
+        "asociaciones": ""
+      },
+      "jsilvero": {
+        "subtitle": "Attorney-at-Law since 2013",
+        "adp": "Labour Law and Social Security, Legal Advice on Labour Law and Legal Litigation",
+        "formacion": "Universidad Nacional de Asunción: Lawyer.",
+        "idiomas": "Spanish, English and Chinese (Mandarin)",
+        "asociaciones": ""
+      },
+      "sgomez": {
+        "subtitle": "Attorney-at-Law since 2003",
+        "adp": "Civil Law, Environmental Law, Litigation.",
+        "formacion": "Universidad Nacional de Asunción: Lawyer (2003) and Notary (2004)",
+        "idiomas": "Spanish",
+        "asociaciones": ""
+      },
+      "pguggiari": {
+        "subtitle": "Attorney-at-Law since 2014.",
+        "adp": "Civil Law, Administrative Law, Tax Law and Litigations.",
+        "formacion": "“Nuestra Señora de la Asuncion” Catholic University, Lawyer.",
+        "idiomas": "Spanish.",
+        "asociaciones": ""
+      },
+      "psantiviago": {
+        "subtitle": "Attorney-at-Law since 2016",
+        "adp": "Civil Law and Litigation.",
+        "formacion": "“Nuestra Señora de la Asuncion” Catholic University, Lawyer.",
+        "idiomas": "Spanish, German and English. ",
+        "asociaciones": ""
+      },
+      "pmoreno": {
+        "subtitle": "Attorney-at-Law since 2016",
+        "adp": "Corporate Advice, Health Care Law, and Inmigration Law.",
+        "formacion": "“Nuestra Señora de la Asunción” Catholic University, Asunción: Attorney-at-Law.",
+        "idiomas": "Spanish and English. ",
+        "asociaciones": ""
+      },
+      "amorel": {
+        "subtitle": "Attorney-at-Law since 2016",
+        "adp": "Labor Law and Social Security Law, and Litigations.",
+        "formacion": "San Lorenzo University – Headquarters: Itagua, Abogado.",
+        "idiomas": "Spanish.",
+        "asociaciones": ""
+      },
+      "larce": {
+        "subtitle": "Attorney-at-Law since 2011",
+        "adp": "Health Care Law and Corporate Advice.",
+        "formacion": "Del Norte University, Headquarters: Luque, Lawyer and Notary.",
+        "idiomas": "Spanish and Portuguese.",
+        "asociaciones": ""
+      },
+      "misasi": {
+        "subtitle": "Attorney-at-Law since 2015",
+        "adp": "Civil Law, Litigation and Debt Collections.",
+        "formacion": "“National University of Asunción”, Lawyer.",
+        "idiomas": "Spanish.",
+        "asociaciones": ""
+      },
+      "bspinzi": {
+        "subtitle": "Attorney-at-Law since 2012 ",
+        "adp": "Civil and Commercial Law, Contract Law, Corporate Law.",
+        "formacion": "“National University of Asunción”, Attorney-at-Law (Graduate with Honors)",
+        "idiomas": "Spanish and English.",
+        "asociaciones": ""
+      },
+      "mlivieres": {
+        "subtitle": "Attorney-at-Law since 2017",
+        "adp": "Corporate Law and Contract Law.",
+        "formacion": "“Nuestra Señora de la Asuncion” Catholic University, Lawyer and Notary.",
+        "idiomas": "Spanish and English.",
+        "asociaciones": ""
+      },
+      "mpaats": {
+        "subtitle": "Attorney-at-Law since 2017 ",
+        "adp": "Labor Law and Social Security Law, Corporate Law and Litigations.",
+        "formacion": "“Nuestra Señora de la Asuncion” Catholic University (“Outstanding” Diploma of Honour), Lawyer.",
+        "idiomas": "Spanish and English.",
+        "asociaciones": "Association of Labour Lawyers (AAL)"
+      },
+      "bsosa": {
+        "subtitle": "Attorney-at-Law since 2017 ",
+        "adp": "Corporate Consultancy, Contractual and Corporate Law.",
+        "formacion": "“Nuestra Señora de la Asuncion” Catholic University, Lawyer (Diploma of Distinction) and Notary.",
+        "idiomas": "Spanish and English.",
+        "asociaciones": ""
+      },
+      "apesole": {
+        "subtitle": "Attorney-at-Law since 2017",
+        "adp": "Corporate Advice, Debt Collections and Litigations.",
+        "formacion": "“Nuestra Señora de la Asuncion” Catholic University, Attorney-at-Law.",
+        "idiomas": "Spanish and English.",
+        "asociaciones": ""
+      },
+      "ndossantos": {
+        "subtitle": "Attorney-at-Law since 2018. LL.M.",
+        "adp": "Competition Law, Corporate and Commercial Law, Financial Law, Litigation",
+        "formacion": "Catholic University Nuestra Señora de la Asunción, Lawyer (Honours Diploma “Outstanding”); MJur (Master of Laws), University of Oxford, UK; Diploma in Tort Law, Complutense University of Madrid, Spain.",
+        "idiomas": "Spanish and English.",
+        "asociaciones": "Paraguayan Institute of Law and Economics (IPDE)"
+      },
+      "pmainzhausen": {
+        "subtitle": "Attorney-at-Law since 2018",
+        "adp": "Civil Liability, Civil Liability Insurance Laws and Litigations",
+        "formacion": "“Nuestra Señora de la Asunción” Catholic University, Asunción: Attorney-at-Law (Graduate with Honors).",
+        "idiomas": "Spanish, German and English. ",
+        "asociaciones": ""
+      },
+      "pdoria": {
+        "subtitle": "Attorney-at-Law since 2013, LL.M.",
+        "adp": "Corporate and Commercial Law, Mergers, Acquisitions, Competition Law and Agribusiness.",
+        "formacion": "National University of Asunción, Attorney-at-Law (Graduate with Honors); Queen Mary University of London (2018): LLM (Magister Legum) (Graduate with Honors).",
+        "idiomas": "Spanish and English.",
+        "asociaciones": ""
+      },
+      "aguggiari": {
+        "subtitle": "Attorney-at-Law since 2012",
+        "adp": "Civil Law, Commercial Law and Labor Law.",
+        "formacion": "Graduated from the Catholic University Our Lady of the Assumption (UCA). Diploma in Labor Law and Practice (Instituto Superior de Formación Tributaria y Empresarial -FOTRIEM-, 2015). Occupational Health and Safety Technician (National Professional Promotion Service - SNPP -, 2018).",
+        "idiomas": "Spanish",
+        "asociaciones": ""
+      },
+      "ccoronel": {
+        "subtitle": "Attorney-at-Law since 2019",
+        "adp": "Corporate advice, collections and litigation.",
+        "formacion": "National University of Asunción: Lawyer and Notary Public. ",
+        "idiomas": "Spanish, Italian.",
+        "asociaciones": ""
+      },
+      "bdoria": {
+        "subtitle": "Attorney-at-Law since 2021",
+        "adp": "Labour Law and Social Security, Legal Advice in Labour Law and Legal Litigation.",
+        "formacion": "Universidad Católica Nuestra Señora de la Asunción, Regional Asunción: Lawyer (Distinguished Diploma)",
+        "idiomas": "Spanish and English.",
+        "asociaciones": ""
+      },
+      "hlaguardia": {
+        "subtitle": "Attorney-at-Law since 2021",
+        "adp": "Constitutional Law, Civil Liability Law for Damages, Property Damage Insurance Law and Litigation.",
+        "formacion": "Catholic University of Our Lady of Asunción.",
+        "idiomas": "Spanish and English.",
+        "asociaciones": ""
+      },
+      "afernandez": {
+        "subtitle": "Attorney-at-Law since 2021",
+        "adp": "State Attorney General's Office (Assistant Attorney General), Juvenile Court, Juvenile Prosecutor's Office, Trademarks and Patents (registrations, address changes, name changes).",
+        "formacion": "“Nuestra Señora de la Asuncion” Catholic University, Lawyer  and Notary (Diploma of Distinction).",
+        "idiomas": "Spanish, German and English. ",
+        "asociaciones": ""
+      }
+    },
+    "blog": {
+      "title": "Publications and News"
+    }
+  },
+  "gallery": {
+    "galleryTitle": "Livieres Guggiari Art Gallery",
+    "subtitle": "A collection of selected works of art, exhibited in our offices, that we want to share with you.",
+    "paint": "paintings",
+    "sculp": "scultures"
+  }
 }
-  

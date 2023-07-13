@@ -2,7 +2,7 @@
   <div>
     <div class="mobileHeader">
       <LayoutMenu :menu-active="showMobileMenu" @closeMobileMenu="showMobileMenu = false" />
-      <LayoutHeader @click="showMobileMenu = true" />
+      <LayoutHeader @openMobileMenu="showMobileMenu = true" />
     </div>
     <div class="mainCont">
       <header class="desktopHeader">
@@ -26,16 +26,16 @@
           <a href="#footer">{{ $t(`menu.contact`) }}</a>
         </nav>
         <div class="languagesCont">
-          <NuxtLink :to="switchLocalePath('es')" :class="{none: isCurrentLanguage('es')}">
+          <NuxtLink :to="switchLocalePath('es')" :class="{ none: isCurrentLanguage('es') }">
             Español
           </NuxtLink>
-          <NuxtLink :to="switchLocalePath('en')" :class="{none: isCurrentLanguage('en')}">
+          <NuxtLink :to="switchLocalePath('en')" :class="{ none: isCurrentLanguage('en') }">
             English
           </NuxtLink>
-          <NuxtLink :to="switchLocalePath('de')" :class="{none: isCurrentLanguage('de')}">
+          <NuxtLink :to="switchLocalePath('de')" :class="{ none: isCurrentLanguage('de') }">
             Deutsch
           </NuxtLink>
-          <NuxtLink :to="switchLocalePath('pt')" :class="{none: isCurrentLanguage('pt')}">
+          <NuxtLink :to="switchLocalePath('pt')" :class="{ none: isCurrentLanguage('pt') }">
             Português
           </NuxtLink>
         </div>
@@ -45,6 +45,7 @@
       </div>
       <IndexIntro data-sal="fade" data-sal-delay="200" data-sal-duration="800" />
       <IndexAreasDePracticas data-sal="fade" data-sal-delay="200" data-sal-duration="800" />
+      <IndexPublicaciones data-sal="fade" data-sal-delay="200" data-sal-duration="800" />
       <IndexAssociations data-sal="fade" data-sal-delay="200" data-sal-duration="800" />
       <ProjectCostumers data-sal="fade" data-sal-delay="200" data-sal-duration="800" is-index />
     </div>
@@ -54,7 +55,7 @@
 
 <script setup lang="ts" >
 import sal from 'sal.js'
-import { seoData } from '~~/assets/seoData'
+import { seoData } from '@/assets/seoData'
 
 onMounted(() => {
   sal()
@@ -64,7 +65,7 @@ const switchLocalePath = useSwitchLocalePath()
 
 //  *** SEO ***
 useHead(seoData['/'][locale.value])
-
+definePageMeta({ layout: 'empty' })
 const showMobileMenu = ref(false)
 
 const isCurrentLanguage = computed(() => {
@@ -75,8 +76,7 @@ const isCurrentLanguage = computed(() => {
 </script>
 
 <style lang="scss">
-
-@media only screen and (width >= 1000px) {
+@media only screen and (width >=1000px) {
   .mobileHeader {
     display: none;
   }
@@ -101,7 +101,7 @@ const isCurrentLanguage = computed(() => {
     color: chartreuse;
   }
 
-  @media only screen and (width >= 1000px) {
+  @media only screen and (width >=1000px) {
     .mobileImgCont {
       display: none;
     }

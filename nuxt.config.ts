@@ -27,7 +27,6 @@ export default defineNuxtConfig({
   },
   runtimeConfig: {
     public: {
-      // .env variables go here
     },
   },
   css: [
@@ -40,9 +39,10 @@ export default defineNuxtConfig({
   modules: [
     '@nuxtjs/i18n',
     '@nuxt/image',
+    '@pinia/nuxt',
   ],
   image: {
-    dir: 'assets',
+    domains: [ 'localhost:3000', 'livieresg.com.py', 'dynamic-sopapillas-48b9e7.netlify.app' ],
   },
   i18n: {
     locales: [
@@ -54,5 +54,8 @@ export default defineNuxtConfig({
     defaultLocale: 'es',
     lazy: true,
     langDir: 'languages/',
+    precompile: {
+      strictMessage: false,
+    },
   },
 })

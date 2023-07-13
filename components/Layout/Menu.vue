@@ -26,7 +26,7 @@
         <NuxtLink :to="localePath('/galeria')">
           {{ $t(`menu.art`) }}
         </NuxtLink>
-        <a to="#footer">{{ $t(`menu.contact`) }}</a>
+        <a href="#footer">{{ $t(`menu.contact`) }}</a>
         <span class="cambiarIdioma">{{ $t(`atom.changeLanguage`) }}</span>
         <div class="overlayLanguages">
           <NuxtLink :to="switchLocalePath('es')" :class="{ none: isCurrentLanguage('es') }">

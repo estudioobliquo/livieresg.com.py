@@ -1,8 +1,6 @@
 <template>
   <div>
-    <!-- eslint-disable max-len  -->
-
-    <footer class="footer">
+    <footer id="footer" class="footer">
       <div class="footer mainWrapper">
         <div class="contact">
           <h4>
@@ -11,18 +9,26 @@
         </div>
         <div class="wrapper1">
           <h5>{{ $t(`footer.email`) }}</h5>
-          <a
-            href="mailto:info@livieresg.com.py"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <p>info@livieresg.com.py</p>
+          <a href="mailto:info@livieresg.com.py" target="_blank" rel="noopener noreferrer">
+            <p>
+              info@livieresg.com.py
+            </p>
           </a>
           <h5>{{ $t(`footer.phone`) }}</h5>
           <p class="telefono">
             Asunción: +595 21 221 477
           </p>
-          <p>Filadelfia: +595 491 432 760</p>
+          <p>
+            Filadelfia: +595 491 432 760
+          </p>
+          <a
+            href="https://py.linkedin.com/company/estudio-jur%C3%ADdico-livieres-guggiari?trk=public_profile_topcard-current-company"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="linkedin"
+          >
+            <SVGLinkedin />
+          </a>
         </div>
         <div class="wrapper2">
           <h5>{{ $t(`footer.offices`) }}</h5>
@@ -37,8 +43,10 @@
               rel="noopener noreferrer"
             >
               <div>
-                <p>{{ $t(`footer.directions`) }}- Google Maps</p>
-
+                <p>
+                  {{ $t(`footer.directions`) }}- Google Maps
+                </p>
+                <SVGArrow />
               </div>
             </a>
           </div>
@@ -53,16 +61,24 @@
               rel="noopener noreferrer"
             >
               <div>
-                <p>{{ $t(`footer.directions`) }}- Google Maps</p>
-
+                <p>
+                  {{ $t(`footer.directions`) }}- Google Maps
+                </p>
+                <SVGArrow />
               </div>
             </a>
           </div>
           <p> {{ $t(`footer.times`) }}</p>
         </div>
+        <div class="logo-container">
+          <NuxtLink :to="localePath('/')">
+            <nuxt-img src="/img/global/logoGray.png" loading="lazy" format="webp" alt="Livieres Guggiari - Logo" />
+          </NuxtLink>
+        </div>
         <div class="disclaimer">
           <p>
-            Livieres Guggiari | Estudio Juridico - © Copyright  {{ $t(`footer.disclaimer`) }} <a class="disclaimerlink" href="https://estudioobliquo.com" target="_blank" rel="noopener">
+            Livieres Guggiari | Estudio Juridico - © Copyright {{ date }} {{ $t(`footer.disclaimer`) }}
+            <a class="disclaimerlink" href="https://estudioobliquo.com" target="_blank" rel="noopener">
               Estudio Obliquo
             </a>
           </p>
@@ -72,56 +88,149 @@
   </div>
 </template>
 
-<script>
-import SVGarrow from '@/assets/svg/arrow.svg'
-
-export default {
-  components: {
-    SVGarrow,
-  },
-
-}
-
+<script setup lang="ts">
+import SVGArrow from '@/assets/svg/global/arrow.svg'
+import SVGLinkedin from '@/assets/svg/global/linkedin.svg'
+const date = new Date().getFullYear()
 </script>
 
-  <style lang="scss">
-  footer {
-    width: 100%;
-    background-color: var(--gray-dark);
-
-    .contact{
-      display: flex;
-      align-items: center;
-    }
-  }
+<style lang="scss">
+footer {
+  width: 100%;
+  background-color: var(--gray-dark);
 
   .mainWrapper {
     display: grid;
     width: 83%;
     padding: 32px 0 8px;
     margin: 0 auto;
+
+    .contact {
+      display: flex;
+      align-items: center;
+      opacity: 0.8;
+    }
+
+    .wrapper1 {
+      margin-bottom: 60px;
+
+      .telefono {
+        margin-bottom: 8px;
+      }
+
+      a {
+        text-decoration: none;
+        cursor: pointer;
+
+        &.linkedin {
+          svg {
+            path {
+              transition: fill 0.2s;
+            }
+
+            &:hover {
+              path {
+                fill: rgb(255 255 255 / 76%);
+                transition: fill 0.2s;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .wrapper1,
+    .wrapper2 {
+      padding-left: 15px;
+      border-left: 0.5px solid #919191;
+    }
+
+    .wrapper2 {
+      p:last-of-type {
+        margin-bottom: 0;
+      }
+
+      .oficina {
+        address {
+          display: block;
+          margin-bottom: 11px;
+          font-family: "Founders Grotesk", sans-serif;
+          font-size: 17px;
+          font-style: normal;
+          font-weight: 300;
+          color: #d6d6d6;
+        }
+
+        .mapslink {
+          text-decoration: none;
+
+          div {
+            display: flex;
+            align-items: center;
+            margin-bottom: 25px;
+          }
+
+          p {
+            display: block;
+            margin-bottom: 0;
+            font-size: 15px;
+            color: rgb(235 235 235 / 56%);
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 0.02em;
+            transition: color 0.2s;
+          }
+
+          &:hover p {
+            color: rgb(255 255 255 / 76%);
+            transition: color 0.2s;
+          }
+
+          svg {
+            margin-bottom: 1px;
+            margin-left: 5px;
+          }
+
+          &:hover path {
+            fill: rgb(255 255 255 / 76%);
+            transition: color 0.2s;
+          }
+        }
+      }
+    }
+
+    .logo-container {
+      width: 55%;
+      max-width: 216px;
+      height: fit-content;
+      margin: 50px auto 25px;
+    }
+
+    .disclaimer {
+      p {
+        display: block;
+        width: 81%;
+        max-width: 612px;
+        margin: 0 auto;
+        font-size: 12px;
+        color: rgb(255 255 255 / 60%);
+        text-align: center;
+      }
+
+      .disclaimerlink {
+        color: #fff;
+        text-decoration: none;
+        transition: color 0.2s;
+
+        &:hover {
+          color: #ccc;
+          transition: color 0.2s;
+        }
+      }
+    }
   }
 
-  .wrapper1 {
-    margin-bottom: 60px;
-  }
-
-  .wrapper1,
-  .wrapper2 {
-    padding-left: 15px;
-    border-left: 0.5px solid #919191;
-  }
-
-  /* Para que el border left no sea mas largo que el contenido */
-  .wrapper2 p:last-of-type {
-    margin-bottom: 0;
-  }
-
-  .telefono {
-    margin-bottom: 8px;
-  }
-
-  footer h4 {
+  h4 {
     margin-bottom: 1.87em;
     font-family: "Canela Deck", serif;
     font-size: 18px;
@@ -131,7 +240,7 @@ export default {
     letter-spacing: 0.25em;
   }
 
-  footer h5 {
+  h5 {
     margin-bottom: 0.55em;
     font-family: "Canela Deck", serif;
     font-size: 17px;
@@ -140,164 +249,72 @@ export default {
     color: #fff;
   }
 
-  footer p {
+  p {
     font-size: 17px;
     font-weight: 300;
     color: #d6d6d6;
   }
 
-  address {
-    display: block;
-    margin-bottom: 11px;
-    font-family: "Founders Grotesk", sans-serif;
-    font-size: 17px;
-    font-style: normal;
-    font-weight: 300;
-    color: #d6d6d6;
-  }
-
-  .wrapper1 a {
-    text-decoration: none;
-  }
-
-  .mapslink {
-    text-decoration: none;
-  }
-
-  .mapslink div {
-    display: flex;
-    align-items: center;
-    margin-bottom: 25px;
-  }
-
-  .mapslink p {
-    display: block;
-    margin-bottom: 0;
-    font-size: 15px;
-    color: rgb(235 235 235 / 56%);
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 0.02em;
-    transition: color 0.2s;
-  }
-
-  .mapslink:hover p {
-    color: rgb(255 255 255 / 76%);
-    transition: color 0.2s;
-  }
-
-  .mapslink svg {
-    margin-bottom: 1px;
-    margin-left: 5px;
-  }
-
-  .mapslink:hover path {
-    fill: rgb(255 255 255 / 76%);
-    transition: color 0.2s;
-  }
-
-  .linkedin svg path {
-    transition: fill 0.2s;
-  }
-
-  .linkedin:hover svg path {
-    fill: rgb(255 255 255 / 76%);
-    transition: fill 0.2s;
-  }
-
-  .logoContainer {
-    width: 55%;
-    max-width: 216px;
-    margin: 50px auto 25px;
-  }
-
-  .disclaimer {
-    p{
-    display: block;
-    width: 81%;
-    max-width: 612px;
-    margin: 0 auto;
-    font-size: 12px;
-    color: rgb(255 255 255 / 60%);
-    text-align: center;
-  }
-  }
-
-  .disclaimerlink {
-    color: #fff;
-    text-decoration: none;
-    transition: color 0.2s;
-  }
-
-  .disclaimerlink:hover {
-    color: #ccc;
-    transition: color 0.2s;
-  }
-
-  @media only screen and (width >= 1000px) {
+  @media only screen and (width >=1000px) {
     .mainWrapper {
-      /* grid-template-rows: 69% 31%; */
-
-      /* Safari/Chrome changes */
       grid-template-rows: minmax(270px, 69%) minmax(70px, 31%);
       grid-template-columns: 30% 35% 35%;
       grid-row-gap: 8px;
       width: 85%;
       max-width: 1200px;
       margin: 0 auto;
+
+      .wrapper1, .wrapper2 {
+        padding-left: 35px;
+        margin-bottom: 0;
+        border-left: 1.5px solid #919191;
+      }
+
+      .wrapper2 {
+        .oficina {
+          .mapslink {
+            p {
+              font-size: 15px;
+            }
+          }
+
+          address {
+            font-size: 1rem;
+            line-height: 28px;
+          }
+        }
+      }
+
+      .disclaimer {
+        grid-column: 1/4;
+        align-self: center;
+        margin-bottom: 0;
+        font-size: 13px;
+      }
+
+      .logo-container {
+        display: none;
+      }
     }
 
-    .wrapper1,
-    .wrapper2 {
-      padding-left: 35px;
-
-      /* margin-bottom: 60px; */
-
-      /* Safari/Chrome changes */
-      margin-bottom: 0;
-      border-left: 1.5px solid #919191;
-    }
-
-    .mapslink p {
-      font-size: 15px;
-    }
-
-    footer h5,
-    footer p,
-    address {
+    h5, p {
       font-size: 1rem;
       line-height: 28px;
     }
 
-    footer h4 {
+    h4 {
       align-self: center;
       margin-bottom: 0;
       font-size: 1.38rem;
     }
 
-    footer h5 {
+    h5 {
       margin-bottom: 2px;
     }
 
-    footer p {
+    p {
       margin-bottom: 35px;
     }
-
-    .disclaimer {
-      grid-column: 1/4;
-      align-self: center;
-      margin-bottom: 0;
-      font-size: 13px;
-    }
-
-    .logoContainer {
-      display: none;
-
-      /* margin-bottom: 30px;
-      grid-column: 2/3;
-      align-self: start;
-      justify-self: center; */
-    }
   }
-
-  </style>
+}
+</style>

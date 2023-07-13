@@ -1,90 +1,404 @@
 {
-    "locale": "en",
-    "menu": {
-      "home": "Inicio",
-      "aboutUs": "Nosotros",
-      "staff": "Miembros",
-      "areas": "Áreas de Práctica",
-      "blog": "Publicaciones y Noticias",
-      "art": "LG y el Arte",
-      "contact": "Contacto"
+  "locale": "en",
+  "menu": {
+    "home": "Inicio",
+    "aboutUs": "Nosotros",
+    "staff": "Miembros",
+    "areas": "Áreas de Práctica",
+    "blog": "Publicaciones y Noticias",
+    "art": "LG y el Arte",
+    "contact": "Contacto"
+  },
+  "index": {
+    "ourStudy": "Nuestro Estudio",
+    "aboutUs": {
+      "Derecho Comercial y Societario": "Derecho Comercial y Societario",
+      "Inversiones - Derecho Tributario": "Inversiones - Derecho Tributario",
+      "Sucesiones": "Sucesiones",
+      "Asuntos Administrativos": "Asuntos Administrativos",
+      "Propiedad Intelectual": "Propiedad Intelectual"
     },
-    "index":{
-        "ourStudy":"Nuestro Estudio",
-        "aboutUs":{
-            "Derecho Comercial y Societario": "Derecho Comercial y Societario",
-            "Inversiones - Derecho Tributario": "Inversiones - Derecho Tributario",
-            "Sucesiones" : "Sucesiones",
-            "Asuntos Administrativos": "Asuntos Administrativos",
-            "Propiedad Intelectual": "Propiedad Intelectual"
-            },
-        "ourStudyText":"Desde el año 1990, el equipo de profesionales que conforma el Estudio Jurídico Livieres Guggiari presta asistencia a numerosas empresas, entidades y personas físicas, nacionales e internacionales, tanto en el área de asesoramiento legal como en el área de litigios judiciales, teniendo a la fecha una trayectoria de conducta profesional íntegra y una experiencia de más de 25 años al servicio de nuestros Clientes.",
-        "ourAreas": "Nuestras Áreas de Práctica",
-        "members": "Somos miembros de",
-        "workWith": "Trabajan con nosotros"
-    },    
-    "atom":{
-        "Conocer mas": "Conocer mas",
-        "Ver todos": "Ver todos",
-        "changeLanguage": "Cambiar idioma",
-        "information": "+ INFORMACIÓN",
-        "buttonBack": "Volver al Inicio",
-        "goBack": "Volver atrás"
-    },
-    "staff":{
-        "atto": "Abogados",
-        "paralegals": "Paralegales",
-        "administration": "Administración",
-        "slug":{
-            "areas": "Áreas de Práctica",
-            "education":"Formación Profesional",
-            "languages": "Idiomas",
-            "members": "Asociaciones",
-            "experiencia": "Experiencias",
-            "adp": ".ESadp"
-        }
-    },
-    "footer":{
-        "email": "Email",
-        "phone": "Teléfono",
-        "offices": "Oficinas",
-        "direction1": "Pitiantuta N° 640 entre Siria y Juan de Salazar",
-        "direction2": "Calle B. H. Unruh N° 276 entre O. Miller y Pte. Gondra",
-        "times": "Lunes a Viernes de 8:00 a 18:30",
-        "contact": "Contacto",
-        "directions": "Como llegar",
-        "disclaimer": "Todos los derechos reservados. Un trabajo del"
-    },
-    "pages":{
-        "us":{
-        "usTitle": "Nuestra Historia",    
-        "us1": "Desde el año 1990, el equipo de profesionales que conforma el Estudio Jurídico Livieres Guggiari presta asistencia a numerosas empresas, entidades y personas físicas, nacionales e internacionales, tanto en el área de asesoramiento legal como en el área de litigios judiciales, teniendo a la fecha una trayectoria de conducta profesional íntegra y una experiencia de más de 25 años al servicio de nuestros Clientes.",
-        "us2": "El Estudio Jurídico se ha caracterizado tanto por la atención constante y personalizada que brinda a sus Clientes como por una gestión prudente y profesional en el manejo de los derechos e intereses que administra. En Livieres Guggiari utilizamos un sistema interno de intercambio de información y de conocimiento, con el fin de encontrar la mejor estrategia para la defensa de los derechos e intereses de nuestros Clientes.",
-        "us3": "Nuestra cultura de trabajo en equipo asegura una permanente coordinación que permite una asistencia continuada a los Clientes, y al mismo tiempo, un máximo aprovechamiento del potencial humano.",
-        "us4": "Nuestra gestión profesional está sustentada en la absoluta seriedad, lealtad, diligencia, confidencialidad y responsabilidad en el cumplimiento de los mandatos recibidos, factores aquellos en los que ponemos especial énfasis, manteniéndonos actualizados en la constante evolución del mundo legal, actuando siempre con la firme convicción en que estamos haciendo lo correcto y de la mejor manera posible para nuestros clientes."
-        },
-        "adp":{
-            "Derecho Comercial y Societario": "Derecho Comercial y Societario",
-            "Inversiones - Derecho Tributario": "Inversiones - Derecho Tributario",
-            "Sucesiones" : "Sucesiones",
-            "Asuntos Administrativos": "Asuntos Administrativos",
-            "Propiedad Intelectual": "Propiedad Intelectual",
-            "Derecho Cooperativo y Mutual": "Derecho Cooperativo y Mutual",
-            "Derecho Ambiental": "Derecho Ambiental",
-            "Derecho Medico": "Derecho Medico",
-            "Asuntos Laborales": "Asuntos Laborales",
-            "Litigios y procesos": "Litigios y procesos",
-            "Agua, Energia y Mineria": "Agua, Energia y Mineria"
-
-
-
-        }
-    },
-    "gallery":{
-        "galleryTitle" : "Livieres Guggiari y el Arte",
-        "subtitle": "Una colección de obras de arte seleccionadas, expuestas en nuestras oficinas, que queremos compartir contigo.",
-        "paint": "cuadros",
-        "sculp": "esculturas"
+    "ourStudyText": "Desde el año 1990, el equipo de profesionales que conforma el Estudio Jurídico Livieres Guggiari presta asistencia a numerosas empresas, entidades y personas físicas, nacionales e internacionales, tanto en el área de asesoramiento legal como en el área de litigios judiciales, teniendo a la fecha una trayectoria de conducta profesional íntegra y una experiencia de más de 25 años al servicio de nuestros Clientes.",
+    "ourAreas": "Nuestras Áreas de Práctica",
+    "members": "Somos miembros de",
+    "workWith": "Trabajan con nosotros"
+  },
+  "atom": {
+    "Conocer mas": "Conocer mas",
+    "Ver todos": "Ver todos",
+    "changeLanguage": "Cambiar idioma",
+    "information": "+ INFORMACIÓN",
+    "buttonBack": "Volver al Inicio",
+    "goBack": "Volver atrás",
+    "search": {
+      "text": "Buscar",
+      "filters": {
+        "articles": "Articulos",
+        "news": "Novedades Juridicas",
+        "deals": "Deals",
+        "events": "Eventos"
+      }
     }
+  },
+  "staff": {
+    "atto": "Abogados",
+    "paralegals": "Paralegales",
+    "administration": "Administración",
+    "slug": {
+      "areas": "Áreas de Práctica",
+      "education": "Formación Profesional",
+      "languages": "Idiomas",
+      "members": "Asociaciones",
+      "experiencia": "Experiencias",
+      "adp": ".ESadp"
+    }
+  },
+  "footer": {
+    "email": "Email",
+    "phone": "Teléfono",
+    "offices": "Oficinas",
+    "direction1": "Pitiantuta N° 640 entre Siria y Juan de Salazar",
+    "direction2": "Calle B. H. Unruh N° 276 entre O. Miller y Pte. Gondra",
+    "times": "Lunes a Viernes de 8:00 a 18:30",
+    "contact": "Contacto",
+    "directions": "Como llegar",
+    "disclaimer": "Todos los derechos reservados. Un trabajo del"
+  },
+  "pages": {
+    "us": {
+      "usTitle": "Nuestra Historia",
+      "us1": "Desde el año 1990, el equipo de profesionales que conforma el Estudio Jurídico Livieres Guggiari presta asistencia a numerosas empresas, entidades y personas físicas, nacionales e internacionales, tanto en el área de asesoramiento legal como en el área de litigios judiciales, teniendo a la fecha una trayectoria de conducta profesional íntegra y una experiencia de más de 25 años al servicio de nuestros Clientes.",
+      "us2": "El Estudio Jurídico se ha caracterizado tanto por la atención constante y personalizada que brinda a sus Clientes como por una gestión prudente y profesional en el manejo de los derechos e intereses que administra. En Livieres Guggiari utilizamos un sistema interno de intercambio de información y de conocimiento, con el fin de encontrar la mejor estrategia para la defensa de los derechos e intereses de nuestros Clientes.",
+      "us3": "Nuestra cultura de trabajo en equipo asegura una permanente coordinación que permite una asistencia continuada a los Clientes, y al mismo tiempo, un máximo aprovechamiento del potencial humano.",
+      "us4": "Nuestra gestión profesional está sustentada en la absoluta seriedad, lealtad, diligencia, confidencialidad y responsabilidad en el cumplimiento de los mandatos recibidos, factores aquellos en los que ponemos especial énfasis, manteniéndonos actualizados en la constante evolución del mundo legal, actuando siempre con la firme convicción en que estamos haciendo lo correcto y de la mejor manera posible para nuestros clientes."
+    },
+    "adp": {
+      "title": {
+        "derechoComercialYSocietario": "Derecho Comercial y Societario",
+        "inversionesDerechoTributario": "Inversiones - Derecho Tributario",
+        "sucesiones": "Sucesiones",
+        "asuntosAdministrativos": "Asuntos Administrativos",
+        "derechoCooperativoYMutual": "Derecho Cooperativo y Mutual",
+        "derechoBancarioYCumplimiento": "Derecho Bancario y Cumplimiento",
+        "derechoAmbiental": "Derecho Ambiental",
+        "propiedadIntelectual": "Propiedad Intelectual",
+        "derechoMedico": "Derecho Medico",
+        "asuntosLaborales": "Asuntos Laborales",
+        "litigiosYProcesos": "Litigios y procesos",
+        "aguaEnergiaYMineria": "Agua, Energia y Mineria"
+      },
+      "content": {
+        "derechoComercialYSocietario": "<p>En este campo el Estudio Jurídico, asesora a importantes empresas privadas, tanto nacionales como extranjeras, en una gran variedad de asuntos comerciales e institucionales, ocupándose de todos los aspectos relacionados a su giro social ordinario, así como a la constitución de sociedades comerciales, redacción de estatutos sociales y sus reformas, aumento y disminución de capital, acuerdos de reestructuración, concordatos y concursos, contratos de transferencia de acciones, de transferencia de activos y pasivos, liquidación de empresas, fusiones, transformaciones, alianzas estratégicas, radicación de sucursales, subsidiarias y joint ventures.</p> <p>Diversos asuntos, tratados y resueltos con la activa intervención de integrantes del Estudio Jurídico, han permitido encontrar las mejores soluciones acerca de las condiciones legales y administrativas en materia de representaciones, agencias o distribuidoras de firmas extranjeras radicadas en nuestro país.</p>",
+        "inversionesDerechoTributario": "<p>El Estudio Jurídico cuenta con una vasta experiencia y trayectoria en asistencia a personas y empresas nacionales o extranjeras interesadas en realizar inversiones en el Paraguay, brindando no solamente una asistencia legal sino también, conjuntamente con otros profesionales de primer nivel, una asistencia integral e interdisciplinaria que contempla aspectos económicos y financieros, así como tributarios, con el fin de optimizar la calidad de la inversión con el menor costo, maximizando las ventajas impositivas, en forma sana y legal.</p><p>Con especializados y experimentados profesionales nuestro Estudio Jurídico brinda una asistencia integral en materia de radicación y nacionalización de extranjeros en la República del Paraguay.</p>",
+        "sucesiones": "<p>El Estudio Jurídico cuenta con abogados especializados en procesos sucesorios simples o complejos, de ciudadanos nacionales y extranjeros; asesoramiento en la documentación necesaria; reconocimiento de sentencias declaratorias extranjeras; acuerdo de partición de bienes, subrogaciones; adjudicación de los bienes a los herederos y legatarios, e inscripción de los certificados de adjudicación en los Registros Públicos correspondientes.</p>",
+        "asuntosAdministrativos": "<p>El Estudio Jurídico posee conocimiento acabado en temas administrativos y en litigios contencioso administrativo.</p><p>Uno de sus socios fue contratado por la Secretaria Nacional de la Reforma del Estado para el asesoramiento, elaboración y redacción de un proyecto de Ley, que luego quedó sancionado y promulgado como Ley Nº 1.615/2000 “General de Reorganización y Transformación de Entidades Públicas Descentralizadas y de Reforma y Modernización de organismos de la Administración Central” de la República del Paraguay.</p><p>Igualmente, uno de sus miembros, ocupó el cargo de Abogado del Tesoro por varios años, teniendo un acabado conocimiento dentro de la esfera administrativa.</p><p>El Estudio Jurídico presta asistencia legal a sus Clientes en procesos de adquisiciones y contrataciones públicas o privadas, interviniendo en la elaboración de pliegos y condiciones licitatorias, formulación de ofertas, consultas, protestas o impugnaciones.</p>",
+        "derechoCooperativoYMutual": "<p>El Estudio Jurídico viene desarrollando una labor intensa, efectiva y eficiente en el ámbito del derecho cooperativo y mutualista, asesorando a entidades del sector solidario que están operando bajo el control y fiscalización de los órganos competentes en dicho ámbito en la República del Paraguay.</p><p>La vasta gestión profesional ya desarrollada ha permitido y permite brindar asistencia integral e intervenir en la constitución, gestión, modificación y desarrollo de algunas de las cooperativas de producción, de consumo, de crédito, de viviendas, entre otras, más importantes de nuestro país, así como a una de las Cajas Mutuales líderes del mutualismo.</p>",
+        "derechoBancarioYCumplimiento": "<p>El Estudio Jurídico ha brindado asesoramiento legal de manera activa durante la crisis financiera por la que atravesó el país en la década de los noventa, lo que le permitió lograr una vasta experiencia en el sector.</p><p>Miembros del Estudio Jurídico han ejercido diversas funciones internas, en áreas de departamentos legales y administrativos, dentro de distintas entidades bancarias en nuestro país, calificando la asistencia legal que venimos brindando a entidades financieras, como en toda clase de actividades en el mismo ámbito.</p>",
+        "derechoAmbiental": "<p>En esta materia, el Estudio Jurídico ofrece un asesoramiento integral en cuanto a temas relacionados con la protección del medio ambiente, trámites y obtención de permisos y licencias, así como la representación en procesos administrativos y judiciales vinculados al medio ambiente.</p><p>Igualmente, la asesoría incluye el apoyo relevante para la gestión de permisos y licencias, la revisión de la aplicación de las normas en proyectos específicos y el análisis, desde la perspectiva legal, de los planes de manejo ambiental, entre otros.</p>",
+        "propiedadIntelectual": "<p>A través de profesionales especializados, presta asesoría integral para satisfacer las necesidades de nuestros clientes y colegas con la mayor rapidez y eficacia, prestando servicios de la más alta calidad en la tramitación y obtención de marcas, patentes, modelos de utilidad, y de dibujos y modelos industriales; registro de marcas y patentes extranjeras; opiniones sobre viabilidad de registros; clasificación de productos y servicios; presentación y trámite de solicitudes y renovaciones de marcas; estrategias para la presentación, trámites y contestación de oposiciones, vistas, apelaciones, contratos de licencias y negociación de acuerdos.</p><p>En el ámbito de los Derechos de Autor y Derechos Conexos ofrecemos asesoramiento a clientes nacionales y extranjeros en la protección y registro de obras, software, licencias de uso, derechos de ejecución y todo trámite ante el organismo administrativo competente.</p><p>En el ámbito judicial se tiene vasta experiencia en litigios contencioso-administrativos, y procesos civiles y comerciales relativos a la propiedad intelectual, nulidades de marcas y patentes, competencia desleal, cese de uso indebido, entre otros.</p>",
+        "derechoMedico": "<p>El Estudio Jurídico brinda asesoramiento legal a los principales sanatorios y hospitales privados, así como a la mayor empresa de prestación de servicios de cobertura médico sanatorial en el país.</p><p>Profesionales altamente capacitados y con vasta experiencia para un asesoramiento integral sobre contratos de prestación de servicios médicos, derechos y deberes de las partes, obligaciones de medio y obligaciones de resultado en el ejercicio de la profesión médica; responsabilidad civil del médico, responsabilidad civil en equipo, seguros; relaciones del médico con los colegios profesionales; médicos de empresa; médicos forenses; entre otros.</p>",
+        "asuntosLaborales": "<p>Brindamos asesoramiento integral a empresas respecto de los diversos asuntos que hacen a las relaciones laborales, manteniendo actualizados a nuestros clientes acerca de las disposición legales y normativas de carácter laboral que sean de aplicación, buscando minimizar conflictos con el personal permanente o eventual y evitando la imposición de sanciones administrativas por incumplimiento de dicha normativa.</p><p>Entre otras cuestiones, intervenimos en la formación de contratos de trabajo que contemplen las modalidades y cláusulas más adecuadas a las necesidades, funcionamiento y estructura de cada empresa, como así también, en la celebración de acuerdos conciliatorios, redacción de telegramas colacionados, convenios de desvinculación, sumarios administrativos internos para la aplicación de faltas y sanciones a los empleados, como en las liquidaciones de haberes salariales e indemnizatorios; participamos en la redacción, discusión y celebración de convenios colectivos, reglamentos internos de trabajo; asistimos y asesoramos en todo tipo de audiencias en sede administrativa ante los diversas dependencias del Ministerio de Justicia y Trabajo, Instituto de Previsión Social u otros organismos públicos vinculados al área laboral.</p>",
+        "litigiosYProcesos": "<p>Si bien en el Estudio Jurídico ejercemos la profesión desde el convencimiento de que la mayoría de los asuntos, por conflictivos o complejos que sean, pueden resolverse dentro de la órbita extrajudicial, en ciertas ocasiones esto no es viable y la vía judicial es la exigida o la más idónea.</p><p>Sea porque la vía judicial es la adecuada o la resultante, es importante contar con la oportuna asistencia profesional.</p><p>Los servicios del Estudio Jurídico incluyen la asesoría en la etapa litigiosa, así como también en la prevención de controversias y el apoyo en la negociación de soluciones alternativas.</p><p>Los abogados de nuestro Estudio tienen una adecuada y larga experiencia en litigios, de carácter civil, comercial, administrativo, municipal y medioambiental.</p>",
+        "aguaEnergiaYMineria": "<p>El Estudio Jurídico, como miembro del Consorcio adjudicado, a través de uno de sus socios, tuvo una activa participación en la elaboración y en el desarrollo de un nuevo marco legal e institucional del sector agua y alcantarillado de la República del Paraguay que está en plena vigencia desde la sanción y promulgación de la Ley Nº 1.614/2000 “General del Marco Regulatorio y Tarifario del Servicio Público de Provisión de Agua Potable y Alcantarillado Sanitario para la República del Paraguay”. Luego, fue también contratado conjuntamente con otros profesionales nacionales y extranjeros para el asesoramiento y elaboración del decreto reglamentario y de los reglamentos aplicables a esos servicios. </p><p>En la restructuración del sector eléctrico del Paraguay participó de la consultoría y asistencia jurídica que prestó el Consorcio SIIME, que fue adjudicado para dicha restructuración.</p><p>En la actualidad, el Estudio Jurídico brinda asesoramiento legal en el sector a las Cooperativas Menonitas del Chaco Central que se ocupan del servicio de distribución de energía eléctrica en sus respectivas áreas de incumbencia. También el Estudio Jurídico asesoró a empresas extranjeras que prestaron servicios de prospección y exploración en hidrocarburos.</p><p>Con relación al área minera nuestro Estudio viene brindando sus servicios a empresas nacionales e internacionales en cuestiones legales y administrativas para la obtención de permisos y concesiones mineras, así como para el cumplimiento de las obligaciones y trámites pertinentes en la ejecución de las etapas de prospección, exploración y/o explotación de recursos minerales, en particular respecto a las incidencias administrativas, tributarias, medio ambientales, laborales, previsionales, entre otras, que conlleva la ejecución de dichas etapas.</p><p>Hemos participado activamente en el análisis para la modificación de la Ley de Minería, integrando la Cámara Paraguaya de Minería, en formación.</p>"
+      }
+    },
+    "team": {
+      "elivieres": {
+        "subtitle": "Abogado desde el 1991, LL.M. Socio.",
+        "adp": "Derecho Sucesorio, Derecho Bancario y Financiero, Derecho de la Propiedad Intelectual, Derecho Cooperativo y Mutual, Derecho Ambiental, Derecho de Integración (MERCOSUR), Litigios.",
+        "formacion": "Universidad Católica Nuestra Señora de la Asunción, Regional Asunción: Abogado (Diploma de Honor Sobresaliente); Ruprecht-Karls-Universität Heidelberg, Alemania (1995): Master en Derecho (Magister legum).",
+        "idiomas": "Español y Alemán.",
+        "asociaciones": "Colegio de Abogados del Paraguay, Instituto Paraguayo de Derecho Bancario y Societario (IPDBS), Federación Interamericana de Abogados (FIA) y de la Unión Internacional de Abogados (UIA)."
+      },
+      "plivieres": {
+        "subtitle": "Abogado desde el 1989. Doctor en Ciencias Jurídicas. Socio.",
+        "adp": "Derecho Comercial y Corporativo, Fusiones y Adquisiciones, Derecho Contractual, Reestructuración y regulación de los servicios públicos de agua potable y electricidad, Privatizaciones, Inversiones Extranjeras.",
+        "formacion": "Universidad Católica Nuestra Señora de la Asunción: Abogado; Universidad Nacional de Pilar, Paraguay (2005): Doctor en Ciencias Jurídicas (Summa Cum Laude).",
+        "idiomas": "Español e Inglés.",
+        "asociaciones": "Colegio de Abogados del Paraguay, Federación Interamericana de Abogados (FIA), Instituto Paraguayo de Derecho Bancario y Societario (IPDBS) y de la Unión Internacional de Abogados (UIA)."
+      },
+      "cbenitez": {
+        "subtitle": "Abogado desde el año 1980. Doctor en Ciencias Jurídicas.",
+        "adp": "Derecho de Responsabilidad Civil de Daños, Derecho Bancario y Financiero, Derecho de Seguro de Daños Patrimoniales, Litigios.",
+        "formacion": "Universidad Nacional de Asunción: Abogado. Universidad Nacional de Pilar, Paraguay (2005): Doctor en Ciencias Jurídicas (Summa Cum Laude). Profesor Titular en Universidades Privadas.",
+        "idiomas": "Español",
+        "asociaciones": "Colegio de Abogados del Paraguay"
+      },
+      "ovazquez": {
+        "subtitle": "Abogada desde el año 1991.",
+        "adp": "Derecho de la Salud, Migraciones, Derecho Sucesorio y Asesoramiento Corporativo.",
+        "formacion": "Universidad Católica Nuestra Señora de la Asunción, Regional Asunción: Abogada (Diploma de Honor Sobresaliente).",
+        "idiomas": "Español.",
+        "asociaciones": "Colegio de Abogados del Paraguay."
+      },
+      "cespinola": {
+        "subtitle": "Abogada desde el año 1997. ",
+        "adp": "Derecho Municipal, Derecho Sucesorio, Cobranza y Asesoramiento Corporativo.",
+        "formacion": "Universidad Católica Nuestra Señora de la Asunción y Universidad Nacional de Asunción: Abogada.",
+        "idiomas": "Español.",
+        "asociaciones": ""
+      },
+      "icardozo": {
+        "subtitle": "Abogada desde el año 1994.",
+        "adp": "Derecho Ambiental, Derecho real, Litigios y Cobranzas. ",
+        "formacion": "Universidad Católica Nuestra Señora de la Asunción, Regional Asunción: Abogada.",
+        "idiomas": "Español.",
+        "asociaciones": ""
+      },
+      "dlovera": {
+        "subtitle": "Abogado desde el año 1999. LL. M.",
+        "adp": "Derecho Comercial y Societario, Concursos y Quiebras, Litigios y Cobranzas.",
+        "formacion": "Universidad Nacional de Asunción: Abogado y Notario; Universidad Nacional de Rosario, Argentina (2004): Maestría en Derecho Privado.",
+        "idiomas": "Español.",
+        "asociaciones": ""
+      },
+      "ntiretta": {
+        "subtitle": "Abogado desde el año 1991. LL.M.",
+        "adp": "Derecho Civil, Derecho Mutual, Litigios y Cobranzas.",
+        "formacion": "Universidad Católica Nuestra Señora de la Asunción, Regional Asunción: Abogado; Ruprecht-Karls-Universität Heidelberg, Alemania (1995): Master en Derecho (Magister legum).",
+        "idiomas": "Español y Alemán.",
+        "asociaciones": ""
+      },
+      "jramirez": {
+        "subtitle": "Abogado desde el año 2000. Coordinador Asesoría Legal",
+        "adp": "Fusiones y Adquisiciones, Derecho Bancario, Financiero y Cooperativo, Derecho Comercial y corporativo y Consultor y conferencista en materia de Prevención de Lavado de Dinero o Bienes y Financiamiento del Terrorismo.",
+        "formacion": "Universidad Nacional de Asunción: Abogado.",
+        "idiomas": "Español e Inglés.",
+        "asociaciones": ""
+      },
+      "gvelazquez": {
+        "subtitle": "Abogado desde el año 2002.",
+        "adp": "Derecho del Trabajo y Seguridad Social, Derecho Administrativo y Litigios Laborales.",
+        "formacion": "Universidad Católica Nuestra Señora de la Asunción: Abogado.",
+        "idiomas": "Español",
+        "asociaciones": "Colegio de Abogados del Paraguay, Asociación de Abogados Laboralistas (AAL)"
+      },
+      "mbejaranom": {
+        "subtitle": "Abogado desde el año 2003. LL.M.",
+        "adp": "Derecho Energético, Hidrocarburos y Minería. Asesoría de empresas Nacionales e Internacionales de Hidrocarburos, Bioenergía y compañías Mineras.",
+        "formacion": "Universidad Nacional de Asunción: Abogado. Universidad Nacional de Rosario: Maestría en Derecho Privado (2007). Universidad Complutense de Madrid: Master en Negocios y Derecho de la Energía (2011). Instituto Tecnologico de Buenos Aires: Especialista en Economía de Gas y Petróleo (2019).",
+        "experiencia": "Asesor de la Comisión de Energía, Minas e Hidrocarburos de la Honorable Cámara de Diputados (2013-2014). Vice-Ministro de Minas y Energía (2014-2018).",
+        "idiomas": "Español, inglés e italiano."
+      },
+      "tbrown": {
+        "subtitle": "Abogado desde el año 2009. LL.M.",
+        "adp": "Derecho Comercial y Corporativo, Derecho Marítimo y Derecho Internacional Privado.",
+        "formacion": "Universidad Nacional de Asunción: Abogado (Egresado con honores); Universidad de Alcalá de Henares (España): Master en Derecho de la Empresa; Universidad Complutense de Madrid (España): Diplomado en Teoría y Práctica del Derecho de los Negocios Internacionales.",
+        "idiomas": "Español, Inglés, Portugués y Francés",
+        "asociaciones": ""
+      },
+      "burbieta": {
+        "subtitle": "Abogada desde el año 1987",
+        "adp": "Derecho Civil, Comercial, Derecho Administrativo, Propiedad Intelectual, Litigios Administrativos y Judiciales.",
+        "formacion": "Universidad Nacional de Asunción: Abogada.",
+        "idiomas": "Español e Inglés",
+        "asociaciones": ""
+      },
+      "mschaerer": {
+        "subtitle": "Abogado desde el año 2000. LL.M. ",
+        "adp": "Derecho Comercial Internacional, Derecho Aduanero y Marítimo y Derecho Corporativo. Ex Embajador de Paraguay en Canadá (2009-2015).",
+        "formacion": "Universidad Nacional de Asunción, Abogado (2000). Instituto Tecnológico y de Estudios Superiores de Monterrey, Master en Derecho Internacional (2005).",
+        "idiomas": "Español, Inglés, Portugués.",
+        "asociaciones": ""
+      },
+      "mbfranco": {
+        "subtitle": "Abogada desde el año 1978.",
+        "adp": "Derecho Laboral",
+        "formacion": "Abogada egresada de la Universidad Católica Ntra. Sra. de la Asunción año 1978, con un promedio de 4,94 puntos.  En 1979 egresada de la Facultad de Notariado y Escribania  Pública. Ayudante de Cátedra y posteriormente Encargada de Cátedra en el instituto Área de Derecho Laboral durante 10 años. Curso de Post grado en la U. C. A.",
+        "idiomas": "Español",
+        "asociaciones": ""
+      },
+      "aens": {
+        "subtitle": "Abogado desde el año 1997. LL. M.",
+        "adp": "Derecho Civil y Comercial, Derecho Tributario y Cooperativo.",
+        "formacion": "Universidad Nacional de Asunción: Abogado y Notario Público; Universität Bielefeld, Alemania (2000): Master en Derecho (Magister Legum).",
+        "idiomas": "Español, Alemán",
+        "asociaciones": ""
+      },
+      "msantiviago": {
+        "subtitle": "Abogado desde el año 2013. LL.M.",
+        "adp": "Derecho Civil, Derecho Procesal Civil y Litigios.",
+        "formacion": "Universidad Católica Nuestra Señora de la Asunción, Regional Asunción: Abogado (Diploma de Distinguido); Ruprecht-Karls-Universität Heidelberg, Alemania (2017): Master en Derecho (Magister legum).",
+        "idiomas": "Español, inglés y alemán.",
+        "asociaciones": ""
+      },
+      "abittar": {
+        "subtitle": "Abogada desde el año 2011 LL.M.",
+        "adp": "Derecho Sucesorio, Derecho Deportivo y Litigios.",
+        "formacion": "Universidad Católica Nuestra Señora de La Asunción, Regional Asunción: Abogada y Notaria (egresada con Distinción) en el año 2012. LL.M Derecho y Gestión Deportiva - Grant Thornton 2021 ISDE Law Business School Madrid, España",
+        "idiomas": "Español e Inglés.",
+        "asociaciones": ""
+      },
+      "rberino": {
+        "subtitle": "Abogado desde el año 2009",
+        "adp": "Derecho Comercial y Societario.",
+        "formacion": "Universidad Nacional de Asunción: Abogado; Universidad Católica Nuestra Señora de la Asunción: Mediador desde el año 2010.",
+        "idiomas": "Español e Inglés",
+        "asociaciones": ""
+      },
+      "lbordon": {
+        "subtitle": "Abogado desde el año 2013",
+        "adp": "Derecho Civil, Ejecuciones, Derecho Concursal, Litigios.",
+        "formacion": "Universidad Católica Nuestra Señora de la Asunción, Regional Asunción: Abogado.",
+        "idiomas": "Español y Portugués",
+        "asociaciones": ""
+      },
+      "jsilvero": {
+        "subtitle": "Abogado desde el año 2013",
+        "adp": "Derecho del Trabajo y Seguridad Social, Asesoría jurídica en Derecho Laboral y Litigios judiciales",
+        "formacion": "Universidad Nacional de Asunción: Abogado.",
+        "idiomas": "Español, Inglés y Chino (mandarín)",
+        "asociaciones": ""
+      },
+      "sgomez": {
+        "subtitle": "Abogada desde el año 2003",
+        "adp": "Derecho Civil, Derecho Ambiental, Litigios.",
+        "formacion": "Universidad Nacional de Asunción: Abogada (2003) y Notaria (2004)",
+        "idiomas": "Español",
+        "asociaciones": ""
+      },
+      "pguggiari": {
+        "subtitle": "Abogado desde el año 2014",
+        "adp": "Derecho Civil, Derecho Administrativo, Derecho Tributario y Litigios.",
+        "formacion": "Universidad Católica Nuestra Señora de la Asunción, Regional Asunción: Abogado. ",
+        "idiomas": "Español",
+        "asociaciones": ""
+      },
+      "psantiviago": {
+        "subtitle": "Abogado desde el año 2016",
+        "adp": "Derecho Civil y Litigios.",
+        "formacion": "Universidad Católica Nuestra Señora de la Asunción, Regional Asunción: Abogado.",
+        "idiomas": "Español, Alemán e Ingles",
+        "asociaciones": ""
+      },
+      "pmoreno": {
+        "subtitle": "Abogada desde el año 2016",
+        "adp": "Asesoría Corporativo, Derecho Médico y Migraciones.",
+        "formacion": "Universidad Católica Nuestra Señora de la Asunción, Abogada.",
+        "idiomas": "Español e Inglés",
+        "asociaciones": ""
+      },
+      "amorel": {
+        "subtitle": "Abogado desde el año 2016",
+        "adp": "Derecho del Trabajo y Seguridad Social y Litigios Laborales.",
+        "formacion": "Universidad San Lorenzo- Sede Itauguá, Abogado.",
+        "idiomas": "Español",
+        "asociaciones": ""
+      },
+      "larce": {
+        "subtitle": "Abogado desde el año 2011",
+        "adp": "Derecho de la Salud y Asesoramiento Corporativo.",
+        "formacion": "Universidad Del Norte, Regional Luque: Abogado y Notario.",
+        "idiomas": "Español y Portugués.",
+        "asociaciones": ""
+      },
+      "misasi": {
+        "subtitle": "Abogado desde el año 2015",
+        "adp": "Derecho Civil, Litigio y Cobranza.",
+        "formacion": "Universidad Nacional de Asunción: Abogado.",
+        "idiomas": "Español",
+        "asociaciones": ""
+      },
+      "bspinzi": {
+        "subtitle": "Abogada desde el año 2012",
+        "adp": "Derecho Civil y Comercial, Derecho Contractual, Derecho Corporativo.",
+        "formacion": "Universidad Nacional de Asunción: Abogada (Diploma de Honor Sobresaliente)",
+        "idiomas": "Español e Inglés.",
+        "asociaciones": ""
+      },
+      "mlivieres": {
+        "subtitle": "Abogada desde el año 2017 ",
+        "adp": "Derecho Corporativo y Derecho Contractual.",
+        "formacion": "Universidad Católica Nuestra Señora de la Asunción, Regional Asunción: Abogada y Notaria.",
+        "idiomas": "Español e Inglés",
+        "asociaciones": ""
+      },
+      "mpaats": {
+        "subtitle": "Abogado desde el año 2017",
+        "adp": "Derecho del Trabajo y Seguridad Social, Asesoría jurídica en Derecho Laboral y Litigios judiciales.",
+        "formacion": "Universidad Católica Nuestra Señora de la Asunción (Diploma de Honor “Sobresaliente”). Sede Regional Asunción. Abogada",
+        "idiomas": "Español e Inglés.",
+        "asociaciones": "Asociación de Abogados Laboralistas (AAL)"
+      },
+      "bsosa": {
+        "subtitle": "Abogado desde el año 2017",
+        "adp": " Asesoría corporativa, Derecho Contractual y Societario.",
+        "formacion": "Universidad Católica “Nuestra Señora de la Asunción”, Regional Asunción: Abogado (Diploma de Distinguido) y Notario.",
+        "idiomas": "Español e Inglés",
+        "asociaciones": ""
+      },
+      "apesole": {
+        "subtitle": "Abogado desde el año 2017",
+        "adp": "Asesoría Corporativa, Cobranzas y Litigios.",
+        "formacion": "Universidad Católica Nuestra Señora de la Asunción, Regional Asunción. Abogado.",
+        "idiomas": "Español e Inglés.",
+        "asociaciones": ""
+      },
+      "ndossantos": {
+        "subtitle": "Abogado desde el año 2018. LL.M.",
+        "adp": "Derecho de la Competencia, Derecho Corporativo y Comercial, Derecho Financiero, Litigios",
+        "formacion": "Universidad Católica Nuestra Señora de la Asunción, Abogado (Diploma de Honor “Sobresaliente”); MJur (Maestría en Derecho), Universidad de Oxford, Reino Unido; Diplomado en Derecho de Daños, Universidad Complutense de Madrid, España.",
+        "idiomas": "Español e inglés.",
+        "asociaciones": "Instituto Paraguayo de Derecho y Economía (IPDE)"
+      },
+      "pmainzhausen": {
+        "subtitle": "Abogado desde el año 2018",
+        "adp": "Derecho de Responsabilidad Civil de Daños, Derecho de Seguro de Daños",
+        "formacion": "Universidad Católica Nuestra Señora de la Asunción, Abogado (Diploma de Honor “Sobresaliente”).",
+        "idiomas": "Español, Alemán e Inglés.",
+        "asociaciones": ""
+      },
+      "pdoria": {
+        "subtitle": "Abogado desde el año 2013, LL.M.",
+        "adp": "Derecho Corporativo y Comercial, Fusiones, Adquisiciones, Derecho de la Competencia y Agronegocios.",
+        "formacion": "Universidad Nacional de Asunción, Abogado (Cuadro de Honor). Queen Mary University of London, LLM (Master con méritos)",
+        "idiomas": "Español e Inglés",
+        "asociaciones": ""
+      },
+      "aguggiari": {
+        "subtitle": "Abogado desde el año 2012",
+        "adp": "Derecho Civil, Derecho Comercial y Derecho Laboral.",
+        "formacion": "Egresado de la Universidad Católica Nuestra Señora de la Asunción (UCA). Diplomado en Legislación y Práctica Laboral (Instituto Superior de Formación Tributaria y Empresarial -FOTRIEM-, 2015). Técnico en Seguridad y Salud Ocupacional (Servicio Nacional de Promoción Profesional - SNPP -, 2018).",
+        "idiomas": "Español",
+        "asociaciones": ""
+      },
+      "ccoronel": {
+        "subtitle": "Abogado desde el año 2019",
+        "adp": "Asesoría corporativa, cobranzas y litigios.",
+        "formacion": "Universidad Nacional de Asunción: Abogado y Notario.",
+        "idiomas": "Español e italiano",
+        "asociaciones": ""
+      },
+      "bdoria": {
+        "subtitle": "Abogado desde el año 2021",
+        "adp": "Derecho del Trabajo y Seguridad Social, Asesoría jurídica en Derecho Laboral y Litigios judiciales.",
+        "formacion": "Universidad Católica Nuestra Señora de la Asunción, Regional Asunción: Abogado (Diploma de Distinguido)",
+        "idiomas": "Español e Inglés.",
+        "asociaciones": ""
+      },
+      "hlaguardia": {
+        "subtitle": "Abogado y Notario desde el año 2021",
+        "adp": "Derecho Constitucional, Derecho de Responsabilidad Civil de Daños, Derecho de Seguro de Daños Patrimoniales y Litigios.",
+        "formacion": "Universidad Católica Nuestra Señora de la Asunción.",
+        "idiomas": "Español e Inglés.",
+        "asociaciones": ""
+      },
+      "afernandez": {
+        "subtitle": "Abogada y Notaria desde el año 2000",
+        "adp": "Fiscalia General del estado (Asistente del fiscal general), Juzgado del menor, Fiscalia del menor, Marcas y Patentes (Inscripciones, cambios de dirección, cambios de nombre).",
+        "formacion": "Universidad Católica “Nuestra Señora de la Asunción”, Regional Asunción: Abogada  y Notaria (Diploma de Distinguido).",
+        "idiomas": "Español, Alemán e Inglés.",
+        "asociaciones": ""
+      }
+    },
+    "blog": {
+      "title": "Publicaciones y Noticias"
+    }
+  },
+  "gallery": {
+    "galleryTitle": "Livieres Guggiari y el Arte",
+    "subtitle": "Una colección de obras de arte seleccionadas, expuestas en nuestras oficinas, que queremos compartir contigo.",
+    "paint": "cuadros",
+    "sculp": "esculturas"
+  }
 }
-  

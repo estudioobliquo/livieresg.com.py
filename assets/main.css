@@ -91,8 +91,6 @@ a {
   -webkit-text-decoration-skip: objects;
   font-family: "Founders Grotesk", sans-serif;
   font-weight: 400;
-  color: var(--text-color);
-  text-decoration: none;
 }
 a:active,
 a:hover {
