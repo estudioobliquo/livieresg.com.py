@@ -17,9 +17,7 @@
 <script setup lang="ts">
 import { toDate } from 'date-fns'
 import { client } from '@/tina/__generated__/client'
-import { Post } from '~/tina/__generated__/types'
-import { useSearch } from '~/composables/useSearch'
-import useFormatSpanishDate from '~/composables/useFormatSpanishDate'
+import { Post } from '@/tina/__generated__/types'
 const { text, checkedFilter } = useSearch()
 
 const T = 'pages.blog'

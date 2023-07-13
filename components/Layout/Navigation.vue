@@ -19,7 +19,7 @@
       <NuxtLink :to="localePath('/galeria')">
         {{ $t(`menu.art`) }}
       </NuxtLink>
-      <a to="#footer">{{ $t(`menu.contact`) }}</a>
+      <a href="#footer">{{ $t(`menu.contact`) }}</a>
     </div>
   </div>
 </template>

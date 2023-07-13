@@ -7,7 +7,12 @@
           <h1>{{ post.title }}</h1>
           <div class="post-data">
             <div class="author-img-container">
-              <nuxt-img :src="`/img/miembros/${foto}`" :alt="post.author" format="webp" loading="lazy" />
+              <nuxt-img
+                :src="`/img/miembros/${foto? foto : 'miembro-placeholder.png'}`"
+                :alt="post.author"
+                format="webp"
+                loading="lazy"
+              />
             </div>
             <div class="author-data">
               <p class="date">
@@ -29,8 +34,7 @@
 <script setup lang="ts">
 import { toDate } from 'date-fns'
 import { client } from '@/tina/__generated__/client'
-import useFormatSpanishDate from '~/composables/useFormatSpanishDate'
-import { Post } from '~/tina/__generated__/types'
+import { Post } from '@/tina/__generated__/types'
 import { abogados, administracion, paralegales, partners } from '@/assets/dataMiembros'
 
 const postSlug = useRoute().params.postSlug as string

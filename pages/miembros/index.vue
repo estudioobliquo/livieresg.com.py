@@ -24,7 +24,6 @@
           <NuxtLink class="masinfo" :to="'/miembros/' + partners.slug">
             <nuxt-img :src="`/img/miembros/${partners.foto}`" loading="lazy" format="webp" />
           </NuxtLink>
-          <!-- {{ partners.foto }} -->
         </div>
         <div class="subcont">
           <h2 class="nombre">
@@ -104,7 +103,6 @@
 
 <script setup lang="ts">
 import { ES } from '@/assets/dataMiembros.js'
-import { useSearch } from '~/composables/useSearch'
 const { text, filteredDatosAbogados, filteredDatosAdmin, filteredDatosParalegales, filteredDatosPartners } = useSearch()
 const espanol = ES
 
