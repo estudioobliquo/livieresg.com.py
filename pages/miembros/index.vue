@@ -108,8 +108,6 @@ import { useSearch } from '~/composables/useSearch'
 const { text, filteredDatosAbogados, filteredDatosAdmin, filteredDatosParalegales, filteredDatosPartners } = useSearch()
 const espanol = ES
 
-definePageMeta({ layout: 'central' })
-
 </script>
 
 <style lang="scss" >

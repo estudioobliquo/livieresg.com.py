@@ -37,11 +37,22 @@
         </div>
       </div>
     </div>
+    <h3 v-if="posts?.length">
+      Publicaciones
+    </h3>
+    <div v-if="posts?.length" class="posts-container">
+      <NuxtLink v-for="post in posts" :key="post.slug" :to="`/blog/${post.slug}`" class="post">
+        <AtomPost :post="post" />
+      </NuxtLink>
+    </div>
   </div>
 </template>
 
 <script setup lang="ts">
 import { useRouter } from 'vue-router'
+import { toDate } from 'date-fns'
+import { client } from '@/tina/__generated__/client'
+import { Post } from '~/tina/__generated__/types'
 import { abogados, partners } from '@/assets/dataMiembros.js'
 
 const router = useRouter()
@@ -57,7 +68,26 @@ const getMiembro = (slug) => {
 
 const miembro = getMiembro(slug)
 
-definePageMeta({ layout: 'central' })
+const posts = ref<Post[]>()
+
+const postsResponse: any = await client.queries.postConnection()
+
+posts.value = postsResponse.data.postConnection.edges
+  .map((post: any) => {
+    const dateObj = toDate(new Date(post.node.date))
+    const formattedDate = useFormatSpanishDate(dateObj, 1)
+
+    return {
+      slug: post.node._sys.filename,
+      title: post.node.title,
+      type: post.node.type,
+      author: post.node.author,
+      date: post.node.date,
+      dateFormat: formattedDate,
+      body: `${useParseTinaContentAsString(post.node.body).slice(0, 200)}...`,
+    }
+  })
+  .filter((post: any) => post.author === miembro.nombre)
 </script>
 
 <style lang="scss">
@@ -134,6 +164,12 @@ definePageMeta({ layout: 'central' })
 
   }
 
+  .posts-container {
+    a {
+      text-decoration: none;
+    }
+  }
+
   @media only screen and (width >=750px) {
     & {
       .container {
@@ -159,6 +195,12 @@ definePageMeta({ layout: 'central' })
             }
           }
         }
+      }
+
+      .posts-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 40px 16px;
       }
     }
   }

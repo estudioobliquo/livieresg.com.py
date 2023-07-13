@@ -45,6 +45,7 @@
       </div>
       <IndexIntro data-sal="fade" data-sal-delay="200" data-sal-duration="800" />
       <IndexAreasDePracticas data-sal="fade" data-sal-delay="200" data-sal-duration="800" />
+      <IndexPublicaciones data-sal="fade" data-sal-delay="200" data-sal-duration="800" />
       <IndexAssociations data-sal="fade" data-sal-delay="200" data-sal-duration="800" />
       <ProjectCostumers data-sal="fade" data-sal-delay="200" data-sal-duration="800" is-index />
     </div>
@@ -64,7 +65,7 @@ const switchLocalePath = useSwitchLocalePath()
 
 //  *** SEO ***
 useHead(seoData['/'][locale.value])
-
+definePageMeta({ layout: 'empty' })
 const showMobileMenu = ref(false)
 
 const isCurrentLanguage = computed(() => {

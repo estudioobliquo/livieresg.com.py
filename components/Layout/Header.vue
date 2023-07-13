@@ -11,7 +11,7 @@
     </div>
     <div class="subcont2">
       <div class="buscadorMenuCont">
-        <div v-if="$route.path === '/miembros'">
+        <div v-if="$route.path.endsWith('/miembros')">
           <LayoutBuscadorMobile />
         </div>
         <div class="mobileHeader" @click="openMobileMenu">

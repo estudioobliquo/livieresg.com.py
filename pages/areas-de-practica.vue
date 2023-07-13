@@ -13,7 +13,6 @@
 
 <script setup lang="ts">
 import { dataAdp } from '@/assets/dataAdp.js'
-definePageMeta({ layout: 'central' })
 const datosAreas = dataAdp
 </script>
 

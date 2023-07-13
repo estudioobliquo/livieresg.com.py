@@ -41,7 +41,6 @@ const { locale } = useI18n()
 
 //  *** SEO ***
 useHead(seoData['/nosotros'][locale.value])
-definePageMeta({ layout: 'central' })
 </script>
 
 <style scoped lang="scss">

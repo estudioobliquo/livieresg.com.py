@@ -78,6 +78,8 @@ const resetAll = () => {
         padding-top: 5px;
         padding-bottom: 5px;
         margin-left: 8%;
+        background-color: transparent;
+        border: none;
       }
     }
   }

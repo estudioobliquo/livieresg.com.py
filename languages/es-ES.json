@@ -29,7 +29,16 @@
     "changeLanguage": "Cambiar idioma",
     "information": "+ INFORMACIÓN",
     "buttonBack": "Volver al Inicio",
-    "goBack": "Volver atrás"
+    "goBack": "Volver atrás",
+    "search": {
+      "text": "Buscar",
+      "filters": {
+        "articles": "Articulos",
+        "news": "Novedades Juridicas",
+        "deals": "Deals",
+        "events": "Eventos"
+      }
+    }
   },
   "staff": {
     "atto": "Abogados",
@@ -381,6 +390,9 @@
         "idiomas": "Español, Alemán e Inglés.",
         "asociaciones": ""
       }
+    },
+    "blog": {
+      "title": "Publicaciones y Noticias"
     }
   },
   "gallery": {
