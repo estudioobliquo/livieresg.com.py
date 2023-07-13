@@ -49,10 +49,8 @@
 </template>
 
 <script setup lang="ts">
-import { toDate } from 'date-fns'
-import { client } from '@/tina/__generated__/client'
-import { Post } from '@/tina/__generated__/types'
 import { abogados, partners } from '@/assets/dataMiembros.js'
+import { usePostsStore, ExtendedPost } from '@/store/posts'
 
 const router = useRouter()
 const slug = router.currentRoute.value.params.slug
@@ -63,32 +61,15 @@ const datosAbogados = abogados
 const datosPartners = partners
 const miembros = [ ...datosAbogados, ...datosPartners ]
 
-const getMiembro = (slug) => {
+const getMiembro = (slug: string) => {
   return miembros.find(miembro => miembro.slug === slug) || null
 }
 
-const miembro = getMiembro(slug)
+const miembro = getMiembro(slug as string)
 
-const posts = ref<Post[]>()
-
-const postsResponse: any = await client.queries.postConnection()
-
-posts.value = postsResponse.data.postConnection.edges
-  .map((post: any) => {
-    const dateObj = toDate(new Date(post.node.date))
-    const formattedDate = useFormatSpanishDate(dateObj, 1)
-
-    return {
-      slug: post.node._sys.filename,
-      title: post.node.title,
-      type: post.node.type,
-      author: post.node.author,
-      date: post.node.date,
-      dateFormat: formattedDate,
-      body: `${useParseTinaContentAsString(post.node.body).slice(0, 200)}...`,
-    }
-  })
-  .filter((post: any) => post.author === miembro.nombre)
+const posts = computed<ExtendedPost[]>(() => {
+  return usePostsStore().posts.filter((post: any) => post.author === miembro?.nombre)
+})
 
 useHead({
   title: `${miembro?.nombre} | Livieres Guggiari`,
