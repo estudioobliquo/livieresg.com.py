@@ -28,6 +28,8 @@
 
 <style lang="scss">
 .navigation {
+  margin-bottom: 15px;
+
   .imgContainer {
     width: 135px;
     margin-bottom: 30px;
@@ -42,6 +44,8 @@
     height: 375px;
     padding: 30px 0 30px 30px;
     padding-top: 30px;
+    margin: 0 auto;
+    background-color: var(--gray-dark);
 
     a {
       padding: 0;
