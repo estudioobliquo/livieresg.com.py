@@ -106,15 +106,13 @@ const isOpen = ref(false)
   position: absolute;
   top: 32%;
   right: 5px;
-
-  /* content: url(~assets/img/show-more.svg); */
-  content: url("data:image/svg+xml,%3Csvg width='27' height='27' viewBox='0 0 27 27' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cline x1='13.5996' y1='4.37114e-08' x2='13.5996' y2='27' stroke='%231D5D68' strokeWidth='2'/%3E%3Cline x1='27' y1='13.6' y2='13.6' stroke='%231D5D68' strokeWidth='2'/%3E%3C/svg%3E%0A");
+  content: url('@/assets/svg/adp/show-more.svg');
 }
 
 .adp.open .titulo::after {
   position: absolute;
   top: 24%;
   right: 5px;
-  content: url("data:image/svg+xml,%3Csvg width='27' height='2' viewBox='0 0 27 2' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cline x1='27' y1='1' y2='1' stroke='%231D5D68' strokeWidth='2'/%3E%3C/svg%3E%0A");
+  content: url('@/assets/svg/adp/show-less.svg');
 }
 </style>

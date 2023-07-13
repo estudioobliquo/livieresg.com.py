@@ -55,7 +55,7 @@
 
 <script setup lang="ts" >
 import sal from 'sal.js'
-import { seoData } from '~~/assets/seoData'
+import { seoData } from '@/assets/seoData'
 
 onMounted(() => {
   sal()

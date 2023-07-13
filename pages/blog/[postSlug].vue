@@ -29,8 +29,8 @@
 <script setup lang="ts">
 import { toDate } from 'date-fns'
 import { client } from '@/tina/__generated__/client'
-import useFormatSpanishDate from '~/composables/useFormatSpanishDate'
-import { Post } from '~/tina/__generated__/types'
+import useFormatSpanishDate from '@/composables/useFormatSpanishDate'
+import { Post } from '@/tina/__generated__/types'
 import { abogados, administracion, paralegales, partners } from '@/assets/dataMiembros'
 
 const postSlug = useRoute().params.postSlug as string

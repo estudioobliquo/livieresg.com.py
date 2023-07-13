@@ -42,9 +42,6 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@pinia/nuxt',
   ],
-  image: {
-    dir: 'assets',
-  },
   i18n: {
     locales: [
       { code: 'es', file: 'es-ES.json' },

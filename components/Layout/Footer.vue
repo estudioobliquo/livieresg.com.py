@@ -1,6 +1,6 @@
 <template>
   <div>
-    <footer class="footer">
+    <footer id="footer" class="footer">
       <div class="footer mainWrapper">
         <div class="contact">
           <h4>

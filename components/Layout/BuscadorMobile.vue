@@ -13,7 +13,7 @@
 </template>
 
 <script setup lang="ts">
-import { useSearch } from '~/composables/useSearch'
+import { useSearch } from '@/composables/useSearch'
 import SVGLupa from '@/assets/svg/global/lupaMobile.svg'
 import SVGCancel from '@/assets/svg/global/cancelMobile.svg'
 
