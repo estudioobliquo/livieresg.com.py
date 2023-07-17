@@ -18,8 +18,10 @@
               <p class="date">
                 {{ date }}
               </p>
-              <p><span>Autor: </span>{{ post.author }}</p>
-              <a :href=" `mailto:${post.author_email}` ">{{ post.author_email }}</a>
+              <p><span>Autor: </span>{{ post.author || 'Estudio Livieres Guggiari' }}</p>
+              <a
+                :href=" `mailto:${post.author_email || 'info@livieresg.com.py'}` "
+              >{{ post.author_email || 'info@livieresg.com.py' }}</a>
             </div>
           </div>
         </div>
