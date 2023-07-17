@@ -1,6 +1,6 @@
 <template>
   <div class="slug-container">
-    <AtomVolver-Atras text="atom.goBack" to="/miembros" />
+    <AtomVolverAtras to="/miembros" />
     <div v-if="miembro" class="container">
       <div class="flexcont">
         <div class="imgCont">
