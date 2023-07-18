@@ -31,6 +31,7 @@ if (!posts.value.length) {
       date: post.node.date,
       dateFormat: formattedDate,
       author: post.node.author,
+      author_email: post.node.author_email,
       excerpt: `${useParseTinaContentAsString(post.node.body).slice(0, 200)}...`,
       body: useParseTinaContent(post.node.body),
     }

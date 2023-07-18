@@ -14,7 +14,7 @@ import SVGflecha from '@/assets/svg/global/arrow.svg'
 defineProps({
   text: {
     type: String,
-    default: 'Volver Atrás',
+    default: 'atom.goBack',
   },
   to: {
     type: String,
