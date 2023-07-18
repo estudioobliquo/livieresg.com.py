@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="gallery">
-      <AtomVolver-Atras text="atom.buttonBack" to="/" />
+      <AtomVolverAtras text="atom.buttonBack" to="/" />
       <h1>{{ $t(`gallery.galleryTitle`) }}</h1>
       <p>
         {{ $t(`gallery.subtitle`) }}
