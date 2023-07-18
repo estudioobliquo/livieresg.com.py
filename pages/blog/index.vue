@@ -20,6 +20,10 @@ import { Post } from '@/tina/__generated__/types'
 import { ExtendedPost, usePostsStore } from '@/store/posts'
 const { text, checkedFilter } = useSearch()
 
+definePageMeta({
+  middleware: 'clear-search-store',
+})
+
 const T = 'pages.blog'
 const { locale } = useI18n()
 
