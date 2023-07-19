@@ -53,4 +53,14 @@ if (!posts.value.length) {
   opacity: 0;
   transform: translateX(100%);
 }
+
+.opacity-enter-active,
+.opacity-leave-active {
+  transition: opacity 0.4s ease-in-out;
+}
+
+.opacity-enter,
+.opacity-leave-to {
+  opacity: 0;
+}
 </style>
