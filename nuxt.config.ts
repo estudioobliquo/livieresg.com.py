@@ -45,6 +45,14 @@ export default defineNuxtConfig({
   ],
   image: {
     domains: [ 'localhost:3000', 'livieresg.com.py', 'dynamic-sopapillas-48b9e7.netlify.app' ],
+    screens: {
+      xs: 320,
+      sm: 470,
+      md: 720,
+      lg: 1000,
+      xl: 1300,
+      xxl: 1500,
+    },
   },
   i18n: {
     locales: [
