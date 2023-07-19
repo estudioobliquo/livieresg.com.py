@@ -7,7 +7,7 @@
     <div class="mainCont">
       <header class="desktopHeader">
         <nuxt-img
-          sizes="lg:90vw xl:90vw xxl:90vw"
+          sizes="xl:85vw xxl:90vw"
           src="/img/index/portada.png"
           format="webp"
           loading="lazy"
@@ -49,7 +49,7 @@
       <div class="mobileImgCont">
         <nuxt-img
           src="/img/index/portada.png"
-          sizes="xs:90vw sm:90vw md:90vw lg:90vw"
+          sizes="xs:90vw sm:80vw md:90vw lg:85vw"
           format="webp"
           loading="lazy"
           alt="Livieres Guggiari - Portada"
