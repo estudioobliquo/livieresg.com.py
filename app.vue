@@ -41,3 +41,16 @@ if (!posts.value.length) {
 }
 
 </script>
+
+<style>
+.slide-enter-active,
+.slide-leave-active {
+  transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
+}
+
+.slide-enter,
+.slide-leave-to {
+  opacity: 0;
+  transform: translateX(100%);
+}
+</style>
