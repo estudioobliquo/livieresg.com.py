@@ -5,6 +5,7 @@
       <div class="asoc">
         <nuxt-img
           src="/img/logos-asociaciones/ccpf.png"
+          sizes="(max-width: 700px):120px xxl:230px"
           format="webp"
           loading="lazy"
           alt="Camara de Comercio Paraguayo - Francesa"
@@ -13,6 +14,7 @@
       <div class="asoc custom1">
         <nuxt-img
           src="/img/logos-asociaciones/cdap.png"
+          sizes="(max-width: 700px):120px xxl:230px"
           format="webp"
           loading="lazy"
           alt="Colegio de Abogados del Paraguay"
@@ -21,6 +23,7 @@
       <div class="asoc custom2">
         <nuxt-img
           src="/img/logos-asociaciones/iaba.png"
+          sizes="(max-width: 700px):120px xxl:230px"
           format="webp"
           loading="lazy"
           alt="Inter American Bar Asociation"
@@ -29,6 +32,7 @@
       <div class="asoc">
         <nuxt-img
           src="/img/logos-asociaciones/ahk.png"
+          sizes="(max-width: 700px):120px xxl:230px"
           format="webp"
           loading="lazy"
           alt="AHK"
@@ -37,6 +41,7 @@
       <div class="asoc">
         <nuxt-img
           src="/img/logos-asociaciones/pyam.png"
+          sizes="(max-width: 700px):120px xxl:230px"
           format="webp"
           loading="lazy"
           alt="Camara de Comercio Paraguayo Americana"
@@ -45,6 +50,7 @@
       <div style="maxWidth:100px , width:60%" class="asoc">
         <nuxt-img
           src="/img/logos-asociaciones/ccpa.png"
+          sizes="(max-width: 700px):120px xxl:230px"
           format="webp"
           loading="lazy"
           alt="Camara de Comercio Paraguayo Argentina"
@@ -53,6 +59,7 @@
       <div class="asoc">
         <nuxt-img
           src="/img/logos-asociaciones/eurolatamex.jpg"
+          sizes="(max-width: 700px):120px xxl:230px"
           format="webp"
           loading="lazy"
           alt="EUROLATAMLEX"

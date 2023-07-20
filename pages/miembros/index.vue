@@ -1,4 +1,3 @@
-<!-- eslint-disable vue/max-attributes-per-line -->
 <template>
   <div class="miembros-container">
     <h2
@@ -12,7 +11,8 @@
     </h2>
     <h1
       v-if="filteredDatosAbogados.length
-        || filteredDatosPartners.length" class="title-occupation"
+        || filteredDatosPartners.length"
+      class="title-occupation"
     >
       {{ $t(`staff.atto`) }}
     </h1>
@@ -22,7 +22,12 @@
       <div v-for="partners in filteredDatosPartners" :key="partners.id" class="miembroCont">
         <div class="imgCont">
           <NuxtLink class="masinfo" :to="'/miembros/' + partners.slug">
-            <nuxt-img :src="`/img/miembros/${partners.foto}`" loading="lazy" format="webp" />
+            <nuxt-img
+              :src="`/img/miembros/${partners.foto}`"
+              sizes="xs:100px sm:140px md:200px xxl:230px"
+              loading="lazy"
+              format="webp"
+            />
           </NuxtLink>
         </div>
         <div class="subcont">
@@ -44,7 +49,12 @@
       <div v-for="abogados in filteredDatosAbogados" :key="abogados.id" class="miembroCont">
         <div class="imgCont">
           <NuxtLink class="masinfo" :to="'/miembros/' + abogados.slug">
-            <nuxt-img :src="`/img/miembros/${abogados.foto}`" loading="lazy" format="webp" />
+            <nuxt-img
+              :src="`/img/miembros/${abogados.foto}`"
+              sizes="xs:100px sm:140px md:200px xxl:230px"
+              loading="lazy"
+              format="webp"
+            />
           </NuxtLink>
         </div>
         <div class="subcont">
@@ -68,7 +78,12 @@
     <div class="paralegalesCont">
       <div v-for="paralegales in filteredDatosParalegales" :key="paralegales.slug" class="miembroCont">
         <div class="imgCont">
-          <nuxt-img :src="`/img/miembros/${paralegales.foto}`" loading="lazy" format="webp" />
+          <nuxt-img
+            :src="`/img/miembros/${paralegales.foto}`"
+            sizes="xs:100px sm:140px md:200px xxl:230px"
+            loading="lazy"
+            format="webp"
+          />
         </div>
         <div class="subcont">
           <h2 class="nombre">
@@ -86,7 +101,12 @@
     <div class="administracionCont">
       <div v-for="admin in filteredDatosAdmin" :key="admin.slug" class="miembroCont">
         <div class="imgCont">
-          <nuxt-img :src="`/img/miembros/${admin.foto}`" loading="lazy" format="webp" />
+          <nuxt-img
+            :src="`/img/miembros/${admin.foto}`"
+            sizes="xs:100px sm:140px md:200px xxl:230px"
+            loading="lazy"
+            format="webp"
+          />
         </div>
         <div class="subcont">
           <h2 class="nombre">

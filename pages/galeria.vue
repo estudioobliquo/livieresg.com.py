@@ -28,7 +28,12 @@
           data-sal-delay="100"
           data-sal-duration="100" -->
           <div v-if="art.type === typeSelected">
-            <nuxt-img :src="(art.img)" loading="lazy" format="webp" />
+            <nuxt-img
+              :src="(art.img)"
+              sizes="xs:200px sm:280px xl:400px xxl:450px"
+              loading="lazy"
+              format="webp"
+            />
             <div class="textContainer">
               <p> {{ art.name }} - {{ art.year }}</p>
               <p>{{ art.description }}</p>
