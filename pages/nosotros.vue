@@ -64,7 +64,7 @@ useHead(seoData['/nosotros'][locale.value])
   display: none;
 }
 
-@media screen and (width >= 1000px) {
+@media screen and (min-width: 1000px) {
   .section2 {
     padding-left: 33px;
     margin-bottom: 1.45rem;
@@ -106,7 +106,7 @@ useHead(seoData['/nosotros'][locale.value])
 }
 
 /* Mobile Styles */
-@media screen and (width <= 1000px) {
+@media screen and (max-width: 1000px) {
   .navContainer {
     position: absolute;
     display: none;
@@ -120,7 +120,7 @@ useHead(seoData['/nosotros'][locale.value])
 }
 
 /* Large Screen Styles */
-@media screen and (width >= 1500px) {
+@media screen and (min-width: 1500px) {
   .layoutWrapper {
     justify-content: center;
   }

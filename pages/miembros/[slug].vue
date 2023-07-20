@@ -95,14 +95,14 @@ useHead({
     margin-bottom: 40px;
     background-color: var(--secondary-color);
 
-    @media only screen and (width <=768px) {
+    @media only screen and (max-width:768px) {
       padding: 8%;
     }
 
     .flexcont {
       display: flex;
 
-      @media only screen and (width <=768px) {
+      @media only screen and (max-width:768px) {
         display: grid;
       }
 
@@ -111,7 +111,7 @@ useHead({
         height: max-content;
         margin-bottom: 20px;
 
-        @media only screen and (width <=768px) {
+        @media only screen and (max-width:768px) {
           width: 100%;
         }
       }
@@ -168,7 +168,7 @@ useHead({
     }
   }
 
-  @media only screen and (width >=750px) {
+  @media only screen and (min-width:750px) {
     & {
       .container {
         padding: 40px 30px 20px;

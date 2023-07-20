@@ -140,7 +140,7 @@ useHead({
     }
   }
 
-  @media only screen and (width >=1000px) {
+  @media only screen and (min-width:1000px) {
     .post-content {
       padding-left: 33px;
       border-left: 1px solid #919191;

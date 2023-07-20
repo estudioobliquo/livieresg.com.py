@@ -75,7 +75,7 @@
 
   }
 
-  @media only screen and (width >= 800px) {
+  @media only screen and (min-width: 800px) {
     .mainIndex {
       margin-bottom: 120px;
     }
