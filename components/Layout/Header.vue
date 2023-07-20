@@ -4,7 +4,13 @@
     <div class="subcont1">
       <div class="logoContainer2">
         <NuxtLink :to="localePath('/')">
-          <nuxt-img src="/img/global/logoBlue.png" loading="lazy" format="webp" alt="Livieres Guggiari - Logo" />
+          <nuxt-img
+            src="/img/global/logoBlue.png"
+            loading="lazy"
+            format="webp"
+            sizes="xs:38vw sm:38vw md:180px lg:180px"
+            alt="Livieres Guggiari - Logo"
+          />
         </NuxtLink>
       </div>
     </div>
