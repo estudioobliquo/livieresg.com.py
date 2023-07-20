@@ -255,7 +255,7 @@ footer {
     color: #d6d6d6;
   }
 
-  @media only screen and (width >=1000px) {
+  @media only screen and (min-width:1000px) {
     .mainWrapper {
       grid-template-rows: minmax(270px, 69%) minmax(70px, 31%);
       grid-template-columns: 30% 35% 35%;

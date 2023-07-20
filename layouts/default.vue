@@ -30,7 +30,7 @@ const showMenu = ref(false)
 
 <style scoped>
 
-@media only screen and (width >= 1000px) {
+@media only screen and (min-width: 1000px) {
   .mobileHeader {
     display: none;
   }
@@ -56,7 +56,7 @@ const showMenu = ref(false)
 }
 
 /* Mobile Styles */
-@media screen and (width <= 1000px) {
+@media screen and (max-width: 1000px) {
   .navContainer {
     position: absolute;
     display: none;
@@ -70,7 +70,7 @@ const showMenu = ref(false)
 }
 
 /* Large Screen Styles */
-@media screen and (width >= 1500px) {
+@media screen and (min-width: 1500px) {
   .layoutWrapper {
     justify-content: center;
   }

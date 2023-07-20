@@ -76,7 +76,7 @@ const isCurrentLanguage = computed(() => {
 </script>
 
 <style lang="scss">
-@media only screen and (width >=1000px) {
+@media only screen and (min-width:1000px) {
   .mobileHeader {
     display: none;
   }
@@ -101,7 +101,7 @@ const isCurrentLanguage = computed(() => {
     color: chartreuse;
   }
 
-  @media only screen and (width >=1000px) {
+  @media only screen and (min-width:1000px) {
     .mobileImgCont {
       display: none;
     }

@@ -84,7 +84,7 @@ const resetAll = () => {
     }
   }
 
-  @media screen and (width >=1000px) {
+  @media screen and (min-width:1000px) {
     display: none;
   }
 

@@ -120,7 +120,7 @@ defineProps<{
     }
   }
 
-  @media only screen and (width >=1000px) {
+  @media only screen and (min-width:1000px) {
     display: flex;
     flex-direction: column;
     height: 100%;

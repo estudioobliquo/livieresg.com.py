@@ -118,7 +118,7 @@ useHead(seoData['/miembros'][locale.value])
 .title-occupation {
   font-size: 1.56rem;
 
-  @media only screen and (width >= 1000px) {
+  @media only screen and (min-width: 1000px) {
     font-size: 1.875rem;
   }
 }
@@ -179,7 +179,7 @@ useHead(seoData['/miembros'][locale.value])
     line-height: 128.2%;
     letter-spacing: 0;
 
-    @media only screen and (width >= 1000px) {
+    @media only screen and (min-width: 1000px) {
       margin: 0;
       font-size: 1.2rem;
     }
@@ -208,7 +208,7 @@ useHead(seoData['/miembros'][locale.value])
     transition: color 0.2s;
   }
 
-  @media only screen and (width >=768px) {
+  @media only screen and (min-width:768px) {
     .partnersCont,
     .abogadosCont,
     .administracionCont,

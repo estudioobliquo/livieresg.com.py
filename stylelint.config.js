@@ -6,5 +6,6 @@ module.exports = {
   ],
   rules: {
     'no-descending-specificity': null,
+    'media-feature-range-notation': 'prefix',
   },
 }
