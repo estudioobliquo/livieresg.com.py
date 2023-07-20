@@ -15,7 +15,6 @@
         </div>
       </div>
       <div class="mainContainer">
-        <!-- <main><Nuxt /></main> -->
         <slot />
       </div>
     </div>
@@ -30,23 +29,6 @@ const showMenu = ref(false)
 </script>
 
 <style scoped>
-.fade-enter-from {
-  opacity: 0;
-}
-
-.fade- -to {
-  opacity: 1;
-}
-
-.fade-enter-active {
-  transition: all 2s ease;
-}
-
-.fade-leave-from {}
-
-.fade-leave-to {}
-
-.fade-leave-active {}
 
 @media only screen and (width >= 1000px) {
   .mobileHeader {
