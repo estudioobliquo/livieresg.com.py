@@ -95,7 +95,7 @@ const isCurrentLanguage = computed(() => {
     .buscadorMenuCont {
       display: flex;
 
-      @media only screen and (width >= 1000px) {
+      @media only screen and (min-width: 1000px) {
         .mobileHeader {
           display: none;
         }
@@ -150,7 +150,7 @@ const isCurrentLanguage = computed(() => {
     }
   }
 
-  @media screen and (width >= 1000px) {
+  @media screen and (min-width: 1000px) {
     justify-content: center;
     width: 100%;
     padding: 30px 0 0;
@@ -167,7 +167,7 @@ const isCurrentLanguage = computed(() => {
         margin: 0;
         margin-left: 12%;
 
-        @media only screen and (width >= 1390px) {
+        @media only screen and (min-width: 1390px) {
           margin-left: 16%;;
         }
       }
@@ -180,7 +180,7 @@ const isCurrentLanguage = computed(() => {
       width: 70%;
       padding-right: 8%;
 
-      @media only screen and (width >= 1500px) {
+      @media only screen and (min-width: 1500px) {
         padding: 0 50px 0 0;
       }
     }

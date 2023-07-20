@@ -100,7 +100,7 @@ const handleOverlayClass = computed(() => {
     cursor: pointer;
   }
 
-  @media screen and (width >= 1000px) {
+  @media screen and (min-width: 1000px) {
     .svg {
       display: none;
     }

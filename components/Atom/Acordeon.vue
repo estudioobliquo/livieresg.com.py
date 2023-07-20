@@ -69,7 +69,7 @@ const isOpen = ref(false)
 }
 
 /* max-width de 23 caracteres. Para que el titulo no toque a la flecha */
-@media only screen and (width <= 475px) {
+@media only screen and (max-width: 475px) {
   .adp p {
     display: block;
     max-width: 23ch;
@@ -91,7 +91,7 @@ const isOpen = ref(false)
   opacity: 1;
 }
 
-@media only screen and (width >= 1000px) {
+@media only screen and (min-width: 1000px) {
   .adp.open .contenido {
     padding: 40px 45px;
   }

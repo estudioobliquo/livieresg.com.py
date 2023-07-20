@@ -189,7 +189,7 @@ onUnmounted(() => {
 
   }
 
-  @media only screen and (width >=1000px) {
+  @media only screen and (min-width:1000px) {
     h2 {
       margin-bottom: 8px;
       text-align: left;

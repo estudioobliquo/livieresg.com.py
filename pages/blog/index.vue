@@ -82,7 +82,7 @@ const filteredPosts = computed(() => {
       }
     }
 
-  @media only screen and (width >=1000px) {
+  @media only screen and (min-width:1000px) {
     .result-text {
       max-width: 560px;
       font-family: "Founders Grotesk", sans-serif;
@@ -100,7 +100,7 @@ const filteredPosts = computed(() => {
     }
 
     .posts-container {
-      @media only screen and (width >=1000px) {
+      @media only screen and (min-width:1000px) {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 40px 16px;

@@ -79,7 +79,7 @@ const adps = [
   text-align: center;
 }
 
-@media only screen and (width >= 900px) {
+@media only screen and (min-width: 900px) {
   .mainContainer {
     margin-bottom: 120px;
   }

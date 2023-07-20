@@ -25,7 +25,7 @@ export default {
   background-color: var(--main-color);
   transition: background-color 0.25s;
 
-    @media screen and (width >= 1000px) {
+    @media screen and (min-width: 1000px) {
       font-size: 20px;
     }
   }

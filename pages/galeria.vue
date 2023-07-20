@@ -184,7 +184,7 @@ const artSelection = computed(() => {
     }
   }
 
-  @media only screen and (width >=800px) {
+  @media only screen and (min-width:800px) {
     .galleryContainer {
       .galleryItem {
         margin-bottom: 80px;
@@ -198,7 +198,7 @@ const artSelection = computed(() => {
     }
   }
 
-  @media only screen and (width >=1260px) {
+  @media only screen and (min-width:1260px) {
     padding-bottom: 400px;
 
     & h1 {

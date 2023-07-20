@@ -121,7 +121,7 @@ export default {
 
 }
 
-@media only screen and (width >= 900px) {
+@media only screen and (min-width: 900px) {
   .main {
     margin-bottom: 120px;
 
