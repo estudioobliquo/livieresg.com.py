@@ -33,9 +33,9 @@
             <nuxt-img
               :src="(art.img)"
               sizes="xs:200px sm:280px xl:400px xxl:450px"
+              format="webp"
+              loading="lazy"
             />
-            <!-- format="webp" -->
-            <!-- loading="lazy" -->
             <div class="textContainer">
               <p> {{ art.name }} - {{ art.year }}</p>
               <p>{{ art.description }}</p>
@@ -81,9 +81,6 @@ const scrollTop = () => {
   }
 }
 const artSelection = dataArt
-// const artSelection = computed(() => {
-//   return dataArt.filter(item => item.type === typeSelected.value)
-// })
 </script>
 
 <style lang="scss">
