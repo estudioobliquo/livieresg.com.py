@@ -3,6 +3,7 @@
     <div class="imgContainer1">
       <nuxt-img
         src="/img/nosotros/portada.png"
+        sizes="xs:90vw sm:80vw md:90vw lg:85vw xl:60vw xxl:60vw"
         format="webp"
         loading="lazy"
         alt="Livieres Guggiari | Nosotros - Portada"
@@ -15,6 +16,7 @@
       <div class="imgContainerMobile">
         <nuxt-img
           src="/img/nosotros/portada2.png"
+          sizes="xs:90vw sm:80vw md:90vw lg:85vw"
           format="webp"
           loading="lazy"
           alt="Livieres Guggiari | Nosotros - Portada"
@@ -26,6 +28,7 @@
     <div class="imgContainerDesktop">
       <nuxt-img
         src="/img/nosotros/portada2.png"
+        sizes="xl:60vw xxl:60vw"
         format="webp"
         loading="lazy"
         alt="Livieres Guggiari | Nosotros - Portada"

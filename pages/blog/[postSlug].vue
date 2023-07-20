@@ -9,6 +9,8 @@
             <div class="author-img-container">
               <nuxt-img
                 :src="`/img/miembros/${foto? foto : 'miembro-placeholder.png'}`"
+                width="80px"
+                height="80px"
                 :alt="post.author || 'autor img'"
                 format="webp"
                 loading="lazy"

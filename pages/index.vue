@@ -6,7 +6,12 @@
     </div>
     <div class="mainCont">
       <header class="desktopHeader">
-        <nuxt-img src="/img/index/portada.png" format="webp" loading="lazy" alt="Livieres Guggiari - Portada" />
+        <nuxt-img
+          sizes="xl:85vw xxl:90vw"
+          src="/img/index/portada.png"
+          format="webp"
+          alt="Livieres Guggiari - Portada"
+        />
         <nav>
           <NuxtLink :to="localePath('/nosotros')">
             {{ $t(`menu.aboutUs`) }}
@@ -41,7 +46,12 @@
         </div>
       </header>
       <div class="mobileImgCont">
-        <nuxt-img src="/img/index/portada.png" format="webp" loading="lazy" alt="Livieres Guggiari - Portada" />
+        <nuxt-img
+          src="/img/index/portada.png"
+          sizes="xs:90vw sm:80vw md:90vw lg:85vw"
+          format="webp"
+          alt="Livieres Guggiari - Portada"
+        />
       </div>
       <IndexIntro data-sal="fade" data-sal-delay="200" data-sal-duration="800" />
       <IndexAreasDePracticas data-sal="fade" data-sal-delay="200" data-sal-duration="800" />

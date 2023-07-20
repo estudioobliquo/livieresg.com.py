@@ -4,7 +4,12 @@
     <div v-if="miembro" class="container">
       <div class="flexcont">
         <div class="imgCont">
-          <nuxt-img :src="`/img/miembros/${miembro.foto}`" loading="lazy" format="webp" />
+          <nuxt-img
+            :src="`/img/miembros/${miembro.foto}`"
+            sizes="xs:220px sm:328px md:460px xxl:200px"
+            loading="lazy"
+            format="webp"
+          />
         </div>
         <div class="subcont">
           <!-- Name -->

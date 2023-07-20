@@ -5,7 +5,13 @@
     </h2>
     <div class="costumersContainer" :class="{ full: !isIndex }">
       <div v-for="(img, index) in costumers" :key="index" class="costumerImageContainer">
-        <nuxt-img :src="`/img/costumers/` + (img.image)" format="webp" loading="lazy" :alt="img.image.split('.')[0]" />
+        <nuxt-img
+          :src="`/img/costumers/` + (img.image)"
+          sizes="lg:100px xxl:190px"
+          format="webp"
+          loading="lazy"
+          :alt="img.image.split('.')[0]"
+        />
       </div>
     </div>
 
