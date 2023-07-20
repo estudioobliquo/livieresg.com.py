@@ -108,6 +108,9 @@ const { text, filteredDatosAbogados, filteredDatosAdmin, filteredDatosParalegale
 
 const { locale } = useI18n()
 
+definePageMeta({
+  middleware: 'clear-search-store',
+})
 useHead(seoData['/miembros'][locale.value])
 </script>
 

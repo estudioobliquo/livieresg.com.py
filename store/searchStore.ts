@@ -20,5 +20,9 @@ export const useSearchStore = defineStore('search', {
     setCheckedFilter (checkedItems: string[]) {
       this.checkedFilter = checkedItems
     },
+    resetStore () {
+      this.text = ''
+      this.checkedFilter = []
+    },
   },
 })

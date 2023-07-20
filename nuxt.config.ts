@@ -19,6 +19,8 @@ export default defineNuxtConfig({
         { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       ],
     },
+    pageTransition: { name: 'opacity', mode: 'in-out' },
+    layoutTransition: { name: 'opacity', mode: 'in-out' },
   },
   vite: {
     plugins: [
