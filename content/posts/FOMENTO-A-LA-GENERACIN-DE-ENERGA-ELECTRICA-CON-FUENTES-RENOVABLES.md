@@ -7,7 +7,7 @@ author_email: mbejarano@livieresg.com.py
 ---
 
 En enero del presente año, el Paraguay sancionó una nueva ley de fomento a las energías renovables no
-convencionales, la Ley Nº 6.977 “Que regula el fomento, generación, producción, desarrollo y la utilización de energía eléctrica a partir de fuentes de energías renovables no convencionales no hidráulicas”.
+convencionales, la Ley Nº 6.977 **“Que regula el fomento, generación, producción, desarrollo y la utilización de energía eléctrica a partir de fuentes de energías renovables no convencionales no hidráulicas”**.
 
 Si bien el país ya contaba con la posibilidad de generar, auto consumir, cogenerar e incluso exportar energía
 eléctrica, con la Ley Nº 3.009/06, este marco normativo nuevo ha venido a simplificar los procesos de obtención de licencias para realizar cualquiera de las actividades supra mencionadas.
