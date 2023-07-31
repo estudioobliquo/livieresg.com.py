@@ -13,7 +13,6 @@ export const abogados = [
   { slug: 'ntiretta', nombre: 'Nelson Tiretta Rojas', mail: 'ntiretta@livieresg.com.py', foto: 'NELSON-TIRETTA.jpg' },
   { slug: 'jramirez', nombre: 'Juan Ramírez Biedermann', mail: 'jramirez@livieresg.com.py', foto: 'JUAN-MANUEL-RAMIREZ.jpg' },
   { slug: 'gvelazquez', nombre: 'Guillermo Velázquez Martínez', mail: 'gvelazquez@livieresg.com.py', foto: 'GUILLERMO-VELAZQUEZ.jpg' },
-  { slug: 'mbejaranom', nombre: 'Mauricio David Bejarano Martí', mail: 'mbejarano@livieresg.com.py', foto: 'MAURICIO-BEJARANO.jpg' },
   { slug: 'tbrown', nombre: 'Thomas Brown Mateo', mail: 'tbrown@livieresg.com.py', foto: 'THOMAS-BROWN.jpg' },
   { slug: 'burbieta', nombre: 'Brigitte Urbieta De Clerck', mail: 'burbieta@livieresg.com.py', foto: 'brigitte.jpg' },
   { slug: 'mschaerer', nombre: 'Manuel Schaerer Kanonnikoff', mail: 'mschaerer@livieresg.com.py', foto: 'MANUEL-SCHAERER.jpg' },
