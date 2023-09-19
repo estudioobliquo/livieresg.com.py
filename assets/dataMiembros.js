@@ -52,6 +52,7 @@ export const paralegales = [
   { slug: 'agomezdelafuente', nombre: 'Alanna Gomez de la Fuente', mail: 'agomezdelafuente@livieresg.com.py', foto: 'ALANNA-GOMEZ-DE-LA-FUENTE.jpg' },
   { slug: 'velazquezs', nombre: 'Alejandro Velázquez Schussmuller', mail: 'avelazquez@livieresg.com.py', foto: 'ALE-VELAZQUEZ.jpg' },
   { slug: 'hdelgado', nombre: 'Hirán Delgado Heisecke', mail: 'hdelgado@livieresg.com.py', foto: 'HIRAN-DELGADO.jpg' },
+  { slug: 'oheinrichs', nombre: 'Otto Heinrichs', mail: 'oheinrichs@livieresg.com.py', foto: 'miembro-placeholder.png' },
 ]
 
 export const administracion = [
@@ -66,7 +67,9 @@ export const administracion = [
   { slug: 'asosa', nombre: 'Álvaro Sosa', mail: 'asosa@livieresg.com.py', foto: 'ALVARO-SOSA.jpg' },
   { slug: 'dfranco', nombre: 'Daniel Franco', mail: 'dfranco@livieresg.com.py', foto: 'DANIEL-FRANCO.jpg' },
   { slug: 'blivieres', nombre: 'Belén Livieres', mail: 'blivieres@livieresg.com.py', foto: 'BELEN-LIVIERES.jpg' },
-  { slug: 'tgomez', nombre: 'Tatiana Belén Gomez de la Fuente Mateos', mail: '', foto: 'TATIANA-GOMEZ-DE-LA-FUENTE.jpg' },
+  { slug: 'tgomez', nombre: 'Tatiana Belén Gomez de la Fuente Mateos', mail: 'tgomezdelafuente@livieresg.com.py', foto: 'TATIANA-GOMEZ-DE-LA-FUENTE.jpg' },
+  { slug: 'mparedes', nombre: 'Milka Paredes', mail: 'mparedes@livieresg.com.py', foto: 'miembro-placeholder.png' },
+  { slug: 'agayoso', nombre: 'Adriana Gayoso', mail: '', foto: 'miembro-placeholder.png' },
 ]
 
 export const ES = {
