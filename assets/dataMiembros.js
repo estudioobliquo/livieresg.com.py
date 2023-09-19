@@ -61,7 +61,6 @@ export const administracion = [
   { slug: 'tgonzales', nombre: 'Teresa Gonzalez', mail: 'tgonzalez@livieresg.com.py', foto: 'teresa-g.jpg' },
   { slug: 'afranco', nombre: 'Albina Franco', mail: 'afranco@livieresg.com.py', foto: 'ALBINA-FRANCO.jpg' },
   { slug: 'cbreglia', nombre: 'Celeste Breglia', mail: 'cbreglia@livieresg.com.py', foto: 'CELESTE-BREGLIA.jpg' },
-  { slug: 'jcolman', nombre: 'Jazmín Colmán', mail: 'jcolman@livieresg.com.py', foto: 'JAZMIN-COLMAN.jpg' },
   { slug: 'paolamartinez', nombre: 'Paola Martínez', mail: 'pmartinez@livieresg.com.py', foto: 'PMARTINEZ.jpg' },
   { slug: 'amelgarejo', nombre: 'Alice Melgarejo', mail: 'amelgarejo@livieresg.com.py', foto: 'ALICE-MELGAREJO.jpg' },
   { slug: 'pbarrios', nombre: 'Pablino Barrios', mail: 'pbarrios@livieresg.com.py', foto: 'PABLINO-BARRIOS.jpg' },
