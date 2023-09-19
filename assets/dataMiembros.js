@@ -19,7 +19,6 @@ export const abogados = [
   { slug: 'msantiviago', nombre: 'Manuel Santiviago Livieres', mail: 'msantiviago@livieresg.com.py', foto: 'MANUEL-SANTIVIAGO.jpg' },
   { slug: 'abittar', nombre: 'Antonella Bittar Arréllaga', mail: 'abittar@livieresg.com.py', foto: 'ANTONELLA-BITTAR.jpg' },
   { slug: 'rberino', nombre: 'Rodrigo Berino Guillén', mail: 'rberino@livieresg.com.py', foto: 'RODRIGO-BERINO.jpg' },
-  { slug: 'lbordon', nombre: 'Luis Bordón', mail: 'lbordon@livieresg.com.py', foto: 'LUIS-BORDON.jpg' },
   { slug: 'jsilvero', nombre: 'Jorge Silvero', mail: 'jsilvero@livieresg.com.py', foto: 'JORGE-SILVERO.jpg' },
   { slug: 'sgomez', nombre: 'Susana Gómez de la Fuente Antúnez', mail: 'sgomezdelafuente@livieresg.com.py', foto: 'SUSANA-GOMEZ-DE-LA-FUENTE.jpg' },
   { slug: 'pguggiari', nombre: 'Pedro Bruno Guggiari', mail: 'pguggiari@livieresg.com.py', foto: 'PEDRO-BRUNO-GUGGIARI.jpg' },
