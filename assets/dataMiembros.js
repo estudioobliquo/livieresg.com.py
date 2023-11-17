@@ -47,12 +47,12 @@ export const paralegales = [
   { slug: 'glivieres', nombre: 'Gonzalo Livieres', mail: 'glivieres@livieresg.com.py', foto: 'GONZALO-LIVIERES.jpg' },
   { slug: 'mvera', nombre: 'Mauricio Vera', mail: 'mvera@livieresg.com.py', foto: 'MAURICIO-VERA.jpg' },
   { slug: 'mcantero', nombre: 'Mariano Cantero', mail: 'mcantero@livieresg.com.py', foto: 'MARIANO-CANTERO.jpg' },
-  { slug: 'agarrido', nombre: 'Alejandro Garrido', mail: 'agarrido@livieresg.com.py', foto: 'miembro-placeholder.png' },
+  { slug: 'agarrido', nombre: 'Alejandro Garrido', mail: 'agarrido@livieresg.com.py', foto: 'Alejandro_Garrido.jpg' },
   { slug: 'jvelazquez', nombre: 'Jimena Velázquez', mail: 'jvelazquez@livieresg.com.py', foto: 'JIMENA-VELAZQUEZ.jpg' },
   { slug: 'agomezdelafuente', nombre: 'Alanna Gomez de la Fuente', mail: 'agomezdelafuente@livieresg.com.py', foto: 'ALANNA-GOMEZ-DE-LA-FUENTE.jpg' },
   { slug: 'velazquezs', nombre: 'Alejandro Velázquez Schussmuller', mail: 'avelazquez@livieresg.com.py', foto: 'ALE-VELAZQUEZ.jpg' },
   { slug: 'hdelgado', nombre: 'Hirán Delgado Heisecke', mail: 'hdelgado@livieresg.com.py', foto: 'HIRAN-DELGADO.jpg' },
-  { slug: 'oheinrichs', nombre: 'Otto Heinrichs', mail: 'oheinrichs@livieresg.com.py', foto: 'miembro-placeholder.png' },
+  { slug: 'oheinrichs', nombre: 'Otto Heinrichs', mail: 'oheinrichs@livieresg.com.py', foto: 'Otto_Heinrichs.jpg' },
 ]
 
 export const administracion = [
@@ -68,8 +68,8 @@ export const administracion = [
   { slug: 'dfranco', nombre: 'Daniel Franco', mail: 'dfranco@livieresg.com.py', foto: 'DANIEL-FRANCO.jpg' },
   { slug: 'blivieres', nombre: 'Belén Livieres', mail: 'blivieres@livieresg.com.py', foto: 'BELEN-LIVIERES.jpg' },
   { slug: 'tgomez', nombre: 'Tatiana Belén Gomez de la Fuente Mateos', mail: 'tgomezdelafuente@livieresg.com.py', foto: 'TATIANA-GOMEZ-DE-LA-FUENTE.jpg' },
-  { slug: 'mparedes', nombre: 'Milka Paredes', mail: 'mparedes@livieresg.com.py', foto: 'miembro-placeholder.png' },
-  { slug: 'agayoso', nombre: 'Adriana Gayoso', mail: '', foto: 'miembro-placeholder.png' },
+  { slug: 'mparedes', nombre: 'Milka Paredes', mail: 'mparedes@livieresg.com.py', foto: 'Milka_Paredes.jpg' },
+  { slug: 'agayoso', nombre: 'Adriana Gayoso', mail: '', foto: 'Adriana_Gayoso.jpg' },
 ]
 
 export const ES = {
