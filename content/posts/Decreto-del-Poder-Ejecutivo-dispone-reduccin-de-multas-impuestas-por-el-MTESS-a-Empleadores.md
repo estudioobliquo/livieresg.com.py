@@ -8,10 +8,6 @@ author: Augusto Guggiari Díaz
 author_email: aguggiari@livieresg.com.py
 ---
 
-Decreto del Poder Ejecutivo dispone reducción de multas impuestas por el MTESS a Empleadores
-
- 
-
 Estimamos de interés comunicar que el Poder Ejecutivo ha dictado el Decreto N° 736 de fecha 22 de noviembre de 2023 “POR EL CUAL DISPONE LA REDUCCIÓN DE LAS MULTAS FIJADAS POR EL DECRETO N° 8304 DEL 27 DE DICIEMBRE DE 2017, MODIFICADO POR EL DECRETO N° 9368 DEL 14 DE AGOSTO DE 2018.”.
 
 En ese sentido, el presente Decreto dispuso lo siguiente:
@@ -40,7 +36,7 @@ a) De 10 jornales mínimos (cuando la mora en la presentación no supere 30 día
 
 b) De 15 jornales mínimos (cuando la mora en la presentación sea de 31 días a 60 días) se reduce a 7,5 jornales mínimos.
 
-c) De 20 jornales mínimos (cuando la mora en la presentación sea de 61 días a 90 días) se reduce a 10 jornales mínimos. 
+c) De 20 jornales mínimos (cuando la mora en la presentación sea de 61 días a 90 días) se reduce a 10 jornales mínimos.
 
 d) De 25 jornales mínimos (cuando la mora en la presentación sea de 91 días a 120 días) se reduce a 12,5 jornales
 mínimos.
@@ -67,7 +63,7 @@ e) De 5 jornales mínimos (cuando la mora en la comunicación supere 90 días) s
 
 El pago fraccionado de las presentes multas puede ser abonado hasta diez (10) cuotas de igual valor, previa entrega inicial de al menos el veinte por ciento (20 %) del importe resultante de la reducción de las mismas. En estos casos, el Certificado Laboral expedido por el Ministerio de Trabajo, Empleo y Seguridad Social tendrá una vigencia de treinta (30) días.
 
-                 
+               
 
 2\. Reducción del cincuenta por ciento (50 %) de los saldos de las multas fraccionadas con anterioridad al  presente Decreto que se encuentren en mora, hasta el 29 de febrero de 2024.
 
