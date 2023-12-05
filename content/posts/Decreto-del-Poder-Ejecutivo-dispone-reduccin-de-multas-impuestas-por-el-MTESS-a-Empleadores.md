@@ -26,8 +26,6 @@ d) De 121 a 150 días del inicio de la relación laboral de 25 jornales mínimos
 
 e) Más 150 días del inicio de la relación laboral de 30 jornales mínimos ***se reduce a 15 jornales mínimos.***
 
-\*\*\* \*\*\*
-
 **1.2. Multa por la falta de presentación de las planillas (Empleados y obreros, Sueldos y jornales y Resumen general de personas ocupadas)**, en el plazo, orden y modalidad fijados por la Autoridad Administrativa del Trabajo, considerando la siguiente escala:
 
  
