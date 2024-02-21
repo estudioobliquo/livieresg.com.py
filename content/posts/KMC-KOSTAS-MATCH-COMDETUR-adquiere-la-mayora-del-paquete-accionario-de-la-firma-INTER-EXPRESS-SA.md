@@ -6,7 +6,7 @@ date: 2024-02-20T03:00:00.000Z
 type: deal
 ---
 
-En el mes de enero del corriente año, se celebró el contrato por el cual KMC (Kostas - Match - Comdetur) adquirió el 100% del paquete accionario de la firma INTER-EXPRESS S.A. 
+En el mes de enero del corriente año, se celebró el contrato por el cual KMC (Kostas - Match - Comdetur) adquirió la mayoría del paquete accionario de la firma INTER-EXPRESS S.A. 
 
 Esta operación de M\&A demuestra el excelente ambiente de negocios que vive el Paraguay, y representa un hito relevante en el sector del turismo y de servicios, que viene creciendo año tras año.
 
