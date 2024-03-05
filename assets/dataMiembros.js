@@ -15,7 +15,6 @@ export const abogados = [
   { slug: 'tbrown', nombre: 'Thomas Brown Mateo', mail: 'tbrown@livieresg.com.py', foto: 'THOMAS-BROWN.jpg' },
   { slug: 'burbieta', nombre: 'Brigitte Urbieta De Clerck', mail: 'burbieta@livieresg.com.py', foto: 'brigitte.jpg' },
   { slug: 'mschaerer', nombre: 'Manuel Schaerer Kanonnikoff', mail: 'mschaerer@livieresg.com.py', foto: 'MANUEL-SCHAERER.jpg' },
-  { slug: 'aens', nombre: 'Andreas Ens', mail: 'aens@livieresg.com.py', foto: 'ANDREAS-ENS.jpg' },
   { slug: 'msantiviago', nombre: 'Manuel Santiviago Livieres', mail: 'msantiviago@livieresg.com.py', foto: 'MANUEL-SANTIVIAGO.jpg' },
   { slug: 'abittar', nombre: 'Antonella Bittar Arréllaga', mail: 'abittar@livieresg.com.py', foto: 'ANTONELLA-BITTAR.jpg' },
   { slug: 'rberino', nombre: 'Rodrigo Berino Guillén', mail: 'rberino@livieresg.com.py', foto: 'RODRIGO-BERINO.jpg' },
@@ -40,10 +39,12 @@ export const abogados = [
   { slug: 'bdoria', nombre: 'Bruno Doria', mail: 'bdoria@livieresg.com.py', foto: 'BRUNO-DORIA.jpg' },
   { slug: 'hlaguardia', nombre: 'Horacio Laguardia Retamozo', mail: 'hlaguardia@livieresg.com.py', foto: 'HORACIO-LAGUARDIA.jpg' },
   { slug: 'afernandez', nombre: 'Adriana Fernandez Wagener', mail: 'afernandez@livieresg.com.py', foto: 'ADRIANA-FERNANDEZ.jpg' },
+  { slug: 'slivieres', nombre: 'Sol Livieres', mail: 'slivieres@livieresg.com.py', foto: 'SOL-LIVIERES.jpg' },
+  { slug: 'hdelgado', nombre: 'Hirán Delgado Heisecke', mail: 'hdelgado@livieresg.com.py', foto: 'HIRAN-DELGADO.jpg' },
+  { slug: 'oheinrichs', nombre: 'Otto Heinrichs', mail: 'oheinrichs@livieresg.com.py', foto: 'Otto_Heinrichs.jpg' },
 ]
 
 export const paralegales = [
-  { slug: 'slivieres', nombre: 'Sol Livieres', mail: 'slivieres@livieresg.com.py', foto: 'SOL-LIVIERES.jpg' },
   { slug: 'glivieres', nombre: 'Gonzalo Livieres', mail: 'glivieres@livieresg.com.py', foto: 'GONZALO-LIVIERES.jpg' },
   { slug: 'mvera', nombre: 'Mauricio Vera', mail: 'mvera@livieresg.com.py', foto: 'MAURICIO-VERA.jpg' },
   { slug: 'mcantero', nombre: 'Mariano Cantero', mail: 'mcantero@livieresg.com.py', foto: 'MARIANO-CANTERO.jpg' },
@@ -51,8 +52,6 @@ export const paralegales = [
   { slug: 'jvelazquez', nombre: 'Jimena Velázquez', mail: 'jvelazquez@livieresg.com.py', foto: 'JIMENA-VELAZQUEZ.jpg' },
   { slug: 'agomezdelafuente', nombre: 'Alanna Gomez de la Fuente', mail: 'agomezdelafuente@livieresg.com.py', foto: 'ALANNA-GOMEZ-DE-LA-FUENTE.jpg' },
   { slug: 'velazquezs', nombre: 'Alejandro Velázquez Schussmuller', mail: 'avelazquez@livieresg.com.py', foto: 'ALE-VELAZQUEZ.jpg' },
-  { slug: 'hdelgado', nombre: 'Hirán Delgado Heisecke', mail: 'hdelgado@livieresg.com.py', foto: 'HIRAN-DELGADO.jpg' },
-  { slug: 'oheinrichs', nombre: 'Otto Heinrichs', mail: 'oheinrichs@livieresg.com.py', foto: 'Otto_Heinrichs.jpg' },
 ]
 
 export const administracion = [
