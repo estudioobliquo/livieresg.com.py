@@ -194,11 +194,25 @@
         "idiomas": "Español, Inglés, Portugués.",
         "asociaciones": ""
       },
-      "aens": {
-        "subtitle": "Abogado desde el año 1997. LL. M.",
-        "adp": "Derecho Civil y Comercial, Derecho Tributario y Cooperativo.",
-        "formacion": "Universidad Nacional de Asunción: Abogado y Notario Público; Universität Bielefeld, Alemania (2000): Master en Derecho (Magister Legum).",
-        "idiomas": "Español, Alemán",
+      "slivieres": {
+        "subtitle": "Abogada desde el año 2023",
+        "adp": "Derecho Corporativo y Derecho Contractual.",
+        "formacion": "Universidad Católica Nuestra Señora de la Asunción, Regional Asunción: Abogada y Notaria.",
+        "idiomas": "Español e Inglés",
+        "asociaciones": ""
+      },
+      "hdelgado": {
+        "subtitle": "Abogado desde el año 2023",
+        "adp": "Civil y Comercial, Contencioso Administrativo. Litigios.",
+        "formacion": "Universidad Nacional de Asunción: Abogado.",
+        "idiomas": "Español e Inglés",
+        "asociaciones": ""
+      },
+      "oheinrichs": {
+        "subtitle": "Abogado desde el año 2023",
+        "adp": "Derecho Comercial y Societario. Litigios.",
+        "formacion": "Universidad Americana: Abogado.",
+        "idiomas": "Español, Alemán e Inglés.",
         "asociaciones": ""
       },
       "msantiviago": {
