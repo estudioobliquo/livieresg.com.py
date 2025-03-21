@@ -43,7 +43,7 @@ export const abogados = [
   { slug: 'glivieres', nombre: 'Gonzalo Livieres Oddone', mail: 'glivieres@livieresg.com.py', foto: 'GONZALO-LIVIERES.jpg' },
   { slug: 'mvera', nombre: 'Mauricio Vera Pastore', mail: 'mvera@livieresg.com.py', foto: 'MAURICIO-VERA.jpg' },
   { slug: 'agarrido', nombre: 'Alejandro Garrido Ojeda', mail: 'agarrido@livieresg.com.py', foto: 'Alejandro_Garrido.jpg' },
-  { slug: 'agomezdelafuente', nombre: 'Alanna Gomez de la Fuente', mail: 'agomezdelafuente@livieresg.com.py', foto: 'ALANNA-GOMEZ-DE-LA-FUENTE.jpg' },
+  { slug: 'agomezdelafuente', nombre: 'Alanna Gomez de la Fuente Tabakman', mail: 'agomezdelafuente@livieresg.com.py', foto: 'ALANNA-GOMEZ-DE-LA-FUENTE.jpg' },
   { slug: 'ggomezp', nombre: 'Gisela Gómez de Pick', mail: 'ggomez@livieresg.com.py', foto: 'miembro-placeholder.png' },
   { slug: 'mgomezb', nombre: 'Micaela Gómez Breglia', mail: 'mgomez@livieres.com.py', foto: 'miembro-placeholder.png' },
 ]
