@@ -44,8 +44,8 @@ export const abogados = [
   { slug: 'mvera', nombre: 'Mauricio Vera Pastore', mail: 'mvera@livieresg.com.py', foto: 'MAURICIO-VERA.jpg' },
   { slug: 'agarrido', nombre: 'Alejandro Garrido Ojeda', mail: 'agarrido@livieresg.com.py', foto: 'Alejandro_Garrido.jpg' },
   { slug: 'agomezdelafuente', nombre: 'Alanna Gomez de la Fuente Tabakman', mail: 'agomezdelafuente@livieresg.com.py', foto: 'ALANNA-GOMEZ-DE-LA-FUENTE.jpg' },
-  { slug: 'ggomezp', nombre: 'Gisela Gómez de Pick', mail: 'ggomez@livieresg.com.py', foto: 'miembro-placeholder.png' },
-  { slug: 'mgomezb', nombre: 'Micaela Gómez Breglia', mail: 'mgomez@livieres.com.py', foto: 'miembro-placeholder.png' },
+  { slug: 'ggomezp', nombre: 'Gisela Gómez de Pick', mail: 'ggomez@livieresg.com.py', foto: 'gisela-gomez.jpg' },
+  { slug: 'mgomezb', nombre: 'Micaela Gómez Breglia', mail: 'mgomez@livieres.com.py', foto: 'micaela-gomez.jpg' },
 ]
 
 export const paralegales = [
@@ -53,8 +53,8 @@ export const paralegales = [
   { slug: 'jvelazquez', nombre: 'Jimena Velázquez', mail: 'jvelazquez@livieresg.com.py', foto: 'JIMENA-VELAZQUEZ.jpg' },
   { slug: 'velazquezs', nombre: 'Alejandro Velázquez Schussmuller', mail: 'avelazquez@livieresg.com.py', foto: 'ALE-VELAZQUEZ.jpg' },
   { slug: 'asosa', nombre: 'Álvaro Sosa', mail: 'asosa@livieresg.com.py', foto: 'ALVARO-SOSA.jpg' },
-  { slug: 'emartinez', nombre: 'Ezequiel Martínez', mail: 'emartinez@livieresg.com.py', foto: 'miembro-placeholder.png' },
-  { slug: 'mborja', nombre: 'Milner Didier Borja Alfonso', mail: 'mborja@livieresg.com.py', foto: 'miembro-placeholder.png' },
+  { slug: 'emartinez', nombre: 'Ezequiel Martínez', mail: 'emartinez@livieresg.com.py', foto: 'ezequiel-martinez.jpg' },
+  { slug: 'mborja', nombre: 'Milner Didier Borja Alfonso', mail: 'mborja@livieresg.com.py', foto: 'milner-borja.jpg' },
 ]
 
 export const administracion = [
