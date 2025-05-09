@@ -1,6 +1,6 @@
 ---
 title: "382 OUT SOURCING S.A. adquiere paquete accionario\_mayoritario"
-date: 2025-03-20T03:00:00.000Z
+date: 1970-01-01T00:00:00.000Z
 type: deal
 ---
 
