@@ -45,6 +45,7 @@ export const abogados = [
   { slug: 'agarrido', nombre: 'Alejandro Garrido Ojeda', mail: 'agarrido@livieresg.com.py', foto: 'Alejandro_Garrido.jpg' },
   { slug: 'agomezdelafuente', nombre: 'Alanna Gomez de la Fuente Tabakman', mail: 'agomezdelafuente@livieresg.com.py', foto: 'ALANNA-GOMEZ-DE-LA-FUENTE.jpg' },
   { slug: 'mgomezb', nombre: 'Micaela Gómez Breglia', mail: 'mgomez@livieres.com.py', foto: 'micaela-gomez.jpg' },
+  { slug: 'andsosa', nombre: 'Andrea Sosa', mail: 'apsosa@livieresg.com.py', foto: 'andrea-sosa.jpg' },
 ]
 
 export const paralegales = [
@@ -54,6 +55,7 @@ export const paralegales = [
   { slug: 'asosa', nombre: 'Álvaro Sosa', mail: 'asosa@livieresg.com.py', foto: 'ALVARO-SOSA.jpg' },
   { slug: 'emartinez', nombre: 'Ezequiel Martínez', mail: 'emartinez@livieresg.com.py', foto: 'ezequiel-martinez.jpg' },
   { slug: 'mborja', nombre: 'Milner Didier Borja Alfonso', mail: 'mborja@livieresg.com.py', foto: 'milner-borja.jpg' },
+  { slug: 'vgomezfuente', nombre: 'Víctor Gómez de la Fuente', mail: 'vgomezdelafuente@livieresg.com.py', foto: 'victor-gomez-fuente.jpg' },
 ]
 
 export const administracion = [
