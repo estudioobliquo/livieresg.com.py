@@ -8,9 +8,9 @@ author_email: ndossantos@livieresg.com.py
 
 **Marco normativo en materia de Protección de Datos**
 
-La Ley N° 7593/2025, “De Protección de Datos Personales en la República del Paraguay” pasa a complementar la Ley N° 6534/2020 “De Protección de Datos Personales Crediticios”, adecuando el régimen normativo paraguayo en materia de protección de datos a los estándares internacionales, llenando así un vacío que históricamente padecía nuestro ordenamiento jurídico. 
+La Ley N° 7593/2025, “De Protección de Datos Personales en la República del Paraguay” pasa a complementar la Ley N° 6534/2020 “De Protección de Datos Personales Crediticios”, adecuando el régimen normativo paraguayo en materia de protección de datos a los estándares internacionales, llenando así un vacío que históricamente padecía nuestro ordenamiento jurídico.
 
-La Ley N° 7593/2025, a su vez, deroga ciertas disposiciones establecidas en la Ley N° 6534/2020, y amplía significativamente el alcance regulatorio, creando una nueva institución supervisora, estableciendo obligaciones y responsabilidades para los responsables y encargados del tratamiento, así como derechos má amplios para los titulares de los datos.
+La Ley N° 7593/2025, a su vez, deroga ciertas disposiciones establecidas en la Ley N° 6534/2020, y amplía significativamente el alcance regulatorio, creando una nueva institución supervisora, estableciendo obligaciones y responsabilidades para los responsables y encargados del tratamiento, así como derechos más amplios para los titulares de los datos.
 
 **Objeto y principales implicancias de la Ley N° 7593/2025**
 
@@ -18,11 +18,11 @@ La Ley N° 7593/2025 tiene por objeto regular el tratamiento de los datos person
 
 La norma resulta aplicable a todo tratamiento de datos, automatizado o no, realizado por personas físicas o jurídicas, públicas o privadas, siempre que (i) el encargado o responsable del tratamiento se encuentre en el Paraguay; (ii) el titular de los datos se encuentre en el país; (iii) la actividad esté relacionada con la oferta de bienes o servicios dirigida a residentes en Paraguay; (iv) el tratamiento se relacione con el monitoreo del comportamiento de personas en territorio paraguayo.
 
-Asimismo, la normativa consagra principios generales que rigen el tratamiento de datos personales. Entre ellos se destacan los principios de exactitud, licitud, finalidad, minimización, proporcionalidad, limitación del plazo de conservación, transparencia, seguridad y confidencialidad. 
+Asimismo, la normativa consagra principios generales que rigen el tratamiento de datos personales. Entre ellos se destacan los principios de exactitud, licitud, finalidad, minimización, proporcionalidad, limitación del plazo de conservación, transparencia, seguridad y confidencialidad.
 
 En cuanto a las bases legales que habilitan el tratamiento de datos personales, la ley establece una serie de condiciones de las cuales al menos una de ellas debe cumplirse: (i) el consentimiento del titular continúa siendo una base central, debiendo ser previo, libre, informado, específico e inequívoco; (ii) el cumplimiento de obligaciones legales; (iii) la ejecución de contratos; (iv) el ejercicio de derechos en procedimientos judiciales o administrativos; (v) la protección de derechos vitales tales como la vida, la salud o la seguridad; (vi) la satisfacción de intereses legítimos del responsable o de terceros, siempre que no prevalezcan los derechos y libertades del titular; entre otros.
 
-Por otro lado, se introduce una regulación detallada de los roles involucrados en el tratamiento de datos, diferenciando claramente entre responsable, corresponsable y encargado del tratamiento. Se establecen obligaciones específicas para cada figura, así como responsabilidades para cada una de ellas. 
+Por otro lado, se introduce una regulación detallada de los roles involucrados en el tratamiento de datos, diferenciando claramente entre responsable, corresponsable y encargado del tratamiento. Se establecen obligaciones específicas para cada figura, así como responsabilidades para cada una de ellas.
 
 La transferencia internacional de datos personales constituye otro de los aspectos relevantes del nuevo régimen. La ley establece que dichas transferencias solo podrán realizarse hacia países que garanticen un nivel adecuado de protección. En ausencia de adecuación, se exige la adopción de garantías apropiadas, tales como cláusulas contractuales, normas corporativas vinculantes o certificaciones reconocidas, contemplándose además ciertas excepciones específicas.
 
@@ -34,9 +34,9 @@ La norma también regula procedimientos y tratamientos específicos, como la vid
 
 En otro orden de cosas, la ley sigue garantizando y reconociendo derechos expresos para los titulares de los datos: derechos de acceso, rectificación, supresión, oposición, portabilidad y revisión de decisiones automatizadas, imponiendo a los responsables la obligación de habilitar mecanismos sencillos, gratuitos y eficaces para su ejercicio, dentro de plazos determinados.
 
-En cuanto a la supervisión, la Ley N° 7593/2025 crea la AGENCIA NACIONAL DE PROTECCIÓN DE DATOS PERSONALES y la asigna como autoridad de control con autonomía funcional. Esta entidad cuenta con amplias facultades de supervisión, regulación, asistencia, fiscalización y sanción, centralizando el control del cumplimiento del régimen de protección de datos en el país. Asimismo, la nueva entidad absorbe las atribuciones y funciones ejercidas por la SEDECO, otorgadas por la Ley N° 6534/2020.  
+En cuanto a la supervisión, la Ley N° 7593/2025 crea la AGENCIA NACIONAL DE PROTECCIÓN DE DATOS PERSONALES y la asigna como autoridad de control con autonomía funcional. Esta entidad cuenta con amplias facultades de supervisión, regulación, asistencia, fiscalización y sanción, centralizando el control del cumplimiento del régimen de protección de datos en el país. Asimismo, la nueva entidad absorbe las atribuciones y funciones ejercidas por la SEDECO, otorgadas por la Ley N° 6534/2020.
 
-En lo que hace al régimen sancionatorio, se establece un procedimiento administrativo autónomo, con sanciones administrativas expresas, sin perjuicio de las responsabilidades civiles o penales que pudieran corresponder a quienes incurran en contravenciones a la normativa. 
+En lo que hace al régimen sancionatorio, se establece un procedimiento administrativo autónomo, con sanciones administrativas expresas, sin perjuicio de las responsabilidades civiles o penales que pudieran corresponder a quienes incurran en contravenciones a la normativa.
 
 Por último, la entrada en vigencia de la norma se prevé para los 24 meses posteriores a su publicación -es decir, la ley entrará en vigencia a fines del año 2027- plazo durante el cual el Poder Ejecutivo deberá dictar la reglamentación correspondiente.
 
