@@ -2,6 +2,9 @@
 title: Modernización del Mercado de Valores en Paraguay con la entrada en vigencia de la Ley N° 7572/2025
 date: 2026-02-17T03:00:00.000Z
 type: article
+author: Thomas Brown Mateo
+author_email: tbrown@livieresg.com.py
+collaborator: Betharram Spinzi Ruiz
 ---
 
 La promulgación y entrada en vigencia de la Ley N° 7572/2025 representa una transformación estructural para el sector financiero en Paraguay, en tanto que se amplían las facultades del Banco Central del Paraguay (BCP), otorgándosele el estatus de autoridad de aplicación y control a través de la Superintendencia de Valores (SIV). Esta normativa no solo moderniza el marco legal preexistente, sino que busca alinear al mercado local con los más altos estándares internacionales de transparencia, eficiencia y protección al inversor. A continuación, los aspectos más relevantes.
