@@ -32,6 +32,9 @@
         </div>
         <div class="wrapper2">
           <h5>{{ $t(`footer.offices`) }}</h5>
+          <p class="office-hours">
+            {{ $t(`footer.times`) }}
+          </p>
           <div class="oficina">
             <address>
               {{ $t(`footer.direction1`) }} <br> Asunción - Paraguay
@@ -68,7 +71,11 @@
               </div>
             </a>
           </div>
-          <p> {{ $t(`footer.times`) }}</p>
+          <div class="oficina">
+            <address>
+              {{ $t(`footer.direction3`) }}<br> Ciudad del Este - Paraguay
+            </address>
+          </div>
         </div>
         <div class="logo-container">
           <NuxtLink :to="localePath('/')">
@@ -152,9 +159,9 @@ footer {
     }
 
     .wrapper2 {
-      p:last-of-type {
-        margin-bottom: 0;
-      }
+    .office-hours {
+      margin-bottom: 20px;
+    }
 
       .oficina {
         address {
@@ -263,7 +270,7 @@ footer {
 
   @media only screen and (min-width:1000px) {
     .mainWrapper {
-      grid-template-rows: minmax(270px, 69%) minmax(70px, 31%);
+      grid-template-rows: minmax(270px, 80%) minmax(70px, 20%);
       grid-template-columns: 30% 35% 35%;
       grid-row-gap: 8px;
       width: 85%;
