@@ -47,7 +47,7 @@
           alt="Camara de Comercio Paraguayo Americana"
         />
       </div>
-      <div style="maxWidth:100px , width:60%" class="asoc">
+      <div class="asoc">
         <nuxt-img
           src="/img/logos-asociaciones/ccpa.png"
           sizes="(max-width: 700px):120px xxl:230px"
@@ -63,6 +63,33 @@
           format="webp"
           loading="lazy"
           alt="EUROLATAMLEX"
+        />
+      </div>
+      <div class="asoc">
+        <nuxt-img
+          src="/img/logos-asociaciones/cam-comercio-py-uk.png"
+          sizes="(max-width: 700px):120px xxl:230px"
+          format="webp"
+          loading="lazy"
+          alt="Camara de Comercio Paraguayo Britanica"
+        />
+      </div>
+      <div class="asoc">
+        <nuxt-img
+          src="/img/logos-asociaciones/py-brazil.png"
+          sizes="(max-width: 700px):120px xxl:230px"
+          format="webp"
+          loading="lazy"
+          alt="Camara de Comercio Paraguay Brasil"
+        />
+      </div>
+      <div class="asoc">
+        <nuxt-img
+          src="/img/logos-asociaciones/uip.png"
+          sizes="(max-width: 700px):120px xxl:230px"
+          format="webp"
+          loading="lazy"
+          alt="uip"
         />
       </div>
     </div>
@@ -82,22 +109,21 @@
   .asocCont {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    row-gap: 40px;
-    margin-bottom: 40px;
     row-gap: 40px;
     column-gap: 40px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
   }
 
   /* Para logos de cdap y iaba se uso inlyne styling */
   .asoc {
-    height: 85px;
-    width: 100%;
-    max-width: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    max-width: 120px;
+    height: 85px;
 
     img {
       object-fit: contain;
@@ -110,13 +136,13 @@
   }
 
   .asoc.custom1 {
-    max-width: 65px;
     width: 36%;
+    max-width: 65px;
   }
 
   .asoc.custom2 {
-    max-width: 65px;
     width: 40%;
+    max-width: 65px;
   }
 
   .mainContainer h2 {
@@ -126,25 +152,26 @@
   @media only screen and (min-width: 700px) {
     & {
       margin-bottom: 160px;
+
       h2:first-child {
+        padding-bottom: 20px;
         text-align: left;
         border-bottom: 1px solid var(--main-color-light);
-        padding-bottom: 20px;
       }
     }
 
     .asocCont {
       row-gap: 80px;
       column-gap: 140px;
-      margin-bottom: 80px;
       max-width: 1200px;
-      margin-left: auto;
       margin-right: auto;
+      margin-bottom: 80px;
+      margin-left: auto;
     }
 
     .asoc {
-      height: 85px;
       max-width: 230px;
+      height: 85px;
     }
   }
 }

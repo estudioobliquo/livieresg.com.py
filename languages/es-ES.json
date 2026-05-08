@@ -59,6 +59,7 @@
     "offices": "Oficinas",
     "direction1": "Pitiantuta N° 640 entre Siria y Juan de Salazar",
     "direction2": "Calle B. H. Unruh N° 276 entre O. Miller y Pte. Gondra",
+    "direction3": "Calle Los Lapachos, c/ Av. Itaipú Este, N° 1278",
     "times": "Lunes a Viernes de 8:00 a 18:30",
     "contact": "Contacto",
     "directions": "Como llegar",
@@ -425,8 +426,6 @@
         "idiomas": "Español e Inglés",
         "asociaciones": ""
       }
-
-      
     },
     "blog": {
       "title": "Publicaciones y Noticias"
