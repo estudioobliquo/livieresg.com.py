@@ -40,6 +40,26 @@ if (!posts.value.length) {
   postsStore.setPosts(posts.value as ExtendedPost[])
 }
 
+// Google Analytics
+if (process.env.NODE_ENV === 'production') {
+  useHead({
+    script: [
+      {
+        src: 'https://www.googletagmanager.com/gtag/js?id=G-QZ8YQH1V5F',
+        async: true,
+      },
+      {
+        innerHTML: `
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-QZ8YQH1V5F');
+        `,
+        type: 'text/javascript',
+      },
+    ],
+  })
+}
 </script>
 
 <style>
