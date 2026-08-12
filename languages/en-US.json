@@ -352,7 +352,7 @@
       "bdoria": {
         "subtitle": "Attorney-at-Law since 2021",
         "adp": "Labour Law and Social Security, Legal Advice in Labour Law and Legal Litigation.",
-        "formacion": "Universidad Católica Nuestra Señora de la Asunción, Regional Asunción: Lawyer (Distinguished Diploma)",
+        "formacion": "Universidad Católica Nuestra Señora de la Asunción, Regional Asunción: Lawyer (Distinguished Diploma). Master's Degree in Corporate Law. Business, Labor, and Tax Advisory. Universitat de València",
         "idiomas": "Spanish and English.",
         "asociaciones": ""
       },
@@ -434,10 +434,31 @@
         "asociaciones": ""
       },
       "mcantero": {
-        "subtitle": "Lawyer since the year 2020",
+        "subtitle": "Lawyer since the year 2026",
         "adp": "Civil and Commercial Law. Litigation and Debt Collection. Contracts. Credit Recovery.",
         "formacion": "Universidad Católica 'Nuestra Señora de la Asunción' – Asunción Campus, Lawyer",
         "idiomas": "Spanish and English",
+        "asociaciones": ""
+      },
+      "hduartec": {
+        "subtitle": "Lawyer since 202",
+        "adp": "Corporate advising. Debt collection. Litigation",
+        "formacion": "Universidad Nacional de Asunción: Lawyer. Specialist in Criminal Sciences from the Center for Criminal Sciences and Criminal Policy",
+        "idiomas": "Spanish and Portuguese",
+        "asociaciones": ""
+      },
+      "mdenisf": {
+        "subtitle": "Lawyer since 2015",
+        "adp": "Corporate advising. Debt collections. Litigation",
+        "formacion": "Universidad Nacional del Este: Lawyer",
+        "idiomas": "Spanish and Portuguese",
+        "asociaciones": ""
+      },
+      "cnunesb": {
+        "subtitle": "Lawyer since 202",
+        "adp": "Debt collections. Litigation",
+        "formacion": "Universidad Nacional del Este: Lawyer",
+        "idiomas": "Spanish and Portuguese",
         "asociaciones": ""
       }
     },
