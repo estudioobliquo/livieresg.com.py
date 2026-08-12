@@ -352,7 +352,7 @@
       "bdoria": {
         "subtitle": "Anwalt seit 2021",
         "adp": "Arbeits- und Sozialversicherungsrecht, Rechtsberatung im Bereich Arbeitsrecht und Gerichtsverfahren.",
-        "formacion": "Katholische Universität Nuestra Señora de la Asuncion, Regional Asuncion: Rechtsanwalt (Diplom)",
+        "formacion": "Katholische Universität Nuestra Señora de la Asuncion, Regional Asuncion: Rechtsanwalt (Diplom). Universitätsmaster in Unternehmensrecht. Wirtschafts-, Arbeits- und Steuerberatung. Universitat de València",
         "idiomas": "Spanisch und Englisch.",
         "asociaciones": ""
       },
@@ -434,10 +434,31 @@
         "asociaciones": ""
       },
       "mcantero": {
-        "subtitle": "Rechtsanwalt seit dem Jahr 2020",
+        "subtitle": "Rechtsanwalt seit dem Jahr 2026",
         "adp": "Zivil- und Handelsrecht. Rechtsstreitigkeiten und Inkasso. Verträge. Kreditrückforderung.",
         "formacion": "Universidad Católica 'Nuestra Señora de la Asunción' – Campus Asunción, Rechtsanwalt",
         "idiomas": "Spanisch und Englisch",
+        "asociaciones": ""
+      },
+      "hduartec": {
+        "subtitle": "Rechtsanwalt seit dem Jahr 202",
+        "adp": "Unternehmensberatung. Inkasso. Prozessführung",
+        "formacion": "Universidad Nacional de Asunción: Rechtsanwalt. Spezialist für Strafrecht am Zentrum für Strafrecht und Kriminalpolitik",
+        "idiomas": "Spanisch und Portugiesisch",
+        "asociaciones": ""
+      },
+      "mdenisf": {
+        "subtitle": "Rechtsanwalt seit dem Jahr 2015",
+        "adp": "Unternehmensberatung. Forderungseinzug. Prozessführung",
+        "formacion": "Universidad Nacional del Este: Rechtsanwalt",
+        "idiomas": "Spanisch und Portugiesisch",
+        "asociaciones": ""
+      },
+      "cnunesb": {
+        "subtitle": "Rechtsanwalt seit dem Jahr 202",
+        "adp": "Forderungseinzug. Prozessführung",
+        "formacion": "Universidad Nacional del Este: Rechtsanwalt",
+        "idiomas": "Spanisch und Portugiesisch",
         "asociaciones": ""
       }
     },

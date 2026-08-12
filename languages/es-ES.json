@@ -365,7 +365,7 @@
       },
       "bdoria": {
         "subtitle": "Abogado desde el año 2021",
-        "adp": "Derecho del Trabajo y Seguridad Social, Asesoría jurídica en Derecho Laboral y Litigios judiciales.",
+        "adp": "Derecho del Trabajo y Seguridad Social, Asesoría jurídica en Derecho Laboral y Litigios judiciales. Máster Universitario en derecho de la empresa. Asesoría Mercantil, Laboral y Fiscal. Universitat de València",
         "formacion": "Universidad Católica Nuestra Señora de la Asunción, Regional Asunción: Abogado (Diploma de Distinguido)",
         "idiomas": "Español e Inglés.",
         "asociaciones": ""
@@ -427,10 +427,31 @@
         "asociaciones": ""
       },
       "mcantero": {
-        "subtitle": "Abogado desde el año 202",
+        "subtitle": "Abogado desde el año 2026",
         "adp": "Derecho Civil y Comercial. Litigios y Cobranzas. Contratos. Recuperación de Créditos",
         "formacion": "Universidad Católica 'Nuestra Señora de la Asunción' – Regional Asunción Abogado",
         "idiomas": "Español e ingles",
+        "asociaciones": ""
+      },
+      "hduartec": {
+        "subtitle": "Abogado desde el año 2003",
+        "adp": "Asesoramiento corporativo. Cobranza. Litigios",
+        "formacion": "Universidad Nacional de Asunción: Abogado. Especialista en Ciencias Penales por el Centro de Ciencias Penales y Política Criminal",
+        "idiomas": "Español y Portugués",
+        "asociaciones": ""
+      },
+      "mdenisf": {
+        "subtitle": "Abogado desde el año 2015",
+        "adp": "Asesoramiento corporativo. Cobranzas. Litigios",
+        "formacion": "Universidad Nacional del Este: Abogado",
+        "idiomas": "Español y Portugués",
+        "asociaciones": ""
+      },
+      "cnunesb": {
+        "subtitle": "Abogado desde el año 2024",
+        "adp": "Cobranzas. Litigios",
+        "formacion": "Universidad Nacional del Este: Abogado",
+        "idiomas": "Español e Portugués",
         "asociaciones": ""
       }
     },

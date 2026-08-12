@@ -47,6 +47,9 @@ export const abogados = [
   { slug: 'mgomezb', nombre: 'Micaela Gómez Breglia', mail: 'mgomez@livieresg.com.py', foto: 'micaela-gomez.jpg' },
   { slug: 'andsosa', nombre: 'Andrea Sosa', mail: 'apsosa@livieresg.com.py', foto: 'andrea-sosa.jpg' },
   { slug: 'mcantero', nombre: 'Mariano Cantero', mail: 'mcantero@livieresg.com.py', foto: 'MARIANO-CANTERO.jpg' },
+  { slug: 'hduartec', nombre: 'Héctor M. Duarte Coscia', mail: 'hduarte@livieresg.com.py', foto: 'Hector-Manuel-Duarte-Coscia.jpg' },
+  { slug: 'mdenisf', nombre: 'Marcelo Denis Fretes', mail: 'mdenis@livieresg.com.py', foto: 'Marcelo-Denis-Fretes.jpg' },
+  { slug: 'cnunesb', nombre: 'Carlos Nuñez Benitez', mail: 'cnunez@livieresg.com.py', foto: 'Carlos-Nunez-Benitez.jpg' },
 ]
 
 export const paralegales = [
@@ -55,6 +58,9 @@ export const paralegales = [
   { slug: 'emartinez', nombre: 'Ezequiel Martínez', mail: 'emartinez@livieresg.com.py', foto: 'ezequiel-martinez.jpg' },
   { slug: 'mborja', nombre: 'Milner Didier Borja Alfonso', mail: 'mborja@livieresg.com.py', foto: 'milner-borja.jpg' },
   { slug: 'vgomezfuente', nombre: 'Víctor Gómez de la Fuente', mail: 'vgomezdelafuente@livieresg.com.py', foto: 'victor-gomez-fuente.jpg' },
+  { slug: 'jfernandez', nombre: 'José María Fernández Brusquetti', mail: 'jfernandez@livieresg.com.py', foto: 'Jose-Maria-Fernandez-Brusquetti.jpg' },
+  { slug: 'marzamendia', nombre: 'Paula Arzamendia Fernández', mail: 'm.arzamendia@livieresg.com.py', foto: 'Paula-Arzamendia-F.jpg' },
+  { slug: 'ambarbittar', nombre: 'Ambar Bittar Duarte', mail: 'ambarbittar@livieresg.com.py ', foto: 'Ambar-Bittar-Duarte.jpg' },
 ]
 
 export const administracion = [
@@ -70,6 +76,7 @@ export const administracion = [
   { slug: 'blivieres', nombre: 'Belén Livieres', mail: 'blivieres@livieresg.com.py', foto: 'BELEN-LIVIERES.jpg' },
   { slug: 'mparedes', nombre: 'Milka Paredes', mail: 'mparedes@livieresg.com.py', foto: 'Milka_Paredes.jpg' },
   { slug: 'agayoso', nombre: 'Adriana Gayoso', mail: '', foto: 'Adriana_Gayoso.jpg' },
+  { slug: 'gfregnani', nombre: 'Giselli Isabel Fregnani Busanello', mail: 'gfregnani@livieresg.com.py', foto: 'Giselli-Fregnani.jpg' },
 ]
 
 export const ES = {
