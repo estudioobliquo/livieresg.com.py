@@ -18,17 +18,22 @@
           <p class="telefono">
             Asunción: +595 21 221 477
           </p>
-          <p>
+          <p class="telefono">
             Filadelfia: +595 491 432 760
           </p>
-          <a
-            href="https://py.linkedin.com/company/estudio-jur%C3%ADdico-livieres-guggiari?trk=public_profile_topcard-current-company"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="linkedin"
-          >
-            <SVGLinkedin />
-          </a>
+          <p class="telefono">
+            Ciudad del Este: +595 984 106 968
+          </p>
+          <div class="linkedin-cont">
+            <a
+              href="https://py.linkedin.com/company/estudio-jur%C3%ADdico-livieres-guggiari?trk=public_profile_topcard-current-company"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="linkedin"
+            >
+              <SVGLinkedin />
+            </a>
+          </div>
         </div>
         <div class="wrapper2">
           <h5>{{ $t(`footer.offices`) }}</h5>
@@ -75,6 +80,19 @@
             <address>
               {{ $t(`footer.direction3`) }}<br> Ciudad del Este - Paraguay
             </address>
+            <a
+              class="mapslink"
+              href="https://maps.app.goo.gl/U4fEhVdQ4NZx6ZySA"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <div>
+                <p>
+                  {{ $t(`footer.directions`) }}- Google Maps
+                </p>
+                <SVGArrow />
+              </div>
+            </a>
           </div>
         </div>
         <div class="logo-container">
@@ -129,6 +147,10 @@ footer {
 
       .telefono {
         margin-bottom: 8px;
+      }
+
+      .linkedin-cont {
+        margin-top: 40px;
       }
 
       a {
