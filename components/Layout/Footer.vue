@@ -19,7 +19,7 @@
             Asunción: +595 21 221 477
           </p>
           <p class="telefono">
-            Filadelfia: +595 491 432 760
+            Filadelfia: +595 984 882 189
           </p>
           <p class="telefono">
             Ciudad del Este: +595 984 106 968
