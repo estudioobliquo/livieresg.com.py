@@ -140,6 +140,20 @@ useHead({
     }
   }
 
+  .html-container {
+    text-align: center;
+
+    iframe {
+      display: block;
+      width: 100%;
+      max-width: 560px;
+      height: auto;
+      aspect-ratio: 16 / 9;
+      margin: 0 auto 1.45rem;
+      border: 0;
+    }
+  }
+
   @media only screen and (min-width:1000px) {
     .post-content {
       padding-left: 33px;

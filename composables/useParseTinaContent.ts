@@ -32,6 +32,11 @@ export default function useParseTinaContent (node: any) {
 
     return text
   }
+
+  if (node.type === 'code_block' && [ 'html', 'htm' ].includes(node.lang?.toLowerCase())) {
+    return `<div class="html-container">${node.value}</div>`
+  }
+
   // Handle any other node types as needed
 
   return ''
