@@ -57,22 +57,22 @@ export const seoData = {
     es: enrichHead({
       url: '/nosotros',
       title: 'Nosotros',
-      description: 'Desde el año 1990, el equipo de profesionales que conforma el Estudio Jurídico Livieres Guggiari presta asistencia a numerosas empresas, entidades y personas físicas, nacionales e internacionales, tanto en el área de asesoramiento legal como en el área de litigios judiciales, teniendo a la fecha una trayectoria de conducta profesional íntegra y una experiencia de más de 25 años al servicio de nuestros Clientes. ',
+      description: 'Desde el año 1990, el equipo de profesionales que conforma el Estudio Jurídico Livieres Guggiari presta asistencia a numerosas empresas, entidades y personas físicas, nacionales e internacionales, tanto en el área de asesoramiento legal como en el área de litigios judiciales, teniendo a la fecha una trayectoria de conducta profesional íntegra y una experiencia de más de 35 años al servicio de nuestros Clientes. ',
     }),
     en: enrichHead({
       url: '/nosotros',
       title: 'Us',
-      description: 'Since 1990, Livieres Guggiaris team has provided assistance to numerous companies, organizations and individuals, national as well as international, both in the area of legal advice and in the area of litigation, having to date a path of professional ethics and an experience of more than 25 years at the service of our Clients. ',
+      description: 'Since 1990, Livieres Guggiaris team has provided assistance to numerous companies, organizations and individuals, national as well as international, both in the area of legal advice and in the area of litigation, having to date a path of professional ethics and an experience of more than 35 years at the service of our Clients. ',
     }),
     de: enrichHead({
       url: '/nosotros',
       title: 'Wir',
-      description: 'Seit 1990 unterstützen die Antwälte der Rechtsanwaltskanzlei Livieres Guggiari zahlreiche inländische und ausländische Unternehmen, Körperschaften und Einzelpersonen, sowohl im Bereich der Rechtsberatung als auch im Bereich der Rechtsstreitigkeiten, wobei sie über eine Laufbahn voll vernünftige professionellen Verhaltens und eine Erfahrung von über 25 Jahren im Dienste unserer Mandanten verfügt.',
+      description: 'Seit 1990 unterstützen die Antwälte der Rechtsanwaltskanzlei Livieres Guggiari zahlreiche inländische und ausländische Unternehmen, Körperschaften und Einzelpersonen, sowohl im Bereich der Rechtsberatung als auch im Bereich der Rechtsstreitigkeiten, wobei sie über eine Laufbahn voll vernünftige professionellen Verhaltens und eine Erfahrung von über 35 Jahren im Dienste unserer Mandanten verfügt.',
     }),
     pt: enrichHead({
       url: '/nosotros',
       title: 'Nós',
-      description: 'Desde 1990, a equipe jurídica da Livieres Guggiari prestou assistência a inúmeras empresas, entidades e particulares, nacionais e internacionais, tanto na área de assessoria jurídica quanto na área de litígios. Temos uma larga trajetória na área profissional de mais de 25 anos ao serviço de nossos clientes.',
+      description: 'Desde 1990, a equipe jurídica da Livieres Guggiari prestou assistência a inúmeras empresas, entidades e particulares, nacionais e internacionais, tanto na área de assessoria jurídica quanto na área de litígios. Temos uma larga trajetória na área profissional de mais de 35 anos ao serviço de nossos clientes.',
     }),
   },
   '/miembros': {

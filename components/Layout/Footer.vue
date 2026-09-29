@@ -33,6 +33,14 @@
             >
               <SVGLinkedin />
             </a>
+            <a
+              href="https://www.instagram.com/livieresguggiari/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="instagram"
+            >
+              <SVGInstagram />
+            </a>
           </div>
         </div>
         <div class="wrapper2">
@@ -122,6 +130,7 @@
 <script setup lang="ts">
 import SVGArrow from '@/assets/svg/global/arrow.svg'
 import SVGLinkedin from '@/assets/svg/global/linkedin.svg'
+import SVGInstagram from '@/assets/svg/global/instagram.svg'
 const date = new Date().getFullYear()
 </script>
 
@@ -157,7 +166,9 @@ footer {
         text-decoration: none;
         cursor: pointer;
 
-        &.linkedin {
+        &.linkedin, &.instagram {
+          margin-right: 15px;
+
           svg {
             path {
               transition: fill 0.2s;
