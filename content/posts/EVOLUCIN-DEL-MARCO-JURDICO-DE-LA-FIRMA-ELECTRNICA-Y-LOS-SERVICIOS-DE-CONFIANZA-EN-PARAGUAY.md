@@ -43,8 +43,8 @@ tres principios rectores del sistema:
   a la información por el solo hecho de estar en formato electrónico.
 
 Asimismo, el artículo 2º distinguió
-conceptualmente entre la firma electrónica —de carácter residual al carecer de
-alguno de los requisitos legales de la firma digital— y la firma digital, la
+conceptualmente entre la firma electrónica —*de carácter residual al carecer de
+alguno de los requisitos legales de la firma digital*— y la firma digital, la
 cual requería ser certificada por un prestador acreditado, garantizar la detección
 posterior de modificaciones y emplear datos bajo el exclusivo control del
 titular.
@@ -99,7 +99,7 @@ paraguayo incorporó las siguientes categorías y especificaciones técnicas:
   entrega electrónica certificada, los certificados para autenticación de sitios
   web, los documentos electrónicos transmisibles y la cédula de identidad
   electrónica.
-* **Firma Electrónica Cualificada: **Se define como
+* \*\*Firma Electrónica Cualificada: \*\*Se define como
   aquella creada mediante un dispositivo cualificado de creación de firmas
   electrónicas y basada en un certificado cualificado. De acuerdo con el artículo
   39, numeral 2 de la Ley Nº 6.822/2021, posee un valor y efecto jurídico
