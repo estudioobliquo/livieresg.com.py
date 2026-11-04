@@ -9,7 +9,7 @@ author_email: dlovera@livieresg.com.py
 EVOLUCIÓN DEL MARCO JURÍDICO DE LA FIRMA
 ELECTRÓNICA Y LOS SERVICIOS DE CONFIANZA EN PARAGUAY
 
-Introducción
+**Introducción**
 
 Durante
 las últimas décadas, la República del Paraguay ha implementado un marco
@@ -19,8 +19,8 @@ reconocimiento legal inicial de la firma digital hasta la regulación integral
 de los servicios de confianza y la búsqueda de la interoperabilidad regional
 dentro del Mercado Común del Sur (MERCOSUR).
 
-1\. La Ley Nº 4.017/2010\[1] y el Modelo UNCITRA\[2]: Reconocimiento Jurídico de los Actos
-Electrónicos
+**1. La Ley Nº 4.017/2010\[1] y el Modelo UNCITRA\[2]: Reconocimiento Jurídico de los Actos
+Electrónicos**
 
 La Ley Nº 4.017/2010 constituyó el primer
 instrumento normativo en el ordenamiento jurídico paraguayo orientado a otorgar
@@ -33,17 +33,17 @@ Electrónico (1996) y en la Ley Modelo de la CNUDMI sobre Firmas Electrónicas
 De dicha matriz internacional se positivaron
 tres principios rectores del sistema:
 
-Equivalencia funcional: Consagrado en los
+**Equivalencia funcional:** Consagrado en los
 artículos 6º y 7º, al determinar que cuando la legislación exija la forma
 escrita, dicho requisito queda satisfecho con un mensaje de datos firmado
 digitalmente, otorgándole idéntica fuerza probatoria que a los documentos en
 soporte papel.
 
-Neutralidad tecnológica: Reflejado en el
+**Neutralidad tecnológica:** Reflejado en el
 artículo 3º, inciso “a”, garantizando que la ley no predetermine ni excluya
 ninguna tecnología.
 
-No discriminación de los mensajes de datos:
+**No discriminación de los mensajes de datos:**
 Consagrado en el artículo 4º, al determinar que no se negarán efectos jurídicos
 a la información por el solo hecho de estar en formato electrónico.
 
@@ -162,9 +162,6 @@ Ley Nº 7.121/2023 brinda el soporte técnico-jurídico necesario para el
 afianzamiento del expediente judicial electrónico, la emisión de documentos
 transmisibles desmaterializados (títulos valores) y la contratación privada
 segura en el ámbito digital.
-
-
-
 
 ***
 
