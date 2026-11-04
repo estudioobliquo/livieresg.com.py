@@ -96,17 +96,17 @@ Parlamento Europeo y del Consejo de la Unión Europea (Reglamento eIDAS).
 A través de esta normativa, el ordenamiento
 paraguayo incorporó las siguientes categorías y especificaciones técnicas:
 
-Denominación Institucional: La ley ratificó al
+**Denominación Institucional:** La ley ratificó al
 Ministerio de Industria y Comercio como Autoridad de Aplicación.
 
-Tipificación de Servicios de Confianza:
+**Tipificación de Servicios de Confianza:**
 Extendió la cobertura normativa e identificó explícitamente herramientas
 desmaterializadas como la identificación electrónica y sus servicios, los
 sellos electrónicos, los sellos de tiempo (cronomarcado), los servicios de entrega
 electrónica certificada, los certificados para autenticación de sitios web, los
 documentos electrónicos transmisibles y la cédula de identidad electrónica.
 
-Firma Electrónica Cualificada: Se define como
+**Firma Electrónica Cualificada:** Se define como
 aquella creada mediante un dispositivo cualificado de creación de firmas
 electrónicas y basada en un certificado cualificado. De acuerdo con el artículo
 39, numeral 2 de la Ley Nº 6.822/2021, posee un valor y efecto jurídico
