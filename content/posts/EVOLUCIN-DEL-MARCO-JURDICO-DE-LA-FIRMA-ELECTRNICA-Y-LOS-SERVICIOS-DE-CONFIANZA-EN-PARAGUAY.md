@@ -83,8 +83,8 @@ tipificando las infracciones en leves, moderadas y graves, y facultando al MIC
 a aplicar multas fijadas en jornales mínimos o a revocar la habilitación de los
 prestadores de servicios de certificación en casos de reincidencia.
 
-3\. La Ley Nº 6.822/2021 y el Decreto Nº 7.576/2022: El Cambio de
-Paradigma hacia los Servicios de Confianza (Modelo eIDAS\[4])
+**3. La Ley Nº 6.822/2021 y el Decreto Nº 7.576/2022: El Cambio de
+Paradigma hacia los Servicios de Confianza (Modelo eIDAS\[4])**
 
 La promulgación de la Ley Nº 6.822/2021,
 complementada técnicamente por el Decreto Reglamentario Nº 7.576/2022, supuso
