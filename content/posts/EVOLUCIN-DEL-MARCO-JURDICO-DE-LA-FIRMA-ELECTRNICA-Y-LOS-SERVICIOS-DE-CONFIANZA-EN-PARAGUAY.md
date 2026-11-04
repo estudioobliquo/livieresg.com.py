@@ -54,8 +54,8 @@ cual requería ser certificada por un prestador acreditado, garantizar la
 detección posterior de modificaciones y emplear datos bajo el exclusivo control
 del titular.
 
-2\. La Ley Nº 4.610/2012\[3]: Consolidación Institucional, Expediente
-Electrónico y Régimen Sancionador
+**2. La Ley Nº 4.610/2012\[3]: Consolidación Institucional, Expediente
+Electrónico y Régimen Sancionador**
 
 La reforma introducida por la Ley Nº 4.610/2012
 modificó y amplió el texto normativo de la Ley Nº 4.017/2010, con el objeto de
@@ -63,13 +63,13 @@ fortalecer la estructura de supervisión y fiscalización del sistema.
 
 Entre sus modificaciones principales destacan:
 
-Autoridad de Aplicación: El artículo 38 erigió
+**Autoridad de Aplicación: **El artículo 38 erigió
 al Ministerio de Industria y Comercio (MIC), a través del Viceministerio de
 Comercio, como Autoridad de Aplicación de la ley, mientras que el artículo 39
 le confirió atribuciones explícitas para dictar reglamentaciones, emitir pautas
 de auditoría e imponer sanciones.
 
-Expediente Electrónico: El artículo 37
+**Expediente Electrónico:** El artículo 37
 redefinió la noción de expediente electrónico como la serie ordenada de
 documentos públicos y privados, emitidos, transmitidos y registrados por vía
 informática para la emisión de una resolución judicial o administrativa. Ello
