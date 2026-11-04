@@ -112,11 +112,11 @@ electrónicas y basada en un certificado cualificado. De acuerdo con el artícul
 39, numeral 2 de la Ley Nº 6.822/2021, posee un valor y efecto jurídico
 equivalente al de una firma manuscrita.
 
-Requisitos para Prestadores Cualificados de
-Servicios de Confianza:
+**Requisitos para Prestadores Cualificados de
+Servicios de Confianza:**
 
-1\. Informe de Evaluación de la Conformidad
-(IEC): Exigido por el artículo 10.3, inciso “e”, y el artículo 24.1 de la Ley
+**1. Informe de Evaluación de la Conformidad
+(IEC):** Exigido por el artículo 10.3, inciso “e”, y el artículo 24.1 de la Ley
 Nº 6.822/2021, así como por el artículo 3.º, numeral 2, inciso “a” del Decreto
 Nº 7.576/2022, requiriendo una auditoría de conformidad expedida por un
 organismo independiente debidamente acreditado ante la Autoridad de Aplicación.
