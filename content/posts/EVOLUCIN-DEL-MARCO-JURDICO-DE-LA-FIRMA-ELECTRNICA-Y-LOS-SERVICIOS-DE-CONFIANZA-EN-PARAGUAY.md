@@ -48,8 +48,8 @@ Consagrado en el artículo 4º, al determinar que no se negarán efectos jurídi
 a la información por el solo hecho de estar en formato electrónico.
 
 Asimismo, el artículo 2º distinguió
-conceptualmente entre la firma electrónica —de carácter residual al carecer de
-alguno de los requisitos legales de la firma digital— y la firma digital, la
+conceptualmente entre la firma electrónica *—de carácter residual al carecer de
+alguno de los requisitos legales de la firma digital—* y la firma digital, la
 cual requería ser certificada por un prestador acreditado, garantizar la
 detección posterior de modificaciones y emplear datos bajo el exclusivo control
 del titular.
