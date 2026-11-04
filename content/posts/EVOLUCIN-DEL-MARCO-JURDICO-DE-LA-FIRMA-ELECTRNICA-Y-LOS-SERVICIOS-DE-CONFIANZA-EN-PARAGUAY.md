@@ -148,8 +148,8 @@ transacción en el comercio exterior, simplificar los procesos de contratación
 internacional y establecer directrices técnicas comunes para la validación de
 firmas digitales en entornos transfronterizos.
 
-5\.
-Consideraciones Finales
+**5.
+Consideraciones Finales**
 
 La evolución del marco normativo paraguayo refleja un proceso continuo
 de maduración técnica e institucional: desde el reconocimiento primario de
