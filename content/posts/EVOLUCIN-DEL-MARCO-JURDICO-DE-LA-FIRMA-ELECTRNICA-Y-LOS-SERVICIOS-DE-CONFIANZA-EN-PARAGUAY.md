@@ -131,8 +131,8 @@ o seguro de caución. El artículo 3.º, numeral 2, inciso “g” y el artícul
 del Decreto Nº 7.576/2022 exigen la acreditación periódica de la vigencia de dichas
 coberturas.
 
-4\. La Ley Nº 7.121/2023: Interoperabilidad Transfronteriza y
-Reconocimiento Mutuo en el MERCOSUR
+**4. La Ley Nº 7.121/2023: Interoperabilidad Transfronteriza y
+Reconocimiento Mutuo en el MERCOSUR**
 
 Con la aprobación del Acuerdo de Reconocimiento
 Mutuo de Certificados de Firma Digital del MERCOSUR (Decisión CMC Nº 11/19) mediante
