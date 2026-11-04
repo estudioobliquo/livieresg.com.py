@@ -121,8 +121,8 @@ Nº 6.822/2021, así como por el artículo 3.º, numeral 2, inciso “a” del D
 Nº 7.576/2022, requiriendo una auditoría de conformidad expedida por un
 organismo independiente debidamente acreditado ante la Autoridad de Aplicación.
 
-2\. Garantías Financieras y Cobertura de
-Responsabilidad Civil: El artículo 10.3, inciso “b” de la Ley Nº 6.822/2021
+**2. Garantías Financieras y Cobertura de
+Responsabilidad Civil:** El artículo 10.3, inciso “b” de la Ley Nº 6.822/2021
 establece que los prestadores cualificados deben constituir un seguro de
 responsabilidad civil por un monto mínimo de 500 salarios mínimos para
 actividades diversas no especificadas (adicionando 150 salarios mínimos por
