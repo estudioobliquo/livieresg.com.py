@@ -77,7 +77,7 @@ habilitó formalmente el uso de documentos, firmas y notificaciones electrónica
 en procesos judiciales y administrativos con idéntica validez que los
 expedientes convencionales.
 
-Régimen Sancionador: La ley incorporó un
+**Régimen Sancionador:** La ley incorporó un
 régimen sancionatorio explícito (artículos 43 al 47 de la norma reformada),
 tipificando las infracciones en leves, moderadas y graves, y facultando al MIC
 a aplicar multas fijadas en jornales mínimos o a revocar la habilitación de los
